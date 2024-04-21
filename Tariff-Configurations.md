@@ -135,13 +135,13 @@ Some currencies are not designed to be used together or there are some other.  I
 
 An episode is a collection of activity data that shares a common Patient ID, Attendance date, Clinic ID (or equievelent) within a month of submission for a provider organsiation.
 
-> :note: An STI test may be conducted on 28 Apr, the results may arrive back from the lab on 5 Mar and the patient may be seen for treatment on 8 Mar.  All this activity will automatically be recorded as being on the 28 Apr; the diagnosis is associated with the test record and the intevention currency for the treatment is invariably trigggered by the diagnosis code.  So, all three activities are considered part of a single epsiode for tariff puporses.  
+> :triangular_flag_on_post: An STI test may be conducted on 28 Apr, the results may arrive back from the lab on 5 Mar and the patient may be seen for treatment on 8 Mar.  All this activity will automatically be recorded as being on the 28 Apr; the diagnosis is associated with the test record and the intevention currency for the treatment is invariably trigggered by the diagnosis code.  So, all three activities are considered part of a single epsiode for tariff puporses.  
 >
 > If the same patient was diagnosied with warts when they recevied their treatment for the STI test on 28 Apr, then the warts diagnosis would be entered as the 5 Mar and theis would be the start of a new episode.
 
-> :note: The diagnosis is not known until after the month end, so the submission cannot be made until the test results for all the month's tests have been returned from the lab.
+> :triangular_flag_on_post: The diagnosis is not known until after the month end, so the submission cannot be made until the test results for all the month's tests have been returned from the lab.
 
-> :note: The intervention currency is triggered on the diagnosis even if the patient does not attend for treatment, or if they attend at another clinic for the treatment initiated by this diagnosis - this may indeed raise a double charge for treatment.
+> :triangular_flag_on_post: The intervention currency is triggered on the diagnosis even if the patient does not attend for treatment, or if they attend at another clinic for the treatment initiated by this diagnosis - this may indeed raise a double charge for treatment.
 
 ### Local Codes
 
