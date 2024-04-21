@@ -1,3 +1,3 @@
 - [Tariff Grouper](Tariff-Grouper)
 - [Tariff Configurations](Tariff-Configurations)
-- [Tariff Grouper Proces](Tariff-Grouper-Process)
+- [Tariff Grouper Process](Tariff-Grouper-Process)
