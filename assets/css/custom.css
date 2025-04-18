@@ -38,6 +38,12 @@ header img {
     transition: background-color 0.3s;
 }
 
+img[alt="Edit on GitHub"] {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle; /* Aligns the icon with text */
+}
+
 .btn-github:hover {
     background-color: #003d80; /* Darker blue on hover */
 }
