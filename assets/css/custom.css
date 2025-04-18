@@ -69,6 +69,10 @@ img[alt="Edit on GitHub"] {
     color: #003d80; /* Darker blue on hover */
 }
 
+.app-sub--sidebar li:before{
+    content: ""; /* remove dash */
+}
+
 /* Active sidebar item */
 .sidebar ul li.active {
     background-color: #e9ecef; /* Light gray background for active item */
@@ -116,6 +120,7 @@ footer {
     text-underline-offset: 2px; /* Consistent offset for all links */
 
 }
+/* Code
 
 /* Title hover underline */
 .markdown-section h1:hover,
