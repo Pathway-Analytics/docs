@@ -96,4 +96,4 @@ Or like this into a collection of statements:
 
 ### Invalid Currency Combinations
 
-[Edit this page on GitHub](https://github.com/Pathway-Analytics/docs/edit/main/Tariff-Configurations.md)
+[Edit this page](https://github.com/Pathway-Analytics/docs/edit/main/Tariff-Configurations.md)
