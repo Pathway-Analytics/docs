@@ -72,7 +72,7 @@ img[alt="Edit on GitHub"] {
 /* Active sidebar item */
 .sidebar ul li.active {
     background-color: #e9ecef; /* Light gray background for active item */
-    border-left: 4px solid #003d80; /* Dark blue accent */
+    /* border-left: 4px solid #003d80; Dark blue accent */
 }
 
 .sidebar ul li.active a {
@@ -106,13 +106,15 @@ footer {
 .markdown-section a {
     color: #0056b3; /* Blue links */
     text-decoration: none;
-    border-bottom: 1px solid transparent; /* Subtle underline effect */
+    border-bottom: 1px solid transparent; /*Subtle underline effect */
     transition: color 0.3s, border-bottom-color 0.3s;
 }
 
 .markdown-section a:hover {
     color: #003d80; /* Dark blue on hover */
-    border-bottom-color: #003d80; /* Dark blue underline on hover */
+    text-decoration-color: #003d80; /* Dark blue underline on hover */
+    text-underline-offset: 2px; /* Consistent offset for all links */
+
 }
 
 /* Title hover underline */
@@ -125,6 +127,7 @@ footer {
     color: #003d80; /* Dark blue text on hover */
     text-decoration: underline; /* Add underline on hover */
     text-decoration-color: #003d80; /* Dark blue underline */
+    text-underline-offset: 2px; /* Consistent offset for headings */
 }
 
 /* Responsive styles */
