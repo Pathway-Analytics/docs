@@ -25,7 +25,7 @@ header img {
 /* Button styles */
 .btn-github {
     display: inline-block;
-    background-color: #28a745; /* Green color */
+    background-color: #0056b3; /* Blue color matching house style */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -35,7 +35,7 @@ header img {
 }
 
 .btn-github:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #003d80; /* Darker blue on hover */
 }
 
 /* Sidebar styles */
