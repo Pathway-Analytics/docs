@@ -3,6 +3,10 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+.app-name-link {
+    display: none;
+}
+
 /* General body styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -40,17 +44,28 @@ header img {
 
 /* Sidebar styles */
 .sidebar {
-    background: #343a40; /* Dark background for sidebar */
-    color: white;
+    background: #f8f9fa; /* Light gray background for sidebar */
+    color: #0056b3; /* Blue text for links */
+    border-right: 1px solid #e9ecef; /* Subtle border */
 }
 
 .sidebar a {
-    color: white;
+    color: #0056b3; /* Blue links */
     text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .sidebar a:hover {
-    background: #495057; /* Lighter background on hover */
+    background: #e9ecef; /* Light gray hover background */
+    color: #003d80; /* Darker blue on hover */
+}
+
+/* Fix for empty app-name-link */
+.app-name-link {
+    display: none; /* Hide the empty link */
 }
 
 /* Footer styles */
