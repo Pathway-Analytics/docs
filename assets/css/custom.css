@@ -26,6 +26,41 @@ header img {
     max-width: 150px; /* Adjust logo size */
 }
 
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff; /* Match header color */
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Space between menu items */
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white; /* White text for links */
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #ffffff; /* Ensure text remains white */
+}
+
 /* Button styles */
 .btn-github {
     display: inline-block;
@@ -82,6 +117,10 @@ img[alt="Edit on GitHub"] {
 .sidebar ul li.active a {
     color: #003d80; /* Dark blue text for active item */
     font-weight: bold;
+}
+
+.sidebar-toggle span {
+    background-color: #007bff; /* Primary color */
 }
 
 /* Fix for empty app-name-link */

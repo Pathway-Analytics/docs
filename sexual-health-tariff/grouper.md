@@ -40,4 +40,4 @@ We are happy to transfer subscriptions in the event of a new appointee, long-ter
 
 ---
 
-[![Edit on GitHub](assets/images/github/github-mark.png)](https://github.com/Pathway-Analytics/docs/edit/main/Tariff-Grouper.md) - Your contributions are welcome!
+[![Edit on GitHub](assets/images/github/github-mark.png)](https://github.com/Pathway-Analytics/docs/edit/main/docs/tariff-grouper.md) - Your contributions are welcome!
