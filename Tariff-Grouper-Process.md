@@ -33,4 +33,4 @@ For more information on the Tariff Grouper and related processes, please refer t
 - [Tariff Grouper](Tariff-Grouper)
 - [Tariff Configurations](Tariff-Configurations)
 
-[Edit this page](https://github.com/Pathway-Analytics/docs/edit/main/Tariff-Grouper-Process.md). Your contributions are welcome!
+[![Edit on GitHub](assets/images/github/github-mark.png)](https://github.com/Pathway-Analytics/docs/edit/main/Tariff-Grouper-Process.md) - Your contributions are welcome!
