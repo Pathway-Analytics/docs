@@ -3,52 +3,94 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-.app-name-link {
-    display: none;
+/* Root variables for light mode */
+:root {
+    --primary-color: #1f4788; /* Primary blue */
+    --primary-hover-color: #0056b3; /* Darker blue for hover */
+    --secondary-color: #f8f9 fa; /* Light gray */
+    --secondary-hover-color: #e9ecef; /* Lighter gray for hover */
+    --text-color: #333; /* Standard text color */
+    --background-color: #ffffff; /* White background */
+    --border-color: #e9ecef; /* Subtle border */
+    --navbar-background: #dee1e3; /* Navbar background */
+    --highlight-color: rgba(0, 123, 255, 0.5); /* Subtle blue glow */
+}
+
+/* Variables for dark mode */
+.dark-mode {
+    --primary-color: #1a73e8; /* Lighter blue for dark mode */
+    --primary-hover-color: #135ba1; /* Darker blue for hover in dark mode */
+    --secondary-color: #2c2c2c; /* Dark gray background */
+    --secondary-hover-color: #3a3a3a; /* Slightly lighter gray for hover */
+    --text-color: #f1f1f1; /* Light text color */
+    --background-color: #121212; /* Dark background */
+    --border-color: #444; /* Subtle border for dark mode */
+    --navbar-background: #1f1f1f; /* Darker navbar background */
+    --highlight-color: rgba(26, 115, 232, 0.5); /* Subtle blue glow for dark mode */
 }
 
 /* General body styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 /* Header styles */
 header {
-    background: #007bff; /* Primary color */
-    padding: 20px;
-    text-align: center;
+    position: fixed;
+    background: var(--primary-color);
+    padding: 0px;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* text-align: center; */
 }
 
 header img {
-    max-width: 150px; /* Adjust logo size */
+    max-width: 150px;
+}
+
+/* Ensure the navbar is fixed at the top */
+.navbar-fixed {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--navbar-background); /* Adjust to your theme */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Navbar styles */
 .navbar {
     display: flex;
-    justify-content: center;
-    background-color: #007bff; /* Match header color */
-    padding: 10px 0;
-    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.navbar ul {
+.navbar-left .logo {
+    resize: contain;
+    display: flex
+}
+
+.navbar-center ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    gap: 20px; /* Space between menu items */
+    gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar li {
+.navbar-center ul li {
     display: inline;
 }
 
-.navbar a {
-    color: white; /* White text for links */
+.navbar-center ul li a {
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 500;
     padding: 5px 10px;
@@ -56,15 +98,175 @@ header img {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navbar a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    color: #ffffff; /* Ensure text remains white */
+.navbar-center ul li a:hover {
+    background-color: var(--primary-hover-color);
+    color: #ffffff;
+}
+
+.navbar-right .hamburger-menu {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed; /* Fix the sidebar to the viewport */
+    top: 60px; /* Align the sidebar directly under the navbar (adjust to match navbar height) */
+    left: 0;
+    width: 250px; /* Set the width of the sidebar */
+    padding: 10px;
+    margin-top: 60px; /* Push the sidebar below the fixed navbar */
+    margin-left: 25px;
+    background-color: var(--secondary-color); /* Adjust to your theme */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    height: calc(100vh - 60px); /* Full height minus the navbar height */
+    /* z-index: 999; /* Ensure the sidebar appears above other elements */
+    /* display: block; Show the sidebar by default */
+}
+
+.sidebar a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+    /* background: var(--secondary-hover-color); */
+    /* color: var(--primary-hover-color); */
+}
+
+/* Active sidebar item */
+.sidebar ul li.active {
+    background-color: var(--secondary-hover-color);
+}
+
+.sidebar ul li.active a {
+    color: var(--primary-hover-color);
+    font-weight: bold;
+}
+
+/* Sidebar toggle button styles */
+.sidebar-toggle {
+    position: absolute; /* Position the button at the top of the sidebar */
+    top: 0;
+    left: 0;
+    width: 10px; /* Ensure the button spans the width of the sidebar */
+    padding: 20px;
+    color: var(--primary-color); 
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0;
+    z-index:999;
+    height: calc(100vh - 60px); /* Full height minus the navbar height */
+    /* transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
+    /* transform: translateX(0); /* Default position (visible) */
+}
+
+.sidebar-toggle span{
+    display: block;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+/* Hide the sidebar when toggled off */
+.sidebar.hidden {
+    transform: translateX(-100%); /* Move the sidebar completely off-screen */
+    transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
+}
+
+/* When the sidebar is hidden, reset the content margin */
+.sidebar.hidden ~ .content {
+    margin-left: 0;
+}
+
+/* Search input in the sidebar */
+.sidebar input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.sidebar input[type="search"]:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px var(--highlight-color);
+}
+
+.sidebar .search-results li {
+    margin-bottom: 10px;
+}
+
+.sidebar .search-results li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar .search-results li a:hover {
+    background-color: var(--secondary-hover-color);
+    color: var(--primary-hover-color);
+}
+
+
+/* Fix for empty app-name-link */
+.app-name-link {
+    display: none; /* Hide the empty link */
+}
+
+/* Ensure the toggle button stays at the top of the sidebar */
+/* .sidebar {
+/*    position: relative;
+/*    margin-top: 60px; /* Push the sidebar below the fixed navbar */
+/*    padding: 0; /* Remove padding to align the toggle button */
+/*    background-color: var(--secondary-color); /* Adjust to your theme */
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/*    overflow-y: auto; /* Allow scrolling if content overflows */
+/*    height: calc(100vh - 60px); /* Full height minus navbar */
+/*} */
+
+.sidebar>h1 a {
+    display: none; /* hide app name in sidebar */
+}
+
+.app-sub-sidebar li:before {
+    content: ""; /* remove dash */
+    padding-right: 0px;
+
+}
+
+/* Search input styles */
+input[type="search"]:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--highlight-color);
+}
+search .input-wrap{
+    margin-top: 50px;
 }
 
 /* Button styles */
 .btn-github {
     display: inline-block;
-    background-color: #0056b3; /* Blue color matching house style */
+    background-color: var(--primary-hover-color);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -83,83 +285,36 @@ img[alt="Edit on GitHub"] {
     background-color: #003d80; /* Darker blue on hover */
 }
 
-/* Sidebar styles */
-.sidebar {
-    background: #f8f9fa; /* Light gray background for sidebar */
-    color: hsl(211, 100%, 35%); /* Blue text for links */
-    border-right: 1px solid #e9ecef; /* Subtle border */
-}
-
-.sidebar a {
-    color: #0056b3; /* Blue links */
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.sidebar a:hover {
-    background: #e9ecef; /* Light gray hover background */
-    color: #003d80; /* Darker blue on hover */
-}
-
-.app-sub--sidebar li:before{
-    content: ""; /* remove dash */
-}
-
-/* Active sidebar item */
-.sidebar ul li.active {
-    background-color: #e9ecef; /* Light gray background for active item */
-    /* border-left: 4px solid #003d80; Dark blue accent */
-}
-
-.sidebar ul li.active a {
-    color: #003d80; /* Dark blue text for active item */
-    font-weight: bold;
-}
-
-.sidebar-toggle span {
-    background-color: #007bff; /* Primary color */
-}
-
-/* Fix for empty app-name-link */
-.app-name-link {
-    display: none; /* Hide the empty link */
-}
-
 /* Footer styles */
 footer {
     text-align: center;
     padding: 20px;
-    background: #007bff; /* Match header color */
+    background: var(--primary-color);
     color: white;
 }
 
 /* Blockquote styles */
 .markdown-section blockquote {
-    border-left: 4px solid #003d80; /* Dark blue border */
-    background-color: #f8f9fa; /* Light gray background */
+    border-left: 4px solid var(--primary-hover-color);
+    background-color: var(--secondary-color);
     padding: 10px 15px;
-    color: #333; /* Standard text color */
+    color: var(--text-color);
     font-style: italic;
 }
 
 /* Links in markdown section */
 .markdown-section a {
-    color: #0056b3; /* Blue links */
-    text-decoration: none;
-    border-bottom: 1px solid transparent; /*Subtle underline effect */
-    transition: color 0.3s, border-bottom-color 0.3s;
+    color: var(--primary-color);
+    text-decoration: underline; /* Use underline instead of border-bottom */
+    text-decoration-color: transparent; /* Hide underline by default */
+    text-underline-offset: 2px; /* Adjust offset to make it closer to the text */
+    transition: color 0.3s, text-decoration-color 0.3s;
 }
 
 .markdown-section a:hover {
-    color: #003d80; /* Dark blue on hover */
-    text-decoration-color: #003d80; /* Dark blue underline on hover */
-    text-underline-offset: 2px; /* Consistent offset for all links */
-
+    color: var(--primary-hover-color);
+    text-decoration-color: var(--primary-hover-color); /* Show underline on hover */
 }
-/* Code
 
 /* Title hover underline */
 .markdown-section h1:hover,
@@ -168,19 +323,78 @@ footer {
 .markdown-section h4:hover,
 .markdown-section h5:hover,
 .markdown-section h6:hover {
-    color: #003d80; /* Dark blue text on hover */
-    text-decoration: underline; /* Add underline on hover */
-    text-decoration-color: #003d80; /* Dark blue underline */
-    text-underline-offset: 2px; /* Consistent offset for headings */
+    color: var(--primary-hover-color);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-hover-color);
+    text-underline-offset: 2px;
+}
+
+/* Main content styles */
+.content {
+    margin-top: 60px; /* Push the content below the fixed navbar */
+    padding: 20px;
+    transition: margin-left 0.3s ease; /* Smooth transition for content adjustment */
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
+    /* sidebar button  width set to 30px */
+    button.sidebar-toggle {
+        z-index: 0;
+        width: 25px; 
+    }
+    .sidebar {
+        width: 200px; /* Sidebar takes up the full width of the screen */
+        transform: translateX(-250px); /* Hide the sidebar by default */
+        transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
+    }
+
+    .sidebar.hidden {
+        transform: translateX(-250px); /* Keep the sidebar hidden */
+    }
+
+    .content {
+        margin-left: 0; /* Ensure content takes up the full width */
+    }
+
+    .sidebar-toggle {
+        position: fixed; /* Keep the toggle button fixed */
+        width: 20px;
+        top: 60px; /* Align it with the navbar */
+        left: 10px; /* Slightly offset from the left */
+        z-index: 1000; /* Ensure it appears above other elements */
+    }
+
+    body.close .sidebar {
+        transform: translateX(30px);
+        width: fit-content;
+    }
+
     header, footer {
         padding: 15px;
     }
 
     .btn-github {
-        width: 100%; /* Full width button on small screens */
+        width: 100%;
+    }
+
+    .navbar-menu {
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        background-color: var(--secondary-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-menu.active {
+        display: flex; /* Show menu when active */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu in responsive mode */
     }
 }

@@ -1,3 +1,3 @@
-- [Tariff Grouper](grouper)
-- [Tariff Configurations](configurations)
-- [Tariff Grouper Process](grouper-process)
+- [Tariff Grouper](sexual-health-tariff/grouper)
+- [Tariff Configurations](sexual-health-tariff/configurations)
+- [Tariff Grouper Process](sexual-health-tariff/grouper-process)

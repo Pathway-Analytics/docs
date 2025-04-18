@@ -6,33 +6,43 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
-  <title>Pathway Analytics Documentation</title>
+  <title>Pathway Analytics</title>
   <meta name="description" content="Pathway Analytics - Healthcare economics">
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css?v=1.0.1">
-  <link rel="stylesheet" href="assets/css/custom.css?v=1.0.1">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
-  <div id="app">
-    <header>
-      <img src="https://mta-sts.pathwayanalytics.com/icons/favicon.ico" alt="Pathway Analytics Logo" class="logo">
-      <nav class="navbar">
+  <header >
+    <nav class="navbar-fixed">
+      <div class="navbar-left">
+        <img src="https://mta-sts.pathwayanalytics.com/icons/favicon.ico" alt="Pathway Analytics" class="logo">
+      </div>
+      <div class="navbar-center">
         <ul>
           <li><a href="#/">Home</a></li>
-          <li><a href="#/sexual-health-tariff">Sexual Health Tariff</a></li>
+          <li><a href="#/sexual-health">Sexual Health Tariff</a></li>
           <li><a href="#/health-pathways">Health Pathways</a></li>
           <li><a href="#/ftci">FTCi</a></li>
           <li><a href="#/case-studies">Case Studies</a></li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
+  
+  <div id="app">
+    <aside class="sidebar hidden">
+      <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+      <!-- Sidebar content will be dynamically loaded by Docsify -->
+    </aside>
+
     <main>
       <div class="content">
         <!-- Docsify will load the content here -->
       </div>
-      <footer>
-        <a href="https://github.com/Pathway-Analytics/docs" class="github-button">Suggest Changes on GitHub</a>
+      <footer class="footer">
+        <p>&copy; 2025 Pathway Analytics. All rights reserved.</p>
       </footer>
     </main>
   </div>
@@ -40,21 +50,40 @@
   <script>
     window.$docsify = {
       name: 'Pathway Analytics',
-      homepage: 'Tariff-Configurations.md',
-      logo: 'https://mta-sts.pathwayanalytics.com/icons/mstile-150x150.png',
-      loadSidebar: '_sidebar.md?v=1.0.0',
+      homepage: 'README.md',
+      logo: false, // 'https://mta-sts.pathwayanalytics.com/icons/mstile-150x150.png',
+      loadSidebar: false, //'_sidebar.md', //false, // Disable sidebar if not needed
       maxLevel: 0,
       subMaxLevel: 3,
+      routerMode: 'hash', // Ensure hash-based routing
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
         depth: 4,
       }
     };
+
   </script>
 
-<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js?v=1.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js?v=1.0.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js?v=1.0.0"></script>
+<script>
+  function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar.classList.contains('hidden')) {
+      sidebar.classList.remove('hidden');
+    } else {
+      sidebar.classList.add('hidden');
+    }
+  }
+
+  // Ensure the sidebar is hidden on page load
+  document.addEventListener('DOMContentLoaded', function () {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.add('hidden');
+  });
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 </body>
 </html>
