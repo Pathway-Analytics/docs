@@ -1,0 +1,70 @@
+/* Custom styles for the documentation site */
+
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #007bff; /* Primary color */
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; /* Adjust logo size */
+}
+
+/* Button styles */
+.btn-github {
+    display: inline-block;
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+.btn-github:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Sidebar styles */
+.sidebar {
+    background: #343a40; /* Dark background for sidebar */
+    color: white;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #495057; /* Lighter background on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff; /* Match header color */
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 15px;
+    }
+
+    .btn-github {
+        width: 100%; /* Full width button on small screens */
+    }
+}

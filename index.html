@@ -6,58 +6,46 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
-  <!-- Replace with your own title and description. -->
-  <title>Awesome Docsify Site</title>
+  <title>Pathway Analytics Documentation</title>
   <meta name="description" content="Pathway Analytics - Healthcare economics">
 
-  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-
+  <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <header>
+      <img src="assets/images/logo.png" alt="Pathway Analytics Logo" class="logo">
+    </header>
+    <main>
+      <div class="content">
+        <!-- Docsify will load the content here -->
+      </div>
+      <footer>
+        <a href="https://github.com/Pathway-Analytics/docs" class="github-button">Suggest Changes on GitHub</a>
+      </footer>
+    </main>
+  </div>
 
   <script>
-    // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
       name: 'Pathway Analytics',
-
-      // Homepage Configuration
       homepage: 'Tariff-Configurations.md',
-      logo: 'https://mta-sts.pathwayanalytics.com/logo/Pathway+Analytics+Logo.png',
-
-      // Sidebar Configuration
-      auto2top: true,
+      logo: 'assets/images/logo.png',
       loadSidebar: '_sidebar.md',
       maxLevel: 0,
-      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
-
-      // Search Plugin Configuration
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
-        // Headline depth, 1 - 6
         depth: 4,
       }
     };
   </script>
 
-<script>
-  window.$docsify = {
-//    repo: 'docsifyjs/docsify',
-    maxLevel: 4,
-//    coverpage: true
-  }
-</script>
-
-  <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-
-  <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-
 </body>
 </html>
