@@ -35,4 +35,4 @@ For more information on the Tariff Grouper and related processes, please refer t
 
 ## Contribute to This Documentation
 
-If you would like to suggest changes or improvements to this documentation, please feel free to submit a pull request on our [GitHub repository](https://github.com/Pathway-Analytics/docs). Your contributions are welcome!
+If you would like to suggest changes or improvements to this documentation, please feel free to submit a pull request on our [GitHub repository](https://github.com/Pathway-Analytics/docs/edit/main/Tariff-Grouper-Process.md). Your contributions are welcome!
