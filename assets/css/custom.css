@@ -51,7 +51,7 @@ img[alt="Edit on GitHub"] {
 /* Sidebar styles */
 .sidebar {
     background: #f8f9fa; /* Light gray background for sidebar */
-    color: #0056b3; /* Blue text for links */
+    color: hsl(211, 100%, 35%); /* Blue text for links */
     border-right: 1px solid #e9ecef; /* Subtle border */
 }
 
@@ -69,6 +69,17 @@ img[alt="Edit on GitHub"] {
     color: #003d80; /* Darker blue on hover */
 }
 
+/* Active sidebar item */
+.sidebar ul li.active {
+    background-color: #e9ecef; /* Light gray background for active item */
+    border-left: 4px solid #003d80; /* Dark blue accent */
+}
+
+.sidebar ul li.active a {
+    color: #003d80; /* Dark blue text for active item */
+    font-weight: bold;
+}
+
 /* Fix for empty app-name-link */
 .app-name-link {
     display: none; /* Hide the empty link */
@@ -80,6 +91,40 @@ footer {
     padding: 20px;
     background: #007bff; /* Match header color */
     color: white;
+}
+
+/* Blockquote styles */
+.markdown-section blockquote {
+    border-left: 4px solid #003d80; /* Dark blue border */
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 15px;
+    color: #333; /* Standard text color */
+    font-style: italic;
+}
+
+/* Links in markdown section */
+.markdown-section a {
+    color: #0056b3; /* Blue links */
+    text-decoration: none;
+    border-bottom: 1px solid transparent; /* Subtle underline effect */
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.markdown-section a:hover {
+    color: #003d80; /* Dark blue on hover */
+    border-bottom-color: #003d80; /* Dark blue underline on hover */
+}
+
+/* Title hover underline */
+.markdown-section h1:hover,
+.markdown-section h2:hover,
+.markdown-section h3:hover,
+.markdown-section h4:hover,
+.markdown-section h5:hover,
+.markdown-section h6:hover {
+    color: #003d80; /* Dark blue text on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: #003d80; /* Dark blue underline */
 }
 
 /* Responsive styles */
