@@ -441,6 +441,7 @@ body.full-width .content {
   margin-bottom: var(--space-md);
   line-height: 1.25;
   letter-spacing: -0.02em;
+  scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
 .markdown-section h2 {
@@ -452,6 +453,7 @@ body.full-width .content {
   padding-bottom: var(--space-xs);
   border-bottom: 1px solid var(--pa-border);
   line-height: 1.3;
+  scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
 .markdown-section h3 {
@@ -461,6 +463,7 @@ body.full-width .content {
   margin-top: var(--space-lg);
   margin-bottom: var(--space-xs);
   line-height: 1.4;
+  scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
 .markdown-section h4 {
@@ -469,6 +472,7 @@ body.full-width .content {
   color: var(--pa-text);
   margin-top: var(--space-md);
   margin-bottom: var(--space-xs);
+  scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
 /* Docsify wraps heading text in <a class="anchor"><span> */
