@@ -192,11 +192,20 @@ body.has-sidebar .sidebar {
   display: block;
 }
 
-/* Hide Docsify app-name in sidebar */
-h1.app-name,
-.app-name,
-.app-name-link {
-  display: none !important;
+/* Docsify app-name in sidebar — show as brand */
+h1.app-name {
+  display: block !important;
+  padding: var(--space-sm) var(--space-sm) var(--space-xs);
+  margin: 0;
+  font-size: 1em;
+  font-weight: var(--font-weight-bold);
+  border-bottom: 1px solid var(--pa-border);
+}
+
+h1.app-name a {
+  color: var(--pa-primary);
+  text-decoration: none;
+  font-size: 0.95em;
 }
 
 /* Search */
