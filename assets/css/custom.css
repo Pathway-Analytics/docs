@@ -21,7 +21,7 @@
   --pa-primary: #1f4788;
   --pa-primary-hover: #0056b3;
   --pa-accent-1: #2e86de;
-  --pa-accent-2: #27ae60;
+  --pa-accent-2: #4a90d9;
   --pa-text: #333333;
   --pa-text-muted: #636b75;
   --pa-background: #ffffff;
@@ -57,7 +57,7 @@
   --pa-primary: #5b9bf5;
   --pa-primary-hover: #7db4f8;
   --pa-accent-1: #64b5f6;
-  --pa-accent-2: #81c784;
+  --pa-accent-2: #90caf9;
   --pa-text: #f1f1f1;
   --pa-text-muted: #adb5bd;
   --pa-background: #121212;
@@ -258,6 +258,34 @@ a:hover {
   align-items: center;
 }
 
+/* Dark mode toggle button in navbar */
+.dark-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--pa-border);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--pa-text);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.dark-mode-toggle:hover {
+  background-color: var(--pa-surface);
+  border-color: var(--pa-primary);
+  color: var(--pa-primary);
+}
+
+.dark-mode-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
 /* --------------------------------------------------------------------------
    4.2 Sidebar
    -------------------------------------------------------------------------- */
@@ -272,7 +300,7 @@ a:hover {
   overflow-y: auto;
   background-color: var(--pa-surface);
   border-right: 1px solid var(--pa-border);
-  padding: var(--space-md) var(--space-sm);
+  padding: var(--space-sm) 0;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
   z-index: 900;
@@ -283,14 +311,146 @@ body.has-sidebar .sidebar {
   transform: translateX(0);
 }
 
-/* Sidebar links — accessible touch targets */
-.sidebar a,
-.sidebar li {
+/* Sidebar navigation list reset */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul ul {
+  padding-left: var(--space-sm);
+}
+
+/* Sidebar links */
+.sidebar li a {
   display: block;
-  padding: var(--space-xs) var(--space-sm);
-  min-height: 44px;
-  display: flex;
-  align-items: center;
+  padding: 6px var(--space-sm);
+  font-size: 0.875em;
+  color: var(--pa-text);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar li a:hover {
+  background-color: var(--pa-border);
+  color: var(--pa-primary);
+}
+
+/* Active page in sidebar */
+.sidebar li.active > a {
+  color: var(--pa-primary);
+  font-weight: var(--font-weight-medium);
+  background-color: rgba(31, 71, 136, 0.08);
+}
+
+[data-theme="dark"] .sidebar li.active > a {
+  background-color: rgba(91, 155, 245, 0.12);
+}
+
+/* Section group headings (bold items like Executive, Commissioner, Provider) */
+.sidebar li p {
+  font-size: 0.75em;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pa-text-muted);
+  padding: var(--space-sm) var(--space-sm) 4px;
+  margin: 0;
+}
+
+/* Docsify sidebar name/brand */
+.sidebar .app-name {
+  padding: 0 var(--space-sm) var(--space-sm);
+  margin-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--pa-border);
+}
+
+.sidebar .app-name h1 {
+  font-size: 1em;
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  color: var(--pa-primary);
+}
+
+/* Search box in sidebar */
+.sidebar .search {
+  padding: 0 var(--space-sm) var(--space-sm);
+  border-bottom: 1px solid var(--pa-border);
+  margin-bottom: var(--space-xs);
+}
+
+.sidebar .search input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.85em;
+  border: 1px solid var(--pa-border);
+  border-radius: 4px;
+  background-color: var(--pa-background);
+  color: var(--pa-text);
+}
+
+.sidebar .search input:focus {
+  border-color: var(--pa-primary);
+  outline: none;
+}
+
+/* Docsify sidebar-nav overrides */
+.sidebar-nav {
+  padding: 0 var(--space-sm);
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav ul ul {
+  padding-left: var(--space-sm);
+}
+
+.sidebar-nav li > a {
+  display: block;
+  padding: 6px 8px;
+  font-size: 0.875em;
+  color: var(--pa-text);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  line-height: 1.4;
+}
+
+.sidebar-nav li > a:hover {
+  background-color: var(--pa-border);
+  color: var(--pa-primary);
+}
+
+.sidebar-nav li.active > a {
+  color: var(--pa-primary);
+  font-weight: var(--font-weight-medium);
+  background-color: rgba(31, 71, 136, 0.08);
+}
+
+[data-theme="dark"] .sidebar-nav li.active > a {
+  background-color: rgba(91, 155, 245, 0.12);
+}
+
+/* Bold group headings in sidebar (Executive, Commissioner, Provider) */
+.sidebar-nav li > p,
+.sidebar-nav li > strong {
+  display: block;
+  font-size: 0.7em;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pa-text-muted);
+  padding: var(--space-sm) 8px 4px;
+  margin: 0;
 }
 
 /* --------------------------------------------------------------------------
@@ -499,7 +659,7 @@ body.full-width .content .markdown-section {
   .sidebar a,
   .sidebar li {
     min-height: 44px;
-    padding: var(--space-xs) var(--space-sm);
+    padding: 8px var(--space-sm);
   }
 }
 
@@ -775,50 +935,7 @@ h4,
   vertical-align: middle;
 }
 
-/* ---------- GitHub Corner Widget ---------- */
-.github-corner {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999;
-}
 
-.github-corner a {
-  display: block;
-}
-
-.github-corner svg {
-  fill: var(--pa-primary);
-  color: var(--pa-background);
-  width: 72px;
-  height: 72px;
-  transition: fill 0.3s ease;
-}
-
-.github-corner:hover svg {
-  fill: var(--pa-primary-hover);
-}
-
-.github-corner .octo-arm {
-  transform-origin: 130px 106px;
-}
-
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
-@keyframes octocat-wave {
-  0%, 100% { transform: rotate(0); }
-  20%, 60% { transform: rotate(-25deg); }
-  40%, 80% { transform: rotate(10deg); }
-}
-
-@media (max-width: 768px) {
-  .github-corner svg {
-    width: 56px;
-    height: 56px;
-  }
-}
 
 /* ==========================================================================
    8. ACCESSIBILITY

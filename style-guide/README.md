@@ -20,7 +20,7 @@ The site uses CSS custom properties for all colours, enabling seamless switching
 | Swatch | Name | Hex | CSS Variable | Usage |
 |--------|------|-----|--------------|-------|
 | ![#2e86de](https://via.placeholder.com/24/2e86de/2e86de) | Accent 1 | `#2e86de` | `--pa-accent-1` | Blockquote borders, secondary highlights |
-| ![#27ae60](https://via.placeholder.com/24/27ae60/27ae60) | Accent 2 | `#27ae60` | `--pa-accent-2` | Success states, positive indicators |
+| ![#4a90d9](https://via.placeholder.com/24/4a90d9/4a90d9) | Accent 2 | `#4a90d9` | `--pa-accent-2` | Success states, positive indicators |
 
 ### Text Colours
 
@@ -44,7 +44,7 @@ The site uses CSS custom properties for all colours, enabling seamless switching
   --pa-primary: #1f4788;
   --pa-primary-hover: #0056b3;
   --pa-accent-1: #2e86de;
-  --pa-accent-2: #27ae60;
+  --pa-accent-2: #4a90d9;
   --pa-text: #333333;
   --pa-text-muted: #636b75;
   --pa-background: #ffffff;
@@ -454,7 +454,7 @@ The site supports a dark colour scheme that activates via:
 | Primary | `#1f4788` | `#5b9bf5` | `--pa-primary` |
 | Primary Hover | `#0056b3` | `#7db4f8` | `--pa-primary-hover` |
 | Accent 1 | `#2e86de` | `#64b5f6` | `--pa-accent-1` |
-| Accent 2 | `#27ae60` | `#81c784` | `--pa-accent-2` |
+| Accent 2 | `#4a90d9` | `#90caf9` | `--pa-accent-2` |
 | Text | `#333333` | `#f1f1f1` | `--pa-text` |
 | Text Muted | `#636b75` | `#adb5bd` | `--pa-text-muted` |
 | Background | `#ffffff` | `#121212` | `--pa-background` |
@@ -468,7 +468,7 @@ The site supports a dark colour scheme that activates via:
   --pa-primary: #5b9bf5;
   --pa-primary-hover: #7db4f8;
   --pa-accent-1: #64b5f6;
-  --pa-accent-2: #81c784;
+  --pa-accent-2: #90caf9;
   --pa-text: #f1f1f1;
   --pa-text-muted: #adb5bd;
   --pa-background: #121212;
