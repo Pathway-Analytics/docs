@@ -93,9 +93,11 @@ main {
 
 /* Docsify navbar (app-nav) rendered from _navbar.md */
 .app-nav,
-nav.app-nav {
+nav.app-nav,
+body.sticky .app-nav,
+body.sticky nav.app-nav {
   position: fixed !important;
-  top: 0;
+  top: 0 !important;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -103,9 +105,9 @@ nav.app-nav {
   display: flex !important;
   align-items: center;
   padding: 0 var(--space-md);
-  background-color: var(--pa-background);
+  background-color: var(--pa-background) !important;
   border-bottom: 1px solid var(--pa-border);
-  margin: 0;
+  margin: 0 !important;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   overflow: visible;
   list-style: none;
@@ -120,17 +122,19 @@ nav.app-nav {
 nav.app-nav > ul,
 nav.app-nav ul {
   list-style: none !important;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
   align-items: center;
   gap: 4px;
+  flex-wrap: nowrap;
 }
 
 .app-nav li,
 nav.app-nav li {
   position: relative;
   list-style: none !important;
+  margin: 0;
 }
 
 .app-nav a,
@@ -144,6 +148,7 @@ nav.app-nav a {
   font-weight: var(--font-weight-medium);
   text-decoration: none;
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
 .app-nav a:hover,
@@ -175,8 +180,10 @@ body.has-sidebar .sidebar {
 
 /* Docsify sidebar name — hidden (logo is in navbar now) */
 .app-name-link,
-.sidebar .app-name {
-  display: none;
+.sidebar .app-name,
+.app-name,
+h1.app-name {
+  display: none !important;
 }
 
 /* Navbar logo */
@@ -195,19 +202,22 @@ body.has-sidebar .sidebar {
 }
 
 /* Docsify content area */
-section.content {
-  padding-top: calc(var(--navbar-height) + var(--space-md));
+section.content,
+.content {
+  padding-top: calc(var(--navbar-height) + var(--space-md)) !important;
   padding-left: var(--space-md);
   padding-right: var(--space-md);
   min-height: 100vh;
   transition: margin-left 0.3s ease;
 }
 
-body.has-sidebar section.content {
+body.has-sidebar section.content,
+body.has-sidebar .content {
   margin-left: var(--sidebar-width);
 }
 
-body.full-width section.content {
+body.full-width section.content,
+body.full-width .content {
   margin-left: 0;
 }
 
