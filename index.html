@@ -101,8 +101,8 @@
     // Sidebar Toggle Plugin
     // Monitors route changes and toggles sidebar visibility based on section
     function sidebarTogglePlugin(hook, vm) {
-      hook.doneEach(function () {
-        var path = vm.route.path;
+      function updateSidebar() {
+        var path = vm.route.path || '/';
         var isTariffSection = path.startsWith('/sexual-health-tariff');
         document.body.classList.toggle('has-sidebar', isTariffSection);
         document.body.classList.toggle('full-width', !isTariffSection);
@@ -111,25 +111,25 @@
         var sidebar = document.querySelector('.sidebar');
         var sidebarToggle = document.querySelector('.sidebar-toggle');
         if (sidebar) {
-          sidebar.style.display = isTariffSection ? '' : 'none';
-          if (!sidebar.getAttribute('role')) {
-            sidebar.setAttribute('role', 'navigation');
-            sidebar.setAttribute('aria-label', 'Documentation sidebar');
-          }
+          sidebar.style.display = isTariffSection ? 'block' : 'none';
         }
         if (sidebarToggle) {
           sidebarToggle.style.display = isTariffSection ? '' : 'none';
-          if (!sidebarToggle.getAttribute('aria-label')) {
-            sidebarToggle.setAttribute('aria-label', 'Toggle sidebar navigation');
-            sidebarToggle.setAttribute('role', 'button');
-          }
         }
 
-        // Also ensure content margin is removed on non-tariff pages
+        // Ensure content margin is correct
         var content = document.querySelector('section.content') || document.querySelector('.content');
         if (content) {
           content.style.marginLeft = isTariffSection ? '' : '0';
         }
+      }
+
+      // Run on every page render
+      hook.doneEach(updateSidebar);
+
+      // Also listen to hash changes directly for immediate response
+      window.addEventListener('hashchange', function () {
+        setTimeout(updateSidebar, 50);
       });
     }
 
