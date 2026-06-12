@@ -484,6 +484,20 @@ body.full-width .content {
   text-decoration: none;
 }
 
+/* Anchor offset — ensures headings scroll below the fixed navbar */
+.markdown-section [id] {
+  scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
+}
+
+.markdown-section h1[id],
+.markdown-section h2[id],
+.markdown-section h3[id],
+.markdown-section h4[id] {
+  /* Padding trick for browsers/JS that ignore scroll-margin-top */
+  padding-top: calc(var(--navbar-height) + var(--space-md));
+  margin-top: calc(-1 * (var(--navbar-height) + var(--space-md)));
+}
+
 .markdown-section p {
   margin-bottom: var(--space-sm);
 }

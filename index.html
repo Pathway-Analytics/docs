@@ -141,34 +141,9 @@
         }
       });
 
-      // Fix anchor scroll offset (Docsify scrolls too high, under navbar)
-      // Docsify's internal scroll fires after hooks, so we need multiple attempts
-      function scrollToAnchor() {
-        var hash = window.location.hash;
-        var idMatch = hash.match(/[?&]id=([^&]+)/);
-        if (idMatch) {
-          var el = document.getElementById(idMatch[1]);
-          if (el) {
-            var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--navbar-height')) || 56;
-            var top = el.getBoundingClientRect().top + window.pageYOffset - navHeight - 24;
-            window.scrollTo({ top: top, behavior: 'auto' });
-          }
-        }
-      }
-
-      // Run at multiple delays to beat Docsify's own scrolling
-      hook.doneEach(function () {
-        setTimeout(scrollToAnchor, 50);
-        setTimeout(scrollToAnchor, 200);
-        setTimeout(scrollToAnchor, 400);
-      });
-
-      // Also listen to hash changes (in-page anchor clicks from sidebar/search)
+      // Also listen to hash changes directly for immediate response
       window.addEventListener('hashchange', function () {
         setTimeout(updateSidebar, 50);
-        setTimeout(scrollToAnchor, 50);
-        setTimeout(scrollToAnchor, 200);
-        setTimeout(scrollToAnchor, 400);
       });
     }
 
