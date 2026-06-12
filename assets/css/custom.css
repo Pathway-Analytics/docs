@@ -102,6 +102,7 @@ body.sticky nav.app-nav {
   right: 0;
   z-index: 1000;
   height: var(--navbar-height);
+  width: 100%;
   display: flex !important;
   align-items: center;
   padding: 0 var(--space-md);
@@ -128,6 +129,7 @@ nav.app-nav ul {
   align-items: center;
   gap: 4px;
   flex-wrap: nowrap;
+  flex-grow: 0;
 }
 
 .app-nav li,
