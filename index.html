@@ -134,12 +134,27 @@
         if (path === '/' || path === '') {
           document.title = 'Pathway Analytics';
         } else {
-          // Use the first h1 text if available, fallback to path
           var h1 = document.querySelector('.markdown-section h1');
           if (h1) {
             document.title = h1.textContent.trim() + ' — Pathway Analytics';
           }
         }
+      });
+
+      // Fix anchor scroll offset (Docsify scrolls too high, under navbar)
+      hook.doneEach(function () {
+        setTimeout(function () {
+          var hash = window.location.hash;
+          var idMatch = hash.match(/[?&]id=([^&]+)/);
+          if (idMatch) {
+            var el = document.getElementById(idMatch[1]);
+            if (el) {
+              var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--navbar-height')) || 56;
+              var top = el.getBoundingClientRect().top + window.pageYOffset - navHeight - 24;
+              window.scrollTo({ top: top, behavior: 'smooth' });
+            }
+          }
+        }, 100);
       });
 
       // Also listen to hash changes directly for immediate response
