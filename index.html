@@ -253,34 +253,41 @@
     }
 
     // Collapsible Sidebar Plugin
-    // Makes sidebar section groups (Executive, Commissioner, Provider) collapsible
-    // All groups are collapsed by default; clicking a group heading toggles it
+    // Makes sidebar items with sub-lists collapsible
+    // Groups are collapsed by default unless the active page is within them
     function collapsibleSidebarPlugin(hook, vm) {
       hook.doneEach(function () {
         var sidebarNav = document.querySelector('.sidebar-nav');
         if (!sidebarNav) return;
 
-        // Find all top-level list items that contain a <strong> or <p> (group headings)
-        var topItems = sidebarNav.querySelectorAll(':scope > ul > li');
-        topItems.forEach(function (li) {
-          var heading = li.querySelector(':scope > p') || li.querySelector(':scope > strong');
+        // Find all list items that have a child <ul> (i.e. they have sub-items)
+        var items = sidebarNav.querySelectorAll('li');
+        items.forEach(function (li) {
           var subList = li.querySelector(':scope > ul');
-          if (!heading || !subList) return;
+          if (!subList) return;
           if (li.classList.contains('collapsible-initialized')) return;
+
+          var link = li.querySelector(':scope > a');
+          if (!link) return;
 
           li.classList.add('collapsible-initialized');
           li.classList.add('collapsible');
 
           // Check if current page is within this group
-          var links = subList.querySelectorAll('a');
+          var allLinks = subList.querySelectorAll('a');
           var currentPath = vm.route.path;
           var isActiveGroup = false;
-          links.forEach(function (link) {
-            var href = link.getAttribute('href') || '';
-            if (href && currentPath.indexOf(href.replace(/^\//, '').replace(/\/$/, '')) !== -1) {
+          allLinks.forEach(function (a) {
+            var href = (a.getAttribute('href') || '').replace('#', '');
+            if (href && currentPath === href) {
               isActiveGroup = true;
             }
           });
+          // Also check if the parent link itself is active
+          var parentHref = (link.getAttribute('href') || '').replace('#', '');
+          if (parentHref && currentPath === parentHref) {
+            isActiveGroup = true;
+          }
 
           // Collapse by default unless the active page is in this group
           if (!isActiveGroup) {
@@ -289,17 +296,19 @@
             li.classList.remove('collapsed');
           }
 
-          // Make heading clickable
-          heading.style.cursor = 'pointer';
-          heading.setAttribute('role', 'button');
-          heading.setAttribute('aria-expanded', !li.classList.contains('collapsed'));
+          // Add a toggle arrow that expands/collapses without navigating
+          if (!li.querySelector('.collapse-toggle')) {
+            var toggle = document.createElement('span');
+            toggle.className = 'collapse-toggle';
+            toggle.setAttribute('aria-label', 'Toggle section');
+            li.insertBefore(toggle, subList);
 
-          heading.addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            li.classList.toggle('collapsed');
-            heading.setAttribute('aria-expanded', !li.classList.contains('collapsed'));
-          });
+            toggle.addEventListener('click', function (e) {
+              e.preventDefault();
+              e.stopPropagation();
+              li.classList.toggle('collapsed');
+            });
+          }
         });
       });
     }

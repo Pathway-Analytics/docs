@@ -349,30 +349,40 @@ body.full-width .content {
 }
 
 /* Collapsible sidebar groups */
-.sidebar-nav li.collapsible > p,
-.sidebar-nav li.collapsible > strong {
+.sidebar-nav li.collapsible {
   position: relative;
-  padding-right: 24px;
-  user-select: none;
 }
 
-.sidebar-nav li.collapsible > p::after,
-.sidebar-nav li.collapsible > strong::after {
-  content: '';
+.sidebar-nav li.collapsible > .collapse-toggle {
   position: absolute;
-  right: 8px;
-  top: 50%;
+  right: 4px;
+  top: 6px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.sidebar-nav li.collapsible > .collapse-toggle:hover {
+  background-color: var(--pa-border);
+}
+
+.sidebar-nav li.collapsible > .collapse-toggle::after {
+  content: '';
   width: 6px;
   height: 6px;
   border-right: 2px solid var(--pa-text-muted);
   border-bottom: 2px solid var(--pa-text-muted);
-  transform: translateY(-50%) rotate(45deg);
+  transform: rotate(45deg);
   transition: transform 0.2s ease;
 }
 
-.sidebar-nav li.collapsible.collapsed > p::after,
-.sidebar-nav li.collapsible.collapsed > strong::after {
-  transform: translateY(-50%) rotate(-45deg);
+.sidebar-nav li.collapsible.collapsed > .collapse-toggle::after {
+  transform: rotate(-45deg);
 }
 
 .sidebar-nav li.collapsible > ul {
