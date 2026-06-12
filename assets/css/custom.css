@@ -78,42 +78,272 @@
    2. BASE / RESET
    ========================================================================== */
 
-/* --- Override Docsify vue.css theme colours (removes green) --- */
-body .sidebar,
-body .sidebar-nav,
-body .app-nav,
-body .markdown-section {
-  --theme-color: var(--pa-primary);
+/* --- Docsify structural styles (replaces vue.css) --- */
+body {
+  overflow-x: hidden;
 }
 
-/* Override Docsify's default green for active nav links and underlines */
-.app-nav li ul,
+/* Docsify main app container */
+main {
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+
+/* Docsify navbar (app-nav) rendered from _navbar.md */
+.app-nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-md);
+  background-color: var(--pa-background);
+  border-bottom: 1px solid var(--pa-border);
+  margin: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  overflow: visible;
+}
+
+.app-nav p {
+  margin: 0;
+}
+
+.app-nav > ul,
+.app-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.app-nav li {
+  position: relative;
+}
+
+.app-nav a {
+  padding: var(--space-xs) var(--space-sm);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--pa-text);
+  font-size: 0.9em;
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
 .app-nav a:hover,
-.app-nav li.active a,
-body .app-nav a.active,
-.sidebar-nav a:hover,
-.sidebar-nav li.active > a,
-.markdown-section a {
-  color: var(--pa-primary) !important;
-  border-color: var(--pa-primary) !important;
+.app-nav a.active {
+  color: var(--pa-primary);
 }
 
-/* Override Docsify active indicator (the green underline/border) */
-.app-nav li::after {
-  background-color: var(--pa-primary) !important;
+/* Docsify sidebar container */
+.sidebar {
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  overflow-y: auto;
+  background-color: var(--pa-surface);
+  border-right: 1px solid var(--pa-border);
+  padding: var(--space-sm) 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 900;
 }
 
-/* Override Docsify sidebar active indicator */
+body.has-sidebar .sidebar {
+  transform: translateX(0);
+}
+
+/* Docsify sidebar name */
+.app-name-link {
+  text-decoration: none;
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+}
+
+.app-name-link img {
+  height: 32px;
+  width: auto;
+}
+
+/* Docsify content area */
+section.content {
+  padding-top: calc(var(--navbar-height) + var(--space-md));
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
+}
+
+body.has-sidebar section.content {
+  margin-left: var(--sidebar-width);
+}
+
+body.full-width section.content {
+  margin-left: 0;
+}
+
+/* Docsify markdown rendered content */
+.markdown-section {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-sm);
+}
+
+/* Docsify sidebar toggle */
+.sidebar-toggle {
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  z-index: 950;
+  width: 44px;
+  height: 44px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pa-background);
+  border: 1px solid var(--pa-border);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+/* Docsify search styles */
+.search {
+  padding: var(--space-xs) var(--space-sm);
+  border-bottom: 1px solid var(--pa-border);
+  margin-bottom: var(--space-xs);
+}
+
+.search input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.85em;
+  border: 1px solid var(--pa-border);
+  border-radius: 4px;
+  background-color: var(--pa-background);
+  color: var(--pa-text);
+  outline: none;
+}
+
+.search input:focus {
+  border-color: var(--pa-primary);
+}
+
+.search .results-panel {
+  padding: var(--space-xs);
+}
+
+.search .matching-post {
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid var(--pa-border);
+}
+
+.search .matching-post:last-child {
+  border-bottom: none;
+}
+
+.search .matching-post a {
+  color: var(--pa-primary);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+
+.search .matching-post p {
+  font-size: 0.85em;
+  color: var(--pa-text-muted);
+  margin: 4px 0 0;
+}
+
+/* Docsify sidebar-nav */
+.sidebar-nav {
+  padding: 0 var(--space-sm);
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav ul ul {
+  padding-left: var(--space-sm);
+}
+
+.sidebar-nav li > a {
+  display: block;
+  padding: 6px 8px;
+  font-size: 0.875em;
+  color: var(--pa-text);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  line-height: 1.4;
+}
+
+.sidebar-nav li > a:hover {
+  background-color: var(--pa-border);
+  color: var(--pa-primary);
+}
+
 .sidebar-nav li.active > a {
-  border-right-color: var(--pa-primary) !important;
+  color: var(--pa-primary);
+  font-weight: var(--font-weight-medium);
+  background-color: rgba(31, 71, 136, 0.08);
 }
 
-/* Override Docsify heading link colours */
-.markdown-section h1 a,
-.markdown-section h2 a,
-.markdown-section h3 a,
-.markdown-section h4 a {
-  color: inherit !important;
+[data-theme="dark"] .sidebar-nav li.active > a {
+  background-color: rgba(91, 155, 245, 0.12);
+}
+
+/* Bold group headings in sidebar (Executive, Commissioner, Provider) */
+.sidebar-nav li > p,
+.sidebar-nav li > strong {
+  display: block;
+  font-size: 0.7em;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pa-text-muted);
+  padding: var(--space-sm) 8px 4px;
+  margin: 0;
+}
+
+/* Dark mode toggle button in navbar */
+.dark-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--pa-border);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--pa-text);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.dark-mode-toggle:hover {
+  background-color: var(--pa-surface);
+  border-color: var(--pa-primary);
+  color: var(--pa-primary);
+}
+
+.dark-mode-toggle svg {
+  width: 20px;
+  height: 20px;
 }
 
 /* font-display: swap via Google Fonts URL parameter (loaded in index.html).
@@ -276,340 +506,6 @@ a:hover {
 .space-xl { gap: var(--space-xl); }
 
 /* ==========================================================================
-   4. LAYOUT — Navbar, Sidebar, Content Area, Full-Width Mode
-   ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   4.1 Navbar
-   -------------------------------------------------------------------------- */
-
-/* Fixed-position navbar, always visible on scroll */
-.app-nav {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  height: var(--navbar-height);
-  display: flex;
-  align-items: center;
-  padding: 0 var(--space-md);
-  background-color: var(--pa-background);
-  border-bottom: 1px solid var(--pa-border);
-  margin: 0;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-}
-
-.app-nav a {
-  padding: var(--space-xs) var(--space-sm);
-  min-height: 44px;
-  display: inline-flex;
-  align-items: center;
-}
-
-/* Dark mode toggle button in navbar */
-.dark-mode-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  margin-left: auto;
-  background: none;
-  border: 1px solid var(--pa-border);
-  border-radius: 6px;
-  cursor: pointer;
-  color: var(--pa-text);
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.dark-mode-toggle:hover {
-  background-color: var(--pa-surface);
-  border-color: var(--pa-primary);
-  color: var(--pa-primary);
-}
-
-.dark-mode-toggle svg {
-  width: 20px;
-  height: 20px;
-}
-
-/* --------------------------------------------------------------------------
-   4.2 Sidebar
-   -------------------------------------------------------------------------- */
-
-/* Sidebar — hidden by default, visible only when body.has-sidebar */
-.sidebar {
-  position: fixed;
-  top: var(--navbar-height);
-  left: 0;
-  bottom: 0;
-  width: var(--sidebar-width);
-  overflow-y: auto;
-  background-color: var(--pa-surface);
-  border-right: 1px solid var(--pa-border);
-  padding: var(--space-sm) 0;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-  z-index: 900;
-}
-
-/* Show sidebar only when body has the has-sidebar class */
-body.has-sidebar .sidebar {
-  transform: translateX(0);
-}
-
-/* Sidebar navigation list reset */
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar ul ul {
-  padding-left: var(--space-sm);
-}
-
-/* Sidebar links */
-.sidebar li a {
-  display: block;
-  padding: 6px var(--space-sm);
-  font-size: 0.875em;
-  color: var(--pa-text);
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.sidebar li a:hover {
-  background-color: var(--pa-border);
-  color: var(--pa-primary);
-}
-
-/* Active page in sidebar */
-.sidebar li.active > a {
-  color: var(--pa-primary);
-  font-weight: var(--font-weight-medium);
-  background-color: rgba(31, 71, 136, 0.08);
-}
-
-[data-theme="dark"] .sidebar li.active > a {
-  background-color: rgba(91, 155, 245, 0.12);
-}
-
-/* Section group headings (bold items like Executive, Commissioner, Provider) */
-.sidebar li p {
-  font-size: 0.75em;
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--pa-text-muted);
-  padding: var(--space-sm) var(--space-sm) 4px;
-  margin: 0;
-}
-
-/* Docsify sidebar name/brand */
-.sidebar .app-name {
-  padding: 0 var(--space-sm) var(--space-sm);
-  margin-bottom: var(--space-xs);
-  border-bottom: 1px solid var(--pa-border);
-}
-
-.sidebar .app-name h1 {
-  font-size: 1em;
-  font-weight: var(--font-weight-bold);
-  margin: 0;
-  color: var(--pa-primary);
-}
-
-/* Search box in sidebar */
-.sidebar .search {
-  padding: 0 var(--space-sm) var(--space-sm);
-  border-bottom: 1px solid var(--pa-border);
-  margin-bottom: var(--space-xs);
-}
-
-.sidebar .search input {
-  width: 100%;
-  padding: 8px 12px;
-  font-size: 0.85em;
-  border: 1px solid var(--pa-border);
-  border-radius: 4px;
-  background-color: var(--pa-background);
-  color: var(--pa-text);
-}
-
-.sidebar .search input:focus {
-  border-color: var(--pa-primary);
-  outline: none;
-}
-
-/* Docsify sidebar-nav overrides */
-.sidebar-nav {
-  padding: 0 var(--space-sm);
-}
-
-.sidebar-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar-nav ul ul {
-  padding-left: var(--space-sm);
-}
-
-.sidebar-nav li > a {
-  display: block;
-  padding: 6px 8px;
-  font-size: 0.875em;
-  color: var(--pa-text);
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-  line-height: 1.4;
-}
-
-.sidebar-nav li > a:hover {
-  background-color: var(--pa-border);
-  color: var(--pa-primary);
-}
-
-.sidebar-nav li.active > a {
-  color: var(--pa-primary);
-  font-weight: var(--font-weight-medium);
-  background-color: rgba(31, 71, 136, 0.08);
-}
-
-[data-theme="dark"] .sidebar-nav li.active > a {
-  background-color: rgba(91, 155, 245, 0.12);
-}
-
-/* Bold group headings in sidebar (Executive, Commissioner, Provider) */
-.sidebar-nav li > p,
-.sidebar-nav li > strong {
-  display: block;
-  font-size: 0.7em;
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--pa-text-muted);
-  padding: var(--space-sm) 8px 4px;
-  margin: 0;
-}
-
-/* --------------------------------------------------------------------------
-   4.3 Content Area
-   -------------------------------------------------------------------------- */
-
-/* Push content below the fixed navbar */
-.content {
-  padding-top: var(--navbar-height);
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
-  min-height: 100vh;
-  transition: margin-left 0.3s ease;
-}
-
-/* When sidebar is visible, offset content */
-body.has-sidebar .content {
-  margin-left: var(--sidebar-width);
-}
-
-/* Content max-width for readability (scoped to markdown rendered area) */
-body.has-sidebar .content .markdown-section {
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-}
-
-/* --------------------------------------------------------------------------
-   4.4 Full-Width Mode
-   -------------------------------------------------------------------------- */
-
-/* Full-width: sidebar hidden, content stretches to readable max-width */
-body.full-width .sidebar {
-  transform: translateX(-100%);
-}
-
-body.full-width .content {
-  margin-left: 0;
-}
-
-body.full-width .content .markdown-section {
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-}
-
-/* --------------------------------------------------------------------------
-   4.5 Sidebar Toggle Button (Docsify built-in)
-   -------------------------------------------------------------------------- */
-
-.sidebar-toggle {
-  position: fixed;
-  top: var(--navbar-height);
-  left: 0;
-  z-index: 950;
-  width: 44px;
-  height: 44px;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--pa-background);
-  border: 1px solid var(--pa-border);
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
-}
-
-/* --------------------------------------------------------------------------
-   4.6 Hamburger Menu Button (mobile)
-   -------------------------------------------------------------------------- */
-
-.hamburger-menu {
-  display: none;
-  width: 44px;
-  height: 44px;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-
-.hamburger-menu span {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: var(--pa-text);
-  position: relative;
-  transition: background-color 0.3s ease;
-}
-
-.hamburger-menu span::before,
-.hamburger-menu span::after {
-  content: '';
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: var(--pa-text);
-  position: absolute;
-  left: 0;
-  transition: transform 0.3s ease;
-}
-
-.hamburger-menu span::before {
-  top: -7px;
-}
-
-.hamburger-menu span::after {
-  top: 7px;
-}
-
-/* ==========================================================================
    7. RESPONSIVE — Breakpoints at 768px and 1024px
    ========================================================================== */
 
@@ -618,11 +514,11 @@ body.full-width .content .markdown-section {
    -------------------------------------------------------------------------- */
 
 @media (max-width: 1024px) {
-  body.has-sidebar .content {
+  body.has-sidebar section.content {
     margin-left: var(--sidebar-width);
   }
 
-  .content {
+  section.content {
     padding-left: var(--space-sm);
     padding-right: var(--space-sm);
   }
@@ -667,21 +563,21 @@ body.full-width .content .markdown-section {
   }
 
   /* Content never offset on mobile — sidebar overlays */
-  body.has-sidebar .content {
+  body.has-sidebar section.content {
     margin-left: 0;
   }
 
-  .content {
+  section.content {
     padding-left: var(--space-sm);
     padding-right: var(--space-sm);
   }
 
   /* Full-width layout on non-tariff sections regardless of viewport */
-  body.full-width .content {
+  body.full-width section.content {
     margin-left: 0;
   }
 
-  body.full-width .content .markdown-section {
+  body.full-width section.content .markdown-section {
     max-width: 100%;
   }
 
