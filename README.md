@@ -41,5 +41,5 @@ For enquiries about our services, subscriptions, or partnership opportunities, g
 ---
 
 <footer style="text-align:center; padding: var(--space-md) 0; font-size: 0.85em; color: var(--pa-text-muted);">
-  <a href="#/style-guide">Style Guide</a>
+  <a href="#/style-guide/">Style Guide</a>
 </footer>
