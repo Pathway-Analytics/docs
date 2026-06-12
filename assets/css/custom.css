@@ -140,37 +140,26 @@ body.sticky .app-nav {
   background-color: rgba(106, 167, 248, 0.1);
 }
 
-/* Navbar logo (rendered from _navbar.md as first li) */
-.navbar-logo-img,
-#navbar-logo-img {
-  height: 26px;
-  width: auto;
-  display: block;
-}
+/* Navbar — no logo image needed, Pathway Analytics renders as h1 in content */
 
-.app-nav li:first-child {
-  margin-right: var(--space-sm);
-}
-
-.app-nav li:first-child a {
-  padding: 4px 0;
-}
-
-/* Dark mode toggle */
+/* Dark mode toggle — fixed position top-right, independent of nav */
 .dark-mode-toggle {
+  position: fixed;
+  top: 12px;
+  right: var(--space-md);
+  z-index: 1001;
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   padding: 0;
-  background: transparent;
+  background: var(--pa-surface);
   border: 1px solid var(--pa-border);
   border-radius: 8px;
   cursor: pointer;
   color: var(--pa-text-muted);
   transition: all 0.15s;
-  flex-shrink: 0;
 }
 
 .dark-mode-toggle:hover {

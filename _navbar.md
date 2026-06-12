@@ -1,4 +1,3 @@
-- [<img src="https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png" alt="Pathway Analytics" class="navbar-logo-img" id="navbar-logo-img">](/)
 - [Home](/)
 - [Sexual Health Tariff](/sexual-health-tariff/)
 - [Health Pathways](/health-pathways/)
