@@ -76,11 +76,11 @@
   <!-- Docsify Configuration -->
   <script>
     window.$docsify = {
-      name: '<img src="https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png" alt="Pathway Analytics" style="height:36px;width:auto;">',
+      name: ' ',
       nameLink: '/',
       loadSidebar: true,
       loadNavbar: '_navbar.md',
-      mergeNavbar: true,
+      mergeNavbar: false,
       routerMode: 'hash',
       subMaxLevel: 2,
       auto2top: true,
@@ -155,13 +155,11 @@
 
       function applyTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
-        // Swap logo sources throughout the page
-        var logos = document.querySelectorAll('.app-nav img, .app-name img, .sidebar .app-name-link img');
-        logos.forEach(function (logo) {
-          if (logo.src.indexOf('pathwayanalytics.com') !== -1) {
-            logo.src = theme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
-          }
-        });
+        // Swap logo source in navbar
+        var navLogo = document.getElementById('navbar-logo-img');
+        if (navLogo) {
+          navLogo.src = theme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
+        }
         // Update toggle button
         var toggleBtn = document.getElementById('dark-mode-toggle');
         if (toggleBtn) {
@@ -173,13 +171,25 @@
       }
 
       hook.mounted(function () {
+        // Create navbar logo
+        var logoLink = document.createElement('a');
+        logoLink.href = '#/';
+        logoLink.className = 'navbar-logo';
+        var logoImg = document.createElement('img');
+        logoImg.id = 'navbar-logo-img';
+        logoImg.alt = 'Pathway Analytics';
+        logoImg.style.height = '32px';
+        logoImg.style.width = 'auto';
+        var currentTheme = getPreferredTheme();
+        logoImg.src = currentTheme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
+        logoLink.appendChild(logoImg);
+
         // Create dark mode toggle button
         var toggleBtn = document.createElement('button');
         toggleBtn.id = 'dark-mode-toggle';
         toggleBtn.className = 'dark-mode-toggle';
         toggleBtn.type = 'button';
 
-        var currentTheme = getPreferredTheme();
         toggleBtn.innerHTML = currentTheme === 'dark'
           ? '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
           : '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
@@ -192,15 +202,17 @@
           setStoredPreference(newTheme);
         });
 
-        // Insert toggle into the navbar area
+        // Insert logo and toggle into the navbar area
         var nav = document.querySelector('.app-nav');
         if (nav) {
+          nav.insertBefore(logoLink, nav.firstChild);
           nav.appendChild(toggleBtn);
         } else {
           // Retry after Docsify renders the nav
           var observer = new MutationObserver(function (mutations, obs) {
             var navEl = document.querySelector('.app-nav');
             if (navEl) {
+              navEl.insertBefore(logoLink, navEl.firstChild);
               navEl.appendChild(toggleBtn);
               obs.disconnect();
             }

@@ -92,14 +92,15 @@ main {
 }
 
 /* Docsify navbar (app-nav) rendered from _navbar.md */
-.app-nav {
+.app-nav,
+nav.app-nav {
   position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
   height: var(--navbar-height);
-  display: flex;
+  display: flex !important;
   align-items: center;
   padding: 0 var(--space-md);
   background-color: var(--pa-background);
@@ -107,6 +108,7 @@ main {
   margin: 0;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   overflow: visible;
+  list-style: none;
 }
 
 .app-nav p {
@@ -114,8 +116,10 @@ main {
 }
 
 .app-nav > ul,
-.app-nav ul {
-  list-style: none;
+.app-nav ul,
+nav.app-nav > ul,
+nav.app-nav ul {
+  list-style: none !important;
   margin: 0;
   padding: 0;
   display: flex;
@@ -123,11 +127,14 @@ main {
   gap: 4px;
 }
 
-.app-nav li {
+.app-nav li,
+nav.app-nav li {
   position: relative;
+  list-style: none !important;
 }
 
-.app-nav a {
+.app-nav a,
+nav.app-nav a {
   padding: var(--space-xs) var(--space-sm);
   min-height: 44px;
   display: inline-flex;
@@ -140,7 +147,9 @@ main {
 }
 
 .app-nav a:hover,
-.app-nav a.active {
+.app-nav a.active,
+nav.app-nav a:hover,
+nav.app-nav a.active {
   color: var(--pa-primary);
 }
 
@@ -164,16 +173,25 @@ body.has-sidebar .sidebar {
   transform: translateX(0);
 }
 
-/* Docsify sidebar name */
-.app-name-link {
-  text-decoration: none;
-  display: block;
-  padding: var(--space-xs) var(--space-sm);
+/* Docsify sidebar name — hidden (logo is in navbar now) */
+.app-name-link,
+.sidebar .app-name {
+  display: none;
 }
 
-.app-name-link img {
+/* Navbar logo */
+.navbar-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-right: var(--space-md);
+  min-height: 44px;
+  padding: 0;
+}
+
+.navbar-logo img {
   height: 32px;
   width: auto;
+  display: block;
 }
 
 /* Docsify content area */
