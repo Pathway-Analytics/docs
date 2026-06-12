@@ -107,18 +107,28 @@
         document.body.classList.toggle('has-sidebar', isTariffSection);
         document.body.classList.toggle('full-width', !isTariffSection);
 
-        // Ensure ARIA labels on sidebar toggle elements
+        // Directly control sidebar visibility
+        var sidebar = document.querySelector('.sidebar');
         var sidebarToggle = document.querySelector('.sidebar-toggle');
-        if (sidebarToggle && !sidebarToggle.getAttribute('aria-label')) {
-          sidebarToggle.setAttribute('aria-label', 'Toggle sidebar navigation');
-          sidebarToggle.setAttribute('role', 'button');
+        if (sidebar) {
+          sidebar.style.display = isTariffSection ? '' : 'none';
+          if (!sidebar.getAttribute('role')) {
+            sidebar.setAttribute('role', 'navigation');
+            sidebar.setAttribute('aria-label', 'Documentation sidebar');
+          }
+        }
+        if (sidebarToggle) {
+          sidebarToggle.style.display = isTariffSection ? '' : 'none';
+          if (!sidebarToggle.getAttribute('aria-label')) {
+            sidebarToggle.setAttribute('aria-label', 'Toggle sidebar navigation');
+            sidebarToggle.setAttribute('role', 'button');
+          }
         }
 
-        // Add ARIA landmark to sidebar navigation
-        var sidebar = document.querySelector('.sidebar');
-        if (sidebar && !sidebar.getAttribute('role')) {
-          sidebar.setAttribute('role', 'navigation');
-          sidebar.setAttribute('aria-label', 'Documentation sidebar');
+        // Also ensure content margin is removed on non-tariff pages
+        var content = document.querySelector('section.content') || document.querySelector('.content');
+        if (content) {
+          content.style.marginLeft = isTariffSection ? '' : '0';
         }
       });
     }
