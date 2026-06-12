@@ -154,7 +154,7 @@ body.sticky .app-nav {
 
 /* Dark mode toggle */
 .dark-mode-toggle {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
   width: 36px;
@@ -167,6 +167,7 @@ body.sticky .app-nav {
   cursor: pointer;
   color: var(--pa-text-muted);
   transition: all 0.15s;
+  flex-shrink: 0;
 }
 
 .dark-mode-toggle:hover {
@@ -228,12 +229,12 @@ h1.app-name,
 }
 
 .search input:focus {
-  border-color: var(--pa-primary);
-  box-shadow: 0 0 0 3px rgba(31, 71, 136, 0.08);
+  border-color: var(--pa-primary) !important;
+  box-shadow: 0 0 0 3px rgba(31, 71, 136, 0.08) !important;
 }
 
 [data-theme="dark"] .search input:focus {
-  box-shadow: 0 0 0 3px rgba(106, 167, 248, 0.12);
+  box-shadow: 0 0 0 3px rgba(106, 167, 248, 0.12) !important;
 }
 
 .search .clear-button { cursor: pointer; width: 28px; text-align: center; }
