@@ -296,10 +296,27 @@
       });
     }
 
+    // Callout Styling Plugin
+    // Adds CSS classes to blockquotes based on their label text
+    function calloutPlugin(hook) {
+      hook.doneEach(function () {
+        var blockquotes = document.querySelectorAll('.markdown-section blockquote');
+        blockquotes.forEach(function (bq) {
+          var text = bq.textContent || '';
+          if (text.match(/^\s*Important:/)) {
+            bq.classList.add('callout-important');
+          } else if (text.match(/^\s*Note:/)) {
+            bq.classList.add('callout-note');
+          }
+        });
+      });
+    }
+
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
       sidebarTogglePlugin,
       collapsibleSidebarPlugin,
+      calloutPlugin,
       darkModePlugin,
       editLinkPlugin
     ]);

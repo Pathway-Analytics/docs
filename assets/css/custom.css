@@ -571,6 +571,26 @@ body.full-width .content {
 
 .markdown-section blockquote p { margin-bottom: 0; }
 
+/* Callout: Important (red border) */
+.markdown-section blockquote.callout-important {
+  border-left-color: #e74c3c;
+  background: rgba(231, 76, 60, 0.05);
+}
+
+[data-theme="dark"] .markdown-section blockquote.callout-important {
+  background: rgba(231, 76, 60, 0.08);
+}
+
+/* Callout: Note (amber border) */
+.markdown-section blockquote.callout-note {
+  border-left-color: #f39c12;
+  background: rgba(243, 156, 18, 0.05);
+}
+
+[data-theme="dark"] .markdown-section blockquote.callout-note {
+  background: rgba(243, 156, 18, 0.08);
+}
+
 /* ==========================================================================
    7. COMPONENTS
    ========================================================================== */
