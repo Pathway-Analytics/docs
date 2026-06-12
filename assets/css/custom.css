@@ -318,6 +318,43 @@ body.full-width section.content {
   margin: 0;
 }
 
+/* Collapsible sidebar groups */
+.sidebar-nav li.collapsible > p,
+.sidebar-nav li.collapsible > strong {
+  position: relative;
+  padding-right: 24px;
+  user-select: none;
+}
+
+.sidebar-nav li.collapsible > p::after,
+.sidebar-nav li.collapsible > strong::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid var(--pa-text-muted);
+  border-bottom: 2px solid var(--pa-text-muted);
+  transform: translateY(-50%) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.sidebar-nav li.collapsible.collapsed > p::after,
+.sidebar-nav li.collapsible.collapsed > strong::after {
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.sidebar-nav li.collapsible > ul {
+  overflow: hidden;
+  max-height: 500px;
+  transition: max-height 0.3s ease;
+}
+
+.sidebar-nav li.collapsible.collapsed > ul {
+  max-height: 0;
+}
+
 /* Dark mode toggle button in navbar */
 .dark-mode-toggle {
   display: inline-flex;

@@ -230,9 +230,62 @@
       });
     }
 
+    // Collapsible Sidebar Plugin
+    // Makes sidebar section groups (Executive, Commissioner, Provider) collapsible
+    // All groups are collapsed by default; clicking a group heading toggles it
+    function collapsibleSidebarPlugin(hook, vm) {
+      hook.doneEach(function () {
+        var sidebarNav = document.querySelector('.sidebar-nav');
+        if (!sidebarNav) return;
+
+        // Find all top-level list items that contain a <strong> or <p> (group headings)
+        var topItems = sidebarNav.querySelectorAll(':scope > ul > li');
+        topItems.forEach(function (li) {
+          var heading = li.querySelector(':scope > p') || li.querySelector(':scope > strong');
+          var subList = li.querySelector(':scope > ul');
+          if (!heading || !subList) return;
+          if (li.classList.contains('collapsible-initialized')) return;
+
+          li.classList.add('collapsible-initialized');
+          li.classList.add('collapsible');
+
+          // Check if current page is within this group
+          var links = subList.querySelectorAll('a');
+          var currentPath = vm.route.path;
+          var isActiveGroup = false;
+          links.forEach(function (link) {
+            var href = link.getAttribute('href') || '';
+            if (href && currentPath.indexOf(href.replace(/^\//, '').replace(/\/$/, '')) !== -1) {
+              isActiveGroup = true;
+            }
+          });
+
+          // Collapse by default unless the active page is in this group
+          if (!isActiveGroup) {
+            li.classList.add('collapsed');
+          } else {
+            li.classList.remove('collapsed');
+          }
+
+          // Make heading clickable
+          heading.style.cursor = 'pointer';
+          heading.setAttribute('role', 'button');
+          heading.setAttribute('aria-expanded', !li.classList.contains('collapsed'));
+
+          heading.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            li.classList.toggle('collapsed');
+            heading.setAttribute('aria-expanded', !li.classList.contains('collapsed'));
+          });
+        });
+      });
+    }
+
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
       sidebarTogglePlugin,
+      collapsibleSidebarPlugin,
       darkModePlugin,
       editLinkPlugin
     ]);
