@@ -140,17 +140,20 @@ body.sticky .app-nav {
   background-color: rgba(106, 167, 248, 0.1);
 }
 
-/* Navbar logo */
-.navbar-logo {
-  display: inline-flex;
-  align-items: center;
-  margin-right: var(--space-md);
-  padding: 0;
+/* Navbar logo (rendered from _navbar.md as first li) */
+.navbar-logo-img,
+#navbar-logo-img {
+  height: 26px;
+  width: auto;
+  display: block;
 }
 
-.navbar-logo img {
-  height: 28px;
-  width: auto;
+.app-nav li:first-child {
+  margin-right: var(--space-sm);
+}
+
+.app-nav li:first-child a {
+  padding: 4px 0;
 }
 
 /* Dark mode toggle */

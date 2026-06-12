@@ -165,7 +165,7 @@
 
       function applyTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
-        // Swap logo source in navbar
+        // Swap logo source (rendered from _navbar.md)
         var navLogo = document.getElementById('navbar-logo-img');
         if (navLogo) {
           navLogo.src = theme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
@@ -181,25 +181,13 @@
       }
 
       hook.mounted(function () {
-        // Create navbar logo
-        var logoLink = document.createElement('a');
-        logoLink.href = '#/';
-        logoLink.className = 'navbar-logo';
-        var logoImg = document.createElement('img');
-        logoImg.id = 'navbar-logo-img';
-        logoImg.alt = 'Pathway Analytics';
-        logoImg.style.height = '32px';
-        logoImg.style.width = 'auto';
-        var currentTheme = getPreferredTheme();
-        logoImg.src = currentTheme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
-        logoLink.appendChild(logoImg);
-
         // Create dark mode toggle button
         var toggleBtn = document.createElement('button');
         toggleBtn.id = 'dark-mode-toggle';
         toggleBtn.className = 'dark-mode-toggle';
         toggleBtn.type = 'button';
 
+        var currentTheme = getPreferredTheme();
         toggleBtn.innerHTML = currentTheme === 'dark'
           ? '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
           : '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
@@ -212,28 +200,23 @@
           setStoredPreference(newTheme);
         });
 
-        // Insert logo and toggle into the navbar area
-        var nav = document.querySelector('.app-nav');
-        if (nav) {
-          // Insert logo before everything
-          nav.insertBefore(logoLink, nav.firstChild);
-          // Insert toggle inside the ul as last li (so flex layout works)
-          var navUl = nav.querySelector('ul');
-          if (navUl) {
-            var toggleLi = document.createElement('li');
-            toggleLi.style.marginLeft = 'auto';
-            toggleLi.appendChild(toggleBtn);
-            navUl.appendChild(toggleLi);
-          } else {
-            nav.appendChild(toggleBtn);
+        // Insert toggle as last item in the navbar ul
+        function insertToggle() {
+          var navUl = document.querySelector('.app-nav ul');
+          if (navUl && !document.getElementById('dark-mode-toggle')) {
+            var li = document.createElement('li');
+            li.style.marginLeft = 'auto';
+            li.appendChild(toggleBtn);
+            navUl.appendChild(li);
           }
-        } else {
-          // Retry after Docsify renders the nav
+        }
+
+        insertToggle();
+        // Retry if nav not ready yet
+        if (!document.querySelector('.app-nav ul')) {
           var observer = new MutationObserver(function (mutations, obs) {
-            var navEl = document.querySelector('.app-nav');
-            if (navEl) {
-              navEl.insertBefore(logoLink, navEl.firstChild);
-              navEl.appendChild(toggleBtn);
+            if (document.querySelector('.app-nav ul')) {
+              insertToggle();
               obs.disconnect();
             }
           });
