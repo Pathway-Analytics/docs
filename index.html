@@ -127,6 +127,20 @@
       // Run on every page render
       hook.doneEach(updateSidebar);
 
+      // Fix page title on route change
+      hook.doneEach(function () {
+        var path = vm.route.path || '/';
+        if (path === '/' || path === '') {
+          document.title = 'Pathway Analytics';
+        } else {
+          // Use the first h1 text if available, fallback to path
+          var h1 = document.querySelector('.markdown-section h1');
+          if (h1) {
+            document.title = h1.textContent.trim() + ' — Pathway Analytics';
+          }
+        }
+      });
+
       // Also listen to hash changes directly for immediate response
       window.addEventListener('hashchange', function () {
         setTimeout(updateSidebar, 50);

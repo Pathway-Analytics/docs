@@ -140,7 +140,13 @@ body.sticky .app-nav {
   background-color: rgba(106, 167, 248, 0.1);
 }
 
-/* Navbar — no logo image needed, Pathway Analytics renders as h1 in content */
+/* Navbar — first item styled as brand */
+.app-nav li:first-child a {
+  font-weight: var(--font-weight-bold);
+  color: var(--pa-primary);
+  font-size: 0.95em;
+  letter-spacing: -0.01em;
+}
 
 /* Dark mode toggle — fixed position top-right, independent of nav */
 .dark-mode-toggle {
