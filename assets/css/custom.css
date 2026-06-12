@@ -106,6 +106,7 @@ body.sticky .app-nav {
   display: flex !important;
   align-items: center;
   gap: 2px;
+  flex-grow: 1;
 }
 
 .app-nav li {
@@ -160,7 +161,6 @@ body.sticky .app-nav {
   width: 36px;
   height: 36px;
   padding: 0;
-  margin-left: auto;
   background: transparent;
   border: 1px solid var(--pa-border);
   border-radius: 8px;

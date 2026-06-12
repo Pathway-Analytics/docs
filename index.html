@@ -215,8 +215,18 @@
         // Insert logo and toggle into the navbar area
         var nav = document.querySelector('.app-nav');
         if (nav) {
+          // Insert logo before everything
           nav.insertBefore(logoLink, nav.firstChild);
-          nav.appendChild(toggleBtn);
+          // Insert toggle inside the ul as last li (so flex layout works)
+          var navUl = nav.querySelector('ul');
+          if (navUl) {
+            var toggleLi = document.createElement('li');
+            toggleLi.style.marginLeft = 'auto';
+            toggleLi.appendChild(toggleBtn);
+            navUl.appendChild(toggleLi);
+          } else {
+            nav.appendChild(toggleBtn);
+          }
         } else {
           // Retry after Docsify renders the nav
           var observer = new MutationObserver(function (mutations, obs) {
