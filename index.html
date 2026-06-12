@@ -77,7 +77,8 @@
   <!-- Docsify Configuration -->
   <script>
     window.$docsify = {
-      name: 'Pathway Analytics',
+      name: '<img src="https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png" alt="Pathway Analytics" style="height:36px;width:auto;">',
+      nameLink: '/',
       loadSidebar: true,
       loadNavbar: '_navbar.md',
       mergeNavbar: true,
@@ -155,10 +156,12 @@
 
       function applyTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
-        // Swap logo sources
-        var logos = document.querySelectorAll('.app-nav img, .app-name img');
+        // Swap logo sources throughout the page
+        var logos = document.querySelectorAll('.app-nav img, .app-name img, .sidebar .app-name-link img');
         logos.forEach(function (logo) {
-          logo.src = theme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
+          if (logo.src.indexOf('pathwayanalytics.com') !== -1) {
+            logo.src = theme === 'dark' ? LOGO_DARK : LOGO_LIGHT;
+          }
         });
         // Update toggle button
         var toggleBtn = document.getElementById('dark-mode-toggle');

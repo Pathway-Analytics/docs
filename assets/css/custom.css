@@ -28,6 +28,11 @@
   --pa-surface: #f8f9fa;
   --pa-border: #e9ecef;
 
+  /* Override Docsify vue.css theme colour (green → blue) */
+  --theme-color: #1f4788;
+  --docsifytabs-border-color: #e9ecef;
+  --base-background-color: #ffffff;
+
   /* Spacing (8px base) */
   --space-xs: 8px;
   --space-sm: 16px;
@@ -63,11 +68,53 @@
   --pa-background: #121212;
   --pa-surface: #1e1e1e;
   --pa-border: #444444;
+
+  /* Override Docsify vue.css theme colour for dark mode */
+  --theme-color: #5b9bf5;
+  --base-background-color: #121212;
 }
 
 /* ==========================================================================
    2. BASE / RESET
    ========================================================================== */
+
+/* --- Override Docsify vue.css theme colours (removes green) --- */
+body .sidebar,
+body .sidebar-nav,
+body .app-nav,
+body .markdown-section {
+  --theme-color: var(--pa-primary);
+}
+
+/* Override Docsify's default green for active nav links and underlines */
+.app-nav li ul,
+.app-nav a:hover,
+.app-nav li.active a,
+body .app-nav a.active,
+.sidebar-nav a:hover,
+.sidebar-nav li.active > a,
+.markdown-section a {
+  color: var(--pa-primary) !important;
+  border-color: var(--pa-primary) !important;
+}
+
+/* Override Docsify active indicator (the green underline/border) */
+.app-nav li::after {
+  background-color: var(--pa-primary) !important;
+}
+
+/* Override Docsify sidebar active indicator */
+.sidebar-nav li.active > a {
+  border-right-color: var(--pa-primary) !important;
+}
+
+/* Override Docsify heading link colours */
+.markdown-section h1 a,
+.markdown-section h2 a,
+.markdown-section h3 a,
+.markdown-section h4 a {
+  color: inherit !important;
+}
 
 /* font-display: swap via Google Fonts URL parameter (loaded in index.html).
    This @font-face declaration ensures swap behaviour if fonts are self-hosted
@@ -238,7 +285,7 @@ a:hover {
 
 /* Fixed-position navbar, always visible on scroll */
 .app-nav {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
@@ -249,6 +296,8 @@ a:hover {
   padding: 0 var(--space-md);
   background-color: var(--pa-background);
   border-bottom: 1px solid var(--pa-border);
+  margin: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
 .app-nav a {
