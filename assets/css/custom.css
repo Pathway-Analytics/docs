@@ -1,400 +1,904 @@
-/* Custom styles for the documentation site */
+/* ==========================================================================
+   Pathway Analytics Documentation Site — Custom Theme
+   ==========================================================================
+   Structured in sections:
+   1. CSS Custom Properties (colours, spacing, typography, layout, dark mode)
+   2. Base / Reset (font stack, line-height, body styles, font-display)
+   3. Spacing Utility Classes (8px increment scale)
+   4. Layout (navbar, sidebar, content area, full-width mode)
+   5. Typography (headings, body text, lists, code blocks)
+   6. Components (navigation cards, buttons, image captions, blockquotes, edit links)
+   7. Responsive (breakpoints at 768px and 1024px)
+   8. Accessibility (focus indicators, skip link, reduced motion, CLS prevention)
+   ========================================================================== */
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* ==========================================================================
+   1. CSS CUSTOM PROPERTIES
+   ========================================================================== */
 
-/* Root variables for light mode */
 :root {
-    --primary-color: #1f4788; /* Primary blue */
-    --primary-hover-color: #0056b3; /* Darker blue for hover */
-    --secondary-color: #f8f9 fa; /* Light gray */
-    --secondary-hover-color: #e9ecef; /* Lighter gray for hover */
-    --text-color: #333; /* Standard text color */
-    --background-color: #ffffff; /* White background */
-    --border-color: #e9ecef; /* Subtle border */
-    --navbar-background: #dee1e3; /* Navbar background */
-    --highlight-color: rgba(0, 123, 255, 0.5); /* Subtle blue glow */
+  /* Colours */
+  --pa-primary: #1f4788;
+  --pa-primary-hover: #0056b3;
+  --pa-accent-1: #2e86de;
+  --pa-accent-2: #27ae60;
+  --pa-text: #333333;
+  --pa-text-muted: #636b75;
+  --pa-background: #ffffff;
+  --pa-surface: #f8f9fa;
+  --pa-border: #e9ecef;
+
+  /* Spacing (8px base) */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+
+  /* Typography */
+  --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-base: 16px;
+  --line-height: 1.7;
+  --heading-h1: 2.25em;
+  --heading-h2: 1.625em;
+  --heading-h3: 1.3em;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Layout */
+  --content-max-width: 80ch;
+  --sidebar-width: 280px;
+  --navbar-height: 60px;
 }
 
-/* Variables for dark mode */
-.dark-mode {
-    --primary-color: #1a73e8; /* Lighter blue for dark mode */
-    --primary-hover-color: #135ba1; /* Darker blue for hover in dark mode */
-    --secondary-color: #2c2c2c; /* Dark gray background */
-    --secondary-hover-color: #3a3a3a; /* Slightly lighter gray for hover */
-    --text-color: #f1f1f1; /* Light text color */
-    --background-color: #121212; /* Dark background */
-    --border-color: #444; /* Subtle border for dark mode */
-    --navbar-background: #1f1f1f; /* Darker navbar background */
-    --highlight-color: rgba(26, 115, 232, 0.5); /* Subtle blue glow for dark mode */
+/* Dark mode overrides */
+[data-theme="dark"] {
+  --pa-primary: #5b9bf5;
+  --pa-primary-hover: #7db4f8;
+  --pa-accent-1: #64b5f6;
+  --pa-accent-2: #81c784;
+  --pa-text: #f1f1f1;
+  --pa-text-muted: #adb5bd;
+  --pa-background: #121212;
+  --pa-surface: #1e1e1e;
+  --pa-border: #444444;
 }
 
-/* General body styles */
+/* ==========================================================================
+   2. BASE / RESET
+   ========================================================================== */
+
+/* font-display: swap via Google Fonts URL parameter (loaded in index.html).
+   This @font-face declaration ensures swap behaviour if fonts are self-hosted
+   or as a fallback guarantee. */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold');
+}
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol,
+figure,
+blockquote {
+  margin: 0;
+}
+
+/* Base body styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: var(--background-color);
-    color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height);
+  color: var(--pa-text);
+  background-color: var(--pa-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-/* Header styles */
-header {
-    position: fixed;
-    background: var(--primary-color);
-    padding: 0px;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-    /* text-align: center; */
+/* Content max-width for body text readability */
+.markdown-section {
+  max-width: var(--content-max-width);
 }
 
-header img {
-    max-width: 150px;
+/* Ensure images are responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Ensure the navbar is fixed at the top */
-.navbar-fixed {
-    position: relative;
-    top: -25px;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: var(--navbar-background); /* Adjust to your theme */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Remove list styles on ul/ol with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
 }
 
-/* Navbar styles */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+/* Anchor base styles */
+a {
+  color: var(--pa-primary);
+  text-decoration: none;
 }
 
-.navbar-left .logo {
-    resize: contain;
-    display: flex
+a:hover {
+  color: var(--pa-primary-hover);
 }
 
-.navbar-center ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+/* ==========================================================================
+   3. SPACING UTILITY CLASSES
+   ========================================================================== */
+
+/* Margin utilities */
+.m-xs  { margin: var(--space-xs); }
+.m-sm  { margin: var(--space-sm); }
+.m-md  { margin: var(--space-md); }
+.m-lg  { margin: var(--space-lg); }
+.m-xl  { margin: var(--space-xl); }
+
+.mt-xs { margin-top: var(--space-xs); }
+.mt-sm { margin-top: var(--space-sm); }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mt-xl { margin-top: var(--space-xl); }
+
+.mb-xs { margin-bottom: var(--space-xs); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+.mb-xl { margin-bottom: var(--space-xl); }
+
+.ml-xs { margin-left: var(--space-xs); }
+.ml-sm { margin-left: var(--space-sm); }
+.ml-md { margin-left: var(--space-md); }
+.ml-lg { margin-left: var(--space-lg); }
+.ml-xl { margin-left: var(--space-xl); }
+
+.mr-xs { margin-right: var(--space-xs); }
+.mr-sm { margin-right: var(--space-sm); }
+.mr-md { margin-right: var(--space-md); }
+.mr-lg { margin-right: var(--space-lg); }
+.mr-xl { margin-right: var(--space-xl); }
+
+/* Padding utilities */
+.p-xs  { padding: var(--space-xs); }
+.p-sm  { padding: var(--space-sm); }
+.p-md  { padding: var(--space-md); }
+.p-lg  { padding: var(--space-lg); }
+.p-xl  { padding: var(--space-xl); }
+
+.pt-xs { padding-top: var(--space-xs); }
+.pt-sm { padding-top: var(--space-sm); }
+.pt-md { padding-top: var(--space-md); }
+.pt-lg { padding-top: var(--space-lg); }
+.pt-xl { padding-top: var(--space-xl); }
+
+.pb-xs { padding-bottom: var(--space-xs); }
+.pb-sm { padding-bottom: var(--space-sm); }
+.pb-md { padding-bottom: var(--space-md); }
+.pb-lg { padding-bottom: var(--space-lg); }
+.pb-xl { padding-bottom: var(--space-xl); }
+
+.pl-xs { padding-left: var(--space-xs); }
+.pl-sm { padding-left: var(--space-sm); }
+.pl-md { padding-left: var(--space-md); }
+.pl-lg { padding-left: var(--space-lg); }
+.pl-xl { padding-left: var(--space-xl); }
+
+.pr-xs { padding-right: var(--space-xs); }
+.pr-sm { padding-right: var(--space-sm); }
+.pr-md { padding-right: var(--space-md); }
+.pr-lg { padding-right: var(--space-lg); }
+.pr-xl { padding-right: var(--space-xl); }
+
+/* Named spacing classes (semantic alternatives) */
+.space-xs { gap: var(--space-xs); }
+.space-sm { gap: var(--space-sm); }
+.space-md { gap: var(--space-md); }
+.space-lg { gap: var(--space-lg); }
+.space-xl { gap: var(--space-xl); }
+
+/* ==========================================================================
+   4. LAYOUT — Navbar, Sidebar, Content Area, Full-Width Mode
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   4.1 Navbar
+   -------------------------------------------------------------------------- */
+
+/* Fixed-position navbar, always visible on scroll */
+.app-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-md);
+  background-color: var(--pa-background);
+  border-bottom: 1px solid var(--pa-border);
 }
 
-.navbar-center ul li {
-    display: inline;
+.app-nav a {
+  padding: var(--space-xs) var(--space-sm);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.navbar-center ul li a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-}
+/* --------------------------------------------------------------------------
+   4.2 Sidebar
+   -------------------------------------------------------------------------- */
 
-.navbar-center ul li a:hover {
-    background-color: var(--primary-hover-color);
-    color: #ffffff;
-}
-
-.navbar-right .hamburger-menu {
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-}
-
-/* Sidebar styles */
+/* Sidebar — hidden by default, visible only when body.has-sidebar */
 .sidebar {
-    position: fixed; /* Fix the sidebar to the viewport */
-    top: 60px; /* Align the sidebar directly under the navbar (adjust to match navbar height) */
-    left: 0;
-    width: 250px; /* Set the width of the sidebar */
-    padding: 10px;
-    margin-top: 60px; /* Push the sidebar below the fixed navbar */
-    margin-left: 25px;
-    background-color: var(--secondary-color); /* Adjust to your theme */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Allow scrolling if content overflows */
-    height: calc(100vh - 60px); /* Full height minus the navbar height */
-    /* z-index: 999; /* Ensure the sidebar appears above other elements */
-    /* display: block; Show the sidebar by default */
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  overflow-y: auto;
+  background-color: var(--pa-surface);
+  border-right: 1px solid var(--pa-border);
+  padding: var(--space-md) var(--space-sm);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 900;
 }
 
-.sidebar a {
-    color: var(--primary-color);
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
+/* Show sidebar only when body has the has-sidebar class */
+body.has-sidebar .sidebar {
+  transform: translateX(0);
 }
 
-.sidebar a:hover {
-    /* background: var(--secondary-hover-color); */
-    /* color: var(--primary-hover-color); */
+/* Sidebar links — accessible touch targets */
+.sidebar a,
+.sidebar li {
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
 }
 
-/* Active sidebar item */
-.sidebar ul li.active {
-    background-color: var(--secondary-hover-color);
-}
+/* --------------------------------------------------------------------------
+   4.3 Content Area
+   -------------------------------------------------------------------------- */
 
-.sidebar ul li.active a {
-    color: var(--primary-hover-color);
-    font-weight: bold;
-}
-
-/* Sidebar toggle button styles */
-.sidebar-toggle {
-    position: absolute; /* Position the button at the top of the sidebar */
-    top: 0;
-    left: 0;
-    width: 10px; /* Ensure the button spans the width of the sidebar */
-    padding: 20px;
-    color: var(--primary-color); 
-    color: white;
-    border: none;
-    text-align: left;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 0;
-    z-index:999;
-    height: calc(100vh - 60px); /* Full height minus the navbar height */
-    /* transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
-    /* transform: translateX(0); /* Default position (visible) */
-}
-
-.sidebar-toggle span{
-    display: block;
-    background-color: var(--primary-color);
-    transition: all 0.3s ease;
-}
-
-/* Hide the sidebar when toggled off */
-.sidebar.hidden {
-    transform: translateX(-100%); /* Move the sidebar completely off-screen */
-    transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
-}
-
-/* When the sidebar is hidden, reset the content margin */
-.sidebar.hidden ~ .content {
-    margin-left: 0;
-}
-
-/* Search input in the sidebar */
-.sidebar input[type="search"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    font-size: 14px;
-    outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.sidebar input[type="search"]:focus {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 5px var(--highlight-color);
-}
-
-.sidebar .search-results li {
-    margin-bottom: 10px;
-}
-
-.sidebar .search-results li a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 14px;
-    display: block;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.sidebar .search-results li a:hover {
-    background-color: var(--secondary-hover-color);
-    color: var(--primary-hover-color);
-}
-
-
-/* Fix for empty app-name-link */
-.app-name-link {
-    display: none; /* Hide the empty link */
-}
-
-/* Ensure the toggle button stays at the top of the sidebar */
-/* .sidebar {
-/*    position: relative;
-/*    margin-top: 60px; /* Push the sidebar below the fixed navbar */
-/*    padding: 0; /* Remove padding to align the toggle button */
-/*    background-color: var(--secondary-color); /* Adjust to your theme */
-/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-/*    overflow-y: auto; /* Allow scrolling if content overflows */
-/*    height: calc(100vh - 60px); /* Full height minus navbar */
-/*} */
-
-.sidebar>h1 a {
-    display: none; /* hide app name in sidebar */
-}
-
-.app-sub-sidebar li:before {
-    content: ""; /* remove dash */
-    padding-right: 0px;
-
-}
-
-/* Search input styles */
-input[type="search"]:focus {
-    outline: none;
-    border: 2px solid var(--primary-color);
-    box-shadow: 0 0 5px var(--highlight-color);
-}
-search .input-wrap{
-    margin-top: 50px;
-}
-
-/* Button styles */
-.btn-github {
-    display: inline-block;
-    background-color: var(--primary-hover-color);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 20px 0;
-    transition: background-color 0.3s;
-}
-
-img[alt="Edit on GitHub"] {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle; /* Aligns the icon with text */
-}
-
-.btn-github:hover {
-    background-color: #003d80; /* Darker blue on hover */
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: var(--primary-color);
-    color: white;
-}
-
-/* Blockquote styles */
-.markdown-section blockquote {
-    border-left: 4px solid var(--primary-hover-color);
-    background-color: var(--secondary-color);
-    padding: 10px 15px;
-    color: var(--text-color);
-    font-style: italic;
-}
-
-/* Links in markdown section */
-.markdown-section a {
-    color: var(--primary-color);
-    text-decoration: underline; /* Use underline instead of border-bottom */
-    text-decoration-color: transparent; /* Hide underline by default */
-    text-underline-offset: 2px; /* Adjust offset to make it closer to the text */
-    transition: color 0.3s, text-decoration-color 0.3s;
-}
-
-.markdown-section a:hover {
-    color: var(--primary-hover-color);
-    text-decoration-color: var(--primary-hover-color); /* Show underline on hover */
-}
-
-/* Title hover underline */
-.markdown-section h1:hover,
-.markdown-section h2:hover,
-.markdown-section h3:hover,
-.markdown-section h4:hover,
-.markdown-section h5:hover,
-.markdown-section h6:hover {
-    color: var(--primary-hover-color);
-    text-decoration: underline;
-    text-decoration-color: var(--primary-hover-color);
-    text-underline-offset: 2px;
-}
-
-/* Main content styles */
+/* Push content below the fixed navbar */
 .content {
-    margin-top: 60px; /* Push the content below the fixed navbar */
-    padding: 20px;
-    transition: margin-left 0.3s ease; /* Smooth transition for content adjustment */
+  padding-top: var(--navbar-height);
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
 }
 
-/* Responsive styles */
+/* When sidebar is visible, offset content */
+body.has-sidebar .content {
+  margin-left: var(--sidebar-width);
+}
+
+/* Content max-width for readability (scoped to markdown rendered area) */
+body.has-sidebar .content .markdown-section {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------
+   4.4 Full-Width Mode
+   -------------------------------------------------------------------------- */
+
+/* Full-width: sidebar hidden, content stretches to readable max-width */
+body.full-width .sidebar {
+  transform: translateX(-100%);
+}
+
+body.full-width .content {
+  margin-left: 0;
+}
+
+body.full-width .content .markdown-section {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------------
+   4.5 Sidebar Toggle Button (Docsify built-in)
+   -------------------------------------------------------------------------- */
+
+.sidebar-toggle {
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  z-index: 950;
+  width: 44px;
+  height: 44px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pa-background);
+  border: 1px solid var(--pa-border);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------
+   4.6 Hamburger Menu Button (mobile)
+   -------------------------------------------------------------------------- */
+
+.hamburger-menu {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--pa-text);
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.hamburger-menu span::before,
+.hamburger-menu span::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--pa-text);
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.hamburger-menu span::before {
+  top: -7px;
+}
+
+.hamburger-menu span::after {
+  top: 7px;
+}
+
+/* ==========================================================================
+   7. RESPONSIVE — Breakpoints at 768px and 1024px
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   7.1 Tablet and below (max-width: 1024px)
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+  body.has-sidebar .content {
+    margin-left: var(--sidebar-width);
+  }
+
+  .content {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   7.2 Mobile (max-width: 768px)
+   -------------------------------------------------------------------------- */
+
 @media (max-width: 768px) {
-    /* sidebar button  width set to 30px */
-    button.sidebar-toggle {
-        z-index: 0;
-        width: 25px; 
-    }
-    .sidebar {
-        width: 200px; /* Sidebar takes up the full width of the screen */
-        transform: translateX(-250px); /* Hide the sidebar by default */
-        transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
-    }
+  /* Navbar adjustments */
+  .app-nav {
+    padding: 0 var(--space-sm);
+  }
 
-    .sidebar.hidden {
-        transform: translateX(-250px); /* Keep the sidebar hidden */
-    }
+  /* Show hamburger menu button */
+  .hamburger-menu {
+    display: flex;
+  }
 
-    .content {
-        margin-left: 0; /* Ensure content takes up the full width */
-    }
+  /* Show sidebar toggle button on tariff pages */
+  body.has-sidebar .sidebar-toggle {
+    display: flex;
+  }
 
-    .sidebar-toggle {
-        position: fixed; /* Keep the toggle button fixed */
-        width: 20px;
-        top: 60px; /* Align it with the navbar */
-        left: 10px; /* Slightly offset from the left */
-        z-index: 1000; /* Ensure it appears above other elements */
-    }
+  /* Off-canvas sidebar: slides in from left */
+  .sidebar {
+    width: var(--sidebar-width);
+    transform: translateX(-100%);
+    box-shadow: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-    body.close .sidebar {
-        transform: translateX(30px);
-        width: fit-content;
-    }
+  /* Sidebar open state (toggled via JS) */
+  body.has-sidebar .sidebar {
+    transform: translateX(-100%);
+  }
 
-    header, footer {
-        padding: 15px;
-    }
+  body.has-sidebar.sidebar-open .sidebar {
+    transform: translateX(0);
+    box-shadow: 4px 0 16px rgba(0, 0, 0, 0.15);
+  }
 
-    .btn-github {
-        width: 100%;
-    }
+  /* Content never offset on mobile — sidebar overlays */
+  body.has-sidebar .content {
+    margin-left: 0;
+  }
 
-    .navbar-menu {
-        display: none; /* Hide menu by default */
-        flex-direction: column;
-        background-color: var(--secondary-color);
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 10px 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+  .content {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
 
-    .navbar-menu.active {
-        display: flex; /* Show menu when active */
-    }
+  /* Full-width layout on non-tariff sections regardless of viewport */
+  body.full-width .content {
+    margin-left: 0;
+  }
 
-    .hamburger-menu {
-        display: block; /* Show hamburger menu in responsive mode */
-    }
+  body.full-width .content .markdown-section {
+    max-width: 100%;
+  }
+
+  /* Touch targets — ensure minimum 44x44px for all interactive elements */
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  [role="button"],
+  .sidebar-toggle,
+  .hamburger-menu {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Navigation links need adequate tap targets */
+  .app-nav a {
+    min-height: 44px;
+    min-width: 44px;
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  .sidebar a,
+  .sidebar li {
+    min-height: 44px;
+    padding: var(--space-xs) var(--space-sm);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   7.3 Sidebar overlay backdrop (mobile)
+   -------------------------------------------------------------------------- */
+
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 850;
+}
+
+body.has-sidebar.sidebar-open .sidebar-overlay {
+  display: block;
+}
+
+/* ==========================================================================
+   5. TYPOGRAPHY
+   ========================================================================== */
+
+/* Heading hierarchy */
+h1,
+.markdown-section h1 {
+  font-size: var(--heading-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--pa-text);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  line-height: 1.2;
+}
+
+h2,
+.markdown-section h2 {
+  font-size: var(--heading-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--pa-text);
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  line-height: 1.3;
+}
+
+h3,
+.markdown-section h3 {
+  font-size: var(--heading-h3);
+  font-weight: var(--font-weight-medium);
+  color: var(--pa-text);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+  line-height: 1.4;
+}
+
+h4,
+.markdown-section h4 {
+  font-size: 1.1em;
+  font-weight: var(--font-weight-medium);
+  color: var(--pa-text);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+  line-height: 1.4;
+}
+
+/* First heading on a page should not have excessive top margin */
+.markdown-section h1:first-child {
+  margin-top: 0;
+}
+
+/* Body text spacing */
+.markdown-section p {
+  margin-bottom: var(--space-sm);
+  line-height: var(--line-height);
+}
+
+/* Lists */
+.markdown-section ul,
+.markdown-section ol {
+  margin-bottom: var(--space-sm);
+  padding-left: var(--space-md);
+}
+
+.markdown-section li {
+  margin-bottom: var(--space-xs);
+  line-height: var(--line-height);
+}
+
+/* Code blocks */
+.markdown-section code {
+  font-size: 0.875em;
+  padding: 2px 6px;
+  background-color: var(--pa-surface);
+  border-radius: 3px;
+  border: 1px solid var(--pa-border);
+}
+
+.markdown-section pre {
+  margin-bottom: var(--space-sm);
+  padding: var(--space-sm);
+  background-color: var(--pa-surface);
+  border-radius: 4px;
+  border: 1px solid var(--pa-border);
+  overflow-x: auto;
+}
+
+.markdown-section pre code {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+/* ==========================================================================
+   6. COMPONENTS
+   ========================================================================== */
+
+/* ---------- Navigation Cards ---------- */
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.nav-card {
+  border: 1px solid var(--pa-border);
+  border-radius: 6px;
+  padding: var(--space-md);
+  background-color: var(--pa-surface);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.nav-card:hover {
+  border-color: var(--pa-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.nav-card h3,
+.nav-card-title {
+  font-size: 1.15em;
+  font-weight: var(--font-weight-bold);
+  color: var(--pa-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.nav-card p,
+.nav-card-description {
+  font-size: 0.9em;
+  color: var(--pa-text-muted);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+/* ---------- Buttons / CTAs ---------- */
+.btn,
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  color: #ffffff;
+  background-color: var(--pa-primary);
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  line-height: 1.4;
+}
+
+.btn:hover,
+.cta-button:hover {
+  background-color: var(--pa-primary-hover);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--pa-primary);
+  border: 2px solid var(--pa-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--pa-primary);
+  color: #ffffff;
+}
+
+/* Dark mode button text — ensure contrast with lighter primary background */
+[data-theme="dark"] .btn,
+[data-theme="dark"] .cta-button {
+  color: #121212;
+}
+
+[data-theme="dark"] .btn:hover,
+[data-theme="dark"] .cta-button:hover {
+  color: #121212;
+}
+
+[data-theme="dark"] .btn-secondary {
+  color: var(--pa-primary);
+  background-color: transparent;
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+  background-color: var(--pa-primary);
+  color: #121212;
+}
+
+/* ---------- Image Captions ---------- */
+.markdown-section figure {
+  margin: var(--space-sm) 0 var(--space-md);
+  text-align: center;
+}
+
+.markdown-section figcaption,
+.image-caption {
+  font-size: 0.85em;
+  color: var(--pa-text-muted);
+  text-align: center;
+  margin-top: var(--space-xs);
+  line-height: 1.5;
+}
+
+/* ---------- Blockquotes ---------- */
+.markdown-section blockquote {
+  border-left: 4px solid var(--pa-accent-1);
+  background-color: var(--pa-surface);
+  padding: var(--space-sm) var(--space-md);
+  margin: var(--space-sm) 0;
+  font-style: italic;
+  color: var(--pa-text);
+  border-radius: 0 4px 4px 0;
+}
+
+.markdown-section blockquote p {
+  margin-bottom: 0;
+}
+
+/* ---------- Edit Link ---------- */
+.edit-link {
+  text-align: right;
+  margin-top: var(--space-xl);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--pa-border);
+}
+
+.edit-link a {
+  font-size: 0.8em;
+  color: var(--pa-text-muted);
+  opacity: 0.6;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.edit-link a:hover {
+  opacity: 1.0;
+  color: var(--pa-primary);
+}
+
+.edit-link a svg {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+/* ---------- GitHub Corner Widget ---------- */
+.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.github-corner a {
+  display: block;
+}
+
+.github-corner svg {
+  fill: var(--pa-primary);
+  color: var(--pa-background);
+  width: 72px;
+  height: 72px;
+  transition: fill 0.3s ease;
+}
+
+.github-corner:hover svg {
+  fill: var(--pa-primary-hover);
+}
+
+.github-corner .octo-arm {
+  transform-origin: 130px 106px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%, 100% { transform: rotate(0); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+@media (max-width: 768px) {
+  .github-corner svg {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/* ==========================================================================
+   8. ACCESSIBILITY
+   ========================================================================== */
+
+/* ---------- Focus Indicators ---------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--pa-primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Ensure focus indicator contrast in dark mode */
+[data-theme="dark"] a:focus-visible,
+[data-theme="dark"] button:focus-visible,
+[data-theme="dark"] input:focus-visible,
+[data-theme="dark"] select:focus-visible,
+[data-theme="dark"] textarea:focus-visible,
+[data-theme="dark"] [tabindex]:focus-visible {
+  outline-color: var(--pa-accent-1);
+}
+
+/* ---------- Skip Link ---------- */
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+  font-size: 0.9em;
+  font-weight: var(--font-weight-medium);
+  color: #ffffff;
+  background-color: var(--pa-primary);
+  padding: var(--space-xs) var(--space-sm);
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.skip-link:focus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  z-index: 9999;
+  outline: 3px solid var(--pa-primary);
+  outline-offset: 2px;
+}
+
+/* ---------- Reduced Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- CLS Prevention ---------- */
+/* Reserve space for dynamically loaded elements to prevent layout shift */
+body {
+  min-height: 100vh;
+}
+
+.app-nav {
+  min-height: var(--navbar-height);
+}
+
+body.has-sidebar .sidebar {
+  min-width: var(--sidebar-width);
+  width: var(--sidebar-width);
 }

@@ -21,7 +21,7 @@ The Tariff Grouper Process is designed to ensure that all stakeholders understan
    - Once approved, implement the tariff configuration. Ensure that all participating providers are informed and have access to the necessary resources.
 
 5. **Training and Support**: 
-   - Provide training sessions for users on how to utilize the Tariff Grouper effectively. Offer ongoing support for any questions or issues that arise.
+   - Provide training sessions for users on how to utilise the Tariff Grouper effectively. Offer ongoing support for any questions or issues that arise.
 
 6. **Monitoring and Evaluation**: 
    - Continuously monitor the performance of the tariff configuration. Evaluate its effectiveness and make adjustments as needed.
@@ -30,7 +30,5 @@ The Tariff Grouper Process is designed to ensure that all stakeholders understan
 
 For more information on the Tariff Grouper and related processes, please refer to the following documents:
 
-- [Tariff Grouper](Tariff-Grouper)
-- [Tariff Configurations](Tariff-Configurations)
-
-[![Edit on GitHub](../assets/images/github/github-mark.png)](https://github.com/Pathway-Analytics/docs/edit/main/docs/tariff-grouper-process.md) - Your contributions are welcome!
+- [Tariff Configurations](/sexual-health-tariff/configurations)
+- [Commissioner Guidance](/sexual-health-tariff/commissioner-guidance)
