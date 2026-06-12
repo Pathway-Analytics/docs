@@ -70,7 +70,7 @@ The name may represent a meaningful clinical activity that collectively describe
 
 The name of a currency in one tariff configuration may also be used in another tariff configuration — there is no guarantee that the currencies will share any other similarities.
 
-> :warning: A currency will only ever be charged once in any episode.
+> **Note:** A currency will only ever be charged once in any episode.
 
 ### Primary Tariff Rate
 
@@ -133,13 +133,13 @@ Some currencies are not designed to be used together or there are other reasons 
 
 An episode is a collection of activity data that shares a common Patient ID, Attendance date, Clinic ID (or equivalent) within a month of submission for a provider organisation.
 
-> :triangular_flag_on_post: An STI test may be conducted on 28 Apr, the results may arrive back from the lab on 5 May and the patient may be seen for treatment on 8 May. All this activity will automatically be recorded as being on the 28 Apr; the diagnosis is associated with the test record and the intervention currency for the treatment is invariably triggered by the diagnosis code. So, all three activities are considered part of a single episode for tariff purposes.
+> **Important:** An STI test may be conducted on 28 Apr, the results may arrive back from the lab on 5 May and the patient may be seen for treatment on 8 May. All this activity will automatically be recorded as being on the 28 Apr; the diagnosis is associated with the test record and the intervention currency for the treatment is invariably triggered by the diagnosis code. So, all three activities are considered part of a single episode for tariff purposes.
 >
 > If the same patient was diagnosed with warts when they received their treatment for the STI test on 28 Apr, then the warts diagnosis would be entered as the 5 May and this would be the start of a new episode.
 
-> :triangular_flag_on_post: The diagnosis is not known until after the month end, so the submission cannot be made until the test results for all the month's tests have been returned from the lab.
+> **Important:** The diagnosis is not known until after the month end, so the submission cannot be made until the test results for all the month's tests have been returned from the lab.
 
-> :triangular_flag_on_post: The intervention currency is triggered on the diagnosis even if the patient does not attend for treatment, or if they attend at another clinic for the treatment initiated by this diagnosis — this may indeed raise a double charge for treatment.
+> **Important:** The intervention currency is triggered on the diagnosis even if the patient does not attend for treatment, or if they attend at another clinic for the treatment initiated by this diagnosis — this may indeed raise a double charge for treatment.
 
 ### Local Codes
 
