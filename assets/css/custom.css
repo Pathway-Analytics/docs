@@ -243,6 +243,18 @@ h1.app-name {
 .search p.empty { text-align: center; color: var(--pa-text-muted); font-size: 0.85em; }
 .search h2 { font-size: 0.85em; margin: 10px 0 4px; color: var(--pa-text-muted); }
 
+/* Search highlight in content */
+.search-highlight {
+  background-color: rgba(46, 134, 222, 0.25);
+  color: inherit;
+  padding: 1px 3px;
+  border-radius: 3px;
+}
+
+[data-theme="dark"] .search-highlight {
+  background-color: rgba(106, 173, 255, 0.25);
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   padding: var(--space-xs) var(--space-sm);

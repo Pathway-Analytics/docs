@@ -311,11 +311,54 @@
       });
     }
 
+    // Search Highlight Plugin
+    // Highlights matching text in the document after navigating from search results
+    function searchHighlightPlugin(hook, vm) {
+      hook.doneEach(function () {
+        // Remove previous highlights
+        document.querySelectorAll('.search-highlight').forEach(function (el) {
+          var parent = el.parentNode;
+          parent.replaceChild(document.createTextNode(el.textContent), el);
+          parent.normalize();
+        });
+
+        // Get search query from the search input
+        var searchInput = document.querySelector('.search input');
+        if (!searchInput) return;
+        var query = searchInput.value.trim();
+        if (!query || query.length < 2) return;
+
+        // Highlight matches in the content area
+        var content = document.querySelector('.markdown-section');
+        if (!content) return;
+
+        var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, null, false);
+        var nodesToHighlight = [];
+        var regex = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+
+        while (walker.nextNode()) {
+          var node = walker.currentNode;
+          if (node.parentElement.closest('script, style, .search-highlight')) continue;
+          if (regex.test(node.textContent)) {
+            nodesToHighlight.push(node);
+          }
+          regex.lastIndex = 0;
+        }
+
+        nodesToHighlight.forEach(function (textNode) {
+          var span = document.createElement('span');
+          span.innerHTML = textNode.textContent.replace(regex, '<mark class="search-highlight">$1</mark>');
+          textNode.parentNode.replaceChild(span, textNode);
+        });
+      });
+    }
+
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
       sidebarTogglePlugin,
       collapsibleSidebarPlugin,
       calloutPlugin,
+      searchHighlightPlugin,
       darkModePlugin,
       editLinkPlugin
     ]);
