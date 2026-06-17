@@ -15,7 +15,7 @@ The Status can be:
 - `Live`: The tariff arrangement is being used for charging purposes.
 - `Shadow`: The tariff arrangement is being used for testing or trial purposes.
 - `Draft`: The tariff arrangement is not currently being used.
-
+- `Archive`: The tariff arrangement was live but is now out of date.
 There is no difference in how we handle `Live` and `Shadow` tariffs.
 
 ### Days to Submit
@@ -34,11 +34,11 @@ The Owner is the Lead Commissioner who is responsible for communicating any chan
 
 The tariff configuration will be applied to participating providers who submit data for months between the configuration From / To dates.
 
-A tariff configuration can have any number of providers associated with it.
+A tariff configuration can have any number of participating providers.
 
 A provider can only participate in one tariff configuration for any one particular date.
 
-Where a healthcare provider participates in more than one tariff arrangement, then we may create separate quasi organisations to represent each arrangement they are participating in.
+Where a healthcare provider participates in more than one tariff arrangement, we may create separate quasi organisations to represent each arrangement they are participating in.  In these cases, the provider will need to split and submit their data accordingly.  For example different clinics may be hosted by different commissioners and under different contracts.
 
 ### Market Forces Factor
 
@@ -46,19 +46,15 @@ A provider may be set to have a factor applied to all the tariff rates published
 
 This allows a common tariff configuration to be shared amongst participating providers where each provider has a different factor.
 
-This factor can include an allowance for any sort of general price adjustment such as Agenda for Change or similar allowances.
-
-A Market Forces Factor will not be applied where a tariff configuration is using Geo-Weightings.
+This factor can include an allowance for any sort of general price adjustment such as Agenda for Change or perhaps a difference in geographic weighting.
 
 ## Participating Commissioners
 
-These are Local Authority Districts that either accommodate a clinic of one of the participating providers or share a common interest in the commissioning arrangement.
+These are Local Authority Districts that either host a clinic of one of the participating providers or share a common interest in the local commissioning arrangement such as residents have an affinity with a participating provider's hosted clinic.
 
 ### Geo-Weighting
 
-Instead of a Market Forces Factor being applied to a provider, clinics within a Local Authority District may have a Geo-Weighting applied to them. This approach allows for clinics sited in one district to have a factor that is different to clinics sited in another district.
-
-A Geo-Weighting will not be applied where a tariff configuration is using Market Forces Factors.
+Similar to a Market Forces Factor being applied to a provider, clinics within a Local Authority District of a participating commissioner may have a Geo-Weighting applied to them. This approach allows for clinics sited in one district may have a factor that is different to clinics sited in another district.
 
 ## Currencies
 
@@ -78,6 +74,8 @@ The most expensive currency in any episode will always be charged at the Primary
 
 The actual rate charged will be the Primary Tariff Rate with either the provider's Market Forces Factor applied or the Commissioner's Geo-Weighting for the clinic delivering the care.
 
+> **Note:** Primary tariff rate will only ever be charged once in any episode and will always be used by the most expensive currency in the episode.
+
 ### Additional Tariff Rate
 
 Any currency not the most expensive currency charged in an episode will be charged at the Additional Tariff Rate. The Additional Tariff Rate represents the marginal price of delivering the care represented by the currency — that is, it does not double charge for activity that is likely to be duplicated between pathways.
@@ -86,14 +84,23 @@ Occasionally, the Primary and Additional Tariff rates may be the same; this is u
 
 The actual rate charged will be the Additional Tariff Rate with either the provider's Market Forces Factor applied or the Commissioner's Geo-Weighting for the clinic delivering the care.
 
-### Cross-Charging Arrangement
+### Cross-Charging Arrangements
 
 Each currency will have a cross-charging arrangement set:
 
+### Full Cross-Charging
+
 - `Full Cross-Charging` (default): The commissioner of the patient's place of residence is charged. Where the patient is resident outside England and Wales the commissioner hosting the clinic delivering the care is charged.
-- `Local Limited Cross-Charging`
-- `Local Unlimited Cross-Charging`
-- `No Cross-Charging`
+
+#### Local Cross-Charging
+
+It is possible to confine the charging to the local participating commissioners.  This is often used for local or non standard currencies where out of area commissioners would not expect to be charged for this activity, but local commissioning strategy suggests the care should be supported for local residents.
+
+There are a number of options available:
+
+- `Local Unlimited Cross-Charging`: Where the service user is resident in a participating commissioner's borough that borough will be charged.  Where the service user has no reported residence or resides outside England or Wales, then the local host commissioner of the clinic delivering the care will be charged.
+- `Local Limited Cross-Charging`: Where the service user is resident in a participating commissioner's borough that borough will be charged.  Where the service user has no reported residence or resides outside England or Wales, then **no** charge will be raised.
+- `No Cross-Charging`: The local host commissioner fo the clinic delivering the care will always be charged.
 
 ### Triggers
 

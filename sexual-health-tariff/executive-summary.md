@@ -4,7 +4,15 @@
 
 ## The Business Case
 
-Sexual health services operate under complex tariff arrangements between commissioners and providers. Traditionally, calculating charges from activity data has been a manual, time-consuming process prone to errors, inconsistency, and disputes. Different organisations often interpret the same tariff rules differently, leading to payment disagreements, delayed settlements, and a lack of financial transparency.
+The Sexual Health tariff is designed on the one hand to offer a fair and transparent understanding of underlying care costs, based on a detailed bottom-up activity based cost model of the care pathways being delivered and on the other a simple implementation platform that matches the local commissioner's contractual arrangements to real-time activity data to record appropriate charges raised to responsible Commissioners.
+
+Sexual health services operate under an open door access arrangements which allow service users flexibility in service choice. For many Commissioners this means that costs associated with the care delivered to non-local residents needs to be recovered. The traditional method of doing this is by the host provider that delivers the care cross-charges for the Out of Area Non-Contracted activity - known as 'cross-charging' responsible Commissioners.
+
+Traditionally, this will have been performed by providers who would issue invoices to each commissioner along with supporting backing data in various forms. For providers, calculating charges from activity data has been a manual, time-consuming process prone to errors, inconsistency, and disputes. Different organisations often interpret the same tariff rules differently, leading to payment disagreements, delayed settlements, and a lack of financial transparency.
+
+Reliably implementing a complex charging arrangement across multiple providers in a sustainable and light touch manner suggests a central service that allows providers to submit their activity data and then receive the invoicing data, at the same time generating appropriate common backing data for both commissioners and providers.
+
+Disputes and inconsistencies  arising can then focus on the activity and the figures rather than the process.
 
 The Sexual Health Tariff Grouper eliminates these problems by automating the entire tariff calculation process. It provides a single, authoritative platform where commissioners define tariff configurations and providers submit activity data — producing consistent, auditable charging outputs that all parties can trust.
 
@@ -16,11 +24,11 @@ The Tariff Grouper takes submitted activity data and automatically applies the c
 
 ### Consistency and Transparency
 
-Every organisation using the Tariff Grouper operates from the same tariff configuration. Charges are calculated using identical rules, ensuring that commissioners and providers always agree on how activity translates to cost. All calculations are fully auditable.
+Every organisation using the Tariff Grouper operates from their local tariff configuration. Charges are calculated using identical rules, ensuring that commissioners and providers always agree on how activity translates to cost. All calculations are fully auditable.
 
 ### Reduced Administrative Burden
 
-Commissioners no longer need to manually verify provider invoices against raw activity data. Providers no longer need to maintain complex internal charging spreadsheets. The platform handles the calculation, freeing both parties to focus on service delivery and strategic oversight.
+Commissioners no longer need to manually verify provider invoices against backing data. Providers no longer need to maintain complex internal charging spreadsheets. The platform delivers both parties their own unique view of the backing data.
 
 ### Standardised Cross-Charging
 
@@ -42,7 +50,7 @@ When all parties work from the same automated calculations, the scope for disagr
 
 ### Improved Data Quality
 
-The platform validates activity data on submission, identifying errors and inconsistencies before they propagate into charging outputs. This drives improvements in data quality at source, benefiting not just tariff calculations but wider service reporting.
+The platform validates activity data on submission, identifying errors and inconsistencies before they propagate into charging outputs. This drives improvements in data quality at source, benefiting not just tariff calculations but wider service reporting. Using activity data as the basis for payments immediately raises the quality of that activity data.
 
 ### Predictable, Transparent Costs
 
