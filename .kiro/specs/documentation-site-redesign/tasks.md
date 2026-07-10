@@ -133,7 +133,7 @@ This plan implements the complete redesign of the Pathway Analytics documentatio
     - Tariff configuration ownership, setup process, monitoring responsibilities
     - _Requirements: 7.2_
 
-  - [x] 6.4 Reorganise existing content into `sexual-health-tariff/configurations.md` and `sexual-health-tariff/grouper-process.md`
+  - [x] 6.4 Reorganise existing content into `sexual-health-tariff/tariff-configurations.md` and `sexual-health-tariff/tariff-configuration-setup-process.md`
     - Move/adapt existing Tariff Configurations and Grouper Process content from archive
     - Place within Commissioner Guidance section context
     - _Requirements: 7.5_
@@ -171,7 +171,7 @@ This plan implements the complete redesign of the Pathway Analytics documentatio
     - Mailto link to enquiries@pathwayanalytics.com for subscription requests
     - _Requirements: 13.1, 13.2, 13.3, 13.4, 13.5_
 
-  - [x] 6.11 Create `sexual-health-tariff/live-configurations.md` with embedded iframe
+  - [x] 6.11 Create `sexual-health-tariff/tariff-configurations-live.md` with embedded iframe
     - Introductory paragraph explaining tariff configurations list and search/filter
     - iframe embedding https://production.pathwayanalytics.com/public/configuration
     - iframe: width 100%, min-height 800px, title attribute for accessibility

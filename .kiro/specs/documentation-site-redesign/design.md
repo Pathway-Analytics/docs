@@ -178,7 +178,7 @@ Rendered by Docsify into the navbar area. Fixed-position, always visible. The St
   - [Tariff Configurations](/sexual-health-tariff/configurations)
   - [Live Configurations](/sexual-health-tariff/live-configurations)
   - [Pathways](/sexual-health-tariff/pathways)
-  - [Grouper Process](/sexual-health-tariff/grouper-process)
+  - [Grouper Process](/sexual-health-tariff/tariff-configurataion-setup-process)
   - [Governance](/sexual-health-tariff/governance)
   - [Review Process](/sexual-health-tariff/review-process)
 - **Provider**
@@ -227,12 +227,12 @@ This is a static site — there are no runtime data models or databases. The "da
 │   ├── README.md                       # Section landing page
 │   ├── executive-summary.md
 │   ├── commissioner-guidance.md
-│   ├── configurations.md              # Existing (reorganised)
-│   ├── grouper-process.md             # Existing (reorganised)
+│   ├── tariff-configurations.md              # Existing (reorganised)
+│   ├── tariff-configuration-setup-process.md             # Existing (reorganised)
 │   ├── governance.md                   # Governance framework
 │   ├── review-process.md              # Review cycle documentation
 │   ├── technical-guidance.md          # Technical data submission guidance
-│   ├── live-configurations.md         # Embedded iframe from production app
+│   ├── tariff-configurations-live.md         # Embedded iframe from production app
 │   ├── pathways.md                    # Embedded pathway costing reference
 │   ├── provider-onboarding.md
 │   ├── how-to-guides.md

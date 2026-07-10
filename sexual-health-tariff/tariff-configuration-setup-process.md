@@ -1,12 +1,12 @@
-# Tariff Grouper Process
+# Tariff Configuration Setup Process
 
-> The Tariff Grouper Process outlines the steps involved in implementing and managing tariff configurations for healthcare providers.
+> The Tariff Configuration Setup Process outlines the steps involved in implementing and managing tariff configurations for healthcare providers.
 
 ## Overview
 
-The Tariff Grouper Process is designed to ensure that all stakeholders understand their roles and responsibilities in the tariff implementation process. This includes commissioners, providers, and any other relevant parties.
+The Tariff Configuration Setup Process is designed to ensure that all stakeholders understand their roles and responsibilities in the tariff implementation process. This includes commissioners, providers, and any other relevant parties.
 
-## Steps in the Tariff Grouper Process
+## Steps in the Tariff Configuration Setup Process
 
 1. **Initial Meeting**: 
    - Schedule an online meeting with all stakeholders to discuss the requirements and expectations for the tariff configuration.

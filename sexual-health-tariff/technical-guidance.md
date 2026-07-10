@@ -160,5 +160,5 @@ The Tariff Grouper is accessed via a web-based portal. There is no API integrati
 For more information on related topics, refer to:
 
 - [Provider Onboarding](/sexual-health-tariff/provider-onboarding) — subscription setup and getting started
-- [Grouper Process](/sexual-health-tariff/grouper-process) — end-to-end tariff calculation workflow
+- [Grouper Process](/sexual-health-tariff/tariff-configuration-setup-process) — end-to-end tariff calculation workflow
 - [Subscriptions & Pricing](/sexual-health-tariff/subscriptions) — subscription types and access levels

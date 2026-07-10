@@ -5,7 +5,7 @@
   - [Commissioner Guidance](/sexual-health-tariff/commissioner-guidance)
   - [Tariff Configurations](/sexual-health-tariff/configurations)
   - [Live Configurations](/sexual-health-tariff/live-configurations)
-  - [Grouper Process](/sexual-health-tariff/grouper-process)
+  - [Grouper Process](/sexual-health-tariff/tariff-configuration-setup-process)
   - [Governance](/sexual-health-tariff/governance)
   - [Review Process](/sexual-health-tariff/review-process)
   - [Tariff Model](/sexual-health-tariff/tariff-model)
