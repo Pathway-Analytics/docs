@@ -1091,3 +1091,35 @@ input:focus-visible,
 
 .edit-link a:hover { opacity: 1; color: var(--pa-navy); }
 .edit-link svg { width: 13px; height: 13px; }
+
+
+/* Page-heading sub-sidebar: visually subordinate to page links */
+.sidebar-nav .app-sub-sidebar {
+  list-style: none;
+  padding: 2px 0 4px var(--space-sm);
+  margin: 0;
+  border-left: 1px solid var(--pa-border);
+  margin-left: 10px;
+}
+
+.sidebar-nav .app-sub-sidebar li {
+  margin: 0;
+}
+
+.sidebar-nav .app-sub-sidebar a {
+  display: block;
+  padding: 3px 10px;
+  font-size: 0.78em;
+  color: var(--pa-text-muted);
+  border-radius: 3px;
+  transition: color 0.15s;
+}
+
+.sidebar-nav .app-sub-sidebar a:hover {
+  color: var(--pa-navy);
+}
+
+.sidebar-nav .app-sub-sidebar a.active {
+  color: var(--pa-navy);
+  font-weight: 500;
+}

@@ -230,19 +230,29 @@
     // Collapsible Sidebar Plugin
     // Makes sidebar items with sub-lists collapsible
     // Groups are collapsed by default unless the active page is within them
+    // Ignores Docsify's auto-generated .app-sub-sidebar (page headings)
     function collapsibleSidebarPlugin(hook, vm) {
       hook.doneEach(function () {
         var sidebarNav = document.querySelector('.sidebar-nav');
         if (!sidebarNav) return;
+
+        // Remove previous initialization so it re-evaluates on navigation
+        sidebarNav.querySelectorAll('.collapsible-initialized').forEach(function (li) {
+          li.classList.remove('collapsible-initialized');
+        });
 
         // Find all list items that have a child <ul> (i.e. they have sub-items)
         var items = sidebarNav.querySelectorAll('li');
         items.forEach(function (li) {
           var subList = li.querySelector(':scope > ul');
           if (!subList) return;
+
+          // Skip Docsify's auto-generated page-heading lists
+          if (subList.classList.contains('app-sub-sidebar')) return;
+
           if (li.classList.contains('collapsible-initialized')) return;
 
-          var link = li.querySelector(':scope > a');
+          var link = li.querySelector(':scope > a') || li.querySelector(':scope > p > a');
           if (!link) return;
 
           li.classList.add('collapsible-initialized');
