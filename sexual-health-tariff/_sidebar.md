@@ -15,7 +15,7 @@
   - [Provider Arrangements](/sexual-health-tariff/provider-arrangements)
   - [How-To Guides](/sexual-health-tariff/how-to-guides)
   - [Technical Guidance](/sexual-health-tariff/technical-guidance)
-  - [Tariff Configuration](/sexual-health-tariff/tariff-configuration)
+  - [Tariff Configuration](/sexual-health-tariff/tariff-configurations)
   - [File Validation](/sexual-health-tariff/file-validation-process)
   - [Dataset](/sexual-health-tariff/dataset)
   - [Submission Process](/sexual-health-tariff/grouper-submission-process)
