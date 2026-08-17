@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Pathway Analytics — Custom Docsify Theme
-   Replaces vue.css entirely. Targets Docsify 4's rendered DOM structure.
+   Pathway Analytics — Consultancy Site Theme
+   Dark navy / cream / gold palette. Serif display headings, clean sans body.
    ========================================================================== */
 
 /* ==========================================================================
@@ -8,46 +8,36 @@
    ========================================================================== */
 
 :root {
-  --pa-primary: #1f4788;
-  --pa-primary-hover: #163561;
-  --pa-accent: #2e86de;
-  --pa-text: #2d3748;
-  --pa-text-muted: #636b75;
-  --pa-background: #ffffff;
-  --pa-surface: #f7f8fa;
-  --pa-border: #e2e8f0;
+  --pa-navy: #1d3044;
+  --pa-navy-light: #2a4460;
+  --pa-cream: #f5f0e8;
+  --pa-cream-dark: #ebe5da;
+  --pa-gold: #b8943e;
+  --pa-gold-hover: #a07e2f;
+  --pa-text: #1d3044;
+  --pa-text-muted: #5a6a78;
+  --pa-background: #f5f0e8;
+  --pa-surface: #ffffff;
+  --pa-border: #ddd5c8;
 
-  --theme-color: #1f4788;
+  --theme-color: #1d3044;
 
   --space-xs: 8px;
   --space-sm: 16px;
   --space-md: 24px;
-  --space-lg: 32px;
-  --space-xl: 48px;
+  --space-lg: 48px;
+  --space-xl: 80px;
+  --space-2xl: 120px;
 
-  --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Playfair Display', 'Georgia', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
   --font-size-base: 16px;
   --line-height: 1.7;
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
 
-  --content-max-width: 72ch;
+  --content-max-width: 1100px;
   --sidebar-width: 260px;
-  --navbar-height: 56px;
-}
-
-[data-theme="dark"] {
-  --pa-primary: #6aa7f8;
-  --pa-primary-hover: #9dc4fb;
-  --pa-accent: #64b5f6;
-  --pa-text: #e8eaed;
-  --pa-text-muted: #9aa5b4;
-  --pa-background: #0f1117;
-  --pa-surface: #1a1d27;
-  --pa-border: #2d3344;
-
-  --theme-color: #6aa7f8;
+  --navbar-height: 64px;
 }
 
 /* ==========================================================================
@@ -61,9 +51,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, figure, blockquote {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-body);
   font-size: var(--font-size-base);
-  font-weight: var(--font-weight-normal);
+  font-weight: 400;
   line-height: var(--line-height);
   color: var(--pa-text);
   background-color: var(--pa-background);
@@ -73,11 +63,11 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 
-a { color: var(--pa-primary); text-decoration: none; transition: color 0.15s; }
-a:hover { color: var(--pa-primary-hover); }
+a { color: var(--pa-navy); text-decoration: none; transition: color 0.15s; }
+a:hover { color: var(--pa-gold); }
 
 /* ==========================================================================
-   3. NAVBAR — <nav class="app-nav no-badge">
+   3. NAVBAR
    ========================================================================== */
 
 .app-nav,
@@ -92,11 +82,11 @@ body.sticky .app-nav {
   width: 100%;
   display: flex !important;
   align-items: center;
-  padding: 0 var(--space-md);
+  padding: 0 var(--space-lg);
   margin: 0 !important;
   background: var(--pa-background) !important;
-  border-bottom: 1px solid var(--pa-border);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  border-bottom: none;
+  box-shadow: none;
 }
 
 .app-nav ul {
@@ -105,7 +95,7 @@ body.sticky .app-nav {
   padding: 0 !important;
   display: flex !important;
   align-items: center;
-  gap: 2px;
+  gap: 0;
   flex-grow: 1;
 }
 
@@ -117,67 +107,49 @@ body.sticky .app-nav {
 .app-nav a {
   display: inline-flex;
   align-items: center;
-  padding: 8px 14px;
-  font-size: 0.875em;
-  font-weight: var(--font-weight-medium);
+  padding: 8px 16px;
+  font-size: 0.85em;
+  font-weight: 400;
   color: var(--pa-text-muted);
-  border-radius: 6px;
-  transition: color 0.15s, background-color 0.15s;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  border-radius: 0;
+  transition: color 0.15s;
   white-space: nowrap;
 }
 
 .app-nav a:hover {
-  color: var(--pa-primary);
-  background-color: var(--pa-surface);
-}
-
-.app-nav a.active {
-  color: var(--pa-primary);
-  background-color: rgba(31, 71, 136, 0.06);
-}
-
-[data-theme="dark"] .app-nav a.active {
-  background-color: rgba(106, 167, 248, 0.1);
+  color: var(--pa-navy);
+  background: none;
 }
 
 /* Navbar — first item styled as brand */
 .app-nav li:first-child a {
-  font-weight: var(--font-weight-bold);
-  color: var(--pa-primary);
-  font-size: 0.95em;
-  letter-spacing: -0.01em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9em;
+  color: var(--pa-navy);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding-left: 0;
 }
 
-/* Dark mode toggle — fixed position top-right, independent of nav */
+.app-nav li:first-child a:hover {
+  color: var(--pa-navy);
+}
+
+/* Push nav links to the right */
+.app-nav li:first-child {
+  margin-right: auto;
+}
+
+/* Dark mode toggle — hidden for this theme */
 .dark-mode-toggle {
-  position: fixed;
-  top: 12px;
-  right: var(--space-md);
-  z-index: 1001;
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  padding: 0;
-  background: var(--pa-surface);
-  border: 1px solid var(--pa-border);
-  border-radius: 8px;
-  cursor: pointer;
-  color: var(--pa-text-muted);
-  transition: all 0.15s;
+  display: none !important;
 }
-
-.dark-mode-toggle:hover {
-  color: var(--pa-primary);
-  border-color: var(--pa-primary);
-  background-color: var(--pa-surface);
-}
-
-.dark-mode-toggle svg { width: 18px; height: 18px; }
 
 /* ==========================================================================
-   4. SIDEBAR — <aside class="sidebar">
+   4. SIDEBAR
    ========================================================================== */
 
 .sidebar {
@@ -187,7 +159,7 @@ body.sticky .app-nav {
   bottom: 0;
   width: var(--sidebar-width);
   overflow-y: auto;
-  background-color: var(--pa-surface);
+  background-color: var(--pa-cream);
   border-right: 1px solid var(--pa-border);
   padding: var(--space-sm) 0;
   z-index: 900;
@@ -198,7 +170,6 @@ body.has-sidebar .sidebar {
   display: block;
 }
 
-/* Docsify app-name in sidebar — hidden (brand is in navbar) */
 h1.app-name {
   display: none !important;
 }
@@ -217,20 +188,16 @@ h1.app-name {
   padding: 8px 12px;
   font-size: 0.8em;
   border: 1px solid var(--pa-border);
-  border-radius: 6px;
-  background: var(--pa-background);
+  border-radius: 4px;
+  background: var(--pa-surface);
   color: var(--pa-text);
   outline: none;
   transition: border-color 0.15s;
 }
 
 .search input:focus {
-  border-color: var(--pa-primary) !important;
-  box-shadow: 0 0 0 3px rgba(31, 71, 136, 0.08) !important;
-}
-
-[data-theme="dark"] .search input:focus {
-  box-shadow: 0 0 0 3px rgba(106, 167, 248, 0.12) !important;
+  border-color: var(--pa-navy) !important;
+  box-shadow: 0 0 0 2px rgba(29, 48, 68, 0.08) !important;
 }
 
 .search .clear-button { cursor: pointer; width: 28px; text-align: center; }
@@ -238,21 +205,16 @@ h1.app-name {
 .search .results-panel.show { display: block; }
 .search .matching-post { padding: 8px 0; border-bottom: 1px solid var(--pa-border); }
 .search .matching-post:last-child { border-bottom: none; }
-.search .matching-post a { color: var(--pa-primary); font-weight: var(--font-weight-medium); }
+.search .matching-post a { color: var(--pa-navy); font-weight: 500; }
 .search .matching-post p { font-size: 0.8em; color: var(--pa-text-muted); margin: 4px 0 0; }
 .search p.empty { text-align: center; color: var(--pa-text-muted); font-size: 0.85em; }
 .search h2 { font-size: 0.85em; margin: 10px 0 4px; color: var(--pa-text-muted); }
 
-/* Search highlight in content */
 .search-highlight {
-  background-color: rgba(46, 134, 222, 0.25);
+  background-color: rgba(184, 148, 62, 0.25);
   color: inherit;
   padding: 1px 3px;
   border-radius: 3px;
-}
-
-[data-theme="dark"] .search-highlight {
-  background-color: rgba(106, 173, 255, 0.25);
 }
 
 /* Sidebar nav */
@@ -271,75 +233,55 @@ h1.app-name {
   margin-top: 2px;
 }
 
-/* All sidebar links — unified style */
 .sidebar-nav li > a,
 .sidebar-nav li > p > a {
   display: block;
   padding: 7px 10px;
   font-size: 0.84em;
-  font-weight: var(--font-weight-normal);
+  font-weight: 400;
   color: var(--pa-text-muted);
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: all 0.15s;
   line-height: 1.4;
-  text-transform: none;
-  letter-spacing: normal;
 }
 
 .sidebar-nav li > a:hover,
 .sidebar-nav li > p > a:hover {
-  color: var(--pa-primary);
-  background-color: rgba(31, 71, 136, 0.05);
+  color: var(--pa-navy);
+  background-color: rgba(29, 48, 68, 0.05);
 }
 
-[data-theme="dark"] .sidebar-nav li > a:hover,
-[data-theme="dark"] .sidebar-nav li > p > a:hover {
-  background-color: rgba(106, 167, 248, 0.08);
-}
-
-/* Active sidebar link */
 .sidebar-nav li.active > a,
 .sidebar-nav li > p.active > a,
 .sidebar-nav li > p.active a {
-  color: var(--pa-primary);
-  font-weight: var(--font-weight-medium);
-  background-color: rgba(31, 71, 136, 0.07);
+  color: var(--pa-navy);
+  font-weight: 500;
+  background-color: rgba(29, 48, 68, 0.07);
 }
 
-[data-theme="dark"] .sidebar-nav li.active > a,
-[data-theme="dark"] .sidebar-nav li > p.active > a {
-  background-color: rgba(106, 167, 248, 0.12);
-}
-
-/* Sidebar <p> wrappers (Docsify wraps top-level items in <p>) */
 .sidebar-nav li > p {
   margin: 0;
   padding: 0;
 }
 
-/* Bold/strong in sidebar — render same as links */
 .sidebar-nav li > p > strong,
 .sidebar-nav li > strong {
   display: block;
   padding: 7px 10px;
   font-size: 0.84em;
-  font-weight: var(--font-weight-normal);
+  font-weight: 400;
   color: var(--pa-text-muted);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: all 0.15s;
   line-height: 1.4;
 }
 
 .sidebar-nav li > p > strong:hover,
 .sidebar-nav li > strong:hover {
-  color: var(--pa-primary);
-  background-color: rgba(31, 71, 136, 0.05);
-}
-
-[data-theme="dark"] .sidebar-nav li > p > strong:hover {
-  background-color: rgba(106, 167, 248, 0.08);
+  color: var(--pa-navy);
+  background-color: rgba(29, 48, 68, 0.05);
 }
 
 /* Sub-sidebar (page headings) */
@@ -358,11 +300,10 @@ h1.app-name {
   transition: color 0.15s;
 }
 
-.app-sub-sidebar a:hover { color: var(--pa-primary); }
+.app-sub-sidebar a:hover { color: var(--pa-navy); }
 
 /* Collapsible sections */
 .sidebar-nav li.collapsible { position: relative; }
-
 .sidebar-nav li.collapsible > p { padding-right: 28px; }
 
 .sidebar-nav li.collapsible > .collapse-toggle,
@@ -413,7 +354,7 @@ h1.app-name {
 }
 
 /* ==========================================================================
-   5. CONTENT AREA — <section class="content">
+   5. CONTENT AREA
    ========================================================================== */
 
 section.content,
@@ -446,32 +387,35 @@ body.full-width .content {
    ========================================================================== */
 
 .markdown-section h1 {
-  font-size: 2em;
-  font-weight: var(--font-weight-bold);
-  color: var(--pa-primary);
+  font-family: var(--font-display);
+  font-size: 3em;
+  font-weight: 700;
+  color: var(--pa-navy);
   margin-top: 0;
   margin-bottom: var(--space-md);
-  line-height: 1.25;
+  line-height: 1.15;
   letter-spacing: -0.02em;
   scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
 .markdown-section h2 {
-  font-size: 1.5em;
-  font-weight: var(--font-weight-bold);
-  color: var(--pa-text);
+  font-family: var(--font-display);
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--pa-navy);
   margin-top: var(--space-xl);
-  margin-bottom: var(--space-sm);
-  padding-bottom: var(--space-xs);
-  border-bottom: 1px solid var(--pa-border);
-  line-height: 1.3;
+  margin-bottom: var(--space-md);
+  padding-bottom: 0;
+  border-bottom: none;
+  line-height: 1.2;
   scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
 .markdown-section h3 {
-  font-size: 1.2em;
-  font-weight: var(--font-weight-medium);
-  color: var(--pa-text);
+  font-family: var(--font-body);
+  font-size: 1.15em;
+  font-weight: 600;
+  color: var(--pa-navy);
   margin-top: var(--space-lg);
   margin-bottom: var(--space-xs);
   line-height: 1.4;
@@ -479,15 +423,15 @@ body.full-width .content {
 }
 
 .markdown-section h4 {
-  font-size: 1.05em;
-  font-weight: var(--font-weight-medium);
+  font-family: var(--font-body);
+  font-size: 1em;
+  font-weight: 600;
   color: var(--pa-text);
   margin-top: var(--space-md);
   margin-bottom: var(--space-xs);
   scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
-/* Docsify wraps heading text in <a class="anchor"><span> */
 .markdown-section h1 a,
 .markdown-section h2 a,
 .markdown-section h3 a,
@@ -496,22 +440,13 @@ body.full-width .content {
   text-decoration: none;
 }
 
-/* Anchor offset — ensures headings scroll below the fixed navbar */
 .markdown-section [id] {
   scroll-margin-top: calc(var(--navbar-height) + var(--space-md));
 }
 
-.markdown-section h1[id],
-.markdown-section h2[id],
-.markdown-section h3[id],
-.markdown-section h4[id] {
-  /* Padding trick for browsers/JS that ignore scroll-margin-top */
-  padding-top: calc(var(--navbar-height) + var(--space-md));
-  margin-top: calc(-1 * (var(--navbar-height) + var(--space-md)));
-}
-
 .markdown-section p {
   margin-bottom: var(--space-sm);
+  color: var(--pa-text);
 }
 
 .markdown-section ul,
@@ -534,20 +469,19 @@ body.full-width .content {
 .markdown-section code {
   font-size: 0.85em;
   padding: 2px 6px;
-  background: var(--pa-surface);
+  background: var(--pa-cream-dark);
   border: 1px solid var(--pa-border);
   border-radius: 4px;
-  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-family: var(--font-mono);
 }
 
 .markdown-section pre {
   margin: var(--space-sm) 0;
   padding: var(--space-sm);
-  background: var(--pa-surface);
-  border: 1px solid var(--pa-border);
+  background: var(--pa-navy);
+  border: none;
   border-radius: 8px;
   overflow-x: auto;
-  position: relative;
 }
 
 .markdown-section pre code {
@@ -557,6 +491,7 @@ body.full-width .content {
   border-radius: 0;
   font-size: 0.84em;
   line-height: 1.6;
+  color: var(--pa-cream);
 }
 
 /* Tables */
@@ -568,11 +503,12 @@ body.full-width .content {
 }
 
 .markdown-section th {
-  background: var(--pa-surface);
-  font-weight: var(--font-weight-medium);
+  background: var(--pa-navy);
+  color: var(--pa-cream);
+  font-weight: 500;
   text-align: left;
   padding: 10px 12px;
-  border: 1px solid var(--pa-border);
+  border: 1px solid var(--pa-navy-light);
 }
 
 .markdown-section td {
@@ -581,57 +517,409 @@ body.full-width .content {
 }
 
 .markdown-section tr:nth-child(even) {
-  background: var(--pa-surface);
+  background: rgba(29, 48, 68, 0.03);
 }
 
 /* Blockquotes */
 .markdown-section blockquote {
-  border-left: 3px solid var(--pa-accent);
+  border-left: 3px solid var(--pa-gold);
   background: var(--pa-surface);
   padding: var(--space-sm) var(--space-md);
   margin: var(--space-sm) 0;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 6px 6px 0;
   font-style: normal;
   color: var(--pa-text);
 }
 
 .markdown-section blockquote p { margin-bottom: 0; }
 
-/* Callout: Important (red border) */
-.markdown-section blockquote.callout-important {
-  border-left-color: #e74c3c;
-  background: rgba(231, 76, 60, 0.05);
+/* ==========================================================================
+   7. HOMEPAGE HERO & SECTIONS
+   ========================================================================== */
+
+/* Hero section */
+.hero {
+  padding: var(--space-xl) 0 var(--space-2xl);
 }
 
-[data-theme="dark"] .markdown-section blockquote.callout-important {
-  background: rgba(231, 76, 60, 0.08);
+.hero .eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pa-navy);
+  margin-bottom: var(--space-md);
+  display: block;
 }
 
-/* Callout: Note (amber border) */
-.markdown-section blockquote.callout-note {
-  border-left-color: #f39c12;
-  background: rgba(243, 156, 18, 0.05);
+.hero h1 {
+  font-family: var(--font-display) !important;
+  font-size: 3.5em !important;
+  font-weight: 700 !important;
+  color: var(--pa-navy) !important;
+  line-height: 1.1 !important;
+  margin-bottom: var(--space-md) !important;
 }
 
-[data-theme="dark"] .markdown-section blockquote.callout-note {
-  background: rgba(243, 156, 18, 0.08);
+.hero h1 em {
+  color: var(--pa-gold);
+  font-style: italic;
+}
+
+.hero .lead {
+  font-size: 1.1em;
+  color: var(--pa-text);
+  max-width: 520px;
+  line-height: 1.7;
+  margin-bottom: var(--space-lg);
+}
+
+.hero .cta-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.hero .cta-row .btn {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 0.85em;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  color: var(--pa-cream);
+  background: var(--pa-navy);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+  text-decoration: none;
+}
+
+.hero .cta-row .btn:hover {
+  background: var(--pa-navy-light);
+  color: var(--pa-cream);
+}
+
+.hero .cta-row .meta {
+  font-size: 0.85em;
+  color: var(--pa-text-muted);
+  border-left: 1px solid var(--pa-border);
+  padding-left: var(--space-md);
+}
+
+/* Full-width dark section */
+.section-dark {
+  background: var(--pa-navy);
+  color: var(--pa-cream);
+  margin-left: calc(-1 * var(--space-lg));
+  margin-right: calc(-1 * var(--space-lg));
+  padding: var(--space-xl) var(--space-lg);
+}
+
+.section-dark .section-inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.section-dark .eyebrow {
+  font-size: 0.75em;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--pa-gold);
+  margin-bottom: var(--space-sm);
+}
+
+.section-dark h2 {
+  font-family: var(--font-display);
+  font-size: 2.2em;
+  font-weight: 700;
+  color: var(--pa-cream);
+  margin-bottom: var(--space-sm);
+  line-height: 1.2;
+}
+
+.section-dark p {
+  color: rgba(245, 240, 232, 0.8);
+  max-width: 540px;
+}
+
+/* Timeline */
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 2px solid var(--pa-navy-light);
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--pa-navy-light);
+}
+
+.timeline-item {
+  position: relative;
+  padding-top: var(--space-sm);
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background: var(--pa-navy-light);
+  border: 2px solid var(--pa-gold);
+  border-radius: 50%;
+}
+
+.timeline-item .year {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: var(--pa-gold);
+  margin-bottom: 4px;
+}
+
+.timeline-item h4 {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--pa-cream);
+  margin-bottom: 4px;
+}
+
+.timeline-item p {
+  font-size: 0.82em;
+  color: rgba(245, 240, 232, 0.7);
+  line-height: 1.5;
+}
+
+/* Services / "What this looks like now" section */
+.section-services {
+  padding: var(--space-xl) 0;
+}
+
+.section-services h2 {
+  font-family: var(--font-display);
+  font-size: 2.2em;
+  margin-bottom: var(--space-lg);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
+
+.service-card {
+  padding: 0;
+}
+
+.service-card .number {
+  font-size: 0.75em;
+  font-weight: 500;
+  color: var(--pa-gold);
+  margin-bottom: var(--space-xs);
+}
+
+.service-card h3 {
+  font-family: var(--font-body);
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--pa-navy);
+  margin-bottom: var(--space-xs);
+}
+
+.service-card p {
+  font-size: 0.9em;
+  color: var(--pa-text-muted);
+  line-height: 1.6;
+}
+
+/* Stats row */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-lg);
+  padding: var(--space-xl) 0;
+  border-top: 1px solid var(--pa-border);
+  border-bottom: 1px solid var(--pa-border);
+  margin: var(--space-lg) 0;
+}
+
+.stat {
+  text-align: left;
+}
+
+.stat .number {
+  font-family: var(--font-display);
+  font-size: 2.5em;
+  font-weight: 700;
+  color: var(--pa-gold);
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+
+.stat p {
+  font-size: 0.85em;
+  color: var(--pa-text-muted);
+  line-height: 1.5;
+}
+
+/* Selected work / case studies list */
+.selected-work {
+  padding: var(--space-xl) 0;
+}
+
+.selected-work h2 {
+  font-family: var(--font-display);
+  font-size: 2.2em;
+  margin-bottom: var(--space-lg);
+}
+
+.work-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: var(--space-md);
+  padding: var(--space-md) 0;
+  border-top: 1px solid var(--pa-border);
+  align-items: start;
+}
+
+.work-item:last-child {
+  border-bottom: 1px solid var(--pa-border);
+}
+
+.work-item .category {
+  font-size: 0.72em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pa-gold);
+  padding-top: 4px;
+}
+
+.work-item h3 {
+  font-family: var(--font-body);
+  font-size: 1.05em;
+  font-weight: 600;
+  color: var(--pa-navy);
+  margin-bottom: 4px;
+}
+
+.work-item p {
+  font-size: 0.9em;
+  color: var(--pa-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Publications */
+.publications {
+  padding: var(--space-xl) 0;
+}
+
+.publications h2 {
+  font-family: var(--font-display);
+  font-size: 2.2em;
+  margin-bottom: var(--space-lg);
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 640px;
+}
+
+.pub-list li {
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--pa-border);
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.pub-list li:first-child {
+  border-top: 1px solid var(--pa-border);
+}
+
+.pub-list li strong {
+  color: var(--pa-navy);
+}
+
+/* Contact CTA section */
+.section-contact {
+  background: var(--pa-navy);
+  color: var(--pa-cream);
+  margin-left: calc(-1 * var(--space-lg));
+  margin-right: calc(-1 * var(--space-lg));
+  padding: var(--space-xl) var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.section-contact .section-inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.section-contact h2 {
+  font-family: var(--font-display);
+  font-size: 2.5em;
+  font-style: italic;
+  color: var(--pa-cream);
+  margin-bottom: var(--space-sm);
+}
+
+.section-contact p {
+  color: rgba(245, 240, 232, 0.8);
+  max-width: 480px;
+  margin-bottom: var(--space-lg);
+}
+
+.section-contact .btn {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 0.85em;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  color: var(--pa-navy);
+  background: var(--pa-gold);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+  text-decoration: none;
+}
+
+.section-contact .btn:hover {
+  background: var(--pa-gold-hover);
+  color: var(--pa-navy);
 }
 
 /* ==========================================================================
-   7. COMPONENTS
+   8. NAVIGATION CARDS (sub-pages)
    ========================================================================== */
 
-/* Navigation cards */
 .nav-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: var(--space-sm);
   margin: var(--space-lg) 0;
 }
 
 .nav-card {
   border: 1px solid var(--pa-border);
-  border-radius: 10px;
+  border-radius: 8px;
   padding: var(--space-md);
   background: var(--pa-surface);
   text-decoration: none;
@@ -641,19 +929,15 @@ body.full-width .content {
 }
 
 .nav-card:hover {
-  border-color: var(--pa-primary);
-  box-shadow: 0 4px 16px rgba(31, 71, 136, 0.08);
+  border-color: var(--pa-navy);
+  box-shadow: 0 4px 16px rgba(29, 48, 68, 0.08);
   transform: translateY(-1px);
-}
-
-[data-theme="dark"] .nav-card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .nav-card h3 {
   font-size: 1em;
-  font-weight: var(--font-weight-bold);
-  color: var(--pa-primary);
+  font-weight: 600;
+  color: var(--pa-navy);
   margin-bottom: 6px;
 }
 
@@ -664,53 +948,20 @@ body.full-width .content {
   line-height: 1.5;
 }
 
-/* Edit link */
-.edit-link {
-  text-align: right;
-  margin-top: var(--space-xl);
-  padding-top: var(--space-sm);
-  border-top: 1px solid var(--pa-border);
-}
-
-.edit-link a {
-  font-size: 0.78em;
-  color: var(--pa-text-muted);
-  opacity: 0.5;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  transition: opacity 0.15s;
-}
-
-.edit-link a:hover { opacity: 1; color: var(--pa-primary); }
-.edit-link svg { width: 13px; height: 13px; }
-
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 0.9em;
-  font-weight: var(--font-weight-medium);
-  color: #fff;
-  background: var(--pa-primary);
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.btn:hover { background: var(--pa-primary-hover); color: #fff; }
-
-/* Image captions */
-.markdown-section figure { margin: var(--space-sm) 0 var(--space-md); text-align: center; }
-.markdown-section figcaption { font-size: 0.82em; color: var(--pa-text-muted); margin-top: 6px; }
-
 /* ==========================================================================
-   8. RESPONSIVE
+   9. RESPONSIVE
    ========================================================================== */
 
 @media (max-width: 1024px) {
   section.content, .content {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+
+  .section-dark,
+  .section-contact {
+    margin-left: calc(-1 * var(--space-md));
+    margin-right: calc(-1 * var(--space-md));
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }
@@ -744,18 +995,32 @@ body.full-width .content {
     padding-right: var(--space-sm);
   }
 
+  .hero h1 { font-size: 2.2em !important; }
+
+  .section-dark,
+  .section-contact {
+    margin-left: calc(-1 * var(--space-sm));
+    margin-right: calc(-1 * var(--space-sm));
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+
+  .timeline { grid-template-columns: 1fr 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: 1fr 1fr; }
+  .work-item { grid-template-columns: 1fr; gap: var(--space-xs); }
   .nav-cards { grid-template-columns: 1fr; }
 }
 
 /* ==========================================================================
-   9. ACCESSIBILITY
+   10. ACCESSIBILITY
    ========================================================================== */
 
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid var(--pa-primary);
+  outline: 2px solid var(--pa-gold);
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -769,9 +1034,9 @@ input:focus-visible,
   overflow: hidden;
   z-index: -1;
   font-size: 0.85em;
-  font-weight: var(--font-weight-medium);
-  color: #fff;
-  background: var(--pa-primary);
+  font-weight: 500;
+  color: var(--pa-cream);
+  background: var(--pa-navy);
   padding: 8px 16px;
   border-radius: 0 0 6px 6px;
 }
@@ -794,15 +1059,35 @@ input:focus-visible,
 }
 
 /* ==========================================================================
-   10. DOCSIFY PLUGIN OVERRIDES
+   11. DOCSIFY PLUGIN OVERRIDES
    ========================================================================== */
 
-/* Copy code button */
 .docsify-copy-code-button {
-  background: var(--pa-primary) !important;
+  background: var(--pa-gold) !important;
+  color: var(--pa-navy) !important;
   border-radius: 4px;
   font-size: 0.75em;
 }
 
-/* Progress bar */
-.progress { background: var(--pa-primary) !important; }
+.progress { background: var(--pa-gold) !important; }
+
+/* Edit link */
+.edit-link {
+  text-align: right;
+  margin-top: var(--space-xl);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--pa-border);
+}
+
+.edit-link a {
+  font-size: 0.78em;
+  color: var(--pa-text-muted);
+  opacity: 0.5;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: opacity 0.15s;
+}
+
+.edit-link a:hover { opacity: 1; color: var(--pa-navy); }
+.edit-link svg { width: 13px; height: 13px; }

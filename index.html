@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
   <!-- SEO Meta Tags -->
-  <title>Pathway Analytics - Healthcare Economics Documentation</title>
-  <meta name="description" content="Documentation and resources for Pathway Analytics healthcare economics services, including the Sexual Health Tariff Grouper.">
+  <title>Pathway Analytics — Health Economics &amp; Strategy</title>
+  <meta name="description" content="Pathway Analytics — specialist health economics and strategic advisory. Turning health evidence into funded policy.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://docs.pathwayanalytics.com">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Pathway Analytics - Healthcare Economics Documentation">
-  <meta property="og:description" content="Documentation and resources for Pathway Analytics healthcare economics services, including the Sexual Health Tariff Grouper.">
+  <meta property="og:title" content="Pathway Analytics — Health Economics &amp; Strategy">
+  <meta property="og:description" content="Pathway Analytics — specialist health economics and strategic advisory. Turning health evidence into funded policy.">
   <meta property="og:image" content="https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png">
   <meta property="og:url" content="https://docs.pathwayanalytics.com">
   <meta property="og:type" content="website">
@@ -43,22 +43,15 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
 
-  <!-- Inline theme detection to prevent flash of wrong theme (FOUC prevention) -->
+  <!-- Inline theme setup -->
   <script>
     (function() {
-      try {
-        var stored = localStorage.getItem('pa-theme-preference');
-        if (stored === 'dark' || stored === 'light') {
-          document.documentElement.setAttribute('data-theme', stored);
-        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          document.documentElement.setAttribute('data-theme', 'dark');
-        }
-      } catch (e) {}
+      document.documentElement.setAttribute('data-theme', 'light');
     })();
   </script>
 </head>
@@ -353,13 +346,31 @@
       });
     }
 
+    // Anchor Scroll Plugin
+    // Scrolls to element IDs specified in ?id= query parameter for custom div sections
+    function anchorScrollPlugin(hook, vm) {
+      hook.doneEach(function () {
+        var path = vm.route.path || '/';
+        var query = vm.route.query || {};
+        var targetId = query.id;
+        if (targetId && (path === '/' || path === '')) {
+          setTimeout(function () {
+            var el = document.getElementById(targetId);
+            if (el) {
+              el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 100);
+        }
+      });
+    }
+
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
       sidebarTogglePlugin,
       collapsibleSidebarPlugin,
       calloutPlugin,
       searchHighlightPlugin,
-      darkModePlugin,
+      anchorScrollPlugin,
       editLinkPlugin
     ]);
   </script>
