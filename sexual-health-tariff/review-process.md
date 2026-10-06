@@ -14,24 +14,29 @@ Local Lead Commissioners are responsible for requesting any changes to their loc
 
 ### Annual Review Cycle
 
-The annual review process follows a prescribed sequence in order to minimise unnecessary re-work.
+The annual review process follows a prescribed sequence in order to minimise unnecessary re-work. It is important to follow the correct sequence: unnecessarily revisiting a prior step has a wide blast radius, affecting all the subsequent work that then has to be re-run.
 
 - Review the tariff meta rules to ensure they remain fit for purpose.
-- With clinical guidance, review and update pathways.  Retire pathways that are no longer needed, update or create new pathways for new clinical practice.
-- Review and update staff costs from published pay scales.
-- Review and update costs for consumables and drugs.
-- Review and update costs for pathology.
-- Review and update the pathway model currencies, create new currencies where necessary and retire those no longer needed, reallocate the underlying pathways as required.
-- Reviews the currency cross-charging arrangements.
-- Use a representative set of activity data that covers each currency to determine the pathway weightings and overage for each currency and apply the weightings and appropriate currency factor.
-- Update tariff rates for currency with fixed or predetermined tariff rates.
-- Publish a tentative draft tariff configuration.
-- Compile a financial impact assessment from a representative set of activity data being parsed through the draft tariff configuration (and include the appropriate MFFs) and compare the results to the actual charges raised by that activity.
-- London Commissioners agree a new London template tariff configuration for publication.
+- Consult clinicians on the pathway processes, with commissioner oversight, and review pathways for update, removal, or inclusion. Retire pathways that are no longer needed, and update or create new pathways to reflect current clinical practice.
+- Review staffing levels with a representative set of providers to determine staff band weighting. 
+- Cost the underlying staff costs using open-source resources such as published NHS Pay Scales.
+- Cost consumables and drugs using open market research for clinical equipment and the NICE British National Formulary for drugs, using NHS indicative pricing where available.
+- Cost pathology using a market survey where practical.
+- Filter the pathways into currencies by grouping pathways of similar type and cost together, create new currencies where necessary and retire those no longer needed, reallocate the underlying pathways as required, and report the result back to commissioners.
+- Apply weightings to each pathway in a currency to determine the weighted average cost of the currency. Weightings are usually derived by introspecting a representative set of activity data across providers to determine the relative frequency of each pathway in the currency. In some cases commissioners may instruct the use of a fixed currency tariff rate or another manual adjustment.
+- Update tariff rates for currencies with fixed or predetermined tariff rates.
+- Review the currency cross-charging arrangements.
+- Publish a tentative draft tariff configuration, including the tariff rates and code triggers for each currency.
+- Compile a financial impact assessment by copying a representative set of activity data into a sandbox, running it against the draft tariff configuration (including the appropriate MFFs), and comparing the results to the actual charges raised for the same activity.
+- Commissioners agree a new template tariff configuration for publication.
 
-The current London template tariff configuration is the configuration we recommend commissioners adopt when they have the opportunity to refresh their contractual arrangements.
+The agreed sequence requires settling each step before the final outcome is known, which is a good discipline. The purpose of this process is to determine a *fair value* for the activity; it is not an exercise in making the price fit the budget. Keeping the pricing mechanism fair and transparent gives independent credibility and weight when defending budget allocations in the step that follows.
 
-Commissioners may elect to adopt any part of the London template tariff configuration and apply their own tariff rates as they wish.  Commissioners may want to consider applying a global factor to the tariff configuration to bring the total charges into line with their budgetary constraints or negotiated contractual position.
+Affordability is considered separately once the indicative costs are available. Factors such as service redesign, commissioning strategy and intentions, performance and efficiency, and contract negotiations will result in specific Tariff Configurations that match the contractual agreement arrived at. This may mean under-pricing some activity to discourage its delivery in a particular setting, or over-pricing other activity to encourage it in line with local Public Health strategy. Conflating this affordability step with the fair-value costing above defeats the objectivity of the evidence offered by a fair and transparent pricing mechanism.
+
+The current template tariff configuration maintained by London Commissioners is the configuration we recommend commissioners adopt when they have the opportunity to refresh their contractual arrangements.
+
+Commissioners may elect to adopt any part of the template tariff configuration and apply their own tariff rates as they wish including adopting their own local currencies. Commissioners may want to consider applying a global factor to the tariff configuration to bring the total charges into line with their budgetary constraints or negotiated contractual position.
 
 ### Ad-Hoc Reviews
 
