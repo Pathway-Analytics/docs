@@ -3,6 +3,10 @@
 Specialist healthcare economics consultancy delivering automated tariff systems, activity-based costing, and commissioning intelligence to the NHS.
 
 <div class="nav-cards">
+  <a href="#/healthcare-economics-toolkit/" class="nav-card">
+    <h3>Healthcare Economics Toolkit</h3>
+    <p>Costing and value for money in sexual health and HIV prevention — for the people who decide whether a service is worth paying for.</p>
+  </a>
   <a href="#/sexual-health-tariff/" class="nav-card">
     <h3>Sexual Health Tariff Grouper</h3>
     <p>Automated tariff implementation for healthcare activity data processing and reporting.</p>
