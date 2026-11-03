@@ -33,7 +33,7 @@ Specialist healthcare economics consultancy delivering automated tariff systems,
 
 ## Application Access
 
-- <a href="https://secure.pathwayanalytics.com/common/">Tariff Grouper Login ↗</a>
+- <a href="https://production.pathwayanalytics.com/common/">Tariff Grouper Login ↗</a>
 - <a href="https://production.pathwayanalytics.com/public/configuration">Configuration Portal ↗</a>
 
 ## Contact

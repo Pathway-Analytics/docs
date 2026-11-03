@@ -219,10 +219,10 @@ WHERE active = true;
 Use an arrow indicator for external application links:
 
 ```markdown
-[Tariff Grouper Login ↗](https://secure.pathwayanalytics.com/common/)
+[Tariff Grouper Login ↗](https://production.pathwayanalytics.com/common/)
 ```
 
-[Tariff Grouper Login ↗](https://secure.pathwayanalytics.com/common/)
+[Tariff Grouper Login ↗](https://production.pathwayanalytics.com/common/)
 
 ---
 

@@ -21,5 +21,5 @@ The Sexual Health Tariff Grouper is a SaaS web application that automates tariff
 
 ## Application Access
 
-- <a href="https://secure.pathwayanalytics.com/common/">Tariff Grouper Login ↗</a>
+- <a href="https://production.pathwayanalytics.com/common/">Tariff Grouper Login ↗</a>
 - <a href="https://production.pathwayanalytics.com/public/configuration">Configuration Portal ↗</a>

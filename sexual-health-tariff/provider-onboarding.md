@@ -47,7 +47,7 @@ For step-by-step instructions with screenshots, see the [How-To Guides](/sexual-
 
 ### Logging In
 
-Access the Tariff Grouper at [https://secure.pathwayanalytics.com/common/](https://secure.pathwayanalytics.com/common/). Use the credentials provided during your onboarding. If you have forgotten your password or are locked out, contact Pathway Analytics support.
+Access the Tariff Grouper at [https://production.pathwayanalytics.com/common/](https://production.pathwayanalytics.com/common/). Use the credentials provided during your onboarding. If you have forgotten your password or are locked out, contact Pathway Analytics support.
 
 ### Navigating the Dashboard
 
