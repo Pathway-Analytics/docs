@@ -4,8 +4,6 @@ Costing and value for money in sexual health and HIV prevention.
 
 The toolkit sets out how Pathway Analytics answers the four questions every service or pilot has to answer: **what did it cost, what did it achieve, was it good value, and can we afford to continue it?** It brings together methods, rules of practice, templates and an evidence library, built for English commissioning. It assumes no training in economics.
 
-> **Note:** This section is being published module by module. The structure below is complete; individual module pages are being filled in from the source toolkit (*Health economics toolkit: costing and value for money in sexual health and HIV prevention*, Pathway Analytics, 2026).
-
 ## Who it is for
 
 Commissioners, directors of public health, NHS and voluntary-sector service leads, finance colleagues, boards and funders who need to judge whether a service or pilot is worth paying for, and how to pay for it.
