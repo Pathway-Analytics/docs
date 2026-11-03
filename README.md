@@ -2,26 +2,36 @@
 
 Specialist healthcare economics consultancy delivering automated tariff systems, activity-based costing, and commissioning intelligence to the NHS.
 
-<div class="nav-cards">
-  <a href="#/healthcare-economics-toolkit/" class="nav-card">
+<div class="home-grid">
+  <a href="#/healthcare-economics-toolkit/" class="home-card">
+    <span class="home-card-eyebrow">Methods &amp; evidence</span>
     <h3>Healthcare Economics Toolkit</h3>
     <p>Costing and value for money in sexual health and HIV prevention — for the people who decide whether a service is worth paying for.</p>
+    <span class="home-card-cta">Explore the toolkit →</span>
   </a>
-  <a href="#/sexual-health-tariff/" class="nav-card">
+  <a href="#/sexual-health-tariff/" class="home-card">
+    <span class="home-card-eyebrow">Application</span>
     <h3>Sexual Health Tariff Grouper</h3>
-    <p>Automated tariff implementation for healthcare activity data processing and reporting.</p>
+    <p>Automated tariff charging for sexual health services: submit activity data, apply the configuration, and produce transparent charges.</p>
+    <span class="home-card-cta">Open the guide →</span>
   </a>
-  <a href="#/health-pathways/" class="nav-card">
+  <a href="#/health-pathways/" class="home-card">
+    <span class="home-card-eyebrow">Costing models</span>
     <h3>Health Pathways</h3>
-    <p>Activity-based costing models for healthcare pathway analysis.</p>
+    <p>Activity-based costing models for healthcare pathway analysis and service design.</p>
+    <span class="home-card-cta">Learn more →</span>
   </a>
-  <a href="#/ftci/" class="nav-card">
+  <a href="#/ftci/" class="home-card">
+    <span class="home-card-eyebrow">Commissioning intelligence</span>
     <h3>FTCi</h3>
     <p>Fair Treatment Commissioning intelligence for healthcare economics.</p>
+    <span class="home-card-cta">Learn more →</span>
   </a>
-  <a href="#/case-studies/" class="nav-card">
+  <a href="#/case-studies/" class="home-card">
+    <span class="home-card-eyebrow">In practice</span>
     <h3>Case Studies</h3>
     <p>Real-world examples of healthcare economics consultancy outcomes.</p>
+    <span class="home-card-cta">Read case studies →</span>
   </a>
 </div>
 
