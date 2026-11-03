@@ -89,6 +89,14 @@ html[data-theme="dark"] {
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Offset anchor/hash navigation so targets clear the fixed navbar.
+   scroll-padding-top on the scroll root covers native :target jumps and
+   modern programmatic scrollIntoView; the per-heading scroll-margin-top
+   below is the belt-and-braces for the heading elements themselves. */
+html {
+  scroll-padding-top: calc(var(--navbar-height) + var(--space-md));
+}
+
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, figure, blockquote { margin: 0; }
 
 body {
