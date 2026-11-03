@@ -93,3 +93,5 @@ Pathway Analytics provides the first point of contact for resolving issues:
 ### Second Line: Lead Commissioner
 
 Where the Pathway Analytics cannot resolve an issue unilaterally, it is escalated to the Lead Commissioner.
+
+{{segment:copyright:link-modal}}

@@ -87,3 +87,5 @@ Pathway Analytics provides first-line support for all Tariff Grouper users:
 - [How-To Guides](/sexual-health-tariff/how-to-guides) — Step-by-step instructions with screenshots for common workflows
 - [Technical Guidance](/sexual-health-tariff/technical-guidance) — File format specifications, field definitions, and validation rules
 - [Subscriptions & Pricing](/sexual-health-tariff/subscriptions) — Pricing details and subscription type comparison
+
+{{segment:copyright:link-modal}}

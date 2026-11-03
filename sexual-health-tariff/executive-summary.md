@@ -73,3 +73,5 @@ The platform is accessed online via subscription, with no software installation 
 ---
 
 For pricing and subscription details, see [Subscriptions & Pricing](/sexual-health-tariff/subscriptions). For detailed commissioner responsibilities, see [Commissioner Guidance](/sexual-health-tariff/commissioner-guidance).
+
+{{segment:copyright:link-modal}}

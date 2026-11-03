@@ -367,6 +367,61 @@
       });
     }
 
+    // CMS Segment Plugin
+    // Resolves {{segment:short-name}} / {{segment:short-name:style}} tokens by
+    // fetching the Pathway Analytics public CMS API, so shared content (e.g. the
+    // copyright notice) has a single source of truth in the pwa-refactor CMS.
+    // A static fallback renders if the API is unreachable.
+    function cmsSegmentPlugin(hook) {
+      var CMS_BASE = 'https://api.pathwayanalytics.com/cms/public/';
+      var cache = {};
+
+      // Static fallback, used only if the CMS fetch fails. Kept in step with the
+      // copyright segment's published body so the notice is never empty.
+      var FALLBACK = {
+        copyright:
+          'Copyright &copy; 2026 Debigno Ltd trading as Pathway Analytics. ' +
+          'All rights reserved. This work is licensed under the Creative Commons ' +
+          'Attribution-NonCommercial-ShareAlike 4.0 International License ' +
+          '(CC BY-NC-SA 4.0). Full licence text: ' +
+          '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">creativecommons.org/licenses/by-nc-sa/4.0</a>.'
+      };
+
+      function fetchSegment(shortName) {
+        if (cache[shortName]) return cache[shortName];
+        cache[shortName] = fetch(CMS_BASE + encodeURIComponent(shortName), {
+          headers: { Accept: 'application/json' }
+        })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (json) {
+            var seg = json && json.data && json.data.segment;
+            return (seg && seg.bodyHtml) ? seg.bodyHtml : (FALLBACK[shortName] || '');
+          })
+          .catch(function () { return FALLBACK[shortName] || ''; });
+        return cache[shortName];
+      }
+
+      // Replace tokens with placeholder spans during markdown parse; fill them
+      // asynchronously after render so a slow API never blocks the page.
+      hook.beforeEach(function (content) {
+        return content.replace(/\{\{segment:([a-z0-9-]+)(?::([a-z0-9-]+))?\}\}/gi, function (_m, name, style) {
+          return '<div class="cms-segment" data-segment="' + name + '" data-style="' + (style || '') + '">' +
+                 '<span class="cms-segment-loading">&hellip;</span></div>';
+        });
+      });
+
+      hook.doneEach(function () {
+        var nodes = document.querySelectorAll('.cms-segment[data-segment]');
+        nodes.forEach(function (el) {
+          if (el.getAttribute('data-filled') === '1') return;
+          el.setAttribute('data-filled', '1');
+          fetchSegment(el.getAttribute('data-segment')).then(function (html) {
+            el.innerHTML = html || '';
+          });
+        });
+      });
+    }
+
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
       sidebarTogglePlugin,
@@ -374,7 +429,8 @@
       calloutPlugin,
       searchHighlightPlugin,
       anchorScrollPlugin,
-      editLinkPlugin
+      editLinkPlugin,
+      cmsSegmentPlugin
     ]);
   </script>
 

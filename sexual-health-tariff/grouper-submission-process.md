@@ -1,65 +1,52 @@
-# Grouper Submission Process
+# Submission Process
 
-## Overview
+The submission process is the tariff calculation the Grouper runs over a provider's monthly activity to arrive at the charges. It relies on the month's data being valid, the clinics being properly identified, and a tariff configuration being available for that month. Once a submission completes as **Submitted**, its charges become visible to both the provider and the commissioners.
 
-The Submission Process covers the tariff calculation process the Grouper goes through to arrive at the tariff charges for a provider's set of monthly activity.  The process relies on the provider's submission month having valid data and properly identified clinics as well as an available tariff configuration for the month in question.  Once the process is completed as Submitted, the tariff charges become available to both provider and commissioners.
+## What a submission is
 
-## Submission
+A submission is a collection of the activity files a provider has uploaded for a single month, together with all the calculations and charges derived from that data. Each submission belongs to one provider and one month.
 
-A submission is a collection of activity files a provider has uploaded and all the associated calculations and charges related to that data. Submissions are related to a single provider and associated with a single month.  
+## Draft and Submitted
 
-## Types of Submission Process
+There are two ways to run the process, and the steps are identical — only the outcome differs:
 
-There are two type of Submission Process, Draft and Submitted.  Running the Submission Process in Draft allows providers to calculate tariffs without locking their submission, charging data is not released to commissioners.  Running the process as Submitted means the submission will be locked, preventing further changes and the charging data is released to commissioners.
+- **Draft** — calculates tariffs without locking the submission. Charging data is **not** released to commissioners. Use it to check your figures.
+- **Submitted** — locks the submission, prevents further changes, and **releases** the charging data to commissioners.
 
-## Time Constraints
+## Time constraints
 
-Each Tariff Configurations has a Submit Within field, set to 21 days by default.  This describes the window providers have to make their submissions.  Within 21 days indicates the submission must be Submitted within 21 days of the prior month's end.
+Each tariff configuration has a **Submit Within** window — 21 days by default. The submission must be submitted within that many days of the prior month's end.
 
-## Process Constraints
+## Before a submission can run
 
-Submissions must be in a state suitable for processing
+A submission must be in a fit state to process:
 
-### Uploaded Files Clear of Validation Errors
+- **Files clear of validation errors** — any file with validation errors must be corrected first, via the submission's validation errors tab (see [File Validation](/sexual-health-tariff/file-validation-process)).
+- **Valid clinics** — any new clinic used in the uploaded files must have its address and host commissioner identified, in the submission's clinics tab.
+- **Valid tariff configuration** — a configuration must be available for the month. If none is, contact your host commissioner or [enquiries@pathwayanalytics.com](mailto:enquiries@pathwayanalytics.com).
 
-Any files uploaded in the submission must be clear of validation errors.  If there are any errors they will need to be cleared in the submission's validation errors tab.
+## Locking and resetting
 
-### Valid Clinics
+- A submission **in processing** is locked; you cannot upload files while it runs.
+- A **Draft** submission can be adjusted — upload new files or delete uploaded ones — but doing so clears its charging data.
+- A **Submitted** submission can no longer be adjusted or re-processed.
 
-Any new clinic ids used in the uploaded files for the submission must have their address and associated host commissioner identified.  If there are any clinics without a host commissioner or an address, these will need to be edited in the submissions's clinics tab.
+## What the process does
 
-### Valid Tariff Configuration
+Once started, the Grouper works through the submission in sequence:
 
-There must be a valid tariff configuration available.  If the submission does not have a tariff configuration available, please contact your local host commissioner or enquiries@pathwayanalytics.com
+1. **Collect the tariff configuration** — load the configuration that applies to the submission's month, with its currencies, rates and rules.
+2. **Apply currencies** — match each episode's activity against the currency triggers to determine which currencies are raised.
+3. **Apply invalid currency combinations** — suppress currencies that should not co-occur, per the configuration's invalid-combination rules.
+4. **Apply cross-charging** — determine, for each currency, which commissioner is charged, following the currency's cross-charging arrangement.
+5. **Identify the responsible commissioner** — resolve the paying commissioner from the patient's residence, or fall back to the clinic's host commissioner where the rules require.
+6. **Calculate tariff rates and apply MFF / geo-weighting** — price each currency (primary rate for the most expensive currency in an episode, additional rate for the rest) and apply the provider's market forces factor or the clinic's geo-weighting.
 
-## Running the Submission
+See [Grouper Rules](/sexual-health-tariff/grouper-rules) and [Tariff Configurations](/sexual-health-tariff/tariff-configurations) for how currencies, episodes and cross-charging are defined.
 
-Each submission can either be processed as a 'Draft' or as a 'Submit' resulting in either a draft or submitted submission.  The process is the same.
+## After a submission
 
-## Locking and Resetting
+- **Notifications** — the Grouper records completion and notifies as configured.
+- **KPI calculation** — key performance indicators are calculated from the submitted data for reporting.
 
-Submissions that are in processing are locked and you can no longer upload files while the process is running.  
-
-Submissions that are in Draft can be adjusted with new file uploads or have uploaded files deleted, in which case they will loose their charging data.
-
-Submissions that are in Submit can no longer be adjust or re-processed.
-
-## Submission Process
-
-### Collect Tariff Configuration
-
-### Apply Currencies
-
-### Apply Invalid Currency Combinations
-
-### Apply Cross Charging
-
-### Identify the Responsible Commissioner
-
-### Calculate Tariff Rates and Apply MFF / Geo Weighting
-
-## Post Submission Processes
-
-### Notifications
-
-### KPI Calculation
+{{segment:copyright:link-modal}}

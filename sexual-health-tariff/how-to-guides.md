@@ -115,3 +115,5 @@ Once generated, the report appears in your reports list with a **Download** butt
 <img src="assets/images/how-to/report-generation/step-4-download-report.png" alt="Completed report in the reports list with Download button highlighted" loading="lazy">
 
 *Download your completed report or access it later from the reports list.*
+
+{{segment:copyright:link-modal}}

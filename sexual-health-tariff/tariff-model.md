@@ -1,6 +1,6 @@
 # Tariff Model
 
-This page provides the explains the Tariff Model and how it feeds into a Tariff Configuration.
+This page explains how tariffs work — the tariff model, and how it feeds into a tariff configuration. The live model from the Pathway Analytics production system is embedded below.
 
 > **Note:** The embedded view displays the full production page from Pathway Analytics. Navigation elements from the production site may be visible within the frame.
 
@@ -15,3 +15,5 @@ This page provides the explains the Tariff Model and how it feeds into a Tariff 
 <p class="iframe-fallback">
   If the content above does not load, you can <a href="https://production.pathwayanalytics.com/public/model" target="_blank" rel="noopener">view the Tariff Model directly</a>.
 </p>
+
+{{segment:copyright:link-modal}}

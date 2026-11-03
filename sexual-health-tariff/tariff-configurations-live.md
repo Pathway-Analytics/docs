@@ -15,3 +15,5 @@ This page displays all currently available tariff configurations from the Pathwa
 <p class="iframe-fallback">
   If the content above does not load, you can <a href="https://production.pathwayanalytics.com/public/configuration" target="_blank" rel="noopener">view the Available Tariff Configurations directly</a>.
 </p>
+
+{{segment:copyright:link-modal}}

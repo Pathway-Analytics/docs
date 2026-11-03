@@ -30,5 +30,7 @@ The Tariff Configuration Setup Process is designed to ensure that all stakeholde
 
 For more information on the Tariff Grouper and related processes, please refer to the following documents:
 
-- [Tariff Configurations](/sexual-health-tariff/configurations)
+- [Tariff Configurations](/sexual-health-tariff/tariff-configurations)
 - [Commissioner Guidance](/sexual-health-tariff/commissioner-guidance)
+
+{{segment:copyright:link-modal}}

@@ -46,6 +46,8 @@ Once your tariff is live, you have ongoing obligations to ensure it operates eff
 
 ## Related Pages
 
-- [Tariff Configurations](/sexual-health-tariff/configurations) — Detailed reference for tariff configuration structures and parameters
+- [Tariff Configurations](/sexual-health-tariff/tariff-configurations) — Detailed reference for tariff configuration structures and parameters
 - [Governance](/sexual-health-tariff/governance) — The governance framework for managing tariff arrangements
 - [Review Process](/sexual-health-tariff/review-process) — How the periodic review cycle works and what is expected of commissioners
+
+{{segment:copyright:link-modal}}

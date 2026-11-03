@@ -173,3 +173,5 @@ A factor applied to reduce the tariff rate for a currency, typically used where 
 ### Report File Formats
 
 Providers submit activity data in defined file formats. For details on file specifications, field definitions, and validation rules, see the [Technical Guidance](/sexual-health-tariff/technical-guidance) section.
+
+{{segment:copyright:link-modal}}

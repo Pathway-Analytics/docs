@@ -78,3 +78,5 @@ Calculate KPIs
 ## Resets
 
 Resets Request
+
+{{segment:copyright:link-modal}}

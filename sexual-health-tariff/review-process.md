@@ -83,3 +83,5 @@ Pathway Analytics provides technical and analytical support to the review proces
 - Identifies technical issues or configuration anomalies for consideration.
 - Advises on the feasibility and implications of proposed changes.
 - Implements approved changes to the tariff configuration following the review.
+
+{{segment:copyright:link-modal}}

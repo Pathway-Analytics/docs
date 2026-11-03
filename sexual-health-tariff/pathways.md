@@ -15,3 +15,5 @@ This page provides the reference pathway costing breakdowns from the Pathway Ana
 <p class="iframe-fallback">
   If the content above does not load, you can <a href="https://production.pathwayanalytics.com/public/pathway/100" target="_blank" rel="noopener">view the Pathway Costing Reference directly</a>.
 </p>
+
+{{segment:copyright:link-modal}}

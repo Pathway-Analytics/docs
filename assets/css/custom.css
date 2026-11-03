@@ -947,3 +947,20 @@ input:focus-visible,
 
 .sidebar-nav .app-sub-sidebar a:hover { color: var(--pa-primary); }
 .sidebar-nav .app-sub-sidebar a.active { color: var(--pa-primary); font-weight: 600; }
+
+/* ==========================================================================
+   12. CMS SEGMENT (copyright notice, sourced from pwa-refactor CMS)
+   ========================================================================== */
+
+.cms-segment {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--pa-border);
+  font-size: 0.78em;
+  line-height: 1.6;
+  color: var(--pa-text-subtle);
+}
+
+.cms-segment a { color: var(--pa-accent); }
+.cms-segment a:hover { color: var(--pa-accent-hover); }
+.cms-segment-loading { color: var(--pa-text-subtle); opacity: 0.5; }

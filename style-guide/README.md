@@ -209,10 +209,10 @@ WHERE active = true;
 ### Internal links
 
 ```markdown
-[Link text](/sexual-health-tariff/configurations)
+[Link text](/sexual-health-tariff/tariff-configurations)
 ```
 
-[Example internal link](/sexual-health-tariff/configurations)
+[Example internal link](/sexual-health-tariff/tariff-configurations)
 
 ### External links
 

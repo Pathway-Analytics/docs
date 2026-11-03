@@ -12,25 +12,26 @@
 - **Sexual Health Tariff**
   - [Overview](/sexual-health-tariff/)
   - [Executive Summary](/sexual-health-tariff/executive-summary)
-  - Commissioner
+  - For Commissioners
     - [Commissioner Guidance](/sexual-health-tariff/commissioner-guidance)
+    - [How Tariffs Work](/sexual-health-tariff/tariff-model)
+    - [Costed Pathways](/sexual-health-tariff/pathways)
+    - [Setting Up a Configuration](/sexual-health-tariff/tariff-configuration-setup-process)
     - [Tariff Configurations](/sexual-health-tariff/tariff-configurations)
     - [Live Configurations](/sexual-health-tariff/tariff-configurations-live)
-    - [Configuration Setup Process](/sexual-health-tariff/tariff-configuration-setup-process)
+    - [Provider Arrangements](/sexual-health-tariff/provider-arrangements)
     - [Governance](/sexual-health-tariff/governance)
     - [Review Process](/sexual-health-tariff/review-process)
-    - [Tariff Model](/sexual-health-tariff/tariff-model)
-    - [Costed Pathways](/sexual-health-tariff/pathways)
-  - Provider
+  - For Providers
     - [Provider Onboarding](/sexual-health-tariff/provider-onboarding)
-    - [Provider Arrangements](/sexual-health-tariff/provider-arrangements)
+    - [Preparing Your Data](/sexual-health-tariff/dataset)
     - [How-To Guides](/sexual-health-tariff/how-to-guides)
-    - [Technical Guidance](/sexual-health-tariff/technical-guidance)
     - [File Validation](/sexual-health-tariff/file-validation-process)
-    - [Dataset](/sexual-health-tariff/dataset)
     - [Submission Process](/sexual-health-tariff/grouper-submission-process)
+  - Reference
     - [Grouper Rules](/sexual-health-tariff/grouper-rules)
-  - [Subscriptions & Pricing](/sexual-health-tariff/subscriptions)
+    - [Technical Guidance](/sexual-health-tariff/technical-guidance)
+    - [Subscriptions & Pricing](/sexual-health-tariff/subscriptions)
 
 - **Health Pathways**
   - [Overview](/health-pathways/)

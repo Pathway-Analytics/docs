@@ -53,3 +53,5 @@ Subscription transfers are available in the event of a new appointee, long-term 
 To request a subscription, please contact us with the username and email of each subscriber. We will issue a quote; once accepted, we will issue login credentials and an invoice.
 
 [Request a subscription via email](mailto:enquiries@pathwayanalytics.com?subject=Subscription%20Request)
+
+{{segment:copyright:link-modal}}
