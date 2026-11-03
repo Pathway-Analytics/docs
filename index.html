@@ -71,18 +71,21 @@
     window.$docsify = {
       name: 'Pathway Analytics',
       nameLink: '/',
-      loadSidebar: true,
+      loadSidebar: '_sidebar.md',
       loadNavbar: '_navbar.md',
       mergeNavbar: false,
       routerMode: 'hash',
       subMaxLevel: 2,
       auto2top: true,
       maxLevel: 4,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
         depth: 4,
-        pathNamespaces: ['/sexual-health-tariff', '/case-studies', '/health-pathways', '/ftci', '/style-guide']
+        pathNamespaces: ['/sexual-health-tariff', '/case-studies', '/health-pathways', '/ftci', '/style-guide', '/healthcare-economics-toolkit']
       },
       formatUpdated: '{DD}/{MM}/{YYYY}',
       notFoundPage: true,
@@ -92,34 +95,29 @@
 
   <!-- Custom Plugins -->
   <script>
-    // Sidebar Toggle Plugin
-    // Monitors route changes and toggles sidebar visibility based on section
+    // Mobile Sidebar Plugin
+    // The sidebar (and the search box it contains) is now PERSISTENT across
+    // every section — a single global _sidebar.md keeps navigation context and
+    // search available everywhere, instead of only inside /sexual-health-tariff.
+    // This plugin only wires up the mobile toggle and the page-title update.
     function sidebarTogglePlugin(hook, vm) {
-      function updateSidebar() {
-        var path = vm.route.path || '/';
-        var isTariffSection = path.startsWith('/sexual-health-tariff');
-        document.body.classList.toggle('has-sidebar', isTariffSection);
-        document.body.classList.toggle('full-width', !isTariffSection);
+      // Keep the body class stable so the layout CSS always reserves the
+      // sidebar column; collapse to an overlay only at the mobile breakpoint.
+      document.body.classList.add('has-sidebar');
 
-        // Directly control sidebar visibility
-        var sidebar = document.querySelector('.sidebar');
-        var sidebarToggle = document.querySelector('.sidebar-toggle');
-        if (sidebar) {
-          sidebar.style.display = isTariffSection ? 'block' : 'none';
+      hook.mounted(function () {
+        var toggle = document.querySelector('.sidebar-toggle');
+        if (toggle) {
+          toggle.addEventListener('click', function () {
+            document.body.classList.toggle('sidebar-open');
+          });
         }
-        if (sidebarToggle) {
-          sidebarToggle.style.display = isTariffSection ? '' : 'none';
-        }
+      });
 
-        // Ensure content margin is correct
-        var content = document.querySelector('section.content') || document.querySelector('.content');
-        if (content) {
-          content.style.marginLeft = isTariffSection ? '' : '0';
-        }
-      }
-
-      // Run on every page render
-      hook.doneEach(updateSidebar);
+      // Close the mobile sidebar overlay after navigating to a new page.
+      hook.doneEach(function () {
+        document.body.classList.remove('sidebar-open');
+      });
 
       // Fix page title on route change
       hook.doneEach(function () {
@@ -132,11 +130,6 @@
             document.title = h1.textContent.trim() + ' — Pathway Analytics';
           }
         }
-      });
-
-      // Also listen to hash changes directly for immediate response
-      window.addEventListener('hashchange', function () {
-        setTimeout(updateSidebar, 50);
       });
     }
 
