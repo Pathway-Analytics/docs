@@ -6,7 +6,7 @@ London Commissioner own the London Tariff Configuration template which is widely
 
 Periodic reviews of the London template are essential for ensuring that tariff arrangements remain fit for purpose, reflect current service delivery patterns, and continue to represent fair value for all participating organisations. Without structured reviews, configurations risk drifting out of alignment with clinical practice, cost pressures, or commissioning intentions. This document defines the review cycle, who participates, what is assessed, and how changes are approved and implemented.
 
-London Commissioners run host the annual review process and accept comments from participating organisations from beyond London.
+London Commissioners host the annual review process and accept comments from participating organisations beyond London.
 
 Local Lead Commissioners are responsible for requesting any changes to their local configurations.
 

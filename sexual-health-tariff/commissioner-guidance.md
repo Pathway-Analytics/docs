@@ -2,11 +2,9 @@
 
 ## Your Role as Commissioner
 
-As a Local Authority commissioner, you own the tariff configuration for your area. You are responsible for specifying how tariffs are applied to the providers delivering sexual health services under your commissioning arrangements.  
+As a Local Authority commissioner, you own the tariff configuration for your area. You specify how tariffs apply to the providers delivering sexual health services under your commissioning arrangements — you determine the tariff structure, approve rates, and ensure every participating organisation understands and works within the agreed framework. Pathway Analytics supports you through setup and ongoing management, but the decisions and sign-offs sit with you.
 
-This means you determine the tariff structure, approve rates, and ensure all participating organisations understand and operate within the agreed framework. Pathway Analytics supports you through the setup and ongoing management of your configuration, but the decisions and sign-offs sit with you.
-
-Commissioners across the country rely on the local host commissioner to set a far price for crossing-charging when their residents use the locally hosted providers. Out of area commissioners expect to be paying the same rates as the local host commissioner for the same activity - or at least not to be disadvantaged.
+Commissioners across the country rely on the local host commissioner to set a fair price for cross-charging when their residents use the locally hosted providers. Out-of-area commissioners expect to pay the same rates as the host commissioner for the same activity — or at least not to be disadvantaged.
 
 ## Configuration Ownership
 

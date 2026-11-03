@@ -4,15 +4,13 @@
 
 ## The Business Case
 
-The Sexual Health tariff is designed on the one hand to offer a fair and transparent understanding of underlying care costs, based on a detailed bottom-up activity based cost model of the care pathways being delivered and on the other a simple implementation platform that matches the local commissioner's contractual arrangements to real-time activity data to record appropriate charges raised to responsible Commissioners.
+The Sexual Health Tariff does two things. It offers a fair, transparent view of the underlying cost of care — built on a detailed, bottom-up, activity-based cost model of the pathways delivered — and it provides a simple platform that matches a commissioner's contractual arrangements to real activity data, recording the appropriate charges to the responsible commissioners.
 
-Sexual health services operate under an open door access arrangements which allow service users flexibility in service choice. For many Commissioners this means that costs associated with the care delivered to non-local residents needs to be recovered. The traditional method of doing this is by the host provider that delivers the care cross-charges for the Out of Area Non-Contracted activity - known as 'cross-charging' responsible Commissioners.
+Sexual health services operate on open-access arrangements that let service users choose where they are seen. For many commissioners this means recovering the cost of care delivered to non-local residents. Traditionally the host provider that delivers the care cross-charges the responsible commissioners for that out-of-area, non-contracted activity.
 
-Traditionally, this will have been performed by providers who would issue invoices to each commissioner along with supporting backing data in various forms. For providers, calculating charges from activity data has been a manual, time-consuming process prone to errors, inconsistency, and disputes. Different organisations often interpret the same tariff rules differently, leading to payment disagreements, delayed settlements, and a lack of financial transparency.
+Done by hand, that is slow and error-prone: providers issue invoices to each commissioner with backing data in various forms, organisations interpret the same tariff rules differently, and the result is payment disputes, delayed settlement and a lack of financial transparency.
 
-Reliably implementing a complex charging arrangement across multiple providers in a sustainable and light touch manner suggests a central service that allows providers to submit their activity data and then receive the invoicing data, at the same time generating appropriate common backing data for both commissioners and providers.
-
-Disputes and inconsistencies  arising can then focus on the activity and the figures rather than the process.
+A central service solves this. Providers submit their activity data and receive the invoicing data back, and the same run produces common backing data for both commissioners and providers. Any dispute then focuses on the activity and the figures, not the process.
 
 The Sexual Health Tariff Grouper eliminates these problems by automating the entire tariff calculation process. It provides a single, authoritative platform where commissioners define tariff configurations and providers submit activity data — producing consistent, auditable charging outputs that all parties can trust.
 

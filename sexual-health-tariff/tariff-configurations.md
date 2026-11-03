@@ -100,7 +100,7 @@ There are a number of options available:
 
 - `Local Unlimited Cross-Charging`: Where the service user is resident in a participating commissioner's borough that borough will be charged.  Where the service user has no reported residence or resides outside England or Wales, then the local host commissioner of the clinic delivering the care will be charged.
 - `Local Limited Cross-Charging`: Where the service user is resident in a participating commissioner's borough that borough will be charged.  Where the service user has no reported residence or resides outside England or Wales, then **no** charge will be raised.
-- `No Cross-Charging`: The local host commissioner fo the clinic delivering the care will always be charged.
+- `No Cross-Charging`: The local host commissioner of the clinic delivering the care will always be charged.
 
 ### Triggers
 

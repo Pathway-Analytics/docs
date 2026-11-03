@@ -50,7 +50,7 @@ Pathway Analytics provides technical administration and advisory support:
 
 Authority to approve changes to local tariff configuration rests with the Lead Commissioner.
 
-#### Tariff Rate Changes
+### Tariff Rate Changes
 
 Tariff rates can be either adjusted globally by a % or factor up or down or they can be adjust individually to new specific rates.  
 
@@ -64,7 +64,7 @@ The request to adjust tariff rates on a local configuration should include the f
 - The date the change is to be effective from
 - If the change is to be retrospective, are prior submissions to be re-processed
 
-#### Modifying Currencies and Triggers
+### Modifying Currencies and Triggers
 
 Lead commissioners may adopt local currencies to monitor or charge for specific local activity or cover activity that meets local commissioning requirements.
 
@@ -84,14 +84,14 @@ Change requests to currencies require the following information:
 
 ### First Line: Pathway Analytics
 
-Pathway Analytics provides the first point of contact for resolving issues:
+Pathway Analytics is the first point of contact for resolving issues:
 
 - Operational queries from providers or participating commissioners are directed to the Lead Commissioner
-- The Pathway Analytics aims to resolve matters within 10 working days
-- Resolution may involve consultation with Commissioners and providers
+- Pathway Analytics aims to resolve matters within 10 working days
+- Resolution may involve consultation with commissioners and providers
 
 ### Second Line: Lead Commissioner
 
-Where the Pathway Analytics cannot resolve an issue unilaterally, it is escalated to the Lead Commissioner.
+Where Pathway Analytics cannot resolve an issue unilaterally, it is escalated to the Lead Commissioner.
 
 {{segment:copyright:link-modal}}

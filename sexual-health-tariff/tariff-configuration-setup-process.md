@@ -1,34 +1,23 @@
-# Tariff Configuration Setup Process
+# Setting Up a Configuration
 
-> The Tariff Configuration Setup Process outlines the steps involved in implementing and managing tariff configurations for healthcare providers.
+> How a new tariff configuration is implemented and brought live, and who does what along the way.
 
 ## Overview
 
-The Tariff Configuration Setup Process is designed to ensure that all stakeholders understand their roles and responsibilities in the tariff implementation process. This includes commissioners, providers, and any other relevant parties.
+Setting up a configuration is a collaborative process between you (the commissioner), your providers and Pathway Analytics. Each step settles part of the arrangement before the next builds on it, so everyone is clear on roles and the configuration reflects what was actually agreed.
 
-## Steps in the Tariff Configuration Setup Process
+Allow roughly four to six weeks from the initial meeting to go-live, depending on the complexity of your arrangement and the number of participating organisations.
 
-1. **Initial Meeting**: 
-   - Schedule an online meeting with all stakeholders to discuss the requirements and expectations for the tariff configuration.
+## The steps
 
-2. **Configuration Development**: 
-   - Develop the tariff configuration based on the discussions from the initial meeting. This should include all necessary details and specifications.
+1. **Initial meeting** — Meet online with all parties to agree scope, timelines and the organisations involved, and to confirm commissioning intent and any constraints.
+2. **Configuration development** — Pathway Analytics builds the configuration from those discussions: currencies, tariff rates, cross-charging arrangements, participating providers and their market forces factors or geo-weightings.
+3. **Review and approval** — You review the draft for accuracy, confirm it reflects the agreed arrangement, and give formal sign-off. Nothing goes live without your approval.
+4. **Go live** — Once approved, the configuration is activated in the Tariff Grouper and providers can submit against it. All participants are told it is live.
+5. **Training and support** — Pathway Analytics provides onboarding for users and first-line support for questions about the configuration and the data it produces.
+6. **Monitoring and review** — The configuration is monitored in use, and reviewed through the [governance](/sexual-health-tariff/governance) and [review](/sexual-health-tariff/review-process) processes as circumstances change.
 
-3. **Review and Approval**: 
-   - Share the draft configuration with stakeholders for review. Collect feedback and make necessary adjustments.
-
-4. **Implementation**: 
-   - Once approved, implement the tariff configuration. Ensure that all participating providers are informed and have access to the necessary resources.
-
-5. **Training and Support**: 
-   - Provide training sessions for users on how to utilise the Tariff Grouper effectively. Offer ongoing support for any questions or issues that arise.
-
-6. **Monitoring and Evaluation**: 
-   - Continuously monitor the performance of the tariff configuration. Evaluate its effectiveness and make adjustments as needed.
-
-## Additional Resources
-
-For more information on the Tariff Grouper and related processes, please refer to the following documents:
+## Related pages
 
 - [Tariff Configurations](/sexual-health-tariff/tariff-configurations)
 - [Commissioner Guidance](/sexual-health-tariff/commissioner-guidance)
