@@ -177,6 +177,13 @@ A rubric is a reasoned judgement, not a scoring model. The 2026 Green Book recom
 
 ### 10.4 Keep evidence, judgement and decision apart
 
+```mermaid
+flowchart LR
+  E["Evidence<br/><i>cost, outcomes, reach,<br/>evidence confidence</i>"] --> J["Judgement<br/><i>the five Es against<br/>agreed standards</i>"]
+  J --> D["Decision<br/><i>fund, continue,<br/>stop</i>"]
+```
+<p class="figure-caption">Figure 10.1. Evidence, judgement and decision are kept apart. Evidence confidence and affordability are reported separately from performance.</p>
+
 Keeping them apart lets a commissioner see whether a weak result reflects a weak route or weak data, and whether a strong route is affordable to the body that would have to pay. The same evidence can then be translated for each audience without changing it.
 
 | Question | Five Case Model | Five Es and continuation tests | Provider Selection Regime criterion |

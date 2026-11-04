@@ -32,6 +32,17 @@ Staff time is usually the largest cost and the least well recorded. Job titles a
 
 A pilot carries costs that a mainstream service would not: design and co-production, recruitment and training, building digital tools, evaluation, programme management and early weeks of low activity. These belong in the funder's account of what it bought. They do not belong in the figure a commissioner uses to judge affordability. Report three cost views, side by side.
 
+```mermaid
+flowchart TB
+  subgraph never[" "]
+    direction LR
+    A["Top-down<br/>investment<br/><br/><i>What the funder bought</i>"]
+    B["Bottom-up<br/>delivery<br/><br/><i>What delivery consumed</i>"]
+    C["Recurrent<br/>continuation<br/><br/><i>What a commissioner<br/>would pay each year</i>"]
+  end
+```
+<p class="figure-caption">Figure 4.1. Three cost views answer different questions. They are presented side by side and never added together.</p>
+
 > **Note — Route X: three cost views.** The grant allocated £180,000 over 18 months, of which £170,000 was spent. Bottom-up costing finds that delivery consumed £90,000. At steady state, running Route X as a normal service would cost about £64,000 a year.
 
 | Line | Top-down investment (18 months) | Bottom-up delivery (18 months) | Recurrent continuation (a year) |

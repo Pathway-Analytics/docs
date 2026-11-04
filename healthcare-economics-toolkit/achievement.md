@@ -24,6 +24,18 @@ The most widely used framework sets out nine stages, from identifying people at 
 
 Community and signposting work often happens before anyone is identified. Contacts, discussions and referrals are real outputs, but they are activity, not a base for conversion rates. Report a conversion from referral to clinic attendance only where a valid linkage key traces the same person through both.
 
+```mermaid
+flowchart LR
+  subgraph up[Upstream · often outside clinic systems]
+    C[Contact] --> PD[PrEP discussion] --> R[Referral /<br/>signpost]
+  end
+  subgraph down[Downstream · clinic & prescribing systems]
+    V[Clinic visit] --> S[New or<br/>continuing] --> P[Prescribed<br/>& retained]
+  end
+  R -. linkage not<br/>always possible .-> V
+```
+<p class="figure-caption">Figure 5.1. Upstream signposting and downstream clinical care are related but distinct. Report a conversion only where it can be traced.</p>
+
 > **Important: Denominator rule.** Report cost per person retained only where the route can be linked and retention is measured consistently. Otherwise name the last stage that can be traced. Missing linkage is a finding about how evaluable the route is, not an invitation to construct a denominator.
 
 ### 5.4 Name the retention endpoint

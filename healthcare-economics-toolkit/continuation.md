@@ -82,6 +82,12 @@ Council decision reports on sexual health contracts tend to state value for mone
 
 Councils set budgets in February and March. Evidence that arrives after budget-setting will influence the following year at best. Plan an interim note on recurrent continuation cost in time for the budget cycle, even if the final evaluation comes later.
 
+```mermaid
+flowchart LR
+  M[Excel cost<br/>model] --> S[Cost summary<br/>A · B · C] --> C[Confirmation<br/>page] --> V[VfM pathway<br/>pages]
+```
+<p class="figure-caption">Figure 11.1. From each site's cost model to confirmed figures: a collaborative process validated with local teams, not assumed.</p>
+
 > **Illustration from the BSWL evaluation.** Public procurement notices show that all three councils recently re-let or extended their integrated sexual health contracts to NHS providers. West Sussex ran a PSR competitive process for a seven-year contract from August 2026, weighting value at 10% and access, inequalities and integration at 40% combined [44]. Brighton & Hove published an intention to award through the Most Suitable Provider process [45]. Liverpool approved a three-year continuation of its service, with a contract variation adding new prevention elements [43].
 >
 > Any continuation of the pilot routes is therefore most likely to be a contract variation, so the evaluation reports recurrent cost against the PSR modification conditions. And where access and inequalities carry four times the weight of value, who a route reached will count for more than any ratio.

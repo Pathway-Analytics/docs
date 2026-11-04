@@ -48,6 +48,17 @@ Most service evaluations need to look at the same activity in five ways. These a
 - **Equity** asks who can be identified and how they progress.
 - **Value for money** places cost, the counterfactual and continuation alongside the outcomes.
 
+```mermaid
+flowchart TD
+  EB[(One controlled<br/>evidence base)]
+  EB --> L1[Core measures]
+  EB --> L2[Signposting]
+  EB --> L3[Bespoke measures]
+  EB --> L4[Equity]
+  EB --> L5[Value for money]
+```
+<p class="figure-caption">Figure 2.1. Five analytical lenses share one controlled evidence base — never added together.</p>
+
 The lenses must not be added together: an anonymous outreach contact and a patient record are different units.
 
 ### 2.2 A minimum viable dataset, set correctly and in proportion
@@ -102,6 +113,18 @@ Each organisation's information governance lead should be involved early. This t
 ### 2.5 The design sequence
 
 The sequence is iterative. Agree the question and the theory of change; test whether the MVD fields exist and how they are coded; clean and standardise routine records; produce the core, signposting, bespoke, equity and cost views; test the interpretation with the services that supplied the data; and revise as the evidence matures.
+
+```mermaid
+flowchart LR
+  A[Decision &<br/>theory of change] --> B[Agree measures<br/>MVD by claim]
+  B --> C[Data-readiness<br/>review]
+  C --> D[Clean &<br/>standardise]
+  D --> E[Produce the<br/>five views]
+  E --> F[Test with the<br/>services]
+  F --> G([Back to the<br/>decision])
+  F -.->|revise as evidence matures| B
+```
+<p class="figure-caption">Figure 2.3. From the decision, through agreed measures and data readiness, to analysis and back to the decision.</p>
 
 > **Illustration from the BSWL evaluation.** The evaluation agreed a minimum viable dataset with the three sites. The report sets out what was agreed and what arrived, dataset by dataset, which comparisons each permits, and where records link and where they break. Where linkage breaks — for example for anonymous outreach or for records held on a separate clinical system — the analysis stops at the last defensible stage rather than estimating across the gap.
 
