@@ -419,16 +419,101 @@
       });
     }
 
+    // Mermaid Plugin
+    // Renders ```mermaid fenced code blocks as diagrams. Mermaid is loaded from
+    // CDN (see the script tag below); this plugin turns the fenced blocks into
+    // <div class="mermaid"> containers during markdown parse and runs the
+    // renderer after each page render.
+    function mermaidPlugin(hook) {
+      var idx = 0;
+      hook.beforeEach(function (content) {
+        // Replace ```mermaid ... ``` with a mermaid container holding the raw graph.
+        return content.replace(/```mermaid\n([\s\S]*?)```/g, function (_m, code) {
+          return '<div class="mermaid" data-mermaid-src="' +
+            encodeURIComponent(code) + '">' + code + '</div>';
+        });
+      });
+      hook.doneEach(function () {
+        if (typeof window.mermaid === 'undefined') return;
+        var blocks = Array.prototype.slice.call(document.querySelectorAll('.mermaid'));
+        blocks.forEach(function (el) {
+          if (el.getAttribute('data-processed') === '1') return;
+          // Restore the raw source (markdown may have HTML-escaped it) before rendering.
+          var src = el.getAttribute('data-mermaid-src');
+          if (src) el.textContent = decodeURIComponent(src);
+          el.removeAttribute('data-mermaid-src');
+          try {
+            window.mermaid.init(undefined, el);
+            el.setAttribute('data-processed', '1');
+          } catch (e) {
+            // Leave the source visible if rendering fails rather than blanking it.
+          }
+        });
+      });
+    }
+
+    // Missing Image Plugin
+    // Replaces any content image that fails to load with a neutral placeholder,
+    // so pages stay readable while screenshots are still to be added. Markup is
+    // untouched: once the real file exists at the referenced path it just loads.
+    function missingImagePlugin(hook) {
+      function placeholder(img) {
+        if (img.getAttribute('data-placeholder') === '1') return;
+        var box = document.createElement('div');
+        box.className = 'image-placeholder';
+        box.setAttribute('role', 'img');
+        box.setAttribute('aria-label', 'Screenshot to come: ' + (img.getAttribute('alt') || ''));
+        box.setAttribute('data-placeholder', '1');
+        box.innerHTML = '<span class="image-placeholder-title">Screenshot to come</span>' +
+          '<span class="image-placeholder-alt"></span>';
+        box.querySelector('.image-placeholder-alt').textContent = img.getAttribute('alt') || '';
+        if (img.parentNode) img.parentNode.replaceChild(box, img);
+      }
+      hook.doneEach(function () {
+        var imgs = document.querySelectorAll('.markdown-section img');
+        Array.prototype.forEach.call(imgs, function (img) {
+          if (img.complete && img.naturalWidth === 0) {
+            placeholder(img);
+          } else if (!img.complete) {
+            img.addEventListener('error', function () { placeholder(img); }, { once: true });
+          }
+        });
+      });
+    }
+
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
+      missingImagePlugin,
       sidebarTogglePlugin,
       collapsibleSidebarPlugin,
       calloutPlugin,
       searchHighlightPlugin,
       anchorScrollPlugin,
       editLinkPlugin,
-      cmsSegmentPlugin
+      cmsSegmentPlugin,
+      mermaidPlugin
     ]);
+  </script>
+
+  <!-- Mermaid (diagrams) — initialised with the house palette; manual start so
+       the Docsify plugin controls when diagrams render. -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    if (window.mermaid) {
+      window.mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: 'strict',
+        theme: 'base',
+        themeVariables: {
+          primaryColor: '#eef2f8',
+          primaryBorderColor: '#1f4788',
+          primaryTextColor: '#111827',
+          lineColor: '#4b5563',
+          fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+          fontSize: '14px'
+        }
+      });
+    }
   </script>
 
   <!-- Docsify Core -->

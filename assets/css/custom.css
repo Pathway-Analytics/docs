@@ -1056,3 +1056,60 @@ input:focus-visible,
 @media (max-width: 600px) {
   .home-grid { grid-template-columns: 1fr; }
 }
+
+/* ==========================================================================
+   14. MERMAID DIAGRAMS
+   ========================================================================== */
+
+.markdown-section .mermaid {
+  margin: var(--space-md) 0;
+  padding: var(--space-md);
+  background: var(--pa-surface-raised);
+  border: 1px solid var(--pa-border);
+  border-radius: var(--pa-radius-card);
+  text-align: center;
+  overflow-x: auto;
+}
+
+.markdown-section .mermaid svg { max-width: 100%; height: auto; }
+
+/* Figure caption that follows a diagram or widget */
+.markdown-section .figure-caption {
+  font-size: 0.82em;
+  color: var(--pa-text-subtle);
+  text-align: center;
+  margin: calc(-1 * var(--space-xs)) 0 var(--space-md);
+}
+
+/* ==========================================================================
+   15. IMAGE PLACEHOLDER (screenshots not yet added)
+   ========================================================================== */
+
+.markdown-section .image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 160px;
+  margin: var(--space-sm) 0;
+  padding: var(--space-md);
+  background: var(--pa-surface-sunken);
+  border: 1px dashed var(--pa-border-strong);
+  border-radius: var(--pa-radius-card);
+  text-align: center;
+}
+
+.image-placeholder-title {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pa-text-muted);
+}
+
+.image-placeholder-alt {
+  font-size: 0.82em;
+  color: var(--pa-text-subtle);
+  max-width: 60ch;
+}
