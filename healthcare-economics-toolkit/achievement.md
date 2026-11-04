@@ -70,6 +70,25 @@ The cohort adjustment matters. Only 90 of the 120 people who started can be foll
 
 The three cost-view figures for cost per person retained at six months are all correct, and each answers a different question. **£2,833** tells the funder what its grant bought; **£1,500** shows what delivery consumed; **£1,280**, from £64,000 a year at a steady state of 100 starts and 50% retention, is what a commissioner would pay. Quoting the first as if it were the third is the most common error in pilot evaluation.
 
+<figure class="bar-chart" role="group" aria-label="Route X: cost per person retained at six months under each cost view">
+  <div class="bar-row">
+    <div class="bar-label">Top-down investment<span>What the funder bought</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+    <div class="bar-value">£2,833</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Bottom-up delivery<span>What delivery consumed</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:52.9%"></div></div>
+    <div class="bar-value">£1,500</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Recurrent continuation<span>What a commissioner would pay</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:45.2%"></div></div>
+    <div class="bar-value">£1,280</div>
+  </div>
+</figure>
+<p class="figure-caption">Figure 5.2. Route X: cost per person retained at six months under each cost view (illustrative). Each answers a different question; the bars are alternatives, not parts of one total.</p>
+
 ### 5.6 Benchmarks
 
 | Measure | Figure | Source |
