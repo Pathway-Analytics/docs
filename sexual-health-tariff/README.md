@@ -27,7 +27,7 @@ This documentation is organised around three journeys. Start with the one that m
 
 ## Application access
 
-- <a href="https://production.pathwayanalytics.com/common/">Tariff Grouper login ↗</a>
+- <a href="https://production.pathwayanalytics.com/auth/sign-in">Tariff Grouper login ↗</a>
 - <a href="https://production.pathwayanalytics.com/public/configuration">Configuration portal ↗</a>
 
 For a subscription, or any question about the service, contact [enquiries@pathwayanalytics.com](mailto:enquiries@pathwayanalytics.com).

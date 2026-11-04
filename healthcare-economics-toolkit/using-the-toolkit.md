@@ -245,7 +245,7 @@ Sources were accessed between 8 September and 13 October 2026.
 12. Jones KC, Weatherly H, et al. Unit Costs of Health and Social Care 2025. PSSRU (Kent) and CHE (York), June 2026. [kar.kent.ac.uk](https://kar.kent.ac.uk/115569/)
 13. NHS England. 2024/25 National Cost Collection data publication. November 2025. [england.nhs.uk](https://www.england.nhs.uk/publication/2024-25-national-cost-collection-data-publication/)
 14. DHSC. Drugs and pharmaceutical electronic market information tool (eMIT). [gov.uk](https://www.gov.uk/government/publications/drugs-and-pharmaceutical-electronic-market-information-emit)
-15. Greater Manchester Combined Authority. Unit Cost Database (v3.0, November 2025) and cost-benefit model. [greatermanchester-ca.gov.uk](https://greatermanchester-ca.gov.uk/what-we-do/research/research-cost-benefit-analysis)
+15. Greater Manchester Combined Authority. Unit Cost Database (v3.0, November 2025) and cost-benefit model. [greatermanchester-ca.gov.uk](https://www.greatermanchester-ca.gov.uk/what-we-do/research/research-cost-benefit-analysis/)
 16. Nunn AS, et al. Defining the HIV pre-exposure prophylaxis care continuum. AIDS 2017;31(5):731–734. [doi.org](https://doi.org/10.1097/QAD.0000000000001658)
 17. UKHSA. HIV testing, PrEP, new HIV diagnoses and care outcomes: 2025 report (data to December 2024). October 2025. [gov.uk](https://www.gov.uk/government/statistics/hiv-annual-data-tables/hiv-testing-prep-new-hiv-diagnoses-and-care-outcomes-for-people-accessing-hiv-services-2025-report)
 18. Zhang J, et al. Discontinuation of PrEP: a global systematic review and meta-analysis. Lancet HIV 2022;9:e254–e268. [aidsmap.com](https://www.aidsmap.com/news/apr-2022/four-ten-prep-recipients-stop-taking-it-within-six-months-global-meta-analysis)

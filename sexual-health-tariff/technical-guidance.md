@@ -126,7 +126,7 @@ The Tariff Grouper is accessed via a web-based portal. There is no API integrati
 | Requirement | Detail |
 |-------------|--------|
 | Access method | Web browser via HTTPS |
-| URL | [https://production.pathwayanalytics.com](https://production.pathwayanalytics.com/common/) |
+| URL | [https://production.pathwayanalytics.com](https://production.pathwayanalytics.com/auth/sign-in) |
 | Authentication | Username and password (provided on subscription setup) |
 | Browser support | Any modern browser with JavaScript enabled (Chrome, Firefox, Edge, Safari) |
 | Connectivity | Standard HTTPS (port 443) — no VPN or special network configuration required |
@@ -141,7 +141,7 @@ The Tariff Grouper is accessed via a web-based portal. There is no API integrati
 
 ### Submission Workflow
 
-1. Log in to the Tariff Grouper at [https://production.pathwayanalytics.com](https://production.pathwayanalytics.com/common/)
+1. Log in to the Tariff Grouper at [https://production.pathwayanalytics.com](https://production.pathwayanalytics.com/auth/sign-in)
 2. Navigate to the data upload area
 3. Select the relevant tariff configuration
 4. Upload your prepared CSV file
