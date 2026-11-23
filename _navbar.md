@@ -3,4 +3,5 @@
 - [Tariff Grouper](/sexual-health-tariff/)
 - [Health Pathways](/health-pathways/)
 - [Case Studies](/case-studies/)
+- [Insights](/insights/)
 - [Contact](/#/?id=contact)

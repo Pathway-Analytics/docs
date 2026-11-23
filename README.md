@@ -33,6 +33,12 @@ Specialist healthcare economics consultancy delivering automated tariff systems,
     <p>Real-world examples of healthcare economics consultancy outcomes.</p>
     <span class="home-card-cta">Read case studies →</span>
   </a>
+  <a href="#/insights/" class="home-card">
+    <span class="home-card-eyebrow">Analysis &amp; commentary</span>
+    <h3>Insights</h3>
+    <p>Commentary on health economics, commissioning and policy: what the evidence shows and what it means for funding decisions.</p>
+    <span class="home-card-cta">Read insights →</span>
+  </a>
 </div>
 
 ## G-Cloud 14 Supplier

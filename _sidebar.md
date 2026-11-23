@@ -5,4 +5,5 @@
   - [Health Pathways](/health-pathways/)
   - [FTCi](/ftci/)
   - [Case Studies](/case-studies/)
+  - [Insights](/insights/)
   - [Style Guide](/style-guide/)
