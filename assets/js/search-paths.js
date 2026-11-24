@@ -16,6 +16,8 @@ window.PA_SEARCH_PATHS = [
   "/healthcare-economics-toolkit/value",
   "/insights/",
   "/insights/what-is-health-economics-for",
+  "/node_modules/marked/",
+  "/node_modules/marked/man/marked.1",
   "/sexual-health-tariff/",
   "/sexual-health-tariff/commissioner-guidance",
   "/sexual-health-tariff/dataset",
