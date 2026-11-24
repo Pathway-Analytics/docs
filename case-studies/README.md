@@ -6,7 +6,7 @@ Pathway Analytics delivers healthcare economics consultancy across the NHS, supp
 
 [NHS Trust Tariff Implementation](/case-studies/nhs-trust-tariff) — Implemented automated tariff grouping for a major NHS trust, reducing manual processing time by 80% and improving payment accuracy across sexual health services.
 
-[Integrated Care System Pathway Costing](/case-studies/ics-pathway-costing) — Developed a comprehensive pathway costing model for an Integrated Care System, enabling transparent activity-based pricing across multiple providers.
+[Integrated Care System Pathway Costing](/case-studies/ics-pathway-costing) — Developed a comprehensive pathway costing model for an Integrated Care System, enabling transparent, pathway-based pricing across multiple providers.
 
 [Local Authority Commissioning Transformation](/case-studies/la-commissioning) — Supported a Local Authority in redesigning their sexual health commissioning framework, delivering standardised tariff configurations and governance processes.
 

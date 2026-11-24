@@ -1,5 +1,5 @@
 <!-- meta
-description: A pathway costing model for an Integrated Care System, giving transparent activity-based pricing across multiple providers.
+description: A pathway costing model for an Integrated Care System, giving transparent, pathway-based pricing across multiple providers.
 -->
 
 # Integrated Care System Pathway Costing
@@ -14,11 +14,11 @@ The ICS lacked a transparent, evidence-based costing model for sexual health pat
 
 ## Approach
 
-Pathway Analytics developed a comprehensive activity-based costing model for the ICS. Each clinical pathway was broken down into its component steps, with resources (staff time, consumables, overheads) assigned to each step. The model enabled comparison across providers and identification of cost drivers.
+Pathway Analytics mapped and costed the ICS's clinical pathways. Each pathway was broken down into its component steps, with resources (staff time, consumables, overheads) assigned to each step. The model enabled comparison across providers and identification of cost drivers.
 
 ## Outcomes
 
-- Developed transparent activity-based pricing across multiple providers
+- Transparent, pathway-based pricing across multiple providers
 - Enabled informed tariff rate setting based on actual resource consumption
 - Identified cost variation between providers, supporting benchmarking discussions
 - Provided a reusable costing framework adaptable to future service redesign

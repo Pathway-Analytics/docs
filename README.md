@@ -13,13 +13,13 @@ image: /assets/images/og/default.png
   <p class="home-tagline">Turning evidence, funding and clinical pathways into workable change</p>
 </div>
 
-Specialist healthcare economics consultancy delivering automated tariff systems, activity-based costing, and commissioning intelligence to the NHS.
+Pathway Analytics works with public bodies, funders and providers on how health services are designed, paid for and judged. We bring together health economics, pathway and process redesign, funding design and digital tools, so that decisions rest on evidence and work in practice.
 
 <div class="home-grid">
   <a href="/healthcare-economics-toolkit/" class="home-card">
     <span class="home-card-eyebrow">Methods &amp; evidence</span>
     <h3>Healthcare Economics Toolkit</h3>
-    <p>Costing and value for money in sexual health and HIV prevention — for the people who decide whether a service is worth paying for.</p>
+    <p>Costing and value for money in sexual health and HIV prevention, for the people who decide whether a service is worth paying for.</p>
     <span class="home-card-cta">Explore the toolkit →</span>
   </a>
   <a href="/sexual-health-tariff/" class="home-card">
@@ -29,9 +29,9 @@ Specialist healthcare economics consultancy delivering automated tariff systems,
     <span class="home-card-cta">Open the guide →</span>
   </a>
   <a href="/health-pathways/" class="home-card">
-    <span class="home-card-eyebrow">Costing models</span>
+    <span class="home-card-eyebrow">Pathway redesign</span>
     <h3>Health Pathways</h3>
-    <p>Activity-based costing models for healthcare pathway analysis and service design.</p>
+    <p>Mapping how people move through services, where they fall away and what each step costs, so pathways can be redesigned around the person rather than the budget.</p>
     <span class="home-card-cta">Learn more →</span>
   </a>
   <a href="/ftci/" class="home-card">
@@ -43,7 +43,7 @@ Specialist healthcare economics consultancy delivering automated tariff systems,
   <a href="/case-studies/" class="home-card">
     <span class="home-card-eyebrow">In practice</span>
     <h3>Case Studies</h3>
-    <p>Real-world examples of healthcare economics consultancy outcomes.</p>
+    <p>Work with NHS trusts, integrated care systems, councils and national bodies: the problem, what we did and what changed.</p>
     <span class="home-card-cta">Read case studies →</span>
   </a>
   <a href="/insights/" class="home-card">
