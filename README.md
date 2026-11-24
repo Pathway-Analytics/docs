@@ -24,14 +24,14 @@ image: /assets/images/og/default.png
     <div class="reach-item"><span class="reach-type">Government departments</span><span class="reach-names">Department of Health and Social Care · Home Office · Ministry of Justice</span></div>
     <div class="reach-item"><span class="reach-type">National bodies</span><span class="reach-names">NHS England · Public Health England · Health Protection Agency</span></div>
     <div class="reach-item"><span class="reach-type">Regional programmes</span><span class="reach-names">London Sexual Health Programme · Healthy London Partnership · NHS England (London)</span></div>
-    <div class="reach-item"><span class="reach-type">NHS commissioners</span><span class="reach-names">Strategic health authorities, primary care trusts and clinical commissioning groups in London, the North West, North East, South West and East Midlands</span></div>
-    <div class="reach-item"><span class="reach-type">Local government</span><span class="reach-names">Mayor of London · London Councils · local authorities across England</span></div>
+    <div class="reach-item"><span class="reach-type">NHS commissioners</span><span class="reach-names">Strategic Health Authorities, Primary Care Trusts and Clinical Commissioning Groups in London, the North West, North East, South West and East Midlands</span></div>
+    <div class="reach-item"><span class="reach-type">Local government</span><span class="reach-names">Mayor of London · London Councils · Local Authorities across England</span></div>
     <div class="reach-item"><span class="reach-type">NHS trusts and providers</span><span class="reach-names">King's Health Partners, including King's College Hospital and Guy's and St Thomas' · sexual health and HIV providers across England</span></div>
-    <div class="reach-item"><span class="reach-type">Policing and justice</span><span class="reach-names">Police forces · Police and Crime Commissioners · sexual assault referral centres</span></div>
+    <div class="reach-item"><span class="reach-type">Policing and justice</span><span class="reach-names">Police forces · Police and Crime Commissioners · Sexual Assault Referral Centres</span></div>
     <div class="reach-item"><span class="reach-type">International funders</span><span class="reach-names">Elton John AIDS Foundation, in the UK and Kenya</span></div>
     <div class="reach-item"><span class="reach-type">Partners</span><span class="reach-names">Novo Nordisk · ViiV Healthcare · Fast-Track Cities London (UNAIDS initiative)</span></div>
   </div>
-  <p class="reach-note">The integrated sexual health tariff is used by local authority commissioners and providers across England: in 2025/26, 130 services were commissioned solely on a Pathway Analytics tariff.</p>
+  <p class="reach-note">The integrated sexual health tariff is used by Local Authority commissioners and providers across England: in 2025/26, 130 services were commissioned solely on a Pathway Analytics tariff.</p>
 </section>
 
 <section class="five-questions">
