@@ -1469,6 +1469,13 @@ html[data-theme="dark"] .markdown-section .reach { background: #172033; }
 }
 .markdown-section .reach-grid .reach-wide { grid-column: 1 / -1; }
 .markdown-section .reach-wide .reach-names { max-width: 900px; }
+.markdown-section .reach-note {
+  margin: 28px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(31, 71, 136, 0.15);
+  font-size: 0.95rem;
+  color: var(--pa-text-muted);
+}
 .markdown-section .reach-type {
   display: block;
   margin-bottom: 4px;
