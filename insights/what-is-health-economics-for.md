@@ -4,6 +4,8 @@
 
 *Bella Grant, Pathway Analytics | November 2026*
 
+<img src="/assets/images/upstream-downstream.svg" alt="From upstream to downstream: change the structures, prevent, treat" style="max-width: 100%; height: auto;">
+
 We spend a great deal of time debating how much healthcare costs: what we can afford, where savings can be made and how to show value for money. These are legitimate questions. Public resources are finite, and every pound spent on one intervention is a pound unavailable for something else. Understanding those choices is central to good public policy.
 
 But I increasingly wonder whether we are asking too narrow a set of questions. A man born in one of the most deprived areas of England can expect around 50 years in good health. In the least deprived areas the figure is about 69 years, and for women the gap is slightly wider. Twenty years of healthy life is not a gap we will close by debating unit costs.
@@ -141,6 +143,8 @@ There will not always be a single correct answer. Sometimes increasing fairness 
 I do not think the answer is to discard the analytical tools that health economists have spent decades developing. Cost-effectiveness analysis, economic modelling, programme evaluation and careful examination of resource allocation remain essential. But they need to sit within a broader framework that looks beyond the efficiency of healthcare services to the conditions that determine health, who benefits, the incentives institutions create and the wider effects of economic policy. That means economists working more closely with public health specialists, clinicians, social scientists, communities and policymakers, and keeping the work practical enough to inform real decisions.
 
 It helps to think about three levels of action. The first is treating inequality: making sure people facing disadvantage can reach effective care. The second is preventing it, by tackling the social and commercial conditions that produce avoidable illness. The third is changing the structures that sustain it, including how public money is divided and what organisations are rewarded for. Most of my work has sat in the first two, with funding reform reaching into the third. I think health economics needs to spend more of its time there.
+
+<img src="/assets/images/three-levels-rings.svg" alt="Three levels of action: treating at the centre, preventing around it, changing structures outermost. Most health economics works at the centre; the causes sit further out." style="max-width: 100%; height: auto;">
 
 When public resources are being allocated, I would add four questions to the usual ones about cost and efficiency:
 
