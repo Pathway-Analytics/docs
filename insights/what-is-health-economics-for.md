@@ -22,13 +22,19 @@ This is valuable work. Without it, decisions risk being driven by institutional 
 
 But there is a danger when economic evaluation becomes too narrowly focused on the immediate costs and measurable outputs of individual services.
 
-PrEP shows how this plays out. Since NHS roll-out in 2020 it has been one of the successes of HIV prevention in England. But in 2024, nearly four in five gay and bisexual men who needed PrEP received it, against just over a third of Black African heterosexual women and men with the same need. New diagnoses are falling among white gay and bisexual men and rising among Black African heterosexual men.
+<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
 
-Suppose a council has £100,000 to spend on PrEP services. NHS England pays for the drug itself, so this money covers the appointments, testing and monitoring around it. Through existing clinics it might support around 400 people at about £250 each. Through an outreach-led pathway for women and migrant communities, with community workers, interpreting and follow-up, the same money might support 240 people at just over £400 each. On cost per person, the clinic route wins easily.
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: PrEP</p>
 
-But many of the clinic users were already well connected to services and would probably have found PrEP anyway. If one in five of them is additional, the clinic route adds 80 people to PrEP. If four in five of the outreach group would otherwise have gone without, that route adds around 190, from the groups where need is least met.
+PrEP shows how this plays out. Since NHS roll-out in 2020 it has been one of the successes of HIV prevention in England. But in 2024, nearly four in five gay and bisexual men who needed PrEP received it, against just over a third of Black African heterosexual women and men with the same need.
 
-*The cost and additionality figures are illustrative, not drawn from any evaluation.*
+Under the integrated sexual health tariff, a council pays around £90 to start someone on PrEP and around £45 for each follow-up, and NHS England pays for the drug. For someone already at ease using a clinic, a year of PrEP appointments costs the council a few hundred pounds.
+
+Reaching a woman from a Black African or other migrant community who has never used a sexual health clinic costs more. She may need a community worker, an interpreter or an appointment outside the clinic before the tariff is paid at all. Per person, that route will look expensive.
+
+But the clinic is mostly serving people who would probably have found PrEP anyway, and the outreach route is reaching people who would not. If we judge both by cost per person, we will keep funding the first and cutting the second.
+
+</div>
 
 A programme that costs more per person may nevertheless represent a better use of public resources if it meets real unmet need and delivers benefits that would otherwise not occur.
 
@@ -58,6 +64,14 @@ A housing intervention might reduce future hospital admissions. Better education
 
 Yet the organisation paying for an intervention may receive little direct financial benefit from it.
 
+<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: cold homes</p>
+
+The Building Research Establishment estimates that poor housing costs the NHS around £1.4 billion a year in first-year treatment costs alone, more than half of it from homes that are too cold. Fixing excess cold would cost about £5.9 billion and, on NHS savings alone, pay for itself in around seven years. But the NHS does not pay for the repairs, and the owners, landlords and councils who would pay for them see none of the savings.
+
+</div>
+
 For an individual budget-holder, declining to invest may be rational. For society, it may be very short-sighted.
 
 > What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole.
@@ -78,13 +92,27 @@ Outcome-based funding sounds attractive, but outcomes are often difficult to mea
 
 Each can work, depending on how it is designed and implemented.
 
+<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: the integrated sexual health tariff</p>
+
 I learnt this designing the integrated sexual health tariff. Hospital sexual health clinics were paid per attendance under the national tariff, which overpaid much of their activity relative to cost, while contraception services sat on block contracts and were comparatively underfunded. The payment rules worked against integrated care. Changing them was less a costing problem than a question of who stood to lose. The strongest resistance came from hospital finance directors and clinical leads, for whom the old tariff was valuable. What worked was building the care pathways with clinicians from both services, so the evidence was theirs rather than ours.
+
+</div>
 
 We need to understand the economics of the whole system as well as the costs of its parts.
 
 That means asking who has an incentive to change, who gains from current arrangements and who bears the cost of reform.
 
 These are economic questions, but they are also questions about organisations, governance and power.
+
+<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: sexual assault services</p>
+
+Sexual assault services sit across health, local government, police and justice. Each holds part of the budget and part of the responsibility, and no single body owns the whole pathway. In two national reviews for NHS England, the Home Office and the Ministry of Justice, we mapped where cases fell away between first contact, forensic examination and court. A national group agreed 29 core pathways and a matrix showing which body should fund each step. Neither review was acted on across the agencies. Agreeing who should pay turned out to be far easier than getting anyone to pay.
+
+</div>
 
 A technically elegant funding model will achieve very little if it ignores the institutional realities into which it is introduced.
 
@@ -115,6 +143,14 @@ These are not questions that economics alone can answer. They involve ethical ju
 ## The economics of prevention
 
 Prevention is frequently described as an investment, yet it is often among the first areas placed under pressure when budgets tighten.
+
+<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: the public health grant</p>
+
+Councils pay for sexual health, drug and alcohol services, stop smoking support and health visiting from the public health grant. Between 2015/16 and 2025/26 the grant fell by about a quarter in real terms per person, while NHS spending grew. The cuts were deepest in the most deprived areas, where need is greatest.
+
+</div>
 
 There are understandable reasons for this. Prevention can involve upfront expenditure, uncertain outcomes and benefits that may not become apparent for years.
 
@@ -221,6 +257,9 @@ I would like to see us use it more ambitiously.
 - WHO Council on the Economics of Health for All (2023). [Health for All: Transforming Economies to Deliver What Matters](https://www.who.int/publications/m/item/health-for-all--transforming-economies-to-deliver-what-matters).
 - Institute of Health Equity (2020). [Health Equity in England: The Marmot Review 10 Years On](https://www.health.org.uk/reports-and-analysis/reports/health-equity-in-england-the-marmot-review-10-years-on-0).
 - UK Health Security Agency (2025). [HIV testing, PrEP, new HIV diagnoses and care outcomes for people accessing HIV services: 2025 report](https://www.gov.uk/government/statistics/hiv-annual-data/hiv-testing-prep-new-hiv-diagnoses-and-care-outcomes-for-people-accessing-hiv-services-2025-report).
+- Building Research Establishment (2021). [The Cost of Poor Housing in England](https://www.housinglin.org.uk/_assets/Resources/Housing/OtherOrganisation/BRE_Report_the_cost_of_poor_housing_2021.pdf).
+- The Health Foundation (2025). [Investing in the public health grant](https://www.health.org.uk/reports-and-analysis/analysis/investing-in-the-public-health-grant).
+- NHS England (2015). National Review of Sexual Assault Services in England. Grant, Pearce and Hunt.
 - University of York, Centre for Health Economics. [Distributional Cost-Effectiveness Analysis](https://www.york.ac.uk/che/equity/distributional-cost-effectiveness-analysis/).
 - World Health Organization. [Commercial Determinants of Health](https://www.who.int/health-topics/commercial-determinants-of-health).
 
