@@ -24,6 +24,8 @@ But there is a danger when economic evaluation becomes too narrowly focused on t
 
 Consider two hypothetical healthcare programmes. Both cost £1 million. Both reach 1,000 people. Both appear to deliver comparable clinical benefits. The difference is that one reaches people who already have relatively good access to healthcare, while the other reaches a population that has historically been excluded or underserved.
 
+![Two programmes with the same cost, reach and clinical benefit, one reaching people with good access and one reaching underserved groups](/assets/images/two-programmes-same-cost.svg)
+
 Are these programmes equally valuable?
 
 In a conventional analysis, they might appear similar. But if we are concerned with reducing avoidable health inequalities, the distribution of those benefits matters.
@@ -62,6 +64,8 @@ For an individual budget-holder, declining to invest may be rational. For societ
 
 > What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole.
 
+![A council housing budget pays for repairs; years later the NHS budget sees fewer admissions](/assets/images/who-pays-who-benefits.svg)
+
 ## The hidden influence of funding systems
 
 Another part of health economics that I think matters a great deal is how funding systems shape what organisations do.
@@ -76,7 +80,7 @@ Outcome-based funding sounds attractive, but outcomes are often difficult to mea
 
 Each can work, depending on how it is designed and implemented.
 
-Working on sexual health funding showed me how much incentives matter. Small technical differences in how activity is paid for can favour one type of service over another, whatever patients actually need. Getting the numbers right is the easy part. The harder part is understanding why organisations behave as they do, whose interests a change affects and how to get them to agree on something better.
+I learnt this designing the integrated sexual health tariff. Hospital sexual health clinics were paid per attendance under the national tariff, which overpaid much of their activity relative to cost, while contraception services sat on block contracts and were comparatively underfunded. The payment rules worked against integrated care. Changing them was less a costing problem than a question of who stood to lose. The strongest resistance came from hospital finance directors and clinical leads, for whom the old tariff was valuable. What worked was building the care pathways with clinicians from both services, so the evidence was theirs rather than ours.
 
 We need to understand the economics of the whole system as well as the costs of its parts.
 
