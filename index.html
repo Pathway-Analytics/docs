@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -48,10 +48,26 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
 
-  <!-- Inline theme setup -->
+  <!-- Theme setup. Runs before first paint so there is no flash of the wrong
+       theme. Mode is "system" (default, follows the OS or browser), "light" or
+       "dark" (explicit override saved by the toggle). data-theme always holds
+       the RESOLVED theme, so the CSS only needs one dark block. -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff">
   <script>
-    (function() {
-      document.documentElement.setAttribute('data-theme', 'light');
+    (function () {
+      var mode = 'system';
+      try {
+        var saved = localStorage.getItem('pa-theme-preference');
+        if (saved === 'light' || saved === 'dark') mode = saved;
+      } catch (e) {}
+      var dark = mode === 'dark' ||
+        (mode === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var root = document.documentElement;
+      root.setAttribute('data-theme', dark ? 'dark' : 'light');
+      root.setAttribute('data-theme-mode', mode);
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute('content', dark ? '#111827' : '#ffffff');
     })();
   </script>
 </head>
@@ -137,72 +153,84 @@
     }
 
     // Dark Mode Plugin
-    // Manages dark mode toggle, localStorage persistence, and OS preference detection
-    function darkModePlugin(hook, vm) {
+    // Three-way theme control: System (follow the OS/browser, the default),
+    // Light, Dark. The toggle cycles System -> Light -> Dark. An explicit choice
+    // is saved in localStorage; choosing System removes it again. While in
+    // System mode the page follows live OS changes (prefers-color-scheme), and
+    // other open tabs stay in sync through the storage event.
+    function darkModePlugin(hook) {
       var STORAGE_KEY = 'pa-theme-preference';
-      var LOGO_LIGHT = 'https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png';
-      var LOGO_DARK = 'https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small%20white.png';
+      var ORDER = ['system', 'light', 'dark'];
+      var LABEL = { system: 'System', light: 'Light', dark: 'Dark' };
+      var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+      var SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
+      var ICON = {
+        system: SVG + '<rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>',
+        light: SVG + '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
+        dark: SVG + '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
+      };
 
-      function getStoredPreference() {
+      function getMode() {
         try {
-          return localStorage.getItem(STORAGE_KEY);
+          var v = localStorage.getItem(STORAGE_KEY);
+          return v === 'light' || v === 'dark' ? v : 'system';
         } catch (e) {
-          return null;
+          return document.documentElement.getAttribute('data-theme-mode') || 'system';
         }
       }
 
-      function setStoredPreference(theme) {
+      function saveMode(mode) {
         try {
-          localStorage.setItem(STORAGE_KEY, theme);
-        } catch (e) {
-          // localStorage unavailable, silently ignore
-        }
+          if (mode === 'system') localStorage.removeItem(STORAGE_KEY);
+          else localStorage.setItem(STORAGE_KEY, mode);
+        } catch (e) { /* storage unavailable: choice lasts for this page view */ }
       }
 
-      function getPreferredTheme() {
-        var stored = getStoredPreference();
-        if (stored === 'dark' || stored === 'light') return stored;
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
-        return 'light';
+      function resolve(mode) {
+        if (mode === 'system') return mq && mq.matches ? 'dark' : 'light';
+        return mode;
       }
 
-      function applyTheme(theme) {
-        document.documentElement.setAttribute('data-theme', theme);
-        // Update toggle button
-        var toggleBtn = document.getElementById('dark-mode-toggle');
-        if (toggleBtn) {
-          toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-          toggleBtn.innerHTML = theme === 'dark'
-            ? '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
-            : '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+      function apply(mode) {
+        var theme = resolve(mode);
+        var root = document.documentElement;
+        root.setAttribute('data-theme', theme);
+        root.setAttribute('data-theme-mode', mode);
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', theme === 'dark' ? '#111827' : '#ffffff');
+        var btn = document.getElementById('dark-mode-toggle');
+        if (btn) {
+          var next = ORDER[(ORDER.indexOf(mode) + 1) % ORDER.length];
+          btn.innerHTML = ICON[mode];
+          btn.setAttribute('aria-label', 'Theme: ' + LABEL[mode] + '. Switch to ' + LABEL[next]);
+          btn.setAttribute('title', 'Theme: ' + LABEL[mode] + ' (click for ' + LABEL[next] + ')');
         }
       }
 
       hook.mounted(function () {
-        // Create dark mode toggle as a fixed-position element (independent of nav)
-        var toggleBtn = document.createElement('button');
-        toggleBtn.id = 'dark-mode-toggle';
-        toggleBtn.className = 'dark-mode-toggle';
-        toggleBtn.type = 'button';
-
-        var currentTheme = getPreferredTheme();
-        toggleBtn.innerHTML = currentTheme === 'dark'
-          ? '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
-          : '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
-        toggleBtn.setAttribute('aria-label', currentTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-
-        toggleBtn.addEventListener('click', function () {
-          var current = document.documentElement.getAttribute('data-theme') || 'light';
-          var newTheme = current === 'dark' ? 'light' : 'dark';
-          applyTheme(newTheme);
-          setStoredPreference(newTheme);
+        var btn = document.createElement('button');
+        btn.id = 'dark-mode-toggle';
+        btn.className = 'dark-mode-toggle';
+        btn.type = 'button';
+        btn.addEventListener('click', function () {
+          var mode = getMode();
+          var next = ORDER[(ORDER.indexOf(mode) + 1) % ORDER.length];
+          saveMode(next);
+          apply(next);
         });
+        document.body.appendChild(btn);
+        apply(getMode());
 
-        // Append directly to body — CSS will position it fixed in top-right
-        document.body.appendChild(toggleBtn);
-
-        // Apply initial theme
-        applyTheme(currentTheme);
+        // Follow live OS/browser changes, but only while in System mode.
+        var onSystemChange = function () { if (getMode() === 'system') apply('system'); };
+        if (mq) {
+          if (mq.addEventListener) mq.addEventListener('change', onSystemChange);
+          else if (mq.addListener) mq.addListener(onSystemChange);
+        }
+        // Keep other open tabs in step with a choice made in this one.
+        window.addEventListener('storage', function (e) {
+          if (e.key === STORAGE_KEY || e.key === null) apply(getMode());
+        });
       });
     }
 

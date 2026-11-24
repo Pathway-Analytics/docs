@@ -10,6 +10,7 @@
    ========================================================================== */
 
 :root {
+  color-scheme: light;
   /* Brand */
   --pa-primary: #1f4788;
   --pa-primary-hover: #163561;
@@ -62,6 +63,7 @@
 
 /* Dark theme — pwa-refactor values, tuned for the near-black page bg */
 html[data-theme="dark"] {
+  color-scheme: dark;             /* native form controls, scrollbars, default colours */
   --pa-surface: #111827;          /* gray-900 */
   --pa-surface-raised: #1f2937;   /* gray-800 */
   --pa-surface-sunken: #0b1220;
