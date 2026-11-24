@@ -547,13 +547,15 @@
     }
   </script>
 
+  <!-- Docsify Plugins. These MUST load synchronously, before the core: Docsify
+       reads its plugin list once at start-up, so an async plugin that finishes
+       after that is silently dropped (the search box then never appears). -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
   <!-- Docsify Core -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-
-  <!-- Docsify Plugins (async to avoid blocking render) -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js" async></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js" async></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2" async></script>
 </body>
 
 </html>
