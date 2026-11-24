@@ -76,7 +76,7 @@ For an individual budget-holder, declining to invest may be rational. For societ
 
 > What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole.
 
-![A council housing budget pays for repairs; years later the NHS budget sees fewer admissions](/assets/images/who-pays-who-benefits.svg)
+<img src="/assets/images/who-pays-who-benefits.svg" alt="A council housing budget pays for repairs; years later the NHS budget sees fewer admissions" style="max-width: 100%; height: auto;">
 
 ## The hidden influence of funding systems
 
