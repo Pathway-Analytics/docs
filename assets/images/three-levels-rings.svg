@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif">
   <title id="t">Three levels of action on health inequality</title>
   <desc id="d">Three nested arcs. At the centre, treating inequality: access to effective care. Around it, preventing inequality: social and commercial conditions. Outermost, changing structures: how money is divided and what is rewarded. Most health economics works at the centre; the causes sit further out.</desc>
-  <rect x="0.5" y="0.5" width="679" height="419" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="0.5" y="0.5" width="679" height="419" rx="8" fill="#ffffff"/>
   <path d="M60 360 A280 280 0 0 1 620 360 Z" fill="#e8eef7" stroke="#1f4788" stroke-width="0.75"/>
   <path d="M150 360 A190 190 0 0 1 530 360 Z" fill="#bfd3f2" stroke="#1f4788" stroke-width="0.75"/>
   <path d="M240 360 A100 100 0 0 1 440 360 Z" fill="#1f4788"/>
