@@ -1425,17 +1425,20 @@ html[data-theme="dark"] .markdown-section .home-actions .btn-secondary { color: 
    digital solutions) converge on the patient and continue together. A wide
    labelled version for desktop; a compact version with an HTML legend on phones. */
 .markdown-section .pathway-graphic { margin: 8px 0 64px; }
-.markdown-section .pg-caption {
+.markdown-section h2.pg-caption {
+  padding: 0;
+  border: 0;
+  font-weight: 400;
   margin: 0 auto 36px;
-  max-width: 640px;
+  max-width: 760px;
   text-align: center;
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1.4;
   color: #14335a;
 }
-.markdown-section .pg-caption::after {
+.markdown-section h2.pg-caption::after {
   content: '';
   display: block;
   width: 120px;
@@ -1443,27 +1446,30 @@ html[data-theme="dark"] .markdown-section .home-actions .btn-secondary { color: 
   margin: 18px auto 0;
   background: var(--pa-border);
 }
-html[data-theme="dark"] .markdown-section .pg-caption { color: #e8eef8; }
+html[data-theme="dark"] .markdown-section h2.pg-caption { color: #e8eef8; }
+html[data-theme="dark"] .pg-hub-label, html[data-theme="dark"] .pg-values { fill: #8cc8c6; }
 .markdown-section .pathway-graphic svg { width: 100%; height: auto; display: block; }
 .markdown-section .pathway-graphic .pg-mobile, .markdown-section .pg-legend { display: none; }
-.pg-strand { fill: none; stroke-width: 2.5; stroke-linecap: round; }
+.pg-strand { fill: none; stroke-width: 3.5; stroke-linecap: round; }
 .pg-navy { stroke: #14335a; } .pg-teal { stroke: #518386; } .pg-gold { stroke: #c9a24a; }
 .pg-navy-fill { fill: #14335a; } .pg-teal-fill { fill: #518386; } .pg-gold-fill { fill: #c9a24a; }
-.pg-name { font-family: 'Playfair Display', Georgia, serif; font-size: 26px; fill: #14335a; }
-.pg-end { font-family: 'Playfair Display', Georgia, serif; font-size: 26px; fill: #14335a; }
-.pg-end-sm { font-family: 'Playfair Display', Georgia, serif; font-size: 18px; fill: #14335a; }
-.pg-sub { font-family: Inter, sans-serif; font-size: 13.5px; fill: #4b5563; }
+.pg-name { font-family: 'Playfair Display', Georgia, serif; font-size: 30px; fill: #14335a; }
+.pg-end { font-family: 'Playfair Display', Georgia, serif; font-size: 32px; fill: #14335a; }
+.pg-end-sm { font-family: 'Playfair Display', Georgia, serif; font-size: 20px; fill: #14335a; }
+.pg-sub { font-family: Inter, sans-serif; font-size: 14.5px; fill: #4b5563; }
 .pg-kicker { font-family: Inter, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2.5px; fill: #518386; }
 .pg-hub { fill: #f6f8fb; stroke: rgba(20, 51, 90, 0.18); stroke-width: 1.25; }
-.pg-hub-ring { fill: none; stroke: #c9a24a; stroke-width: 1.5; }
-.pg-person circle { fill: none; stroke: #14335a; stroke-width: 1.8; }
-.pg-person path { fill: none; stroke: #14335a; stroke-width: 1.8; stroke-linecap: round; }
+.pg-hub-ring { fill: none; stroke: #c9a24a; stroke-width: 2; }
+.pg-person circle { fill: none; stroke: #14335a; stroke-width: 2.2; }
+.pg-person path { fill: none; stroke: #14335a; stroke-width: 2.2; stroke-linecap: round; }
 html[data-theme="dark"] .pg-navy { stroke: #9dc4fb; } html[data-theme="dark"] .pg-navy-fill { fill: #9dc4fb; }
 html[data-theme="dark"] .pg-name, html[data-theme="dark"] .pg-end, html[data-theme="dark"] .pg-end-sm { fill: #e8eef8; }
 html[data-theme="dark"] .pg-sub { fill: #cbd5e1; }
 
-.pg-hub-label { font-family: 'Playfair Display', Georgia, serif; font-size: 24px; fill: #14335a; }
-.pg-hub-label-sm { font-family: 'Playfair Display', Georgia, serif; font-size: 18px; fill: #14335a; }
+.pg-hub-label { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 24px; fill: #518386; }
+.pg-values { font-family: Inter, sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 1.5px; fill: #518386; }
+.pg-values-sm { font-family: Inter, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1px; fill: #518386; }
+.pg-hub-label-sm { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20px; fill: #518386; }
 .pg-sub-sm { font-family: Inter, sans-serif; font-size: 13px; fill: #4b5563; }
 .pg-sub-xs { font-family: Inter, sans-serif; font-size: 12px; fill: #4b5563; }
 html[data-theme="dark"] .pg-hub-label, html[data-theme="dark"] .pg-hub-label-sm { fill: #e8eef8; }
