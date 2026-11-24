@@ -9,13 +9,13 @@ image: /assets/images/og/default.png
     <div class="home-brand">
       <img class="home-logo-light" src="/assets/images/brand/logo-on-light.png" alt="Pathway Analytics" data-no-zoom width="521" height="181">
       <img class="home-logo-dark" src="/assets/images/brand/logo-on-dark.png" alt="" data-no-zoom width="521" height="181">
-      <p class="home-strapline">Health Economics | Strategy | Health Systems | Digital Solutions</p>
+      <p class="home-strapline">Strategy | Health Economics | Digital Solutions</p>
     </div>
     <h1 class="home-headline">Understanding the economics of healthcare. Changing how it works.</h1>
     <p class="home-lead home-lead-key">We connect the economics of healthcare with the realities of delivering it.</p>
-    <p class="home-lead">Since 2009, Pathway Analytics has worked with governments, health systems and funders in the UK and internationally on where resources go and how they could be used better.</p>
+    <p class="home-lead">Working across the UK and internationally since 2009, Pathway Analytics helps governments, health systems and funders understand where resources go, what they achieve and how they could be used better.</p>
+    <p class="home-lead">The work spans economic evaluation, funding reform, strategic decision-making, service transformation and practical digital solutions.</p>
   </div>
-  <div class="home-hero-venn"><svg class="venn" viewBox="0 0 380 340" role="img" aria-labelledby="venn-t venn-d"><title id="venn-t">Where Pathway Analytics works</title><desc id="venn-d">Three overlapping circles: health economics, finance and strategy, and health systems and service design. Pathway Analytics sits where all three meet.</desc><circle class="venn-he" cx="140" cy="128" r="105"/><circle class="venn-fs" cx="240" cy="128" r="105"/><circle class="venn-hs" cx="190" cy="212" r="105"/><text class="venn-label venn-label-he" x="84" y="100" text-anchor="middle"><tspan x="84">Health</tspan><tspan x="84" dy="20">economics</tspan></text><text class="venn-label venn-label-fs" x="296" y="100" text-anchor="middle"><tspan x="296">Finance &amp;</tspan><tspan x="296" dy="20">strategy</tspan></text><text class="venn-label venn-label-hs" x="190" y="276" text-anchor="middle"><tspan x="190">Health systems &amp;</tspan><tspan x="190" dy="20">service design</tspan></text><rect class="venn-centre" x="130" y="133" width="120" height="50" rx="8"/><image class="venn-logo-light" href="/assets/images/brand/logo-on-light.png" x="138" y="140" width="104" height="36"/><image class="venn-logo-dark" href="/assets/images/brand/logo-on-dark.png" x="138" y="140" width="104" height="36"/></svg></div>
 </div>
 
 <section class="reach">

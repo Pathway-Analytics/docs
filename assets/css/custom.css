@@ -1372,10 +1372,7 @@ input:focus-visible,
    headline, the question we work on and named clients. A small, light
    three-disciplines Venn diagram sits to the right. Stacks on narrow screens. */
 .markdown-section .home-hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-  gap: 48px;
-  align-items: center;
+  max-width: 760px;
   margin: 16px 0 64px;
 }
 .markdown-section .home-brand { margin: 0 0 40px; }
@@ -1385,7 +1382,7 @@ html[data-theme="dark"] .markdown-section .home-brand .home-logo-light { display
 html[data-theme="dark"] .markdown-section .home-brand .home-logo-dark { display: block; }
 .markdown-section .home-strapline {
   margin: 0 0 4px;
-  font-size: 0.95rem;
+  font-size: 1.02rem;
   white-space: nowrap;
   font-weight: 600;
   color: var(--pa-text);
@@ -1561,7 +1558,7 @@ html[data-theme="dark"] .markdown-section .reach { background: #172033; }
   .markdown-section h1.home-headline { font-size: 1.9rem; }
 }
 @media (max-width: 600px) {
-  .markdown-section .home-strapline { font-size: 0.82rem; }
+  .markdown-section .home-strapline { font-size: 0.9rem; }
   .markdown-section ol.how-we-work { grid-template-columns: 1fr; row-gap: 24px; }
   .markdown-section ol.how-we-work li { padding: 0; border-left: 0; }
   .markdown-section ol.how-we-work li::before { font-size: 1.6rem; margin-bottom: 6px; }
