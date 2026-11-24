@@ -26,9 +26,7 @@ But the clinic is mostly serving people who would probably have found PrEP anywa
 
 </div>
 
-A programme that costs more per person may still be a better use of public resources if it meets real unmet need and delivers benefits that would not otherwise happen. That does not mean disregarding cost-effectiveness. We still need to know whether the extra spending produces extra benefit, how much, and what other services might be displaced. But we need to be much clearer about what we mean by value.
-
-> If we're serious about improving population health, how much benefit an intervention delivers is only half the question. The other half is who receives it.
+A programme that costs more per person may still be a better use of public resources if it meets real unmet need and delivers benefits that would not otherwise happen. That does not mean disregarding cost-effectiveness. We still need to know whether the extra spending produces extra benefit, how much, and what other services might be displaced. But we need to be much clearer about what we mean by value. If we are serious about improving population health, how much benefit an intervention delivers is only half the question. The other half is who receives it.
 
 ## Health is produced well beyond the healthcare system
 
@@ -46,11 +44,9 @@ Research for Public Health England estimated that more than one in five excess w
 
 </div>
 
-For an individual budget-holder, declining to invest may be rational. For society, it may be very short-sighted.
+For an individual budget-holder, declining to invest may be entirely rational. For society, it is short-sighted. What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole, and the gap between the two is where much of the human cost of poor housing sits.
 
-> What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole.
-
-<img src="/assets/images/who-pays-who-benefits.svg" alt="A council housing budget pays for repairs; years later the NHS budget sees fewer admissions" style="max-width: 100%; height: auto;">
+<img src="/assets/images/cold-homes-payback.svg" alt="Owners, landlords and councils would pay about £5.9bn to fix excess cold; the NHS would save about £857m a year, paying back the cost in about seven years" style="max-width: 100%; height: auto;">
 
 ## The hidden influence of funding systems
 
@@ -88,7 +84,7 @@ This is why distributional cost-effectiveness analysis is so interesting. Resear
 
 ## The economics of prevention
 
-Prevention is often described as an investment, yet it is often among the first areas placed under pressure when budgets tighten.
+Prevention is often described as an investment, yet it is often among the first areas placed under pressure when budgets tighten. There are understandable reasons for this. Prevention can involve upfront spending, uncertain outcomes and benefits that may not appear for years. The public health grant shows where that pressure has landed.
 
 <div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
 
@@ -98,7 +94,7 @@ Councils pay for sexual health, drug and alcohol services, stop smoking support 
 
 </div>
 
-There are understandable reasons for this. Prevention can involve upfront spending, uncertain outcomes and benefits that may not appear for years. Nor does every preventive intervention save money. Some improve health at extra cost and are worthwhile for that reason, while others prove ineffective or poor value. The economic case for prevention needs to be demonstrated, not simply asserted.
+Not every preventive intervention saves money. Some improve health at extra cost and are worthwhile for that reason, while others prove ineffective or poor value. The economic case for prevention needs to be demonstrated, not simply asserted.
 
 Even so, conventional budget cycles systematically undervalue interventions whose benefits emerge over long periods or across different organisations. The relevant comparison is between the costs and consequences of different courses of action, including doing nothing. That includes the illness avoided, the treatment costs saved and the effects on families, work and caring responsibilities. It also includes the opportunities for better health lost each time investment in prevention is put off. Those losses fall hardest on disadvantaged groups, where untreated illness compounds existing social and economic difficulties.
 
