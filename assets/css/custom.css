@@ -198,7 +198,35 @@ html[data-theme="dark"] .app-nav li:first-child a {
   }
 }
 
-.app-nav li:first-child a:hover { color: var(--pa-primary); background: none; }
+.app-nav li:first-child a:hover { color: var(--pa-primary); background-color: transparent; }
+
+/* Contact shows as a mail icon on small screens; the text stays for screen readers */
+.nav-icon { display: none; }
+.nav-icon svg { width: 20px; height: 20px; fill: currentColor; display: block; }
+
+@media (max-width: 768px) {
+  .nav-icon { display: inline-flex; }
+  .nav-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+/* Very narrow screens: drop the brand mark, the bar needs the room */
+@media (max-width: 480px) {
+  .app-nav li:first-child { display: none; }
+}
+
+/* Desktop: leave room on the right for the fixed theme toggle */
+@media (min-width: 769px) {
+  .app-nav,
+  nav.app-nav,
+  body.sticky .app-nav { padding-right: calc(var(--space-lg) + 48px); }
+}
 
 /* Push nav links to the right */
 .app-nav li:first-child { margin-right: auto; }
@@ -401,19 +429,30 @@ h1.app-name { display: none !important; }
 /* Sidebar toggle button (mobile) */
 .sidebar-toggle {
   position: fixed;
-  top: var(--navbar-height);
-  left: 0;
-  z-index: 950;
-  width: 44px;
-  height: 44px;
+  top: calc((var(--navbar-height) - 40px) / 2);
+  left: 8px;
+  z-index: 1100;
+  width: 40px;
+  height: 40px;
+  padding: 0;
   display: none;
   align-items: center;
   justify-content: center;
   background: var(--pa-surface-raised);
-  border: 1px solid var(--pa-border);
-  border-radius: 0 var(--pa-radius-control) var(--pa-radius-control) 0;
+  border: 1px solid var(--pa-border-strong);
+  border-radius: var(--pa-radius-control);
   cursor: pointer;
-  color: var(--pa-text-muted);
+  color: var(--pa-text);
+}
+
+/* The three bars of the hamburger icon (Docsify's own stylesheet is not loaded) */
+.sidebar-toggle .sidebar-toggle-button { display: flex; flex-direction: column; gap: 4px; }
+.sidebar-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--pa-text);
 }
 
 /* ==========================================================================
@@ -844,7 +883,21 @@ body.page-article .markdown-section { max-width: min(100%, var(--article-max-wid
 
 @media (max-width: 768px) {
   .app-nav { padding: 0 var(--space-sm); }
-  .dark-mode-toggle { right: var(--space-sm); }
+  /* Brand mark and hamburger share the left of the bar */
+  .app-nav,
+  nav.app-nav,
+  body.sticky .app-nav { padding: 0 var(--space-xs) 0 56px; }
+  .app-nav a { padding: 8px 6px; font-size: 0.8em; }
+  .app-nav li:first-child a { margin-right: 4px; }
+  .nav-long { display: none; }
+
+  /* Theme toggle floats bottom-right so the bar has room for the links */
+  .dark-mode-toggle {
+    top: auto;
+    bottom: var(--space-sm);
+    right: var(--space-sm);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  }
 
   .sidebar-toggle { display: flex; }
 
