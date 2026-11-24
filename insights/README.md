@@ -10,9 +10,21 @@ Analysis and commentary on health economics, commissioning and public health pol
 
 <!-- To publish an article:
 1. Create a new file in this folder, e.g. insights/my-article-title.md
+   Its address will be pathwayanalytics.com/insights/my-article-title
+   Start the file with a meta block for its LinkedIn and search preview:
+   <!- - meta
+   description: One or two sentences, under 160 characters.
+   image: /assets/images/og/my-article-title.png   (1200 x 627 PNG; optional)
+   author: Bella Grant
+   date: 2026-11-23
+   - ->
+   (written here with spaced dashes; use normal comment dashes in the article)
 2. Add a line for it under "Latest" below:
    [Article title](/insights/my-article-title): one-sentence summary. Month Year.
 3. Add the same link to insights/_sidebar.md
+4. Push to main. The page file, preview tags and search index are generated
+   automatically (see infra/gen-pages.mjs). After it is live, paste the URL into
+   https://www.linkedin.com/post-inspector/ to refresh LinkedIn's preview.
 
 Article template:
 

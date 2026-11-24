@@ -16,7 +16,9 @@ Pathway Analytics delivers healthcare economics consultancy across the NHS, supp
 
 ## Case Study Page Template
 
-<!-- Template structure for individual case study pages:
+<!-- Template structure for individual case study pages.
+Start each page with a meta block giving a one-sentence description for link previews
+(see insights/README.md for the format).
 
 # [Case Study Title]
 
