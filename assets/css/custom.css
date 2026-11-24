@@ -1467,6 +1467,8 @@ html[data-theme="dark"] .markdown-section .reach { background: #172033; }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 22px 32px;
 }
+.markdown-section .reach-grid .reach-wide { grid-column: 1 / -1; }
+.markdown-section .reach-wide .reach-names { max-width: 900px; }
 .markdown-section .reach-type {
   display: block;
   margin-bottom: 4px;

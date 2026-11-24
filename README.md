@@ -21,12 +21,10 @@ image: /assets/images/og/default.png
 <section class="reach">
   <h2 class="reach-title">Working across health systems since 2009</h2>
   <div class="reach-grid">
-    <div class="reach-item"><span class="reach-type">National bodies</span><span class="reach-names">NHS England, Public Health England</span></div>
-    <div class="reach-item"><span class="reach-type">Government departments</span><span class="reach-names">Home Office, Ministry of Justice</span></div>
-    <div class="reach-item"><span class="reach-type">Local government</span><span class="reach-names">Mayor of London, London councils and local authorities across England</span></div>
-    <div class="reach-item"><span class="reach-type">NHS trusts and providers</span><span class="reach-names">King's Health Partners, sexual health providers across England</span></div>
-    <div class="reach-item"><span class="reach-type">International funders</span><span class="reach-names">Elton John AIDS Foundation</span></div>
-    <div class="reach-item"><span class="reach-type">Partners</span><span class="reach-names">Novo Nordisk, ViiV Healthcare, Fast-Track Cities London (UNAIDS initiative)</span></div>
+    <div class="reach-item reach-wide"><span class="reach-type">Clients</span><span class="reach-names">NHS England · Home Office · Ministry of Justice · Health Protection Agency · London Sexual Health Programme · London councils · King's Health Partners · South London Modernisation Initiative · Elton John AIDS Foundation</span></div>
+    <div class="reach-item reach-wide"><span class="reach-type">Tariff and Grouper users</span><span class="reach-names">Multiple local authority commissioners and sexual health providers across England. In 2025/26, 130 services were commissioned solely on a Pathway Analytics tariff, and the Department of Health and Social Care's 2018 guidance names the integrated tariff as the basis for cross-charging within London.</span></div>
+    <div class="reach-item reach-wide"><span class="reach-type">Worked alongside</span><span class="reach-names">Department of Health and Social Care · Public Health England · Mayor of London · London Councils · police forces and Police and Crime Commissioners · clinical commissioning groups · Lambeth Council</span></div>
+    <div class="reach-item reach-wide"><span class="reach-type">Partners</span><span class="reach-names">Novo Nordisk · ViiV Healthcare · Fast-Track Cities London (UNAIDS initiative)</span></div>
   </div>
 </section>
 
