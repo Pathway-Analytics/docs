@@ -11,11 +11,23 @@ image: /assets/images/og/default.png
       <img class="home-logo-dark" src="/assets/images/brand/logo-on-dark.png" alt="" data-no-zoom width="521" height="181">
       <p class="home-strapline">Strategy | Health Economics | Digital Solutions</p>
     </div>
-    <h1 class="home-headline">Understanding the economics of healthcare. Changing how it works.</h1>
-    <p class="home-lead home-lead-key">We connect the economics of healthcare with the realities of delivering it.</p>
-    <p class="home-lead">Working across the UK and internationally since 2009, Pathway Analytics helps governments, health systems and funders understand where resources go, what they achieve and how they could be used better.</p>
-    <p class="home-lead">The work spans economic evaluation, funding reform, strategic decision-making, service transformation and practical digital solutions.</p>
+    <h1 class="home-headline">Building better pathways to better health.</h1>
+    <p class="home-subhead">Improving how healthcare is funded, organised and delivered.</p>
+    <p class="home-lead">Since 2009, Pathway Analytics has worked with governments, commissioners, healthcare providers and international funders across the UK and internationally.</p>
+    <p class="home-lead">We combine strategic insight, economic analysis, stakeholder engagement and digital innovation to address complex challenges, build the case for change and develop practical solutions.</p>
+    <p class="home-lead">Our work starts with an understanding of patient needs and the systems that shape access, delivery and outcomes.</p>
+    <p class="home-actions"><a class="btn-primary" href="/sexual-health-tariff/">Digital solutions</a><a class="btn-secondary" href="mailto:enquiries@pathwayanalytics.com">Work with us</a></p>
   </div>
+</div>
+
+<div class="pathway-graphic">
+  <ul class="pg-legend">
+    <li><span class="pg-dot-html pg-navy-bg"></span><span class="pg-legend-name">Strategy</span><span class="pg-legend-sub">Advocacy, leadership and system redesign</span></li>
+    <li><span class="pg-dot-html pg-teal-bg"></span><span class="pg-legend-name">Health Economics</span><span class="pg-legend-sub">Funding, incentives and evaluation</span></li>
+    <li><span class="pg-dot-html pg-gold-bg"></span><span class="pg-legend-name">Digital Solutions</span><span class="pg-legend-sub">Platforms, analytics and implementation</span></li>
+  </ul>
+  <svg class="pg-desktop" viewBox="0 0 1000 330" role="img" aria-labelledby="pg-t pg-d"><title id="pg-t">Strategy, health economics and digital solutions converge on the patient</title><desc id="pg-d">Three strands, strategy, health economics and digital solutions, come together at the patient and continue side by side towards better pathways and outcomes.</desc><path class="pg-strand pg-navy" d="M380 70 C490 70 510 166 600 166 C720 166 820 158 960 158"/><path class="pg-strand pg-teal" d="M380 166 C490 166 510 166 600 166 C720 166 820 166 960 166"/><path class="pg-strand pg-gold" d="M380 262 C490 262 510 166 600 166 C720 166 820 174 960 174"/><circle class="pg-dot pg-navy-fill" cx="44" cy="68" r="5"/><text class="pg-name" x="62" y="76">Strategy</text><text class="pg-sub" x="62" y="100">Advocacy, leadership and system redesign</text><circle class="pg-dot pg-teal-fill" cx="44" cy="164" r="5"/><text class="pg-name" x="62" y="172">Health Economics</text><text class="pg-sub" x="62" y="196">Funding, incentives and evaluation</text><circle class="pg-dot pg-gold-fill" cx="44" cy="260" r="5"/><text class="pg-name" x="62" y="268">Digital Solutions</text><text class="pg-sub" x="62" y="292">Platforms, analytics and implementation</text><text class="pg-kicker" x="600" y="114" text-anchor="middle">THE PATIENT</text><circle class="pg-hub" cx="600" cy="166" r="32"/><circle class="pg-hub-ring" cx="600" cy="166" r="26"/><g class="pg-person"><circle cx="600" cy="156" r="4.5"/><path d="M600 161 V176 M590 167 H610 M600 176 L593 188 M600 176 L607 188"/></g><text class="pg-sub" x="600" y="228" text-anchor="middle">At the heart of the pathway</text><text class="pg-end" x="960" y="104" text-anchor="end">Better pathways</text><text class="pg-end" x="960" y="134" text-anchor="end">and outcomes</text><text class="pg-sub" x="960" y="206" text-anchor="end">Access, care and outcomes</text><text class="pg-sub" x="960" y="226" text-anchor="end">working together</text></svg>
+  <svg class="pg-mobile" viewBox="0 0 400 240" role="img" aria-label="Strategy, health economics and digital solutions converge on the patient and continue towards better pathways and outcomes"><path class="pg-strand pg-navy" d="M16 40 C110 40 130 120 200 120 C270 120 320 112 384 112"/><path class="pg-strand pg-teal" d="M16 120 C110 120 130 120 200 120 C270 120 320 120 384 120"/><path class="pg-strand pg-gold" d="M16 200 C110 200 130 120 200 120 C270 120 320 128 384 128"/><text class="pg-kicker" x="200" y="76" text-anchor="middle">THE PATIENT</text><circle class="pg-hub" cx="200" cy="120" r="28"/><circle class="pg-hub-ring" cx="200" cy="120" r="22"/><g class="pg-person"><circle cx="200" cy="111" r="4"/><path d="M200 116 V129 M191 121 H209 M200 129 L194 140 M200 129 L206 140"/></g><text class="pg-end-sm" x="384" y="164" text-anchor="end">Better pathways</text><text class="pg-end-sm" x="384" y="186" text-anchor="end">and outcomes</text></svg>
 </div>
 
 <section class="reach">
