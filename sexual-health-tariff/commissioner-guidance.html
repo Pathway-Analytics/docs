@@ -587,6 +587,19 @@
       });
     }
 
+    // Page Layout Plugin
+    // Documentation sections (Grouper guidance, Toolkit) keep the sidebar for
+    // moving between their many pages. Everything else (home, case studies,
+    // insights) is full width with no sidebar on desktop; on phones the
+    // sidebar remains the menu, opened from the button at the top left.
+    function pageLayoutPlugin(hook, vm) {
+      hook.doneEach(function () {
+        var path = (vm.route && vm.route.path) || '/';
+        var isDocs = /^\/(sexual-health-tariff|healthcare-economics-toolkit)\//.test(path);
+        document.body.classList.toggle('no-sidebar', !isDocs);
+      });
+    }
+
     // Root Image Path Plugin
     // Docsify joins a leading-slash Markdown image path onto the current page's
     // folder, so /assets/x.svg on an Insights page is requested as
@@ -637,6 +650,7 @@
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
       articleLayoutPlugin,
+      pageLayoutPlugin,
       rootImagePathPlugin,
       missingImagePlugin,
       darkModePlugin,

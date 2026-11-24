@@ -1,8 +1,8 @@
-- **Sections**
+- **Pathway Analytics**
   - [Home](/)
-  - [Healthcare Economics Toolkit](/healthcare-economics-toolkit/)
-  - [Sexual Health Tariff](/sexual-health-tariff/)
-  - [Health Pathways](/health-pathways/)
+  - [Our Expertise](/?id=our-expertise)
   - [Case Studies](/case-studies/)
+  - [Digital Solutions](/sexual-health-tariff/)
+  - [Tools & Resources](/healthcare-economics-toolkit/)
   - [Insights](/insights/)
-  - [Style Guide](/style-guide/)
+  - [Work with us](/?id=work-with-us)
