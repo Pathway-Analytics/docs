@@ -13,7 +13,7 @@ image: /assets/images/og/default.png
     <p class="home-subhead">Improving how healthcare is funded, organised and delivered</p>
     <p class="home-lead">Pathway Analytics designs funding systems, redesigns care pathways and evaluates what works, then builds the digital platforms that keep new arrangements running.</p>
     <p class="home-lead">Since 2009 that has included the integrated sexual health tariff used across England, national reviews of sexual assault services, and evaluations for the NHS, government and international funders.</p>
-    <p class="home-actions"><a class="btn-primary" href="/?id=our-expertise">Our expertise</a><a class="btn-secondary" href="/sexual-health-tariff/">Digital solutions</a></p>
+    <p class="home-actions"><a class="btn-primary" href="/sexual-health-tariff/">Tariff Grouper</a><a class="btn-primary" href="/healthcare-economics-toolkit/">Health Economics Toolkit</a></p>
   </div>
 </div>
 
