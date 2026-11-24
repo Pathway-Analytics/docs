@@ -74,7 +74,23 @@ Sexual assault services sit across health, local government, police and justice.
 
 A technically elegant funding model will achieve very little if it ignores the institutional realities into which it is introduced. Good analysis starts from how organisations actually behave, and from the people who fall between them.
 
+<div class="pa-chain" style="margin: 32px 0;">
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 8px;">How split budgets turn into unequal health</p>
+<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Public money is split between organisations, each with its own budget and targets</div>
+<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
+<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Each is judged on its own costs, not the whole system's</div>
+<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
+<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Services favour the people who are cheapest and easiest to reach</div>
+<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
+<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">People facing the most barriers fall between services</div>
+<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
+<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-accent); border-left: 4px solid var(--pa-accent); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-accent);">Later diagnosis, worse outcomes and higher costs somewhere else</div>
+</div>
+
 ## Who benefits and who is left behind
+
+<div class="pa-stats" style="display: flex; flex-wrap: wrap; gap: 20px; margin: 24px 0 8px;"><div style="flex: 1 1 180px; border-top: 3px solid var(--pa-accent); padding-top: 12px;"><div style="font-size: 2em; font-weight: 700; line-height: 1.2; color: var(--pa-text);">10.4 years</div><div style="font-size: 0.85em; color: var(--pa-text-muted); line-height: 1.5; margin-top: 4px;">Gap in male life expectancy between England's most and least deprived areas</div></div><div style="flex: 1 1 180px; border-top: 3px solid var(--pa-accent); padding-top: 12px;"><div style="font-size: 2em; font-weight: 700; line-height: 1.2; color: var(--pa-text);">79% vs 35%</div><div style="font-size: 0.85em; color: var(--pa-text-muted); line-height: 1.5; margin-top: 4px;">Share of people who need PrEP who receive it: gay and bisexual men, against Black African heterosexual women</div></div><div style="flex: 1 1 180px; border-top: 3px solid var(--pa-accent); padding-top: 12px;"><div style="font-size: 2em; font-weight: 700; line-height: 1.2; color: var(--pa-text);">10×</div><div style="font-size: 0.85em; color: var(--pa-text-muted); line-height: 1.5; margin-top: 4px;">Higher risk of dying within a year for people diagnosed with HIV late</div></div></div>
+<p style="font-size: 0.75em; color: var(--pa-text-subtle); margin: 0 0 32px;">Sources: Office for National Statistics, 2022 to 2024; UK Health Security Agency, 2025.</p>
 
 Health equity raises a further challenge for conventional economic decision-making. A programme can improve average population health while widening inequalities. If uptake is highest among people with higher incomes, better education and easier access to care, the programme looks successful on total activity or aggregate health gain while those facing the greatest barriers see little improvement. Judged on the aggregate figures it is working well. From an equity perspective the picture is incomplete.
 
@@ -123,6 +139,8 @@ There will not always be a single correct answer. Sometimes increasing fairness 
 ## Towards a broader health economics
 
 I do not think the answer is to discard the analytical tools that health economists have spent decades developing. Cost-effectiveness analysis, economic modelling, programme evaluation and careful examination of resource allocation remain essential. But they need to sit within a broader framework that looks beyond the efficiency of healthcare services to the conditions that determine health, who benefits, the incentives institutions create and the wider effects of economic policy. That means economists working more closely with public health specialists, clinicians, social scientists, communities and policymakers, and keeping the work practical enough to inform real decisions.
+
+It helps to think about three levels of action. The first is treating inequality: making sure people facing disadvantage can reach effective care. The second is preventing it, by tackling the social and commercial conditions that produce avoidable illness. The third is changing the structures that sustain it, including how public money is divided and what organisations are rewarded for. Most of my work has sat in the first two, with funding reform reaching into the third. I think health economics needs to spend more of its time there.
 
 When public resources are being allocated, I would add four questions to the usual ones about cost and efficiency:
 
