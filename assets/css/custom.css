@@ -1146,6 +1146,91 @@ input:focus-visible,
   margin-bottom: 0;
 }
 
+/* Small uppercase label used at the top of article components */
+.markdown-section .pa-label {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pa-accent);
+  margin: 0 0 8px;
+}
+
+/* Cause-and-effect chain:
+   <div class="pa-chain"><p class="pa-label">Title</p>
+   <div class="pa-chain-step">Step</div><div class="pa-chain-arrow">↓</div> ...
+   <div class="pa-chain-step pa-chain-step-result">Outcome</div></div> */
+.markdown-section .pa-chain { margin: var(--space-lg) auto; max-width: 640px; }
+
+.markdown-section .pa-chain-step {
+  background: var(--pa-surface-sunken);
+  border: 1px solid var(--pa-border);
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-weight: 600;
+  color: var(--pa-text);
+}
+
+.markdown-section .pa-chain-step-result {
+  border-color: var(--pa-accent);
+  border-left: 4px solid var(--pa-accent);
+  color: var(--pa-accent);
+}
+
+.markdown-section .pa-chain-arrow {
+  text-align: center;
+  color: var(--pa-text-subtle);
+  line-height: 1.8;
+}
+
+/* Statistics strip:
+   <div class="pa-stats"><div class="pa-stat"><div class="pa-stat-value">10×</div>
+   <div class="pa-stat-label">Description</div></div> ...</div>
+   <p class="pa-stats-source">Sources: ...</p> */
+.markdown-section .pa-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 24px 0 8px;
+}
+
+.markdown-section .pa-stat {
+  flex: 1 1 180px;
+  border-top: 3px solid var(--pa-accent);
+  padding-top: 12px;
+}
+
+.markdown-section .pa-stat-value {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--pa-text);
+}
+
+.markdown-section .pa-stat-label {
+  font-size: 0.85em;
+  color: var(--pa-text-muted);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.markdown-section .pa-stats-source {
+  font-size: 0.75em;
+  color: var(--pa-text-subtle);
+  margin: 0 0 var(--space-lg);
+}
+
+/* Author panel at the end of an article:
+   <div class="pa-about"><p class="pa-label">About the author</p><p>...</p></div> */
+.markdown-section .pa-about {
+  border-top: 1px solid var(--pa-border);
+  border-bottom: 1px solid var(--pa-border);
+  padding: 20px 0;
+  margin: 40px 0;
+}
+
+.markdown-section .pa-about p:last-child { margin: 0; }
+
 /* ==========================================================================
    16. BAR CHART FIGURE (pure CSS, theme-aware)
    ========================================================================== */

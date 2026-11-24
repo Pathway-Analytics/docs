@@ -76,23 +76,23 @@ Sexual assault services sit across health, local government, police and justice.
 
 A technically elegant funding model will achieve very little if it ignores the institutional realities into which it is introduced. Good analysis starts from how organisations actually behave, and from the people who fall between them.
 
-<div class="pa-chain" style="margin: 32px auto; max-width: 640px;">
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 8px;">How split budgets can turn into unequal health</p>
-<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Public money is split between organisations, each with its own budget and targets</div>
-<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
-<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Each is judged on its own costs, not the whole system's</div>
-<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
-<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Services can drift towards the people who are cheapest and easiest to reach</div>
-<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
-<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">People facing the most barriers can fall between services</div>
-<div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
-<div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-accent); border-left: 4px solid var(--pa-accent); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-accent);">The result can be later diagnosis, worse outcomes and higher costs somewhere else</div>
+<div class="pa-chain">
+<p class="pa-label">How split budgets can turn into unequal health</p>
+<div class="pa-chain-step">Public money is split between organisations, each with its own budget and targets</div>
+<div class="pa-chain-arrow">↓</div>
+<div class="pa-chain-step">Each is judged on its own costs, not the whole system's</div>
+<div class="pa-chain-arrow">↓</div>
+<div class="pa-chain-step">Services can drift towards the people who are cheapest and easiest to reach</div>
+<div class="pa-chain-arrow">↓</div>
+<div class="pa-chain-step">People facing the most barriers can fall between services</div>
+<div class="pa-chain-arrow">↓</div>
+<div class="pa-chain-step pa-chain-step-result">The result can be later diagnosis, worse outcomes and higher costs somewhere else</div>
 </div>
 
 ## Who benefits and who is left behind
 
-<div class="pa-stats" style="display: flex; flex-wrap: wrap; gap: 20px; margin: 24px 0 8px;"><div style="flex: 1 1 180px; border-top: 3px solid var(--pa-accent); padding-top: 12px;"><div style="font-size: 2em; font-weight: 700; line-height: 1.2; color: var(--pa-text);">10.4 years</div><div style="font-size: 0.85em; color: var(--pa-text-muted); line-height: 1.5; margin-top: 4px;">Gap in male life expectancy between England's most and least deprived areas</div></div><div style="flex: 1 1 180px; border-top: 3px solid var(--pa-accent); padding-top: 12px;"><div style="font-size: 2em; font-weight: 700; line-height: 1.2; color: var(--pa-text);">79% vs 35%</div><div style="font-size: 0.85em; color: var(--pa-text-muted); line-height: 1.5; margin-top: 4px;">PrEP uptake among people attending sexual health services who needed it: gay and bisexual men, against Black African heterosexual women</div></div><div style="flex: 1 1 180px; border-top: 3px solid var(--pa-accent); padding-top: 12px;"><div style="font-size: 2em; font-weight: 700; line-height: 1.2; color: var(--pa-text);">10×</div><div style="font-size: 0.85em; color: var(--pa-text-muted); line-height: 1.5; margin-top: 4px;">Higher risk of dying within a year for people diagnosed with HIV late</div></div></div>
-<p style="font-size: 0.75em; color: var(--pa-text-subtle); margin: 0 0 32px;">Sources: Office for National Statistics, 2022 to 2024; UK Health Security Agency, 2025.</p>
+<div class="pa-stats"><div class="pa-stat"><div class="pa-stat-value">10.4 years</div><div class="pa-stat-label">Gap in male life expectancy between England's most and least deprived areas</div></div><div class="pa-stat"><div class="pa-stat-value">79% vs 35%</div><div class="pa-stat-label">PrEP uptake among people attending sexual health services who needed it: gay and bisexual men, against Black African heterosexual women</div></div><div class="pa-stat"><div class="pa-stat-value">10×</div><div class="pa-stat-label">Higher risk of dying within a year for people diagnosed with HIV late</div></div></div>
+<p class="pa-stats-source">Sources: Office for National Statistics, 2022 to 2024; UK Health Security Agency, 2025.</p>
 
 Health equity raises a further challenge for conventional economic decision-making. A programme can improve average population health while widening inequalities. If uptake is highest among people with higher incomes, better education and easier access to care, the programme looks successful on total activity or aggregate health gain while those facing the greatest barriers see little improvement. Judged on the aggregate figures it is working well. From an equity perspective the picture is incomplete.
 
@@ -151,9 +151,9 @@ These questions will make decisions harder, but I think they will make them bett
 
 I would like to see us use it more ambitiously.
 
-<div class="pa-about" style="border-top: 1px solid var(--pa-border); border-bottom: 1px solid var(--pa-border); padding: 20px 0; margin: 40px 0;">
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin: 0 0 8px;">About the author</p>
-<p style="margin: 0;">Bella Grant is a health economist and the founder of Pathway Analytics, which she set up in 2009. She led the design of the integrated sexual health tariff now used across England and two national reviews of sexual assault services, and works with public bodies and funders on funding design, value for money and evaluation. <a href="/#/?id=contact">Get in touch</a>.</p>
+<div class="pa-about">
+<p class="pa-label">About the author</p>
+<p>Bella Grant is a health economist and the founder of Pathway Analytics, which she set up in 2009. She led the design of the integrated sexual health tariff now used across England and two national reviews of sexual assault services, and works with public bodies and funders on funding design, value for money and evaluation. <a href="/#/?id=contact">Get in touch</a>.</p>
 </div>
 
 *Figures checked November 2026.*
