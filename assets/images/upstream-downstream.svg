@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 210" width="680" height="210" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">From upstream to downstream</title>
+  <desc id="d">A flowing line from upstream on the left to downstream on the right, with three points: change the structures (how money is divided and what is rewarded), prevent (the conditions that produce illness) and treat (access to care).</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="679" height="209" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="44" y="34" font-size="11" font-weight="600" letter-spacing="0.08em" fill="#6b7280">UPSTREAM</text>
+  <text x="636" y="34" text-anchor="end" font-size="11" font-weight="600" letter-spacing="0.08em" fill="#6b7280">DOWNSTREAM</text>
+  <path d="M44 116 C150 76, 230 156, 340 116 S 530 76, 636 116" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <circle cx="110" cy="102" r="8" fill="#163561"/>
+  <circle cx="340" cy="116" r="8" fill="#1f4788"/>
+  <circle cx="560" cy="101" r="8" fill="#93c5fd" stroke="#1f4788" stroke-width="1"/>
+  <text x="110" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#163561">Change the structures</text>
+  <text x="110" y="148" text-anchor="middle" font-size="12" fill="#4b5563">how money is divided</text>
+  <text x="110" y="165" text-anchor="middle" font-size="12" fill="#4b5563">and what is rewarded</text>
+  <text x="340" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#1f4788">Prevent</text>
+  <text x="340" y="148" text-anchor="middle" font-size="12" fill="#4b5563">the conditions that</text>
+  <text x="340" y="165" text-anchor="middle" font-size="12" fill="#4b5563">produce illness</text>
+  <text x="560" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#1f4788">Treat</text>
+  <text x="560" y="134" text-anchor="middle" font-size="12" fill="#4b5563">access to care</text>
+</svg>
