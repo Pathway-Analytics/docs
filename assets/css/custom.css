@@ -1368,68 +1368,76 @@ input:focus-visible,
   .bar-label { grid-column: 1 / -1; }
 }
 
-/* Home page hero: small name and disciplines line, a dominant headline, the
-   supporting sentence and who we work with; the three-disciplines Venn
-   diagram on the right. Stacks on narrow screens. */
+/* Home page hero: logo with the LinkedIn strapline and tagline, then the
+   headline, the question we work on and named clients. A small, light
+   three-disciplines Venn diagram sits to the right. Stacks on narrow screens. */
 .markdown-section .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  gap: 48px;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 56px;
   align-items: center;
-  margin: 24px 0 64px;
+  margin: 16px 0 64px;
 }
-.markdown-section .home-eyebrow {
-  margin: 0 0 6px;
-  font-size: 0.8rem;
+.markdown-section .home-brand { margin: 0 0 36px; }
+.markdown-section .home-brand img { width: 230px; max-width: 65%; height: auto; display: block; margin: 0 0 14px; }
+.markdown-section .home-brand .home-logo-dark { display: none; }
+html[data-theme="dark"] .markdown-section .home-brand .home-logo-light { display: none; }
+html[data-theme="dark"] .markdown-section .home-brand .home-logo-dark { display: block; }
+.markdown-section .home-strapline {
+  margin: 0 0 4px;
+  font-size: 1.02rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--pa-primary);
+  color: var(--pa-text);
 }
-.markdown-section .home-disciplines {
-  margin: 0 0 28px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #518386;
+.markdown-section .home-tagline {
+  margin: 0;
+  font-size: 0.98rem;
+  color: var(--pa-text-muted);
 }
 .markdown-section h1.home-headline {
-  margin: 0 0 24px;
+  margin: 0 0 20px;
   padding: 0;
   border: 0;
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  line-height: 1.18;
+  line-height: 1.2;
   letter-spacing: -0.01em;
   color: var(--pa-primary);
 }
 .markdown-section .home-lead {
   margin: 0 0 14px;
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   line-height: 1.65;
   color: var(--pa-text);
 }
 .markdown-section .home-clients {
   margin: 0;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   line-height: 1.6;
   color: var(--pa-text-muted);
 }
 .markdown-section .home-hero-venn { text-align: center; }
-.markdown-section .venn { width: 100%; max-width: 400px; height: auto; }
-.venn circle { stroke-width: 1.5; }
-.venn .venn-he { fill: rgba(31, 71, 136, 0.12); stroke: #1f4788; }
-.venn .venn-fs { fill: rgba(81, 131, 134, 0.13); stroke: #518386; }
-.venn .venn-hs { fill: rgba(217, 164, 65, 0.15); stroke: #d9a441; }
-.venn .venn-label { font-family: Inter, sans-serif; font-size: 16px; font-weight: 600; fill: var(--pa-text); }
-.venn .venn-centre { fill: #163561; }
-.venn .venn-centre-text { font-family: Inter, sans-serif; font-size: 14px; font-weight: 600; fill: #ffffff; }
-html[data-theme="dark"] .venn .venn-he { fill: rgba(106, 167, 248, 0.16); stroke: #6aa7f8; }
-html[data-theme="dark"] .venn .venn-fs { fill: rgba(140, 200, 198, 0.16); stroke: #8cc8c6; }
-html[data-theme="dark"] .venn .venn-hs { fill: rgba(232, 190, 110, 0.16); stroke: #e8be6e; }
-html[data-theme="dark"] .venn .venn-centre { fill: #2b5aa6; }
+.markdown-section .venn { width: 100%; max-width: 320px; height: auto; }
+.venn circle { stroke-width: 1.25; }
+.venn .venn-he { fill: rgba(31, 71, 136, 0.06); stroke: #1f4788; }
+.venn .venn-fs { fill: rgba(81, 131, 134, 0.07); stroke: #518386; }
+.venn .venn-hs { fill: rgba(217, 164, 65, 0.09); stroke: #d9a441; }
+.venn .venn-label { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 18px; }
+.venn .venn-label-he { fill: #1f4788; }
+.venn .venn-label-fs { fill: #3f6a6d; }
+.venn .venn-label-hs { fill: #9a6f1f; }
+.venn .venn-centre { fill: #ffffff; stroke: rgba(22, 53, 97, 0.18); stroke-width: 1; }
+.venn .venn-logo-dark { display: none; }
+html[data-theme="dark"] .venn .venn-he { fill: rgba(106, 167, 248, 0.08); stroke: #6aa7f8; }
+html[data-theme="dark"] .venn .venn-fs { fill: rgba(140, 200, 198, 0.08); stroke: #8cc8c6; }
+html[data-theme="dark"] .venn .venn-hs { fill: rgba(232, 190, 110, 0.08); stroke: #e8be6e; }
+html[data-theme="dark"] .venn .venn-label-he { fill: #9dc4fb; }
+html[data-theme="dark"] .venn .venn-label-fs { fill: #a9d6d4; }
+html[data-theme="dark"] .venn .venn-label-hs { fill: #ecca8a; }
+html[data-theme="dark"] .venn .venn-centre { fill: #111827; stroke: rgba(232, 238, 248, 0.25); }
+html[data-theme="dark"] .venn .venn-logo-light { display: none; }
+html[data-theme="dark"] .venn .venn-logo-dark { display: inline; }
 
 /* Five questions: numbered columns divided by fine rules, no boxes. */
 .markdown-section .five-questions {
@@ -1438,7 +1446,7 @@ html[data-theme="dark"] .venn .venn-centre { fill: #2b5aa6; }
   border-top: 1px solid var(--pa-border);
 }
 .markdown-section h2.five-questions-title {
-  margin: 0 0 6px;
+  margin: 0 0 28px;
   padding: 0;
   border: 0;
   font-family: 'Playfair Display', Georgia, serif;
@@ -1496,11 +1504,11 @@ html[data-theme="dark"] .venn .venn-centre { fill: #2b5aa6; }
 }
 @media (max-width: 900px) {
   .markdown-section .home-hero { grid-template-columns: 1fr; gap: 32px; margin-bottom: 48px; }
-  .markdown-section .venn { max-width: 340px; }
-  .markdown-section h1.home-headline { font-size: 2rem; }
+  .markdown-section .venn { max-width: 290px; }
+  .markdown-section h1.home-headline { font-size: 1.9rem; }
 }
 @media (max-width: 600px) {
-  .markdown-section .home-disciplines { font-size: 0.7rem; letter-spacing: 0.08em; }
+  .markdown-section .home-strapline { font-size: 0.9rem; }
   .markdown-section ol.how-we-work { grid-template-columns: 1fr; row-gap: 24px; }
   .markdown-section ol.how-we-work li { padding: 0; border-left: 0; }
   .markdown-section ol.how-we-work li::before { font-size: 1.6rem; margin-bottom: 6px; }
