@@ -75,11 +75,11 @@ Used on landing pages to link to major sections:
 
 ```html
 <div class="nav-cards">
-  <a href="#/sexual-health-tariff/" class="nav-card">
+  <a href="/sexual-health-tariff/" class="nav-card">
     <h3>Card Title</h3>
     <p>Short description of the section.</p>
   </a>
-  <a href="#/health-pathways/" class="nav-card">
+  <a href="/health-pathways/" class="nav-card">
     <h3>Another Card</h3>
     <p>Brief explanation of what this links to.</p>
   </a>
@@ -87,11 +87,11 @@ Used on landing pages to link to major sections:
 ```
 
 <div class="nav-cards">
-  <a href="#/sexual-health-tariff/" class="nav-card">
+  <a href="/sexual-health-tariff/" class="nav-card">
     <h3>Example Card</h3>
     <p>This is how a navigation card renders on the page.</p>
   </a>
-  <a href="#/style-guide/" class="nav-card">
+  <a href="/style-guide/" class="nav-card">
     <h3>Style Guide</h3>
     <p>You are here — the design system reference.</p>
   </a>

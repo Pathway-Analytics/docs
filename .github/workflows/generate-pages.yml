@@ -1,0 +1,50 @@
+# Regenerate the per-page HTML files (clean URLs, link previews, SEO) and the
+# search index whenever pages change on main, and commit the result.
+# The same scripts can be run by hand; see infra/gen-pages.mjs.
+name: Generate pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - 'index.html'
+      - 'infra/gen-pages.mjs'
+      - 'infra/gen-search-paths.sh'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-pages
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate page files and search index
+        run: |
+          npm install --no-save --no-package-lock marked@18
+          node infra/gen-pages.mjs
+          ./infra/gen-search-paths.sh
+          rm -rf node_modules
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to update"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Regenerate page files and search index"
+          git push

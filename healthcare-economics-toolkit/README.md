@@ -33,27 +33,27 @@ Commissioners, directors of public health, NHS and voluntary-sector service lead
 ## The four questions
 
 <div class="nav-cards">
-  <a href="#/healthcare-economics-toolkit/foundations" class="nav-card">
+  <a href="/healthcare-economics-toolkit/foundations" class="nav-card">
     <h3>Foundations</h3>
     <p>Start with the decision, design the evidence before delivery, and the economics in plain English.</p>
   </a>
-  <a href="#/healthcare-economics-toolkit/cost" class="nav-card">
+  <a href="/healthcare-economics-toolkit/cost" class="nav-card">
     <h3>What did it cost?</h3>
     <p>Three views of one route: top-down investment, bottom-up delivery and recurrent continuation.</p>
   </a>
-  <a href="#/healthcare-economics-toolkit/achievement" class="nav-card">
+  <a href="/healthcare-economics-toolkit/achievement" class="nav-card">
     <h3>What did it achieve?</h3>
     <p>Outcomes, the PrEP cascade, retention, and equity — who is reached and who progresses.</p>
   </a>
-  <a href="#/healthcare-economics-toolkit/value" class="nav-card">
+  <a href="/healthcare-economics-toolkit/value" class="nav-card">
     <h3>Was it good value?</h3>
     <p>Reading an ICER, savings and the wrong pocket, uncertainty, and judging value for money.</p>
   </a>
-  <a href="#/healthcare-economics-toolkit/continuation" class="nav-card">
+  <a href="/healthcare-economics-toolkit/continuation" class="nav-card">
     <h3>Can we afford to continue it?</h3>
     <p>Continuation, affordability and commissioning under the Provider Selection Regime.</p>
   </a>
-  <a href="#/healthcare-economics-toolkit/using-the-toolkit" class="nav-card">
+  <a href="/healthcare-economics-toolkit/using-the-toolkit" class="nav-card">
     <h3>Using the toolkit</h3>
     <p>Rules of practice and reporting, the evidence base, templates and glossary.</p>
   </a>

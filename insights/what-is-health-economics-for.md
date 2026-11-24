@@ -1,3 +1,11 @@
+<!-- meta
+description: Health economics is usually asked what things cost. Bella Grant argues it should also ask who benefits, who is left behind and how funding systems shape health.
+image: /assets/images/og/what-is-health-economics-for.png
+image_alt: What is health economics for? From upstream to downstream: change the structures, prevent, treat.
+author: Bella Grant
+date: 2026-11-23
+-->
+
 # What is health economics for?
 
 **Health, fairness and the value of public resources**
@@ -153,7 +161,7 @@ I would like to see us use it more ambitiously.
 
 <div class="pa-about">
 <p class="pa-label">About the author</p>
-<p>Bella Grant is a health economist and the founder of Pathway Analytics, which she set up in 2009. She led the design of the integrated sexual health tariff now used across England and two national reviews of sexual assault services, and works with public bodies and funders on funding design, value for money and evaluation. <a href="/#/?id=contact">Get in touch</a>.</p>
+<p>Bella Grant is a health economist and the founder of Pathway Analytics, which she set up in 2009. She led the design of the integrated sexual health tariff now used across England and two national reviews of sexual assault services, and works with public bodies and funders on funding design, value for money and evaluation. <a href="/?id=contact">Get in touch</a>.</p>
 </div>
 
 *Figures checked November 2026.*

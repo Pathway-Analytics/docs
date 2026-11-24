@@ -5,15 +5,15 @@ The Sexual Health Tariff Grouper is a web application that automates tariff char
 This documentation is organised around three journeys. Start with the one that matches your role.
 
 <div class="nav-cards">
-  <a href="#/sexual-health-tariff/commissioner-guidance" class="nav-card">
+  <a href="/sexual-health-tariff/commissioner-guidance" class="nav-card">
     <h3>For Commissioners</h3>
     <p>Own the tariff configuration for your area: how tariffs work, setting one up, governance and review.</p>
   </a>
-  <a href="#/sexual-health-tariff/provider-onboarding" class="nav-card">
+  <a href="/sexual-health-tariff/provider-onboarding" class="nav-card">
     <h3>For Providers</h3>
     <p>Get set up, prepare and submit your activity data, clear validation, and run a submission.</p>
   </a>
-  <a href="#/sexual-health-tariff/executive-summary" class="nav-card">
+  <a href="/sexual-health-tariff/executive-summary" class="nav-card">
     <h3>For Executives</h3>
     <p>The strategic case: what the Grouper delivers, the benefits, and the return on investment.</p>
   </a>

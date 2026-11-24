@@ -1,3 +1,7 @@
+<!-- meta
+description: Automated tariff grouping for a major NHS trust, cutting manual processing time by 80% and improving payment accuracy across sexual health services.
+-->
+
 # NHS Trust Tariff Implementation
 
 ## Client Context

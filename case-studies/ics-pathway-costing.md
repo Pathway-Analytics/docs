@@ -1,3 +1,7 @@
+<!-- meta
+description: A pathway costing model for an Integrated Care System, giving transparent activity-based pricing across multiple providers.
+-->
+
 # Integrated Care System Pathway Costing
 
 ## Client Context

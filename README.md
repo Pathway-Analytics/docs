@@ -1,39 +1,45 @@
+<!-- meta
+title: Pathway Analytics — Health Economics & Strategy
+description: Pathway Analytics — specialist health economics and strategic advisory. Turning health evidence into funded policy.
+image: /assets/images/og/default.png
+-->
+
 # Pathway Analytics
 
 Specialist healthcare economics consultancy delivering automated tariff systems, activity-based costing, and commissioning intelligence to the NHS.
 
 <div class="home-grid">
-  <a href="#/healthcare-economics-toolkit/" class="home-card">
+  <a href="/healthcare-economics-toolkit/" class="home-card">
     <span class="home-card-eyebrow">Methods &amp; evidence</span>
     <h3>Healthcare Economics Toolkit</h3>
     <p>Costing and value for money in sexual health and HIV prevention — for the people who decide whether a service is worth paying for.</p>
     <span class="home-card-cta">Explore the toolkit →</span>
   </a>
-  <a href="#/sexual-health-tariff/" class="home-card">
+  <a href="/sexual-health-tariff/" class="home-card">
     <span class="home-card-eyebrow">Application</span>
     <h3>Sexual Health Tariff Grouper</h3>
     <p>Automated tariff charging for sexual health services: submit activity data, apply the configuration, and produce transparent charges.</p>
     <span class="home-card-cta">Open the guide →</span>
   </a>
-  <a href="#/health-pathways/" class="home-card">
+  <a href="/health-pathways/" class="home-card">
     <span class="home-card-eyebrow">Costing models</span>
     <h3>Health Pathways</h3>
     <p>Activity-based costing models for healthcare pathway analysis and service design.</p>
     <span class="home-card-cta">Learn more →</span>
   </a>
-  <a href="#/ftci/" class="home-card">
+  <a href="/ftci/" class="home-card">
     <span class="home-card-eyebrow">Commissioning intelligence</span>
     <h3>FTCi</h3>
     <p>Fair Treatment Commissioning intelligence for healthcare economics.</p>
     <span class="home-card-cta">Learn more →</span>
   </a>
-  <a href="#/case-studies/" class="home-card">
+  <a href="/case-studies/" class="home-card">
     <span class="home-card-eyebrow">In practice</span>
     <h3>Case Studies</h3>
     <p>Real-world examples of healthcare economics consultancy outcomes.</p>
     <span class="home-card-cta">Read case studies →</span>
   </a>
-  <a href="#/insights/" class="home-card">
+  <a href="/insights/" class="home-card">
     <span class="home-card-eyebrow">Analysis &amp; commentary</span>
     <h3>Insights</h3>
     <p>Commentary on health economics, commissioning and policy: what the evidence shows and what it means for funding decisions.</p>
@@ -61,5 +67,5 @@ For enquiries about our services, subscriptions, or partnership opportunities, g
 ---
 
 <footer style="text-align:center; padding: var(--space-md) 0; font-size: 0.85em; color: var(--pa-text-muted);">
-  <a href="#/style-guide/">Style Guide</a>
+  <a href="/style-guide/">Style Guide</a>
 </footer>

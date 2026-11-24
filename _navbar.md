@@ -4,4 +4,4 @@
 - [Health Pathways](/health-pathways/)
 - [Case Studies](/case-studies/)
 - [Insights](/insights/)
-- [Contact](/#/?id=contact)
+- [Contact](/?id=contact)

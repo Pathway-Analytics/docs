@@ -1,3 +1,7 @@
+<!-- meta
+description: Redesigning a Local Authority's sexual health commissioning framework with standardised tariff configurations and governance processes.
+-->
+
 # Local Authority Commissioning Transformation
 
 ## Client Context
