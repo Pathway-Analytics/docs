@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 210" width="680" height="210" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">Who pays, who benefits</title>
+  <desc id="d">A council housing budget pays for home repairs. Years later the saving appears in the NHS budget as fewer hospital admissions. Across the whole system, the cost and the saving should be counted together.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="679" height="209" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="60" y="40" width="220" height="56" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="170" y="62" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Council housing budget</text>
+  <text x="170" y="82" text-anchor="middle" font-size="12" fill="#4b5563">Pays for home repairs</text>
+  <text x="340" y="60" text-anchor="middle" font-size="12" fill="#4b5563">Years later</text>
+  <line x1="286" y1="72" x2="394" y2="72" stroke="#4b5563" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="400" y="40" width="220" height="56" rx="6" fill="#e8eef7" stroke="#1f4788"/>
+  <text x="510" y="62" text-anchor="middle" font-size="14" font-weight="600" fill="#163561">NHS budget</text>
+  <text x="510" y="82" text-anchor="middle" font-size="12" fill="#1f4788">Fewer hospital admissions</text>
+  <rect x="60" y="130" width="560" height="44" rx="6" fill="#f9fafb" stroke="#9ca3af" stroke-dasharray="4 3"/>
+  <text x="340" y="157" text-anchor="middle" font-size="14" fill="#111827">Whole system: count the cost and the saving together</text>
+</svg>
