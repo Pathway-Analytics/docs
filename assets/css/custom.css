@@ -55,6 +55,7 @@
   --pa-radius-card: 8px;
 
   --content-max-width: 1100px;
+  --article-max-width: 720px;   /* ~75 characters a line for long-form reading */
   --sidebar-width: 280px;
   --navbar-height: 64px;
 }
@@ -411,6 +412,13 @@ section.content,
 }
 
 .markdown-section { max-width: var(--content-max-width); margin: 0 auto; }
+
+/* Long-form articles (Insights): readable line length. Images, boxes and
+   tables sit inside this column; on narrow screens it simply fills the width. */
+body.page-article .markdown-section { max-width: min(100%, var(--article-max-width)); }
+@media (min-width: 1600px) {
+  body.page-article { --article-max-width: 760px; }
+}
 
 /* ==========================================================================
    6. TYPOGRAPHY

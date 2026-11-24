@@ -19,7 +19,7 @@ APEX="pathwayanalytics.com"
 WWW="www.${APEX}"
 ORIGIN="docs.${APEX}"
 CF_ALIAS_ZONE="Z2FDTNDATAQYW2"            # fixed hosted zone ID for all CloudFront aliases
-CACHING_OPTIMIZED="658327ea-f89d-4fab-a63d-7e88639e58f6"
+CACHE_POLICY_NAME="pwa-docs-short-cache"   # caps edge caching at 60s so pushed edits show quickly
 CALLER_REF="pwa-apex-docs"
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
@@ -50,7 +50,23 @@ aws route53 change-resource-record-sets --hosted-zone-id "$ZONE_ID" --change-bat
 aws acm wait certificate-validated --region us-east-1 --certificate-arn "$CERT_ARN"
 echo "Certificate issued"
 
-# 3. CloudFront distribution (create if no distribution already carries the apex alias)
+# 3a. Cache policy: GitHub Pages sends max-age=600; cap the edge copy at 60 seconds
+CACHE_POLICY_ID=$(aws cloudfront list-cache-policies --type custom \
+  --query "CachePolicyList.Items[?CachePolicy.CachePolicyConfig.Name=='${CACHE_POLICY_NAME}'].CachePolicy.Id | [0]" --output text)
+if [ -z "$CACHE_POLICY_ID" ] || [ "$CACHE_POLICY_ID" = "None" ]; then
+  cat > "$WORK/policy.json" <<EOF
+{"Name": "${CACHE_POLICY_NAME}", "Comment": "Cap CloudFront caching of docs pages at 60 seconds",
+ "DefaultTTL": 60, "MaxTTL": 60, "MinTTL": 0,
+ "ParametersInCacheKeyAndForwardedToOrigin": {"EnableAcceptEncodingGzip": true, "EnableAcceptEncodingBrotli": true,
+  "HeadersConfig": {"HeaderBehavior": "none"}, "CookiesConfig": {"CookieBehavior": "none"},
+  "QueryStringsConfig": {"QueryStringBehavior": "none"}}}
+EOF
+  CACHE_POLICY_ID=$(aws cloudfront create-cache-policy --cache-policy-config "file://$WORK/policy.json" \
+    --query CachePolicy.Id --output text)
+fi
+echo "Cache policy: $CACHE_POLICY_ID"
+
+# 3b. CloudFront distribution (create if no distribution already carries the apex alias)
 DIST_ID=$(aws cloudfront list-distributions --output json | python3 -c '
 import json,sys
 d=json.load(sys.stdin).get("DistributionList",{}).get("Items") or []
@@ -68,7 +84,7 @@ if [ -z "$DIST_ID" ]; then
      "OriginSslProtocols": {"Quantity": 1, "Items": ["TLSv1.2"]}}}]},
  "DefaultCacheBehavior": {"TargetOriginId": "docs-github-pages", "ViewerProtocolPolicy": "redirect-to-https",
    "AllowedMethods": {"Quantity": 2, "Items": ["GET", "HEAD"]}, "Compress": true,
-   "CachePolicyId": "${CACHING_OPTIMIZED}"},
+   "CachePolicyId": "${CACHE_POLICY_ID}"},
  "Enabled": true, "HttpVersion": "http2and3", "IsIPV6Enabled": true, "PriceClass": "PriceClass_100",
  "ViewerCertificate": {"ACMCertificateArn": "${CERT_ARN}", "SSLSupportMethod": "sni-only",
    "MinimumProtocolVersion": "TLSv1.2_2021"}

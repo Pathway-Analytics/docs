@@ -452,6 +452,17 @@
       });
     }
 
+    // Article Layout Plugin
+    // Marks Insights article pages (not the Insights index) with a body class so
+    // CSS can give them a readable line length without narrowing other pages.
+    function articleLayoutPlugin(hook, vm) {
+      hook.doneEach(function () {
+        var path = (vm.route && vm.route.path) || '';
+        var isArticle = /^\/insights\/[^/]+/.test(path) && !/\/README\.md$/.test(path);
+        document.body.classList.toggle('page-article', isArticle);
+      });
+    }
+
     // Root Image Path Plugin
     // Docsify joins a leading-slash Markdown image path onto the current page's
     // folder, so /assets/x.svg on an Insights page is requested as
@@ -501,6 +512,7 @@
 
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
+      articleLayoutPlugin,
       rootImagePathPlugin,
       missingImagePlugin,
       sidebarTogglePlugin,
