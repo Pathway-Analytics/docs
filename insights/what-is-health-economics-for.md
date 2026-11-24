@@ -1,10 +1,10 @@
-# What Is Health Economics For?
+# What is health economics for?
 
 **Health, fairness and the value of public resources**
 
-*Bella Grant, Pathway Analytics | November 2026*
+*Bella Grant, Pathway Analytics | November 2026 | 12-minute read*
 
-<img src="/assets/images/upstream-downstream.svg" alt="From upstream to downstream: change the structures, prevent, treat" style="display: block; max-width: 100%; height: auto; margin: 32px auto;">
+<img src="/assets/images/upstream-downstream.svg" alt="From upstream to downstream: change the structures, prevent, treat" style="display: block; width: 100%; height: auto; margin: 24px 0 32px;">
 
 We spend a great deal of time debating how much healthcare costs: what we can afford, where savings can be made and how to show value for money. These are legitimate questions. Public resources are finite, and every pound spent on one intervention is a pound unavailable for something else. Understanding those choices is central to good public policy.
 
@@ -76,7 +76,7 @@ Sexual assault services sit across health, local government, police and justice.
 
 A technically elegant funding model will achieve very little if it ignores the institutional realities into which it is introduced. Good analysis starts from how organisations actually behave, and from the people who fall between them.
 
-<div class="pa-chain" style="margin: 32px 0;">
+<div class="pa-chain" style="margin: 32px auto; max-width: 640px;">
 <p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 8px;">How split budgets can turn into unequal health</p>
 <div style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-radius: 6px; padding: 10px 16px; font-weight: 600; color: var(--pa-text);">Public money is split between organisations, each with its own budget and targets</div>
 <div style="text-align: center; color: var(--pa-text-subtle); line-height: 1.8;">↓</div>
@@ -150,6 +150,13 @@ These questions will make decisions harder, but I think they will make them bett
 > Health economics should help us make the best use of society's resources to improve health and reduce avoidable suffering.
 
 I would like to see us use it more ambitiously.
+
+<div class="pa-about" style="border-top: 1px solid var(--pa-border); border-bottom: 1px solid var(--pa-border); padding: 20px 0; margin: 40px 0;">
+<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin: 0 0 8px;">About the author</p>
+<p style="margin: 0;">Bella Grant is a health economist and the founder of Pathway Analytics, which she set up in 2009. She led the design of the integrated sexual health tariff now used across England and two national reviews of sexual assault services, and works with public bodies and funders on funding design, value for money and evaluation. <a href="/#/?id=contact">Get in touch</a>.</p>
+</div>
+
+*Figures checked November 2026.*
 
 ## Further reading
 
