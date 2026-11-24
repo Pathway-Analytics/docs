@@ -67,6 +67,7 @@
   </noscript>
 
   <!-- Docsify Configuration -->
+  <script src="/assets/js/search-paths.js"></script>
   <script>
     window.$docsify = {
       name: 'Pathway Analytics',
@@ -77,12 +78,17 @@
       routerMode: 'hash',
       subMaxLevel: 2,
       auto2top: true,
+      topMargin: 88,   // keep ?id= anchor headings clear of the fixed navbar (64px + gap)
       maxLevel: 4,
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
         depth: 4,
-        pathNamespaces: ['/sexual-health-tariff', '/case-studies', '/health-pathways', '/ftci', '/style-guide', '/healthcare-economics-toolkit', '/insights']
+        // Index every page, not just those linked from the current sidebar.
+        // The list is generated: run infra/gen-search-paths.sh after adding or
+        // renaming a page. Change the namespace to force browsers to re-index.
+        paths: window.PA_SEARCH_PATHS || 'auto',
+        namespace: 'pa-docs-v2'
       },
       formatUpdated: '{DD}/{MM}/{YYYY}',
       notFoundPage: true,
