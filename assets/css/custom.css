@@ -1425,6 +1425,16 @@ html[data-theme="dark"] .markdown-section .home-actions .btn-secondary { color: 
    digital solutions) converge on the patient and continue together. A wide
    labelled version for desktop; a compact version with an HTML legend on phones. */
 .markdown-section .pathway-graphic { margin: 8px 0 64px; }
+.markdown-section .pg-caption {
+  margin: 0 auto 28px;
+  max-width: 640px;
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--pa-text-muted);
+}
 .markdown-section .pathway-graphic svg { width: 100%; height: auto; display: block; }
 .markdown-section .pathway-graphic .pg-mobile, .markdown-section .pg-legend { display: none; }
 .pg-strand { fill: none; stroke-width: 2.5; stroke-linecap: round; }
