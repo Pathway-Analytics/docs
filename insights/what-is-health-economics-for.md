@@ -24,8 +24,6 @@ But there is a danger when economic evaluation becomes too narrowly focused on t
 
 Consider two hypothetical healthcare programmes. Both cost £1 million. Both reach 1,000 people. Both appear to deliver comparable clinical benefits. The difference is that one reaches people who already have relatively good access to healthcare, while the other reaches a population that has historically been excluded or underserved.
 
-![Two programmes with the same cost, reach and clinical benefit, one reaching people with good access and one reaching underserved groups](/assets/images/two-programmes-same-cost.svg)
-
 Are these programmes equally valuable?
 
 In a conventional analysis, they might appear similar. But if we are concerned with reducing avoidable health inequalities, the distribution of those benefits matters.
@@ -63,6 +61,8 @@ Yet the organisation paying for an intervention may receive little direct financ
 For an individual budget-holder, declining to invest may be rational. For society, it may be very short-sighted.
 
 > What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole.
+
+![A council housing budget pays for repairs; years later the NHS budget sees fewer admissions](/assets/images/who-pays-who-benefits.svg)
 
 ## The hidden influence of funding systems
 
