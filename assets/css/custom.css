@@ -1373,8 +1373,8 @@ input:focus-visible,
    three-disciplines Venn diagram sits to the right. Stacks on narrow screens. */
 .markdown-section .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
-  gap: 56px;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 48px;
   align-items: center;
   margin: 16px 0 64px;
 }
@@ -1391,7 +1391,8 @@ html[data-theme="dark"] .markdown-section .home-brand .home-logo-dark { display:
 }
 .markdown-section .home-tagline {
   margin: 0;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
+  white-space: nowrap;
   color: var(--pa-text-muted);
 }
 .markdown-section h1.home-headline {
@@ -1399,9 +1400,9 @@ html[data-theme="dark"] .markdown-section .home-brand .home-logo-dark { display:
   padding: 0;
   border: 0;
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.01em;
   color: var(--pa-primary);
 }
@@ -1418,11 +1419,11 @@ html[data-theme="dark"] .markdown-section .home-brand .home-logo-dark { display:
   color: var(--pa-text-muted);
 }
 .markdown-section .home-hero-venn { text-align: center; }
-.markdown-section .venn { width: 100%; max-width: 320px; height: auto; }
-.venn circle { stroke-width: 1.25; }
-.venn .venn-he { fill: rgba(31, 71, 136, 0.06); stroke: #1f4788; }
-.venn .venn-fs { fill: rgba(81, 131, 134, 0.07); stroke: #518386; }
-.venn .venn-hs { fill: rgba(217, 164, 65, 0.09); stroke: #d9a441; }
+.markdown-section .venn { width: 100%; max-width: 440px; height: auto; }
+.venn circle { stroke-width: 1.5; }
+.venn .venn-he { fill: rgba(31, 71, 136, 0.08); stroke: #1f4788; }
+.venn .venn-fs { fill: rgba(81, 131, 134, 0.09); stroke: #518386; }
+.venn .venn-hs { fill: rgba(217, 164, 65, 0.12); stroke: #d9a441; }
 .venn .venn-label { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 18px; }
 .venn .venn-label-he { fill: #1f4788; }
 .venn .venn-label-fs { fill: #3f6a6d; }
@@ -1439,11 +1440,55 @@ html[data-theme="dark"] .venn .venn-centre { fill: #111827; stroke: rgba(232, 23
 html[data-theme="dark"] .venn .venn-logo-light { display: none; }
 html[data-theme="dark"] .venn .venn-logo-dark { display: inline; }
 
+/* Reach: a full-width tinted band listing who Pathway Analytics works with,
+   by type. Verified figures and logos can be added here later. */
+.markdown-section .reach {
+  margin: 0 0 56px;
+  padding: 36px 40px 40px;
+  background: #f4f7fa;
+  border-radius: 12px;
+}
+html[data-theme="dark"] .markdown-section .reach { background: #172033; }
+.markdown-section h2.reach-title {
+  margin: 0 0 24px;
+  padding: 0;
+  border: 0;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--pa-text);
+}
+.markdown-section .reach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px 32px;
+}
+.markdown-section .reach-type {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #518386;
+}
+.markdown-section .reach-names {
+  display: block;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--pa-text);
+}
+@media (max-width: 900px) {
+  .markdown-section .reach { padding: 28px 24px 30px; }
+  .markdown-section .reach-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .markdown-section .reach-grid { grid-template-columns: 1fr; gap: 16px; }
+}
+
 /* Five questions: numbered columns divided by fine rules, no boxes. */
 .markdown-section .five-questions {
   margin: 0 0 56px;
-  padding-top: 40px;
-  border-top: 1px solid var(--pa-border);
 }
 .markdown-section h2.five-questions-title {
   margin: 0 0 28px;
@@ -1503,8 +1548,9 @@ html[data-theme="dark"] .venn .venn-logo-dark { display: inline; }
   .markdown-section ol.how-we-work li:nth-child(4) { padding-left: 0; border-left: 0; }
 }
 @media (max-width: 900px) {
+  .markdown-section .home-tagline { white-space: normal; }
   .markdown-section .home-hero { grid-template-columns: 1fr; gap: 32px; margin-bottom: 48px; }
-  .markdown-section .venn { max-width: 290px; }
+  .markdown-section .venn { max-width: 340px; }
   .markdown-section h1.home-headline { font-size: 1.9rem; }
 }
 @media (max-width: 600px) {

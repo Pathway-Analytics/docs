@@ -13,21 +13,32 @@ image: /assets/images/og/default.png
       <p class="home-tagline">Turning evidence, funding and clinical pathways into workable change</p>
     </div>
     <h1 class="home-headline">Understanding the economics of healthcare. Changing how it works.</h1>
-    <p class="home-lead">Good services often stall on one question: who pays, and for what. Pathway Analytics has worked on that question since 2009, bringing health economics, finance and service design to the same problem.</p>
-    <p class="home-clients">Clients include NHS England, the Home Office, the Ministry of Justice, the Mayor of London, Public Health England, King's Health Partners, the Elton John AIDS Foundation and local authorities across England.</p>
-    <p class="home-clients">Partners have included Novo Nordisk, ViiV Healthcare and Fast-Track Cities London, part of the UNAIDS initiative.</p>
+    <p class="home-lead">Since 2009, Pathway Analytics has helped organisations tackle some of healthcare's most complex challenges, from how services are funded and delivered to how resources are allocated and the value of care is measured.</p>
+    <p class="home-lead">We bring together health economics, financial and strategic expertise, and a deep understanding of how health systems work in practice.</p>
   </div>
   <div class="home-hero-venn"><svg class="venn" viewBox="0 0 380 340" role="img" aria-labelledby="venn-t venn-d"><title id="venn-t">Where Pathway Analytics works</title><desc id="venn-d">Three overlapping circles: health economics, finance and strategy, and health systems and service design. Pathway Analytics sits where all three meet.</desc><circle class="venn-he" cx="140" cy="128" r="105"/><circle class="venn-fs" cx="240" cy="128" r="105"/><circle class="venn-hs" cx="190" cy="212" r="105"/><text class="venn-label venn-label-he" x="84" y="100" text-anchor="middle"><tspan x="84">Health</tspan><tspan x="84" dy="20">economics</tspan></text><text class="venn-label venn-label-fs" x="296" y="100" text-anchor="middle"><tspan x="296">Finance &amp;</tspan><tspan x="296" dy="20">strategy</tspan></text><text class="venn-label venn-label-hs" x="190" y="276" text-anchor="middle"><tspan x="190">Health systems &amp;</tspan><tspan x="190" dy="20">service design</tspan></text><rect class="venn-centre" x="130" y="133" width="120" height="50" rx="8"/><image class="venn-logo-light" href="/assets/images/brand/logo-on-light.png" x="138" y="140" width="104" height="36"/><image class="venn-logo-dark" href="/assets/images/brand/logo-on-dark.png" x="138" y="140" width="104" height="36"/></svg></div>
 </div>
 
+<section class="reach">
+  <h2 class="reach-title">Working across health systems since 2009</h2>
+  <div class="reach-grid">
+    <div class="reach-item"><span class="reach-type">National bodies</span><span class="reach-names">NHS England, Public Health England</span></div>
+    <div class="reach-item"><span class="reach-type">Government departments</span><span class="reach-names">Home Office, Ministry of Justice</span></div>
+    <div class="reach-item"><span class="reach-type">Local government</span><span class="reach-names">Mayor of London, London councils and local authorities across England</span></div>
+    <div class="reach-item"><span class="reach-type">NHS trusts and providers</span><span class="reach-names">King's Health Partners, sexual health providers across England</span></div>
+    <div class="reach-item"><span class="reach-type">International funders</span><span class="reach-names">Elton John AIDS Foundation</span></div>
+    <div class="reach-item"><span class="reach-type">Partners</span><span class="reach-names">Novo Nordisk, ViiV Healthcare, Fast-Track Cities London (UNAIDS initiative)</span></div>
+  </div>
+</section>
+
 <section class="five-questions">
   <h2 class="five-questions-title">Five questions that underpin our work</h2>
   <ol class="how-we-work">
-    <li><span class="hww-q">Who needs care?</span><span class="hww-a">Population, access, equity and unmet need.</span></li>
-    <li><span class="hww-q">How is care actually delivered?</span><span class="hww-a">Patient journeys, pathways and organisational boundaries.</span></li>
-    <li><span class="hww-q">What does it really cost?</span><span class="hww-a">Connecting financial spending with the resources care actually uses.</span></li>
-    <li><span class="hww-q">What drives behaviour?</span><span class="hww-a">Funding mechanisms, incentives and institutional constraints.</span></li>
-    <li><span class="hww-q">How could the system work better?</span><span class="hww-a">Redesign, evaluation and alternative investment decisions.</span></li>
+    <li><span class="hww-q">Who needs care?</span><span class="hww-a">Who is being reached, and who is being left behind?</span></li>
+    <li><span class="hww-q">How is care delivered?</span><span class="hww-a">How people move through services, and where things break down.</span></li>
+    <li><span class="hww-q">What does care really cost?</span><span class="hww-a">Looking beyond budgets to the resources used in delivering care.</span></li>
+    <li><span class="hww-q">What drives behaviour?</span><span class="hww-a">How funding, incentives and organisational structures shape decisions.</span></li>
+    <li><span class="hww-q">How could care work better?</span><span class="hww-a">Better ways to organise, fund and deliver services.</span></li>
   </ol>
 </section>
 
