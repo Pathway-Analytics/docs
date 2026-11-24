@@ -13,8 +13,8 @@ image: /assets/images/og/default.png
     </div>
     <h1 class="home-headline">Building better pathways to better health</h1>
     <p class="home-subhead">Improving how healthcare is funded, organised and delivered</p>
-    <p class="home-lead">Since 2009, Pathway Analytics has worked with governments, commissioners, healthcare providers and international funders across the UK and internationally.</p>
-    <p class="home-lead">We combine strategic insight, economic analysis, stakeholder engagement and digital innovation to address complex challenges, build the case for change and develop practical solutions.</p>
+    <p class="home-lead">Pathway Analytics designs funding systems, redesigns care pathways and evaluates what works, then builds the digital platforms that keep new arrangements running.</p>
+    <p class="home-lead">Since 2009 that has included the integrated sexual health tariff used across England, national reviews of sexual assault services, and evaluations for the NHS, government and international funders.</p>
     <p class="home-actions"><a class="btn-primary" href="/sexual-health-tariff/">Digital solutions</a><a class="btn-primary" href="/healthcare-economics-toolkit/">Health Economics Toolkit</a><a class="btn-secondary" href="mailto:enquiries@pathwayanalytics.com">Work with us</a></p>
   </div>
 </div>
