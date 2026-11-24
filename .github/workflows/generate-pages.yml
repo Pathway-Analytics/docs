@@ -34,8 +34,8 @@ jobs:
         run: |
           npm install --no-save --no-package-lock marked@18
           node infra/gen-pages.mjs
-          ./infra/gen-search-paths.sh
           rm -rf node_modules
+          ./infra/gen-search-paths.sh
 
       - name: Commit changes
         run: |
