@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" width="680" height="440" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">Who pays and who saves: fixing excess cold in England's homes</title>
+  <desc id="d">Owners, landlords and councils would pay about 5.9 billion pounds upfront to fix excess cold. The NHS would save about 857 million pounds a year in treatment costs. Cumulative NHS savings pass the cost of the repairs in about year seven. Source: Building Research Establishment, 2021.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="679" height="439" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="40" y="28" width="240" height="96" rx="6" fill="#ffffff" stroke="#1f4788"/>
+  <path d="M46 28 H274 A6 6 0 0 1 280 34 V54 H40 V34 A6 6 0 0 1 46 28 Z" fill="#1f4788"/>
+  <text x="160" y="46" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">Owners, landlords and councils</text>
+  <text x="160" y="84" text-anchor="middle" font-size="20" font-weight="700" fill="#1f4788">£5.9bn upfront</text>
+  <text x="160" y="106" text-anchor="middle" font-size="12" fill="#4b5563">to fix excess cold</text>
+  <text x="340" y="66" text-anchor="middle" font-size="12" fill="#4b5563">Savings land</text>
+  <text x="340" y="82" text-anchor="middle" font-size="12" fill="#4b5563">elsewhere</text>
+  <line x1="286" y1="94" x2="394" y2="94" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <rect x="400" y="28" width="240" height="96" rx="6" fill="#ffffff" stroke="#0f766e"/>
+  <path d="M406 28 H634 A6 6 0 0 1 640 34 V54 H400 V34 A6 6 0 0 1 406 28 Z" fill="#0f766e"/>
+  <text x="520" y="46" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">NHS</text>
+  <text x="520" y="84" text-anchor="middle" font-size="20" font-weight="700" fill="#0f766e">£857m a year</text>
+  <text x="520" y="106" text-anchor="middle" font-size="12" fill="#4b5563">in treatment costs avoided</text>
+  <text x="40" y="160" font-size="13" font-weight="600" fill="#111827">Cumulative NHS savings against the cost of repairs</text>
+  <line x1="100" y1="370" x2="640" y2="370" stroke="#d1d5db"/>
+  <text x="92" y="374" text-anchor="end" font-size="11" fill="#6b7280">£0</text>
+  <text x="92" y="275" text-anchor="end" font-size="11" fill="#6b7280">£3bn</text>
+  <line x1="100" y1="271" x2="640" y2="271" stroke="#f3f4f6"/>
+  <text x="92" y="176" text-anchor="end" font-size="11" fill="#6b7280">£6bn</text>
+  <line x1="100" y1="172" x2="640" y2="172" stroke="#f3f4f6"/>
+  <rect x="120" y="342" width="44" height="28" rx="3" fill="#99d5cd"/>
+  <rect x="184" y="313" width="44" height="57" rx="3" fill="#99d5cd"/>
+  <rect x="248" y="285" width="44" height="85" rx="3" fill="#99d5cd"/>
+  <rect x="312" y="257" width="44" height="113" rx="3" fill="#99d5cd"/>
+  <rect x="376" y="229" width="44" height="141" rx="3" fill="#99d5cd"/>
+  <rect x="440" y="200" width="44" height="170" rx="3" fill="#99d5cd"/>
+  <rect x="504" y="172" width="44" height="198" rx="3" fill="#0f766e"/>
+  <rect x="568" y="144" width="44" height="226" rx="3" fill="#0f766e"/>
+  <line x1="100" y1="175" x2="640" y2="175" stroke="#1f4788" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="108" y="191" font-size="12" font-weight="600" fill="#1f4788">Cost of repairs: £5.9bn</text>
+  <text x="526" y="136" text-anchor="middle" font-size="12" font-weight="600" fill="#0f766e">Paid back</text>
+  <text x="142" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 1</text>
+  <text x="206" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 2</text>
+  <text x="270" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 3</text>
+  <text x="334" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 4</text>
+  <text x="398" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 5</text>
+  <text x="462" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 6</text>
+  <text x="526" y="388" text-anchor="middle" font-size="11" fill="#111827" font-weight="600">Yr 7</text>
+  <text x="590" y="388" text-anchor="middle" font-size="11" fill="#6b7280">Yr 8</text>
+  <text x="40" y="420" font-size="11" fill="#6b7280">Source: Building Research Establishment (2021). NHS first-year treatment costs only; wider savings to society are larger.</text>
+</svg>
