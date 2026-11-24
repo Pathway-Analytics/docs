@@ -5,15 +5,30 @@ image: /assets/images/og/default.png
 -->
 
 <div class="home-hero">
-  <h1 class="home-logo">
-    <img class="home-logo-light" src="/assets/images/brand/logo-on-light.png" alt="Pathway Analytics" data-no-zoom width="521" height="181">
-    <img class="home-logo-dark" src="/assets/images/brand/logo-on-dark.png" alt="" data-no-zoom width="521" height="181">
-  </h1>
-  <p class="home-strapline">Strategy | Health Economics | Digital Solutions</p>
-  <p class="home-tagline">Turning evidence, funding and clinical pathways into workable change</p>
+  <div class="home-hero-text">
+    <h1 class="home-logo">
+      <img class="home-logo-light" src="/assets/images/brand/logo-on-light.png" alt="Pathway Analytics" data-no-zoom width="521" height="181">
+      <img class="home-logo-dark" src="/assets/images/brand/logo-on-dark.png" alt="" data-no-zoom width="521" height="181">
+    </h1>
+    <p class="home-strapline">Strategy | Health Economics | Digital Solutions</p>
+    <p class="home-tagline">Turning evidence, funding and clinical pathways into workable change</p>
+    <p class="home-headline">Understanding the economics of healthcare. Changing how it works.</p>
+    <p class="home-lead">We combine health economics, financial analysis and service design to help organisations make better decisions about how care is delivered, funded and evaluated.</p>
+  </div>
+  <div class="home-hero-venn"><svg class="venn" viewBox="0 0 380 356" role="img" aria-labelledby="venn-t venn-d"><title id="venn-t">Where Pathway Analytics works</title><desc id="venn-d">Three overlapping circles: health economics, finance and strategy, and health systems and service design. Pathway Analytics sits where all three meet.</desc><circle class="venn-he" cx="128" cy="125" r="110"/><circle class="venn-fs" cx="252" cy="125" r="110"/><circle class="venn-hs" cx="190" cy="230" r="110"/><text class="venn-label" x="76" y="104" text-anchor="middle"><tspan x="76">Health</tspan><tspan x="76" dy="19">economics</tspan></text><text class="venn-label" x="304" y="104" text-anchor="middle"><tspan x="304">Finance &amp;</tspan><tspan x="304" dy="19">strategy</tspan></text><text class="venn-label" x="190" y="292" text-anchor="middle"><tspan x="190">Health systems &amp;</tspan><tspan x="190" dy="19">service design</tspan></text><rect class="venn-centre" x="128" y="146" width="124" height="48" rx="10"/><text class="venn-centre-text" x="190" y="166" text-anchor="middle"><tspan x="190">Pathway</tspan><tspan x="190" dy="17">Analytics</tspan></text></svg></div>
 </div>
 
-Pathway Analytics works with public bodies, funders and providers on how health services are designed, paid for and judged. We bring together health economics, pathway and process redesign, funding design and digital tools, so that decisions rest on evidence and work in practice.
+## How we work
+
+<ol class="how-we-work">
+  <li><span class="hww-q">Who needs care?</span><span class="hww-a">The population, unmet need, inequalities and the barriers people face in getting care.</span></li>
+  <li><span class="hww-q">How is care actually delivered?</span><span class="hww-a">Real patient journeys, the boundaries between organisations, and the resources and outcomes along the way.</span></li>
+  <li><span class="hww-q">What does it really cost?</span><span class="hww-a">What is spent, how the money flows and what it actually costs to deliver care.</span></li>
+  <li><span class="hww-q">What is driving behaviour?</span><span class="hww-a">Financial incentives, institutional constraints and unintended consequences.</span></li>
+  <li><span class="hww-q">How could the system work better?</span><span class="hww-a">Alternative ways to deliver, fund and allocate resources, developed, costed and tested.</span></li>
+</ol>
+
+## Where to start
 
 <div class="home-grid">
   <a href="/healthcare-economics-toolkit/" class="home-card">
