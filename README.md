@@ -64,12 +64,6 @@ image: /assets/images/og/default.png
     <p>Mapping how people move through services, where they fall away and what each step costs, so pathways can be redesigned around the person rather than the budget.</p>
     <span class="home-card-cta">Learn more →</span>
   </a>
-  <a href="/ftci/" class="home-card">
-    <span class="home-card-eyebrow">Commissioning intelligence</span>
-    <h3>FTCi</h3>
-    <p>Fair Treatment Commissioning intelligence for healthcare economics.</p>
-    <span class="home-card-cta">Learn more →</span>
-  </a>
   <a href="/case-studies/" class="home-card">
     <span class="home-card-eyebrow">In practice</span>
     <h3>Case Studies</h3>

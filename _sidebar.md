@@ -3,7 +3,6 @@
   - [Healthcare Economics Toolkit](/healthcare-economics-toolkit/)
   - [Sexual Health Tariff](/sexual-health-tariff/)
   - [Health Pathways](/health-pathways/)
-  - [FTCi](/ftci/)
   - [Case Studies](/case-studies/)
   - [Insights](/insights/)
   - [Style Guide](/style-guide/)
