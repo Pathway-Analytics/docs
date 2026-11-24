@@ -1,4 +1,4 @@
-- [Home](/)
+- [Pathway Analytics](/)
 - [Toolkit](/healthcare-economics-toolkit/)
 - [Tariff Grouper](/sexual-health-tariff/)
 - [Health Pathways](/health-pathways/)

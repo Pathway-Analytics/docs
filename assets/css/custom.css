@@ -167,15 +167,33 @@ body.sticky .app-nav {
 
 .app-nav a:hover { color: var(--pa-primary); background: var(--pa-surface-hover); }
 
-/* Navbar — first item styled as brand */
+/* Navbar — first item is the brand: wordmark on wide screens, square mark on
+   small ones. The link keeps its text ("Pathway Analytics") for screen readers
+   and search engines; it is moved off-screen and the logo drawn as background. */
 .app-nav li:first-child a {
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.9em;
-  color: var(--pa-primary);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding-left: 0;
+  display: block;
+  width: 190px;
+  height: 23px;
+  padding: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+  white-space: nowrap;
+  background: url("/assets/images/brand/wordmark-on-light.svg") no-repeat left center / contain;
+}
+
+html[data-theme="dark"] .app-nav li:first-child a {
+  background-image: url("/assets/images/brand/wordmark-on-dark.svg");
+}
+
+@media (max-width: 768px) {
+  .app-nav li:first-child a {
+    width: 36px;
+    height: 36px;
+    background-image: url("/assets/images/brand/pa-mark.svg");
+  }
+  html[data-theme="dark"] .app-nav li:first-child a {
+    background-image: url("/assets/images/brand/pa-mark.svg");
+  }
 }
 
 .app-nav li:first-child a:hover { color: var(--pa-primary); background: none; }
