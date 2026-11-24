@@ -4,7 +4,7 @@
 
 *Bella Grant, Pathway Analytics | November 2026*
 
-<img src="/assets/images/upstream-downstream.svg" alt="From upstream to downstream: change the structures, prevent, treat" style="max-width: 100%; height: auto;">
+<img src="/assets/images/upstream-downstream.svg" alt="From upstream to downstream: change the structures, prevent, treat" style="display: block; max-width: 100%; height: auto; margin: 32px auto;">
 
 We spend a great deal of time debating how much healthcare costs: what we can afford, where savings can be made and how to show value for money. These are legitimate questions. Public resources are finite, and every pound spent on one intervention is a pound unavailable for something else. Understanding those choices is central to good public policy.
 
@@ -48,7 +48,7 @@ Research for Public Health England estimated that more than one in five excess w
 
 For an individual budget-holder, declining to invest may be entirely rational. For society, it is short-sighted. What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole, and the gap between the two is where much of the human cost of poor housing sits.
 
-![Owners, landlords and councils would pay about £5.9bn to fix excess cold; the NHS would save about £857m a year, paying back the cost in about seven years](/assets/images/cold-homes-payback.svg)
+<img src="/assets/images/cold-homes-payback.svg" alt="Owners, landlords and councils would pay about £5.9bn to fix excess cold; the NHS would save about £857m a year, paying back the cost in about seven years" style="display: block; max-width: 100%; height: auto; margin: 32px auto;">
 
 ## The hidden influence of funding systems
 
@@ -144,7 +144,7 @@ I do not think the answer is to discard the analytical tools that health economi
 
 It helps to think about three levels of action. The first is treating inequality: making sure people facing disadvantage can reach effective care. The second is preventing it, by tackling the social and commercial conditions that produce avoidable illness. The third is changing the structures that sustain it, including how public money is divided and what organisations are rewarded for. Most of my work has sat in the first two, with funding reform reaching into the third. I think health economics needs to spend more of its time there.
 
-<img src="/assets/images/three-levels-rings.svg" alt="Three levels of action: treating at the centre, preventing around it, changing structures outermost. Most health economics works at the centre; the causes sit further out." style="max-width: 100%; height: auto;">
+<img src="/assets/images/three-levels-rings.svg" alt="Three levels of action: treating at the centre, preventing around it, changing structures outermost. Most health economics works at the centre; the causes sit further out." style="display: block; max-width: 100%; height: auto; margin: 32px auto;">
 
 When public resources are being allocated, I would add four questions to the usual ones about cost and efficiency:
 
