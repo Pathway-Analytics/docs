@@ -11,7 +11,7 @@ image: /assets/images/og/default.png
     </div>
     <h1 class="home-headline">Building better pathways to better health</h1>
     <p class="home-subhead">Improving how healthcare is funded, organised and delivered</p>
-    <p class="home-lead">Pathway Analytics designs funding systems, redesigns care pathways and evaluates what works, then builds the digital platforms that keep new arrangements running.</p>
+    <p class="home-lead">Pathway Analytics builds the case for change and then delivers it: designing funding systems, redesigning care pathways, evaluating what works and building the digital platforms that keep new arrangements running.</p>
     <p class="home-lead">Since 2009 that has included the integrated sexual health tariff used across England, national reviews of sexual assault services, and evaluations for the NHS, government and international funders.</p>
     <p class="home-actions"><a class="btn-primary" href="/sexual-health-tariff/">Tariff Grouper</a><a class="btn-primary" href="/healthcare-economics-toolkit/">Health Economics Toolkit</a></p>
   </div>
@@ -53,7 +53,11 @@ image: /assets/images/og/default.png
 </section>
 
 <section class="reach" id="our-clients">
-  <h2 class="reach-title">Working across health systems since 2009</h2>
+  <h2 class="reach-title">Our clients and reach</h2>
+  <div class="reach-stats">
+    <div class="reach-stat"><span class="rs-num">Since 2009</span><span class="rs-label">Specialist healthcare advisory and digital solutions</span></div>
+    <div class="reach-stat"><span class="rs-num">130</span><span class="rs-label">Services commissioned solely on a Pathway Analytics tariff in 2025/26</span></div>
+  </div>
   <div class="reach-grid">
     <div class="reach-item"><span class="reach-type">Government departments</span><span class="reach-names">Department of Health and Social Care · Home Office · Ministry of Justice</span></div>
     <div class="reach-item"><span class="reach-type">National bodies</span><span class="reach-names">NHS England · Public Health England · Health Protection Agency</span></div>
@@ -62,10 +66,10 @@ image: /assets/images/og/default.png
     <div class="reach-item"><span class="reach-type">Local government</span><span class="reach-names">Mayor of London · London Councils · Local Authorities across England</span></div>
     <div class="reach-item"><span class="reach-type">NHS trusts and providers</span><span class="reach-names">King's Health Partners, including King's College Hospital and Guy's and St Thomas' · sexual health and HIV providers across England</span></div>
     <div class="reach-item"><span class="reach-type">Policing and justice</span><span class="reach-names">Police forces · Police and Crime Commissioners · Sexual Assault Referral Centres</span></div>
-    <div class="reach-item"><span class="reach-type">International funders</span><span class="reach-names">Elton John AIDS Foundation, in the UK and Kenya · Novo Nordisk · ViiV Healthcare</span></div>
-    <div class="reach-item"><span class="reach-type">Global initiatives</span><span class="reach-names">Fast-Track Cities, the UNAIDS-backed initiative to end HIV in cities, which spearheaded London's HIV review</span></div>
+    <div class="reach-item"><span class="reach-type">International funders</span><span class="reach-names">Elton John AIDS Foundation, in the UK and Kenya</span></div>
+    <div class="reach-item"><span class="reach-type">Industry funding</span><span class="reach-names">Novo Nordisk · ViiV Healthcare</span></div>
+    <div class="reach-item reach-wide"><span class="reach-type">Global initiatives</span><span class="reach-names">Fast-Track Cities, the UNAIDS-backed initiative to end HIV in cities, which spearheaded London's HIV review</span></div>
   </div>
-  <p class="reach-note">The integrated sexual health tariff is used by Local Authority commissioners and providers across England: in 2025/26, 130 services were commissioned solely on a Pathway Analytics tariff.</p>
 </section>
 
 <section class="five-questions">
@@ -95,5 +99,3 @@ image: /assets/images/og/default.png
   <p class="wwu-actions"><a class="btn-primary" href="mailto:enquiries@pathwayanalytics.com">enquiries@pathwayanalytics.com</a></p>
   <p class="wwu-gcloud">G-Cloud 14 supplier · <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/739498" target="_blank" rel="noopener">View Pathway Analytics on the Digital Marketplace</a></p>
 </section>
-
-<footer class="home-footer"><a href="/style-guide/">Style guide</a></footer>

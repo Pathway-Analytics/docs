@@ -378,6 +378,8 @@
       hook.afterEach(function (html) {
         var filepath = vm.route.file;
         if (!filepath) return html;
+        // Only on documentation pages, not on the corporate pages
+        if (!/^\/?(sexual-health-tariff|healthcare-economics-toolkit)\//.test(filepath)) return html;
         var editUrl = 'https://github.com/Pathway-Analytics/docs/edit/main/' + filepath.replace(/^\/+/, '');
         var editHtml = '<div class="edit-link">' +
           '<a href="' + editUrl + '" target="_blank" rel="noopener">' +

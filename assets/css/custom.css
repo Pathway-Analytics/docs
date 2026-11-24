@@ -1741,3 +1741,24 @@ html[data-theme="dark"] .markdown-section .rc-cta { color: #9dc4fb; }
 @media (max-width: 480px) {
   .app-nav li:first-child { display: block; }
 }
+
+/* Wider, more confident layout on large screens (no-sidebar pages) */
+body.no-sidebar .markdown-section { max-width: 1240px; }
+.markdown-section .home-hero { max-width: 940px; }
+@media (min-width: 1200px) {
+  .markdown-section h1.home-headline { font-size: 3.7rem; }
+  .markdown-section .home-subhead { font-size: 1.55rem; }
+  .markdown-section .home-lead { font-size: 1.15rem; }
+}
+/* Menu: larger text and logo */
+.app-nav a { font-size: 0.95em; }
+@media (min-width: 769px) {
+  .app-nav li:first-child a { width: 150px; height: 52px; }
+}
+
+/* Headline figures above the client categories */
+.markdown-section .reach-stats { display: flex; flex-wrap: wrap; gap: 48px; margin: 0 0 32px; padding-bottom: 28px; border-bottom: 1px solid rgba(31, 71, 136, 0.15); }
+.markdown-section .reach-stat { display: flex; flex-direction: column; max-width: 320px; }
+.markdown-section .rs-num { font-family: 'Playfair Display', Georgia, serif; font-size: 2.6rem; line-height: 1.1; color: #14335a; font-variant-numeric: lining-nums; }
+html[data-theme="dark"] .markdown-section .rs-num { color: #e8eef8; }
+.markdown-section .rs-label { margin-top: 6px; font-size: 0.95rem; color: var(--pa-text-muted); }
