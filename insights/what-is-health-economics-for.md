@@ -22,13 +22,13 @@ This is valuable work. Without it, decisions risk being driven by institutional 
 
 But there is a danger when economic evaluation becomes too narrowly focused on the immediate costs and measurable outputs of individual services.
 
-Consider two hypothetical healthcare programmes. Both cost £1 million. Both reach 1,000 people. Both appear to deliver comparable clinical benefits. The difference is that one reaches people who already have relatively good access to healthcare, while the other reaches a population that has historically been excluded or underserved.
+PrEP shows how this plays out. Since NHS roll-out in 2020 it has been one of the successes of HIV prevention in England. But in 2024, nearly four in five gay and bisexual men who needed PrEP received it, against just over a third of Black African heterosexual women and men with the same need. New diagnoses are falling among white gay and bisexual men and rising among Black African heterosexual men.
 
-Are these programmes equally valuable?
+Suppose a council has £100,000 to spend on PrEP services. NHS England pays for the drug itself, so this money covers the appointments, testing and monitoring around it. Through existing clinics it might support around 400 people at about £250 each. Through an outreach-led pathway for women and migrant communities, with community workers, interpreting and follow-up, the same money might support 240 people at just over £400 each. On cost per person, the clinic route wins easily.
 
-In a conventional analysis, they might appear similar. But if we are concerned with reducing avoidable health inequalities, the distribution of those benefits matters.
+But many of the clinic users were already well connected to services and would probably have found PrEP anyway. If one in five of them is additional, the clinic route adds 80 people to PrEP. If four in five of the outreach group would otherwise have gone without, that route adds around 190, from the groups where need is least met.
 
-Reaching underserved populations may also require more intensive outreach, longer consultations, interpretation, transport assistance or additional support.
+*The cost and additionality figures are illustrative, not drawn from any evaluation.*
 
 A programme that costs more per person may nevertheless represent a better use of public resources if it meets real unmet need and delivers benefits that would otherwise not occur.
 
@@ -220,6 +220,7 @@ I would like to see us use it more ambitiously.
 - World Health Organization (2025). [World Report on Social Determinants of Health Equity](https://www.who.int/publications/i/item/9789240107588).
 - WHO Council on the Economics of Health for All (2023). [Health for All: Transforming Economies to Deliver What Matters](https://www.who.int/publications/m/item/health-for-all--transforming-economies-to-deliver-what-matters).
 - Institute of Health Equity (2020). [Health Equity in England: The Marmot Review 10 Years On](https://www.health.org.uk/reports-and-analysis/reports/health-equity-in-england-the-marmot-review-10-years-on-0).
+- UK Health Security Agency (2025). [HIV testing, PrEP, new HIV diagnoses and care outcomes for people accessing HIV services: 2025 report](https://www.gov.uk/government/statistics/hiv-annual-data/hiv-testing-prep-new-hiv-diagnoses-and-care-outcomes-for-people-accessing-hiv-services-2025-report).
 - University of York, Centre for Health Economics. [Distributional Cost-Effectiveness Analysis](https://www.york.ac.uk/che/equity/distributional-cost-effectiveness-analysis/).
 - World Health Organization. [Commercial Determinants of Health](https://www.who.int/health-topics/commercial-determinants-of-health).
 
