@@ -1114,6 +1114,30 @@ input:focus-visible,
   max-width: 60ch;
 }
 
+/* Worked-example box for articles:
+   <div class="pa-example">
+   <p class="pa-example-label">Example: topic</p>
+   ...body...
+   </div> */
+.markdown-section .pa-example {
+  background: var(--pa-surface-sunken);
+  border: 1px solid var(--pa-border);
+  border-left: 4px solid var(--pa-accent);
+  border-radius: 0 var(--pa-radius-card) var(--pa-radius-card) 0;
+  padding: var(--space-xs) 24px;
+  margin: var(--space-lg) 0;
+  color: var(--pa-text);
+}
+
+.markdown-section .pa-example-label {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pa-accent);
+  margin-bottom: 0;
+}
+
 /* ==========================================================================
    16. BAR CHART FIGURE (pure CSS, theme-aware)
    ========================================================================== */

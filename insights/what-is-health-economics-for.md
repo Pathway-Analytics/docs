@@ -14,9 +14,9 @@ I would rather start with the kind of society we want to create, and use economi
 
 Health economics has developed sophisticated methods for comparing treatments, evaluating interventions and assessing the benefits delivered by public expenditure. This is valuable work. Without it, decisions risk being driven by institutional interests, political pressure or whoever makes the most persuasive argument. The danger comes when economic evaluation narrows to the immediate costs and measurable outputs of individual services and loses sight of who is benefiting and who is not. HIV prevention shows how easily that happens.
 
-<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+<div class="pa-example">
 
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: PrEP</p>
+<p class="pa-example-label">Example: PrEP</p>
 
 Since NHS roll-out in 2020, PrEP has been one of the successes of HIV prevention in England. But in 2024, nearly four in five gay and bisexual men who needed PrEP received it, against just over a third of Black African heterosexual women and men with the same need. The consequences are serious. Half of Black African heterosexuals diagnosed with HIV are diagnosed late, compared with under a third of gay and bisexual men, and people diagnosed late are ten times more likely to die within a year of diagnosis.
 
@@ -36,9 +36,9 @@ Yet we often organise spending as if the opposite were true. We spend heavily on
 
 Part of the reason we get this balance wrong is institutional. Budgets are divided between organisations, departments and tiers of government, and the benefits of prevention often arrive years later in a different part of the public sector. A housing intervention might reduce hospital admissions. Better education might improve lifetime health. But the organisation paying for an intervention may see little financial benefit from it. Cold homes are a clear example.
 
-<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+<div class="pa-example">
 
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: cold homes</p>
+<p class="pa-example-label">Example: cold homes</p>
 
 Research for Public Health England estimated that more than one in five excess winter deaths in England and Wales are attributable to cold housing. The Building Research Establishment estimates that poor housing costs the NHS around £1.4 billion a year in first-year treatment costs alone, more than half of it from homes that are too cold. Fixing excess cold would cost about £5.9 billion and, on NHS savings alone, pay for itself in around seven years. But the NHS does not pay for the repairs, and the owners, landlords and councils who would pay for them see none of the savings.
 
@@ -46,7 +46,7 @@ Research for Public Health England estimated that more than one in five excess w
 
 For an individual budget-holder, declining to invest may be entirely rational. For society, it is short-sighted. What is financially efficient for one organisation is not necessarily economically efficient for the system as a whole, and the gap between the two is where much of the human cost of poor housing sits.
 
-<img src="/assets/images/cold-homes-payback.svg" alt="Owners, landlords and councils would pay about £5.9bn to fix excess cold; the NHS would save about £857m a year, paying back the cost in about seven years" style="max-width: 100%; height: auto;">
+![Owners, landlords and councils would pay about £5.9bn to fix excess cold; the NHS would save about £857m a year, paying back the cost in about seven years](/assets/images/cold-homes-payback.svg)
 
 ## The hidden influence of funding systems
 
@@ -54,9 +54,9 @@ Another part of health economics that I think matters a great deal is how fundin
 
 Payment by activity may encourage throughput, but it can also reward the activities that attract reimbursement rather than those with the greatest population benefit. Fixed budgets may encourage efficiency and integration but can also create incentives to restrict activity or push costs elsewhere. Outcome-based funding sounds attractive, but outcomes are often hard to measure, influenced by factors outside providers' control and open to unintended consequences if poorly designed. Each can work, depending on how it is designed and implemented, and getting the design right is rarely just a technical exercise.
 
-<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+<div class="pa-example">
 
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: the integrated sexual health tariff</p>
+<p class="pa-example-label">Example: the integrated sexual health tariff</p>
 
 Sexual health in England is a clear case. Hospital clinics treating sexually transmitted infections were paid per attendance under the national tariff, which overpaid much of their activity relative to its cost. Contraception services sat on block contracts and were comparatively underfunded. The payment rules worked against integrated care for patients. We designed the integrated sexual health tariff to correct that mismatch, pricing care by clinical pathway rather than by attendance, so that both services were paid on the same costed basis. The costing was the easier part. Some organisations stood to lose, and the strongest resistance came from hospital finance directors and clinical leads, for whom the old tariff was valuable. What worked was building the pathways with clinicians from both services, so the evidence was theirs rather than ours.
 
@@ -64,9 +64,9 @@ Sexual health in England is a clear case. Hospital clinics treating sexually tra
 
 The economics of the whole system matter as much as the costs of its parts. Changing how money flows means asking who has an incentive to change, who gains from current arrangements and who bears the cost of reform. These are economic questions, but they are also questions about organisations, governance and power, and they become harder still when no single organisation owns the problem.
 
-<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+<div class="pa-example">
 
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: sexual assault services</p>
+<p class="pa-example-label">Example: sexual assault services</p>
 
 Sexual assault services sit across health, local government, police and justice. Each holds part of the budget and part of the responsibility, and no single body owns the whole pathway. In two national reviews for NHS England, the Home Office and the Ministry of Justice, we mapped where cases fell away between first contact, forensic examination and court. A national group agreed 29 core pathways and a matrix showing which body should fund each step. The analysis was the straightforward part. Each organisation was, understandably, focused on protecting its own budget and meeting its own targets, and a cost avoided in one part of the system rarely counted as a gain in another. In those negotiations it was easy to lose sight of the person at the centre, who needs the whole pathway to work and not just the part a particular budget pays for.
 
@@ -86,9 +86,9 @@ This is why distributional cost-effectiveness analysis is so interesting. Resear
 
 Prevention is often described as an investment, yet it is often among the first areas placed under pressure when budgets tighten. There are understandable reasons for this. Prevention can involve upfront spending, uncertain outcomes and benefits that may not appear for years. The public health grant shows where that pressure has landed.
 
-<div class="pa-example" style="background: var(--pa-surface-sunken); border: 1px solid var(--pa-border); border-left: 4px solid var(--pa-accent); border-radius: 0 8px 8px 0; padding: 8px 24px; margin: 32px 0;">
+<div class="pa-example">
 
-<p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: the public health grant</p>
+<p class="pa-example-label">Example: the public health grant</p>
 
 Councils pay for sexual health, drug and alcohol services, stop smoking support and health visiting from the public health grant. Between 2015/16 and 2025/26 the grant fell by about a quarter in real terms per person, while NHS spending grew. The cuts were deepest in the most deprived areas, the same places where people can expect around twenty fewer years in good health.
 

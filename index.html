@@ -452,13 +452,31 @@
       });
     }
 
+    // Root Image Path Plugin
+    // Docsify joins a leading-slash Markdown image path onto the current page's
+    // folder, so /assets/x.svg on an Insights page is requested as
+    // /insights/assets/x.svg. This rewrites ![alt](/path) to an absolute URL on
+    // the current origin before rendering, so a leading / means the site root.
+    // Fenced code blocks are skipped so documentation examples stay literal.
+    function rootImagePathPlugin(hook) {
+      hook.beforeEach(function (markdown) {
+        var origin = window.location.origin;
+        return markdown.split(/(^```[\s\S]*?^```)/m).map(function (part, i) {
+          if (i % 2 === 1) return part;
+          return part.replace(/(!\[[^\]]*\]\()\/(?!\/)/g, '$1' + origin + '/');
+        }).join('');
+      });
+    }
+
     // Missing Image Plugin
     // Replaces any content image that fails to load with a neutral placeholder,
     // so pages stay readable while screenshots are still to be added. Markup is
     // untouched: once the real file exists at the referenced path it just loads.
+    // The failed URL is logged to the console so a wrong path is easy to spot.
     function missingImagePlugin(hook) {
       function placeholder(img) {
         if (img.getAttribute('data-placeholder') === '1') return;
+        console.warn('[docs] Image failed to load, showing placeholder:', img.currentSrc || img.src);
         var box = document.createElement('div');
         box.className = 'image-placeholder';
         box.setAttribute('role', 'img');
@@ -483,6 +501,7 @@
 
     // Register all custom plugins
     window.$docsify.plugins = (window.$docsify.plugins || []).concat([
+      rootImagePathPlugin,
       missingImagePlugin,
       sidebarTogglePlugin,
       collapsibleSidebarPlugin,
