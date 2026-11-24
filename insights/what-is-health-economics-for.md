@@ -1,6 +1,6 @@
 # What Is Health Economics For?
 
-**Beyond efficiency: rethinking health, fairness and the value of public resources**
+**Health, fairness and the value of public resources**
 
 *Bella Grant, Pathway Analytics | November 2026*
 
@@ -12,7 +12,7 @@ But I increasingly wonder whether we are asking too narrow a set of questions.
 
 I would rather start with the kind of society we want to create, and use economics to understand how to improve health itself and share the opportunities for good health more fairly. Many of the decisions that matter most for population health are made well outside the healthcare system.
 
-These questions matter now. Health inequalities remain wide, public finances are under pressure and we understand more than we did about what determines health.
+This matters now. Health inequalities remain wide, public finances are under pressure and we understand more than we did about what determines health.
 
 ## The problem with starting at the wrong end
 
@@ -22,9 +22,7 @@ This is valuable work. Without it, decisions risk being driven by institutional 
 
 But there is a danger when economic evaluation becomes too narrowly focused on the immediate costs and measurable outputs of individual services.
 
-Consider two hypothetical healthcare programmes. Both cost £1 million. Both reach 1,000 people. Both appear to deliver comparable clinical benefits.
-
-But one reaches people who already have relatively good access to healthcare, while the other reaches a population that has historically been excluded or underserved.
+Consider two hypothetical healthcare programmes. Both cost £1 million. Both reach 1,000 people. Both appear to deliver comparable clinical benefits. The difference is that one reaches people who already have relatively good access to healthcare, while the other reaches a population that has historically been excluded or underserved.
 
 Are these programmes equally valuable?
 
@@ -34,11 +32,9 @@ Reaching underserved populations may also require more intensive outreach, longe
 
 A programme that costs more per person may nevertheless represent a better use of public resources if it meets real unmet need and delivers benefits that would otherwise not occur.
 
-That does not mean we should disregard cost-effectiveness. We still need to understand whether the additional investment produces additional benefits, how substantial those benefits are and what other services might be displaced.
+That does not mean we should disregard cost-effectiveness. We still need to understand whether the additional investment produces additional benefits, how substantial those benefits are and what other services might be displaced. We also need to think harder about what we mean by value.
 
-But it does suggest that we need to think harder about what we mean by value.
-
-> Value cannot be separated from who receives it.
+> If we're serious about improving population health, how much benefit an intervention delivers is only half the question. The other half is who receives it.
 
 ## Health is produced well beyond the healthcare system
 
@@ -50,7 +46,7 @@ The work of Michael Marmot and others has established that health inequalities a
 
 We spend heavily on treating respiratory illness while tolerating poor housing conditions that contribute to it. We fund ever more sophisticated interventions for diabetes while struggling to address the economic and commercial environments that influence diet and physical activity.
 
-We may invest in mental health treatment while giving insufficient attention to insecure employment, poverty, social isolation and the wider conditions that affect psychological wellbeing.
+We invest in mental health treatment while giving insufficient attention to insecure employment, poverty, social isolation and the wider conditions that affect psychological wellbeing.
 
 People still need effective treatment, and they need it now. The question is how we divide collective resources between treating illness and preventing it.
 
@@ -80,6 +76,8 @@ Outcome-based funding sounds attractive, but outcomes are often difficult to mea
 
 Each can work, depending on how it is designed and implemented.
 
+Working on sexual health funding showed me how much incentives matter. Small technical differences in how activity is paid for can favour one type of service over another, whatever patients actually need. Getting the numbers right is the easy part. The harder part is understanding why organisations behave as they do, whose interests a change affects and how to get them to agree on something better.
+
 We need to understand the economics of the whole system as well as the costs of its parts.
 
 That means asking who has an incentive to change, who gains from current arrangements and who bears the cost of reform.
@@ -94,13 +92,15 @@ Health equity introduces a further challenge to conventional economic decision-m
 
 A programme can improve average population health while simultaneously widening inequalities.
 
-Imagine a new preventive service introduced across a population. People with higher incomes, better education and easier access to healthcare may be the first to take advantage of it. Overall uptake rises and the programme looks successful.
-
-But those facing the greatest barriers may see little improvement.
+Imagine a new preventive service introduced across a population. People with higher incomes, better education and easier access to healthcare may be the first to take advantage of it. Overall uptake rises and the programme looks successful, while those facing the greatest barriers see little improvement.
 
 If our principal measure is total activity or aggregate health gain, we could conclude that the intervention is working extremely well.
 
 Yet from an equity perspective, the picture is incomplete.
+
+Evaluating prevention and outreach services has made me wary of mistaking activity for impact. A programme can report thousands of contacts and referrals. The harder question is how many of those people would have got care anyway, and what we know about the people who never came through the door.
+
+It helps to keep three ideas apart. A programme can be cost-effective without being affordable, fair without being cost-effective, or cost-saving without doing anything to reduce inequalities.
 
 This is one reason why the development of distributional cost-effectiveness analysis is so interesting. Researchers, including those at the University of York, have developed methods that examine not only aggregate health benefits and opportunity costs, but also how they are distributed between different population groups.
 
@@ -108,9 +108,7 @@ What these methods do is make the choices about fairness visible.
 
 Should we attach additional weight to improving the health of people who are already disadvantaged? Under what circumstances might we accept a smaller overall health gain in return for a fairer distribution?
 
-These are not questions that economics alone can answer. They involve ethical judgements and democratic choices about what society values.
-
-But economics can help us understand the consequences of those choices rather than leaving them implicit or obscured within aggregate figures.
+These are not questions that economics alone can answer. They involve ethical judgements and democratic choices about what society values. Economics can help us understand the consequences of those choices rather than leaving them implicit or obscured within aggregate figures.
 
 ## The economics of prevention
 
@@ -124,9 +122,7 @@ The economic case for prevention needs to be demonstrated, not simply asserted.
 
 Even so, conventional budget cycles can systematically undervalue interventions whose benefits emerge over long periods or across different organisations.
 
-The relevant comparison should not be between the cost of a preventive programme and spending nothing.
-
-It should be between the costs and consequences of different courses of action, including doing nothing.
+The relevant comparison is between the costs and consequences of different courses of action, including doing nothing.
 
 That includes the illness avoided, the treatment costs saved and the effects on families, work and caring responsibilities. It also includes the opportunities for better health lost each time investment in prevention is put off.
 
@@ -160,7 +156,7 @@ We generally measure economic success through indicators such as GDP, productivi
 
 These measures provide useful information. A prosperous economy can generate resources that support better public services and living standards.
 
-An economy can grow while leaving large sections of its population facing deteriorating health, insecurity or limited opportunities.
+But an economy can grow while leaving large sections of its population facing deteriorating health, insecurity or limited opportunities.
 
 Activities that contribute a great deal to wellbeing, such as unpaid care, community support, prevention and healthy environments, are poorly reflected in conventional economic measures.
 
@@ -213,9 +209,9 @@ When public resources are being allocated, I would add four questions to the usu
 
 These questions will make decisions harder, but I think they will make them better.
 
-> Ultimately, the purpose of health economics should not be to help us spend the least possible amount on healthcare. It should be to help us make the best possible use of society's resources to improve health, expand opportunity and reduce avoidable suffering.
+> Health economics should help us make the best use of society's resources to improve health and reduce avoidable suffering.
 
-That seems to me a more important ambition.
+I would like to see us use it more ambitiously.
 
 ## Further reading
 
