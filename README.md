@@ -1,10 +1,17 @@
 <!-- meta
-title: Pathway Analytics — Health Economics & Strategy
-description: Pathway Analytics — specialist health economics and strategic advisory. Turning health evidence into funded policy.
+title: Pathway Analytics | Strategy, Health Economics, Digital Solutions
+description: Turning evidence, funding and clinical pathways into workable change. Strategy, health economics and digital solutions for the NHS and public sector.
 image: /assets/images/og/default.png
 -->
 
-# Pathway Analytics
+<div class="home-hero">
+  <h1 class="home-logo">
+    <img class="home-logo-light" src="/assets/images/brand/logo-on-light.png" alt="Pathway Analytics" data-no-zoom width="521" height="181">
+    <img class="home-logo-dark" src="/assets/images/brand/logo-on-dark.png" alt="" data-no-zoom width="521" height="181">
+  </h1>
+  <p class="home-strapline">Strategy | Health Economics | Digital Solutions</p>
+  <p class="home-tagline">Turning evidence, funding and clinical pathways into workable change</p>
+</div>
 
 Specialist healthcare economics consultancy delivering automated tariff systems, activity-based costing, and commissioning intelligence to the NHS.
 

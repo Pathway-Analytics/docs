@@ -1309,3 +1309,34 @@ input:focus-visible,
   .bar-row { grid-template-columns: 1fr 70px; }
   .bar-label { grid-column: 1 / -1; }
 }
+
+/* Home page hero: logo and tagline (matches the LinkedIn company page).
+   Two logo files so the wordmark stays readable in dark mode. */
+.markdown-section .home-hero {
+  margin: 8px 0 32px;
+}
+.markdown-section .home-logo {
+  margin: 0 0 16px;
+  padding: 0;
+  border: 0;
+  line-height: 0;
+}
+.markdown-section .home-logo img {
+  width: 280px;
+  max-width: 70%;
+  height: auto;
+}
+.markdown-section .home-logo .home-logo-dark { display: none; }
+html[data-theme="dark"] .markdown-section .home-logo .home-logo-light { display: none; }
+html[data-theme="dark"] .markdown-section .home-logo .home-logo-dark { display: inline; }
+.markdown-section .home-strapline {
+  margin: 0 0 4px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--pa-text);
+}
+.markdown-section .home-tagline {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--pa-text-muted);
+}
