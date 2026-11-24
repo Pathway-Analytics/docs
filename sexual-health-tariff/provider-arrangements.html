@@ -70,10 +70,10 @@
   <meta name="theme-color" content="#ffffff">
   <script>
     (function () {
-      var mode = 'system';
+      var mode = 'light';   // light unless the visitor has chosen System or Dark
       try {
         var saved = localStorage.getItem('pa-theme-preference');
-        if (saved === 'light' || saved === 'dark') mode = saved;
+        if (saved === 'light' || saved === 'dark' || saved === 'system') mode = saved;
       } catch (e) {}
       var dark = mode === 'dark' ||
         (mode === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -227,15 +227,15 @@
       function getMode() {
         try {
           var v = localStorage.getItem(STORAGE_KEY);
-          return v === 'light' || v === 'dark' ? v : 'system';
+          return v === 'light' || v === 'dark' || v === 'system' ? v : 'light';
         } catch (e) {
-          return document.documentElement.getAttribute('data-theme-mode') || 'system';
+          return document.documentElement.getAttribute('data-theme-mode') || 'light';
         }
       }
 
       function saveMode(mode) {
         try {
-          if (mode === 'system') localStorage.removeItem(STORAGE_KEY);
+          if (mode === 'light') localStorage.removeItem(STORAGE_KEY);
           else localStorage.setItem(STORAGE_KEY, mode);
         } catch (e) { /* storage unavailable: choice lasts for this page view */ }
       }
