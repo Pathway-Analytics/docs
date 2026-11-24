@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" width="680" height="250" role="img" aria-labelledby="t d" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">Two programmes, same cost</title>
+  <desc id="d">Two programmes each cost one million pounds, reach 1,000 people and deliver similar clinical benefit. One reaches people with good existing access to care; the other reaches people who were previously underserved.</desc>
+  <rect x="0.5" y="0.5" width="679" height="249" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="60" y="30" width="250" height="160" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="185" y="62" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Programme A</text>
+  <text x="185" y="92" text-anchor="middle" font-size="12" fill="#4b5563">£1 million</text>
+  <text x="185" y="114" text-anchor="middle" font-size="12" fill="#4b5563">1,000 people</text>
+  <text x="185" y="136" text-anchor="middle" font-size="12" fill="#4b5563">Similar clinical benefit</text>
+  <text x="185" y="171" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Good existing access</text>
+  <rect x="370" y="30" width="250" height="160" rx="6" fill="#e8eef7" stroke="#1f4788"/>
+  <text x="495" y="62" text-anchor="middle" font-size="14" font-weight="600" fill="#163561">Programme B</text>
+  <text x="495" y="92" text-anchor="middle" font-size="12" fill="#1f4788">£1 million</text>
+  <text x="495" y="114" text-anchor="middle" font-size="12" fill="#1f4788">1,000 people</text>
+  <text x="495" y="136" text-anchor="middle" font-size="12" fill="#1f4788">Similar clinical benefit</text>
+  <text x="495" y="171" text-anchor="middle" font-size="14" font-weight="600" fill="#163561">Previously underserved</text>
+  <text x="340" y="224" text-anchor="middle" font-size="13" fill="#4b5563">Same cost, same reach. Is the value the same?</text>
+</svg>
