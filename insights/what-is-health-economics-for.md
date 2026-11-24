@@ -110,7 +110,7 @@ These are economic questions, but they are also questions about organisations, g
 
 <p style="font-size: 0.8em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pa-accent); margin-bottom: 0;">Example: sexual assault services</p>
 
-Sexual assault services sit across health, local government, police and justice. Each holds part of the budget and part of the responsibility, and no single body owns the whole pathway. In two national reviews for NHS England, the Home Office and the Ministry of Justice, we mapped where cases fell away between first contact, forensic examination and court. A national group agreed 29 core pathways and a matrix showing which body should fund each step. Neither review was acted on across the agencies. Agreeing who should pay turned out to be far easier than getting anyone to pay.
+Sexual assault services sit across health, local government, police and justice. Each holds part of the budget and part of the responsibility, and no single body owns the whole pathway. In two national reviews for NHS England, the Home Office and the Ministry of Justice, we mapped where cases fell away between first contact, forensic examination and court. A national group agreed 29 core pathways and a matrix showing which body should fund each step. The analysis was the straightforward part. Each organisation was, understandably, focused on protecting its own budget and meeting its own targets, and a cost avoided in one part of the system rarely counted as a gain in another. In those negotiations it was easy to lose sight of the person at the centre, who needs the whole pathway to work and not just the part a particular budget pays for.
 
 </div>
 
