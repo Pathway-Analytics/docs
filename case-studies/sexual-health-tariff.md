@@ -1,5 +1,7 @@
 <!-- meta
 description: How Pathway Analytics redesigned the funding of sexual health services, from clinical pathways and financial impact modelling to a tariff and digital service still in use across England.
+image: /assets/images/og/sexual-health-tariff.png
+image_alt: Case study: Redesigning the funding of sexual health services in England, with a timeline from design in 2009 to use in 2025/26.
 -->
 
 <div class="cs-rule"><span class="cs-navy"></span><span class="cs-teal"></span><span class="cs-gold"></span></div>

@@ -2,9 +2,7 @@
 window.PA_SEARCH_PATHS = [
   "/",
   "/case-studies/",
-  "/case-studies/ics-pathway-costing",
-  "/case-studies/la-commissioning",
-  "/case-studies/nhs-trust-tariff",
+  "/case-studies/sexual-health-tariff",
   "/health-pathways/",
   "/healthcare-economics-toolkit/",
   "/healthcare-economics-toolkit/achievement",
