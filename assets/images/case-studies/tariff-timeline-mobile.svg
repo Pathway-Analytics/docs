@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 586" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <line x1="12" y1="10" x2="12" y2="572" stroke="#9aa3ad" stroke-width="1.5"/>
+  <path d="M7 572 L12 582 L17 572 Z" fill="#9aa3ad"/>
+  <text x="32" y="19" font-size="13" fill="#7a5c1a" font-weight="600">2009 to 2010</text>
+  <text x="32" y="40" font-size="15" fill="#14335a" font-weight="600">Design</text>
+  <text x="32" y="62" font-size="13" fill="#5f6b7a">London pathways, currencies and prices</text>
+  <text x="32" y="81" font-size="13" fill="#5f6b7a">DH: national tariff to build on London work</text>
+  <text x="32" y="124" font-size="13" fill="#7a5c1a" font-weight="600">2011 to 2013</text>
+  <text x="32" y="145" font-size="15" fill="#14335a" font-weight="600">Implementation</text>
+  <text x="32" y="167" font-size="13" fill="#5f6b7a">Grouper running in London (2011)</text>
+  <text x="32" y="186" font-size="13" fill="#5f6b7a">North West and South West road tests</text>
+  <text x="32" y="205" font-size="13" fill="#5f6b7a">110+ providers by 2013</text>
+  <text x="32" y="248" font-size="13" fill="#7a5c1a" font-weight="600">2013 to 2016</text>
+  <text x="32" y="269" font-size="15" fill="#14335a" font-weight="600">Local government</text>
+  <text x="32" y="291" font-size="13" fill="#5f6b7a">East Midlands, Greater Manchester</text>
+  <text x="32" y="310" font-size="13" fill="#5f6b7a">and Gateshead</text>
+  <text x="32" y="329" font-size="13" fill="#5f6b7a">London borough-level refresh (2014 to 2015)</text>
+  <text x="32" y="372" font-size="13" fill="#7a5c1a" font-weight="600">2017 to 2020</text>
+  <text x="32" y="393" font-size="15" fill="#14335a" font-weight="600">Adoption</text>
+  <text x="32" y="415" font-size="13" fill="#5f6b7a">London standard tariff agreed (2017)</text>
+  <text x="32" y="434" font-size="13" fill="#5f6b7a">DHSC guidance (2018)</text>
+  <text x="32" y="453" font-size="13" fill="#5f6b7a">South East regional policy (2020)</text>
+  <text x="32" y="496" font-size="13" fill="#7a5c1a" font-weight="600">2025/26</text>
+  <text x="32" y="517" font-size="15" fill="#14335a" font-weight="600">In use</text>
+  <text x="32" y="539" font-size="13" fill="#5f6b7a">130 services reported as commissioned</text>
+  <text x="32" y="558" font-size="13" fill="#5f6b7a">solely on the tariff</text>
+  <circle cx="12" cy="14" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
+  <circle cx="12" cy="119" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
+  <circle cx="12" cy="243" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
+  <circle cx="12" cy="367" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
+  <circle cx="12" cy="491" r="7" fill="#14335a"/>
+</svg>

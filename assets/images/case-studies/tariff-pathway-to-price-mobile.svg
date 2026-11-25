@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 626" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <text x="0" y="14" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">ONE PATHWAY</text>
+  <rect x="0" y="24" width="360" height="70" rx="8" fill="#f4f6f8"/>
+  <text x="12" y="44" font-size="13" fill="#14335a" font-weight="600">First contact</text>
+  <rect x="12" y="54" width="104" height="30" rx="4" fill="#14335a"/>
+  <text x="64" y="74" font-size="12.5" fill="#fff" text-anchor="middle">Step</text>
+  <rect x="126" y="54" width="104" height="30" rx="4" fill="#14335a"/>
+  <text x="178" y="74" font-size="12.5" fill="#fff" text-anchor="middle">Step</text>
+  <rect x="240" y="54" width="104" height="30" rx="4" fill="#c9a24a"/>
+  <text x="292" y="74" font-size="12.5" fill="#14335a" font-weight="600" text-anchor="middle">Step</text>
+  <rect x="0" y="102" width="360" height="94" rx="8" fill="#f4f6f8"/>
+  <text x="12" y="122" font-size="13" fill="#14335a" font-weight="600">Follow-up contacts</text>
+  <rect x="12" y="132" width="104" height="30" rx="4" fill="#14335a"/>
+  <text x="64" y="152" font-size="12.5" fill="#fff" text-anchor="middle">Step</text>
+  <rect x="126" y="132" width="104" height="30" rx="4" fill="#14335a"/>
+  <text x="178" y="152" font-size="12.5" fill="#fff" text-anchor="middle">Step</text>
+  <rect x="240" y="132" width="104" height="30" rx="4" fill="#14335a"/>
+  <text x="292" y="152" font-size="12.5" fill="#fff" text-anchor="middle">Step</text>
+  <text x="12" y="184" font-size="13" fill="#5f6b7a">… as the pathway requires</text>
+  <rect x="0.75" y="214" width="358.5" height="160" rx="8" fill="#fff" stroke="#c9a24a" stroke-width="1.5"/>
+  <rect x="14" y="227" width="12" height="12" rx="2" fill="#c9a24a"/>
+  <text x="32" y="238" font-size="14" fill="#14335a" font-weight="600">Direct cost</text>
+  <text x="14" y="262" font-size="13" fill="#1f2933">For each step: staff time × cost per</text>
+  <text x="14" y="282" font-size="13" fill="#1f2933">clinical minute, plus drugs, tests,</text>
+  <text x="14" y="302" font-size="13" fill="#1f2933">consumables and pathology</text>
+  <text x="14" y="322" font-size="13" fill="#1f2933">Added up across every step of the pathway</text>
+  <line x1="14" y1="338" x2="346" y2="338" stroke="#e3e6ea"/>
+  <text x="14" y="360" font-size="13.5" fill="#14335a" font-weight="600">= direct cost of the pathway</text>
+  <text x="180" y="404" font-size="28" fill="#5f6b7a" text-anchor="middle">+</text>
+  <rect x="0" y="416" width="360" height="114" rx="8" fill="#f4f6f8"/>
+  <text x="14" y="440" font-size="14" fill="#3f6b6e" font-weight="600">Indirect costs</text>
+  <text x="14" y="460" font-size="12.5" fill="#5f6b7a">an allowance for:</text>
+  <text x="14" y="480" font-size="13" fill="#1f2933">Staff not facing patients</text>
+  <text x="14" y="498" font-size="13" fill="#1f2933">Provider overheads</text>
+  <text x="14" y="516" font-size="13" fill="#1f2933">Facilities and management</text>
+  <text x="180" y="562" font-size="28" fill="#5f6b7a" text-anchor="middle">=</text>
+  <rect x="60" y="574" width="240" height="50" rx="8" fill="#14335a"/>
+  <text x="180" y="605" font-size="15" fill="#fff" font-weight="600" text-anchor="middle">Cost per pathway</text>
+</svg>
