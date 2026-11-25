@@ -44,10 +44,102 @@ The London Sexual Health Programme had three concerns. Reproductive health clini
 
 Open access created a second problem. Anyone can attend any sexual health clinic, so the commissioner hosting a clinic paid for everyone it saw, wherever they lived. A fair system needed each commissioner to pay for its own residents, wherever they were treated.
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-hosted-dehosted.svg" alt="Under hosted funding a commissioner pays for everyone its local clinics see; under de-hosted funding it pays for its own residents wherever they are seen">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-hosted-dehosted-mobile.svg" alt="Under hosted funding a commissioner pays for everyone its local clinics see; under de-hosted funding it pays for its own residents wherever they are seen">
-
-<p class="figure-caption">Redrawn from Pathway Analytics' regional road-test packs, 2013 to 2014.</p>
+<div class="cs-fig" data-fig="hosted-dehosted">
+<svg class="cs-fig-wide" viewBox="0 0 720 378" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Under hosted funding a commissioner pays for everyone its local clinics see: local residents and visitors. Under de-hosted funding it pays for its own residents, wherever they are seen.">
+<g transform="translate(0,0)">
+<text x="10.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">Hosted funding</text>
+<text x="10.0" y="40.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Pays for everyone its local clinics see</text>
+<text x="14.0" y="72.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">Elsewhere</text>
+<rect x="24.6" y="82.6" width="220.0" height="166.0" rx="8" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<text x="40.0" y="106.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">Commissioner's area</text>
+<circle cx="56.0" cy="146.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.25"/><circle cx="56.0" cy="146.0" r="11.5" style="fill:var(--g-navy-fill,#14335a)"/><text x="56.0" y="150.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">A</text>
+<path d="M72 146 C96 140, 112 142, 126 145" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M119.5 147.8 L127.0 145.0 L120.1 140.9" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="136.0" y="151.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Local clinics</text>
+<line x1="136.0" y1="158.0" x2="226.0" y2="158.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<circle cx="300.0" cy="118.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.25"/><circle cx="300.0" cy="118.0" r="11.5" style="fill:var(--g-navy-fill,#14335a)"/><text x="300.0" y="122.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">C</text>
+<path d="M285 124 C266 132, 248 138, 234 144" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M237.5 138.4 L233.0 145.0 L241.0 144.4" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="56.0" cy="214.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1.25"/><circle cx="56.0" cy="214.0" r="11.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1"/><text x="56.0" y="218.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">B</text>
+<path d="M72 216 C150 236, 220 246, 262 246" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-dasharray:3 3;stroke-linecap:round;stroke-linejoin:round"/><path d="M256.8 249.5 L264.0 246.0 L256.8 242.5" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="272.0" y="251.0" font-family="'Playfair Display', Georgia, serif" font-size="16" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Clinic</text>
+<text x="272.0" y="268.0" font-family="'Playfair Display', Georgia, serif" font-size="12" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">elsewhere</text>
+<line x1="272.0" y1="275.0" x2="336.0" y2="275.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="24.0" y1="290.0" x2="150.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5"/>
+<text x="24" y="314" font-family="'Playfair Display', Georgia, serif" font-size="17" style="fill:var(--g-navy,#14335a)">Pays for <tspan font-weight="700">A + C</tspan></text>
+</g>
+<g transform="translate(366,0)">
+<text x="10.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">De-hosted funding</text>
+<text x="10.0" y="40.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Pays for its own residents, wherever they are seen</text>
+<text x="14.0" y="72.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">Elsewhere</text>
+<rect x="24.6" y="82.6" width="220.0" height="166.0" rx="8" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<text x="40.0" y="106.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Commissioner's area</text>
+<circle cx="56.0" cy="146.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:1.25"/><circle cx="56.0" cy="146.0" r="11.5" style="fill:var(--g-teal-fill,#46777a)"/><text x="56.0" y="150.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">A</text>
+<path d="M72 146 C96 140, 112 142, 126 145" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M119.5 147.8 L127.0 145.0 L120.1 140.9" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="136.0" y="151.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">Local clinics</text>
+<line x1="136.0" y1="158.0" x2="226.0" y2="158.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<circle cx="300.0" cy="118.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1.25"/><circle cx="300.0" cy="118.0" r="11.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1"/><text x="300.0" y="122.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">C</text>
+<path d="M285 124 C266 132, 248 138, 234 144" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-dasharray:3 3;stroke-linecap:round;stroke-linejoin:round"/><path d="M237.5 138.4 L233.0 145.0 L241.0 144.4" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="56.0" cy="214.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:1.25"/><circle cx="56.0" cy="214.0" r="11.5" style="fill:var(--g-teal-fill,#46777a)"/><text x="56.0" y="218.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">B</text>
+<path d="M72 216 C150 236, 220 246, 262 246" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M256.8 249.5 L264.0 246.0 L256.8 242.5" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="272.0" y="251.0" font-family="'Playfair Display', Georgia, serif" font-size="16" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">Clinic</text>
+<text x="272.0" y="268.0" font-family="'Playfair Display', Georgia, serif" font-size="12" text-anchor="start" font-style="italic" style="fill:var(--g-teal-text,#3f6b6e)">elsewhere</text>
+<line x1="272.0" y1="275.0" x2="336.0" y2="275.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1"/>
+<line x1="24.0" y1="290.0" x2="150.0" y2="290.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5"/>
+<text x="24" y="314" font-family="'Playfair Display', Georgia, serif" font-size="17" style="fill:var(--g-teal-text,#3f6b6e)">Pays for <tspan font-weight="700">A + B</tspan></text>
+</g>
+<line x1="358.0" y1="6.0" x2="358.0" y2="318.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="10.0" y1="334.0" x2="710.0" y2="334.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<circle cx="24.0" cy="360.0" r="10" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-muted,#5f6b7a);stroke-width:1.1"/><circle cx="24.0" cy="360.0" r="7.5" style="fill:var(--g-muted,#5f6b7a)"/><text x="24.0" y="363.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle" font-weight="600" style="fill:var(--pa-surface,#ffffff)">A</text><text x="42.0" y="364.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Local residents, local clinics</text>
+<circle cx="262.0" cy="360.0" r="10" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-muted,#5f6b7a);stroke-width:1.1"/><circle cx="262.0" cy="360.0" r="7.5" style="fill:var(--g-muted,#5f6b7a)"/><text x="262.0" y="363.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle" font-weight="600" style="fill:var(--pa-surface,#ffffff)">B</text><text x="280.0" y="364.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Local residents, clinics elsewhere</text>
+<circle cx="522.0" cy="360.0" r="10" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-muted,#5f6b7a);stroke-width:1.1"/><circle cx="522.0" cy="360.0" r="7.5" style="fill:var(--g-muted,#5f6b7a)"/><text x="522.0" y="363.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle" font-weight="600" style="fill:var(--pa-surface,#ffffff)">C</text><text x="540.0" y="364.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Visitors, local clinics</text>
+</svg>
+<svg class="cs-fig-narrow" viewBox="0 0 360 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Under hosted funding a commissioner pays for everyone its local clinics see: local residents and visitors. Under de-hosted funding it pays for its own residents, wherever they are seen.">
+<g transform="translate(4,0)">
+<text x="10.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">Hosted funding</text>
+<text x="10.0" y="40.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Pays for everyone its local clinics see</text>
+<text x="14.0" y="72.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">Elsewhere</text>
+<rect x="24.6" y="82.6" width="220.0" height="166.0" rx="8" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<text x="40.0" y="106.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">Commissioner's area</text>
+<circle cx="56.0" cy="146.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.25"/><circle cx="56.0" cy="146.0" r="11.5" style="fill:var(--g-navy-fill,#14335a)"/><text x="56.0" y="150.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">A</text>
+<path d="M72 146 C96 140, 112 142, 126 145" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M119.5 147.8 L127.0 145.0 L120.1 140.9" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="136.0" y="151.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Local clinics</text>
+<line x1="136.0" y1="158.0" x2="226.0" y2="158.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<circle cx="300.0" cy="118.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.25"/><circle cx="300.0" cy="118.0" r="11.5" style="fill:var(--g-navy-fill,#14335a)"/><text x="300.0" y="122.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">C</text>
+<path d="M285 124 C266 132, 248 138, 234 144" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M237.5 138.4 L233.0 145.0 L241.0 144.4" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="56.0" cy="214.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1.25"/><circle cx="56.0" cy="214.0" r="11.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1"/><text x="56.0" y="218.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">B</text>
+<path d="M72 216 C150 236, 220 246, 262 246" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-dasharray:3 3;stroke-linecap:round;stroke-linejoin:round"/><path d="M256.8 249.5 L264.0 246.0 L256.8 242.5" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="272.0" y="251.0" font-family="'Playfair Display', Georgia, serif" font-size="16" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Clinic</text>
+<text x="272.0" y="268.0" font-family="'Playfair Display', Georgia, serif" font-size="12" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">elsewhere</text>
+<line x1="272.0" y1="275.0" x2="336.0" y2="275.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="24.0" y1="290.0" x2="150.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5"/>
+<text x="24" y="314" font-family="'Playfair Display', Georgia, serif" font-size="17" style="fill:var(--g-navy,#14335a)">Pays for <tspan font-weight="700">A + C</tspan></text>
+</g>
+<line x1="10.0" y1="336.0" x2="350.0" y2="336.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<g transform="translate(4,352)">
+<text x="10.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">De-hosted funding</text>
+<text x="10.0" y="40.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Pays for its own residents, wherever they are seen</text>
+<text x="14.0" y="72.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">Elsewhere</text>
+<rect x="24.6" y="82.6" width="220.0" height="166.0" rx="8" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<text x="40.0" y="106.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Commissioner's area</text>
+<circle cx="56.0" cy="146.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:1.25"/><circle cx="56.0" cy="146.0" r="11.5" style="fill:var(--g-teal-fill,#46777a)"/><text x="56.0" y="150.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">A</text>
+<path d="M72 146 C96 140, 112 142, 126 145" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M119.5 147.8 L127.0 145.0 L120.1 140.9" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="136.0" y="151.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">Local clinics</text>
+<line x1="136.0" y1="158.0" x2="226.0" y2="158.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<circle cx="300.0" cy="118.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1.25"/><circle cx="300.0" cy="118.0" r="11.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-fade,#a3abb6);stroke-width:1"/><text x="300.0" y="122.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">C</text>
+<path d="M285 124 C266 132, 248 138, 234 144" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-dasharray:3 3;stroke-linecap:round;stroke-linejoin:round"/><path d="M237.5 138.4 L233.0 145.0 L241.0 144.4" style="fill:none;stroke:var(--g-fade,#a3abb6);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="56.0" cy="214.0" r="15" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:1.25"/><circle cx="56.0" cy="214.0" r="11.5" style="fill:var(--g-teal-fill,#46777a)"/><text x="56.0" y="218.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:#ffffff">B</text>
+<path d="M72 216 C150 236, 220 246, 262 246" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/><path d="M256.8 249.5 L264.0 246.0 L256.8 242.5" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="272.0" y="251.0" font-family="'Playfair Display', Georgia, serif" font-size="16" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">Clinic</text>
+<text x="272.0" y="268.0" font-family="'Playfair Display', Georgia, serif" font-size="12" text-anchor="start" font-style="italic" style="fill:var(--g-teal-text,#3f6b6e)">elsewhere</text>
+<line x1="272.0" y1="275.0" x2="336.0" y2="275.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1"/>
+<line x1="24.0" y1="290.0" x2="150.0" y2="290.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5"/>
+<text x="24" y="314" font-family="'Playfair Display', Georgia, serif" font-size="17" style="fill:var(--g-teal-text,#3f6b6e)">Pays for <tspan font-weight="700">A + B</tspan></text>
+</g>
+<line x1="10.0" y1="688.0" x2="350.0" y2="688.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<circle cx="24.0" cy="714.0" r="10" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-muted,#5f6b7a);stroke-width:1.1"/><circle cx="24.0" cy="714.0" r="7.5" style="fill:var(--g-muted,#5f6b7a)"/><text x="24.0" y="717.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle" font-weight="600" style="fill:var(--pa-surface,#ffffff)">A</text><text x="42.0" y="718.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Local residents, local clinics</text>
+<circle cx="24.0" cy="740.0" r="10" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-muted,#5f6b7a);stroke-width:1.1"/><circle cx="24.0" cy="740.0" r="7.5" style="fill:var(--g-muted,#5f6b7a)"/><text x="24.0" y="743.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle" font-weight="600" style="fill:var(--pa-surface,#ffffff)">B</text><text x="42.0" y="744.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Local residents, clinics elsewhere</text>
+<circle cx="24.0" cy="766.0" r="10" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-muted,#5f6b7a);stroke-width:1.1"/><circle cx="24.0" cy="766.0" r="7.5" style="fill:var(--g-muted,#5f6b7a)"/><text x="24.0" y="769.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" text-anchor="middle" font-weight="600" style="fill:var(--pa-surface,#ffffff)">C</text><text x="42.0" y="770.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Visitors, local clinics</text>
+</svg>
+</div>
 
 There was no national mandate for a new tariff, so reform had to be adopted locally, on its merits. From April 2013 most sexual health commissioning moved from the NHS to local authorities, so the solution also had to survive a change in who paid.
 
@@ -66,10 +158,89 @@ The approach combined clinical pathway design with health economics. The price w
 
 **From pathway to price.** Clinicians mapped more than 140 good-practice pathways covering almost all GUM and contraception care. Each pathway was broken into its steps: who delivers each one, for how long, and with which drugs, tests and consumables. Staff time was costed per minute of clinical time, and other resources were costed from published sources such as the British National Formulary and national pay scales. An allowance for overheads was then added. Local cost adjustments were stripped out, so the same care carries the same base price wherever it is delivered.
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-pathway-to-price.svg" alt="A pathway is a first contact and follow-up contacts made of steps; each step costs staff time plus drugs, consumables and pathology; adding indirect costs gives the cost per pathway">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-pathway-to-price-mobile.svg" alt="A pathway is a first contact and follow-up contacts made of steps; each step costs staff time plus drugs, consumables and pathology; adding indirect costs gives the cost per pathway">
+<div class="cs-fig" data-fig="pathway-to-price">
+<svg class="cs-fig-wide" viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One pathway is a first contact and follow-up contacts, each made of steps. The direct cost of each step is staff time times cost per clinical minute, plus drugs, tests, consumables and pathology, added up across every step. Adding an allowance for indirect costs gives the cost per pathway.">
+<text x="20.0" y="14.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">One pathway</text>
+<text x="124.0" y="46.0" font-family="'Playfair Display', Georgia, serif" font-size="16" text-anchor="middle" style="fill:var(--g-navy,#14335a)">First contact</text>
+<text x="392.0" y="46.0" font-family="'Playfair Display', Georgia, serif" font-size="16" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Follow-up contacts</text>
+<line x1="24.0" y1="74.0" x2="480.0" y2="74.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5"/>
+<line x1="486.0" y1="74.0" x2="528.0" y2="74.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25;stroke-dasharray:4 4"/>
+<text x="538.0" y="79.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">… as the pathway requires</text>
+<line x1="258.0" y1="64.0" x2="258.0" y2="84.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<circle cx="50.0" cy="74.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="50.0" cy="74.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="50.0" y="104.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="124.0" cy="74.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="124.0" cy="74.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="124.0" y="104.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="318.0" cy="74.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="318.0" cy="74.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="318.0" y="104.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="392.0" cy="74.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="392.0" cy="74.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="392.0" y="104.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="466.0" cy="74.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="466.0" cy="74.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="466.0" y="104.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="198.0" cy="74.0" r="8.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="198.0" cy="74.0" r="3.4" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="198.0" y="104.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" font-weight="700" style="fill:var(--g-navy,#14335a)">Step</text>
+<path d="M182 114 L22 152 M214 114 L338 152" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.3;stroke-dasharray:4 4;stroke-linecap:butt;stroke-linejoin:round"/>
+<line x1="20.0" y1="152.0" x2="340.0" y2="152.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.5"/>
+<text x="20.0" y="180.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="start" style="fill:var(--g-navy,#14335a)">Direct cost</text>
+<text x="20.0" y="204.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">For each step: staff time × cost per clinical minute</text>
+<text x="20.0" y="223.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">+ drugs, tests, consumables and pathology</text>
+<text x="20.0" y="242.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">added up across every step of the pathway</text>
+<line x1="20.0" y1="262.0" x2="340.0" y2="262.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="20.0" y="284.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">= direct cost of the pathway</text>
+<text x="364.0" y="232.0" font-family="'Playfair Display', Georgia, serif" font-size="30" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">+</text>
+<line x1="388.0" y1="152.0" x2="552.0" y2="152.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5"/>
+<text x="388.0" y="180.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">Indirect costs</text>
+<text x="388.0" y="202.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">an allowance for:</text>
+<text x="388.0" y="224.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Staff not facing patients</text>
+<text x="388.0" y="243.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Provider overheads</text>
+<text x="388.0" y="262.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Facilities and management</text>
+<text x="576.0" y="232.0" font-family="'Playfair Display', Georgia, serif" font-size="30" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">=</text>
+<line x1="600.0" y1="152.0" x2="710.0" y2="152.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:2.5"/>
+<text x="655.0" y="210.0" font-family="'Playfair Display', Georgia, serif" font-size="23" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Cost per</text>
+<text x="655.0" y="238.0" font-family="'Playfair Display', Georgia, serif" font-size="23" text-anchor="middle" style="fill:var(--g-navy,#14335a)">pathway</text>
+</svg>
+<svg class="cs-fig-narrow" viewBox="0 0 360 582" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One pathway is a first contact and follow-up contacts, each made of steps. The direct cost of each step is staff time times cost per clinical minute, plus drugs, tests, consumables and pathology, added up across every step. Adding an allowance for indirect costs gives the cost per pathway.">
+<text x="12.0" y="14.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">One pathway</text>
+<text x="74.0" y="44.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">First contact</text>
+<text x="246.0" y="44.0" font-family="'Playfair Display', Georgia, serif" font-size="14" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Follow-up contacts</text>
+<line x1="12.0" y1="70.0" x2="318.0" y2="70.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5"/>
+<line x1="322.0" y1="70.0" x2="348.0" y2="70.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25;stroke-dasharray:4 4"/>
+<line x1="160.0" y1="61.0" x2="160.0" y2="79.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<circle cx="24.0" cy="70.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="24.0" cy="70.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="24.0" y="96.0" font-family="'Playfair Display', Georgia, serif" font-size="12.5" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="74.0" cy="70.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="74.0" cy="70.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="74.0" y="96.0" font-family="'Playfair Display', Georgia, serif" font-size="12.5" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="124.0" cy="70.0" r="8.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="124.0" cy="70.0" r="3.4" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="124.0" y="96.0" font-family="'Playfair Display', Georgia, serif" font-size="12.5" text-anchor="middle" font-weight="700" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="196.0" cy="70.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="196.0" cy="70.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="196.0" y="96.0" font-family="'Playfair Display', Georgia, serif" font-size="12.5" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="246.0" cy="70.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="246.0" cy="70.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="246.0" y="96.0" font-family="'Playfair Display', Georgia, serif" font-size="12.5" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<circle cx="296.0" cy="70.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.5"/><circle cx="296.0" cy="70.0" r="3.2" style="fill:var(--g-navy,#14335a)"/>
+<text x="296.0" y="96.0" font-family="'Playfair Display', Georgia, serif" font-size="12.5" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Step</text>
+<text x="348.0" y="116.0" font-family="'Playfair Display', Georgia, serif" font-size="12" text-anchor="end" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">… as the pathway requires</text>
+<path d="M116 104 L12 180 M132 104 L348 180" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.3;stroke-dasharray:4 4;stroke-linecap:butt;stroke-linejoin:round"/>
+<line x1="12.0" y1="180.0" x2="348.0" y2="180.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.5"/>
+<text x="12.0" y="208.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="start" style="fill:var(--g-navy,#14335a)">Direct cost</text>
+<text x="12.0" y="232.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">For each step: staff time × cost per clinical minute</text>
+<text x="12.0" y="251.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">+ drugs, tests, consumables and pathology</text>
+<text x="12.0" y="270.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">added up across every step of the pathway</text>
+<line x1="12.0" y1="288.0" x2="348.0" y2="288.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="12.0" y="310.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">= direct cost of the pathway</text>
+<text x="180.0" y="348.0" font-family="'Playfair Display', Georgia, serif" font-size="28" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">+</text>
+<line x1="12.0" y1="364.0" x2="348.0" y2="364.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5"/>
+<text x="12.0" y="392.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">Indirect costs</text>
+<text x="12.0" y="414.0" font-family="'Playfair Display', Georgia, serif" font-size="13" text-anchor="start" font-style="italic" style="fill:var(--g-muted,#5f6b7a)">an allowance for:</text>
+<text x="12.0" y="436.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Staff not facing patients</text>
+<text x="12.0" y="455.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Provider overheads</text>
+<text x="12.0" y="474.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Facilities and management</text>
+<text x="180.0" y="514.0" font-family="'Playfair Display', Georgia, serif" font-size="28" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">=</text>
+<line x1="100.0" y1="532.0" x2="260.0" y2="532.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:2.5"/>
+<text x="180.0" y="566.0" font-family="'Playfair Display', Georgia, serif" font-size="23" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Cost per pathway</text>
+</svg>
+</div>
 
-<p class="figure-caption">Every step of every pathway is costed the same way, from published sources, with local cost adjustments removed. Redrawn from Pathway Analytics' tariff background slides, 2011 to 2016.</p>
+<p class="figure-caption">Every step of every pathway is costed the same way, from published sources, with local cost adjustments removed.</p>
 
 **Tested from the top down.** The bottom-up pathway costs were checked against top-down reference prices and benchmarks. The method ran in six steps, from reference pricing through validation with pilot-site data to proposed currencies.
 
@@ -77,10 +248,64 @@ The approach combined clinical pathway design with health economics. The price w
 
 **Fair payment for one-stop care.** Each currency has two prices. The Primary price reflects the estimated resource cost of delivering that element of care independently. The Additional price reflects the marginal resource cost of delivering it alongside a more expensive currency in the same visit. A visit that meets several needs is paid for each of them, without paying twice for what they share.
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-one-visit-two-prices.svg" alt="One visit: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79 rather than £165.41 at full prices">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-one-visit-two-prices-mobile.svg" alt="One visit: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79 rather than £165.41 at full prices">
+<div class="cs-fig" data-fig="one-visit-two-prices">
+<svg class="cs-fig-wide" viewBox="0 0 720 254" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One visit, historical tariff prices: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79, rather than £165.41 if both were paid at their Primary price. The £18.62 difference is shared care, not paid twice.">
+<text x="10.0" y="14.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">One visit: a change from the pill to a long-acting method</text>
+<line x1="10.0" y1="26.0" x2="710.0" y2="26.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<text x="10.0" y="60.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Worked example, historical tariff prices</text>
+<rect x="10.0" y="70.0" width="344.6" height="30.0" rx="0" style="fill:var(--g-navy-fill,#14335a)"/>
+<text x="22.0" y="90.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:#ffffff">LARC procedure · Primary £114.88</text>
+<rect x="354.6" y="70.0" width="95.7" height="30.0" rx="0" style="fill:var(--g-teal-fill,#46777a)"/>
+<rect x="451.1" y="70.8" width="54.4" height="28.5" rx="0" style="fill:var(--g-gold-tint,#fbf6ea);stroke:var(--g-gold,#c9a24a);stroke-width:1.4;stroke-dasharray:3 3"/>
+<text x="478.3" y="90.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">£18.62</text>
+<text x="450.4" y="60.0" font-family="'Playfair Display', Georgia, serif" font-size="21" text-anchor="end" style="fill:var(--g-navy,#14335a)">£146.79</text>
+<line x1="450.4" y1="64.0" x2="450.4" y2="70.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.4"/>
+<line x1="402.5" y1="100.0" x2="402.5" y2="108.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.2"/>
+<text x="402.5" y="122.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-teal-text,#3f6b6e)">SRH standard · Additional £31.91</text>
+<text x="10.0" y="156.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">If both currencies were paid at their Primary price</text>
+<rect x="10.6" y="168.6" width="343.4" height="28.8" rx="0" style="fill:var(--g-tint,#eef2f7);stroke:var(--g-tint-line,#c9d3e0);stroke-width:1.2"/>
+<text x="22.0" y="188.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">LARC procedure £114.88</text>
+<rect x="355.2" y="168.6" width="150.4" height="28.8" rx="0" style="fill:var(--g-tint-2,#f7f9fb);stroke:var(--g-tint-line,#c9d3e0);stroke-width:1.2;stroke-dasharray:3 3"/>
+<text x="366.6" y="188.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">SRH standard £50.53</text>
+<text x="522.2" y="189.0" font-family="'Playfair Display', Georgia, serif" font-size="21" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">£165.41</text>
+<line x1="450.4" y1="206.0" x2="506.2" y2="206.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.4"/>
+<line x1="450.4" y1="201.0" x2="450.4" y2="211.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.4"/>
+<line x1="506.2" y1="201.0" x2="506.2" y2="211.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.4"/>
+<text x="450.4" y="228.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">£18.62 of shared care,</text>
+<text x="450.4" y="245.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">not paid twice</text>
+</svg>
+<svg class="cs-fig-narrow" viewBox="0 0 360 382" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One visit, historical tariff prices: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79, rather than £165.41 if both were paid at their Primary price. The £18.62 difference is shared care, not paid twice.">
+<text x="12.0" y="14.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">One visit: a change from the pill</text>
+<text x="12.0" y="31.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">to a long-acting method</text>
+<line x1="12.0" y1="42.0" x2="348.0" y2="42.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<text x="12.0" y="70.0" font-family="'Playfair Display', Georgia, serif" font-size="15" text-anchor="start" style="fill:var(--g-navy,#14335a)">Worked example, historical tariff prices</text>
+<text x="290.9" y="92.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="end" style="fill:var(--g-navy,#14335a)">£146.79</text>
+<rect x="12.0" y="100.0" width="218.3" height="26.0" rx="0" style="fill:var(--g-navy-fill,#14335a)"/>
+<rect x="230.3" y="100.0" width="60.6" height="26.0" rx="0" style="fill:var(--g-teal-fill,#46777a)"/>
+<rect x="291.7" y="100.8" width="33.9" height="24.5" rx="0" style="fill:var(--g-gold-tint,#fbf6ea);stroke:var(--g-gold,#c9a24a);stroke-width:1.4;stroke-dasharray:3 3"/>
+<rect x="12.0" y="140.0" width="11.0" height="11.0" rx="0" style="fill:var(--g-navy-fill,#14335a)"/>
+<text x="30.0" y="150.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-ink,#1f2933)">LARC procedure · Primary £114.88</text>
+<rect x="12.0" y="160.0" width="11.0" height="11.0" rx="0" style="fill:var(--g-teal-fill,#46777a)"/>
+<text x="30.0" y="170.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-teal-text,#3f6b6e)">SRH standard · Additional £31.91</text>
+<rect x="12.7" y="180.7" width="9.6" height="9.6" rx="0" style="fill:var(--g-gold-tint,#fbf6ea);stroke:var(--g-gold,#c9a24a);stroke-width:1.4;stroke-dasharray:2 2"/>
+<text x="30.0" y="190.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">£18.62 of shared care, not paid twice</text>
+<text x="12.0" y="232.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">If both currencies were paid</text>
+<text x="12.0" y="249.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">at their Primary price</text>
+<rect x="12.6" y="262.6" width="217.1" height="24.8" rx="0" style="fill:var(--g-tint,#eef2f7);stroke:var(--g-tint-line,#c9d3e0);stroke-width:1.2"/>
+<rect x="230.9" y="262.6" width="94.8" height="24.8" rx="0" style="fill:var(--g-tint-2,#f7f9fb);stroke:var(--g-tint-line,#c9d3e0);stroke-width:1.2;stroke-dasharray:3 3"/>
+<line x1="290.9" y1="296.0" x2="326.3" y2="296.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.4"/>
+<line x1="290.9" y1="291.0" x2="290.9" y2="301.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.4"/>
+<line x1="326.3" y1="291.0" x2="326.3" y2="301.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.4"/>
+<rect x="12.0" y="312.0" width="11.0" height="11.0" rx="0" style="fill:var(--g-tint,#eef2f7);stroke:var(--g-tint-line,#c9d3e0);stroke-width:1"/>
+<text x="30.0" y="322.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">LARC procedure £114.88</text>
+<rect x="12.0" y="332.0" width="11.0" height="11.0" rx="0" style="fill:var(--g-tint-2,#f7f9fb);stroke:var(--g-tint-line,#c9d3e0);stroke-width:1"/>
+<text x="30.0" y="342.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">SRH standard £50.53</text>
+<text x="12.0" y="368.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Total at Primary prices</text>
+<text x="348.0" y="369.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="end" style="fill:var(--g-muted,#5f6b7a)">£165.41</text>
+</svg>
+</div>
 
-<p class="figure-caption">The Additional price leaves out the care the two currencies share, such as registering the patient, so the visit is paid for both needs without paying twice. Worked example redrawn from Pathway Analytics' 2013 slides for London's reproductive health clinical leads; the patient is illustrative.</p>
+<p class="figure-caption">The Additional price leaves out the care the two currencies share, such as registering the patient, so the visit is paid for both needs without paying twice. The patient is illustrative.</p>
 
 **Built on data clinics already report.** The tariff is triggered by the national GUMCAD and SRHAD returns, plus a small number of local codes (nine in 2013). In 2013, about 85% of charges were triggered by data already in the statutory returns.
 
@@ -92,10 +317,63 @@ Redesigning the funding mechanism was as much a strategic challenge as an econom
 
 **Governance that brought the system together.** During the London development, four expert working groups were formed: clinical, commissioning, data management and finance. They reported to a steering group that included the Health Protection Agency, BASHH, the Faculty of Sexual and Reproductive Healthcare, and the Department of Health's Payment by Results team.
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-governance.svg" alt="The London Sexual Health Programme above a steering group of London and national stakeholders, with four expert working groups: clinical, commissioning, data management and finance">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-governance-mobile.svg" alt="The London Sexual Health Programme above a steering group of London and national stakeholders, with four expert working groups: clinical, commissioning, data management and finance">
-
-<p class="figure-caption">Roles only. Redrawn from the 2011 North West briefing pack and the 2013 summary description of the tariff.</p>
+<div class="cs-fig" data-fig="governance">
+<svg class="cs-fig-wide" viewBox="0 0 720 352" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Governance: the London Sexual Health Programme and its steering group oversaw four expert working groups: clinical, commissioning, data management and finance. Pathway Analytics provided methodology, modelling, analysis, coding and IT support for all four.">
+<text x="360.0" y="30.0" font-family="'Playfair Display', Georgia, serif" font-size="23" text-anchor="middle" style="fill:var(--g-navy,#14335a)">London Sexual Health Programme</text>
+<line x1="250.0" y1="44.0" x2="470.0" y2="44.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="360.0" y1="44.0" x2="360.0" y2="66.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<circle cx="360.0" cy="68.0" r="3" style="fill:var(--g-navy,#14335a)"/>
+<text x="360.0" y="94.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Steering group</text>
+<text x="360.0" y="114.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Including HPA, BASHH, FSRH and the DH Payment by Results team</text>
+<text x="360.0" y="146.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">Expert working groups</text>
+<path d="M360 156 C360 186, 90 178, 90 206" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M360 156 C360 186, 270 178, 270 206" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M360 156 C360 186, 450 178, 450 206" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M360 156 C360 186, 630 178, 630 206" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="90.0" cy="211.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="90.0" cy="211.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="90.0" y="238.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Clinical</text>
+<text x="90.0" y="256.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">STI and contraception</text>
+<line x1="90.0" y1="266.0" x2="90.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<circle cx="270.0" cy="211.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="270.0" cy="211.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="270.0" y="238.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Commissioning</text>
+<line x1="270.0" y1="266.0" x2="270.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<circle cx="450.0" cy="211.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="450.0" cy="211.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="450.0" y="238.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Data management</text>
+<line x1="450.0" y1="266.0" x2="450.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<circle cx="630.0" cy="211.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="630.0" cy="211.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="630.0" y="238.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Finance</text>
+<line x1="630.0" y1="266.0" x2="630.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.25"/>
+<line x1="50.0" y1="290.0" x2="670.0" y2="290.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5"/>
+<text x="360.0" y="320.0" font-family="'Playfair Display', Georgia, serif" font-size="20" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Pathway Analytics</text>
+<text x="360.0" y="341.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Methodology, modelling, analysis, coding and IT support for all four groups</text>
+</svg>
+<svg class="cs-fig-narrow" viewBox="0 0 360 416" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Governance: the London Sexual Health Programme and its steering group oversaw four expert working groups: clinical, commissioning, data management and finance. Pathway Analytics provided methodology, modelling, analysis, coding and IT support for all four.">
+<text x="180.0" y="26.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">London Sexual Health Programme</text>
+<line x1="90.0" y1="38.0" x2="270.0" y2="38.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="180.0" y1="38.0" x2="180.0" y2="56.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<circle cx="180.0" cy="58.0" r="3" style="fill:var(--g-navy,#14335a)"/>
+<text x="180.0" y="84.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Steering group</text>
+<text x="180.0" y="104.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Including HPA, BASHH, FSRH and</text>
+<text x="180.0" y="120.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">the DH Payment by Results team</text>
+<line x1="180.0" y1="130.0" x2="180.0" y2="150.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.25"/>
+<text x="196.0" y="146.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-muted,#5f6b7a)">Expert working groups</text>
+<path d="M180 150 C180 160, 32 156, 32 170" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"/>
+<line x1="32.0" y1="170.0" x2="32.0" y2="338.0" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.5"/>
+<circle cx="32.0" cy="184.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="32.0" cy="184.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="52.0" y="190.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Clinical</text>
+<text x="52.0" y="208.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">STI and contraception</text>
+<circle cx="32.0" cy="234.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="32.0" cy="234.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="52.0" y="240.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Commissioning</text>
+<circle cx="32.0" cy="270.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="32.0" cy="270.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="52.0" y="276.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Data management</text>
+<circle cx="32.0" cy="306.0" r="5.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="32.0" cy="306.0" r="2.1" style="fill:var(--g-teal,#518386)"/>
+<text x="52.0" y="312.0" font-family="'Playfair Display', Georgia, serif" font-size="17" text-anchor="start" style="fill:var(--g-navy,#14335a)">Finance</text>
+<line x1="20.0" y1="338.0" x2="340.0" y2="338.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.5"/>
+<text x="180.0" y="368.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Pathway Analytics</text>
+<text x="180.0" y="388.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Methodology, modelling, analysis, coding</text>
+<text x="180.0" y="404.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">and IT support for all four groups</text>
+</svg>
+</div>
 
 **Clinical consensus.** Clinicians from GUM and contraception services built the pathways together. BASHH and the Faculty supported the resulting pathways. The prices therefore rested on care that clinicians recognised as their own.
 
@@ -115,10 +393,77 @@ The work resulted in two interdependent solutions: an integrated payment methodo
 
 **The Tariff Grouper.** The Grouper takes a provider's routine activity data and turns it into charges for each responsible commissioner.
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-care-to-payment.svg" alt="Four steps from care to charging: care activity and coding by the provider, then grouping and charging by the Tariff Grouper">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-care-to-payment-mobile.svg" alt="Four steps from care to charging: care activity and coding by the provider, then grouping and charging by the Tariff Grouper">
-
-<p class="figure-caption">Redrawn from Pathway Analytics' tariff background slides, 2014 to 2016.</p>
+<div class="cs-fig" data-fig="care-to-payment">
+<svg class="cs-fig-wide" viewBox="0 0 720 284" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four steps from care to charging. The provider delivers and records care as usual and codes it in two returns, GUMCAD and SRHAD, plus a few local codes. The Tariff Grouper joins the two datasets into visits, matches them to currencies and prices, and allocates each charge to the council that pays.">
+<text x="180.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle" font-weight="600" style="fill:var(--g-navy,#14335a)">Provider</text>
+<text x="540.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="middle" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">Tariff Grouper</text>
+<line x1="20.0" y1="28.0" x2="340.0" y2="28.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="380.0" y1="28.0" x2="700.0" y2="28.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<line x1="360.0" y1="40.0" x2="360.0" y2="274.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1;stroke-dasharray:3 4"/>
+<line x1="20.0" y1="96.0" x2="176.0" y2="96.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<path d="M176 96 L194 84 L414 84 L436 96" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M176 96 L194 108 L414 108 L436 96" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<line x1="436.0" y1="96.0" x2="700.0" y2="96.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.6"/>
+<path d="M692 90 L702 96 L692 102" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<text x="229.0" y="77.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" text-anchor="middle" font-weight="600" style="fill:var(--g-navy,#14335a)">GUMCAD</text>
+<text x="229.0" y="124.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">SRHAD</text>
+<circle cx="90.0" cy="96.0" r="7.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:2"/><circle cx="90.0" cy="96.0" r="2.9" style="fill:var(--g-navy,#14335a)"/>
+<circle cx="270.0" cy="84.0" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:2"/><circle cx="270.0" cy="84.0" r="2.3" style="fill:var(--g-navy,#14335a)"/>
+<circle cx="270.0" cy="108.0" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="270.0" cy="108.0" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<circle cx="450.0" cy="96.0" r="7.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="450.0" cy="96.0" r="2.9" style="fill:var(--g-gold,#c9a24a)"/>
+<circle cx="630.0" cy="96.0" r="7.5" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="630.0" cy="96.0" r="2.9" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="90.0" y="144.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Care activity</text>
+<text x="90.0" y="164.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Care delivered and</text>
+<text x="90.0" y="180.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">recorded as usual</text>
+<text x="270.0" y="144.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Coding</text>
+<text x="270.0" y="164.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">GUMCAD and SRHAD,</text>
+<text x="270.0" y="180.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">plus a few local codes</text>
+<text x="450.0" y="144.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Grouping</text>
+<text x="450.0" y="164.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Visits matched to</text>
+<text x="450.0" y="180.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">currencies and prices</text>
+<text x="630.0" y="144.0" font-family="'Playfair Display', Georgia, serif" font-size="19" text-anchor="middle" style="fill:var(--g-navy,#14335a)">Charging</text>
+<text x="630.0" y="164.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Charges allocated to</text>
+<text x="630.0" y="180.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">the council that pays</text>
+<line x1="20.0" y1="198.0" x2="340.0" y2="198.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<line x1="380.0" y1="198.0" x2="700.0" y2="198.0" style="fill:none;stroke:var(--g-hair-soft,#e3e6ea);stroke-width:1"/>
+<text x="20.0" y="222.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">No change to how clinicians deliver care;</text>
+<text x="20.0" y="240.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">no direct patient identifiers leave the provider</text>
+<text x="380.0" y="222.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Joins the two datasets into visits</text>
+<text x="380.0" y="240.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Removes double counting</text>
+<text x="380.0" y="258.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Primary price first, Additional for the rest</text>
+<text x="380.0" y="276.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Applies MFF or geographical weighting</text>
+</svg>
+<svg class="cs-fig-narrow" viewBox="0 0 360 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four steps from care to charging. The provider delivers and records care as usual and codes it in two returns, GUMCAD and SRHAD, plus a few local codes. The Tariff Grouper joins the two datasets into visits, matches them to currencies and prices, and allocates each charge to the council that pays.">
+<text x="12.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">Provider</text>
+<line x1="22.0" y1="36.0" x2="22.0" y2="92.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<path d="M22 92 L16 100 L16 124 L22 132" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M22 92 L28 100 L28 124 L22 132" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<line x1="22.0" y1="132.0" x2="22.0" y2="196.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<circle cx="22.0" cy="44.0" r="7" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:2"/><circle cx="22.0" cy="44.0" r="2.7" style="fill:var(--g-navy,#14335a)"/>
+<text x="44.0" y="50.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Care activity</text>
+<text x="44.0" y="70.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Care delivered and recorded as usual</text>
+<circle cx="16.0" cy="112.0" r="3.6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<circle cx="28.0" cy="112.0" r="3.6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:1.6"/>
+<text x="44.0" y="118.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Coding</text>
+<text x="44" y="138" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" style="fill:var(--g-muted,#5f6b7a)"><tspan font-weight="600" style="fill:var(--g-navy,#14335a)">GUMCAD</tspan> and <tspan font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">SRHAD</tspan>, plus a few local codes</text>
+<text x="44.0" y="170.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">No change to how clinicians deliver care;</text>
+<text x="44.0" y="187.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">no direct patient identifiers leave the provider</text>
+<line x1="12.0" y1="222.0" x2="348.0" y2="222.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1;stroke-dasharray:3 4"/>
+<text x="12.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">Tariff Grouper</text>
+<line x1="22.0" y1="258.0" x2="22.0" y2="352.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.6"/>
+<path d="M16 346 L22 356 L28 346" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="22.0" cy="270.0" r="7" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="22.0" cy="270.0" r="2.7" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="44.0" y="276.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Grouping</text>
+<text x="44.0" y="296.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Visits matched to currencies and prices</text>
+<circle cx="22.0" cy="326.0" r="7" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="22.0" cy="326.0" r="2.7" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="44.0" y="332.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Charging</text>
+<text x="44.0" y="352.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Charges allocated to the council that pays</text>
+<text x="44.0" y="382.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Joins the two datasets into visits</text>
+<text x="44.0" y="400.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Removes double counting</text>
+<text x="44.0" y="418.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Primary price first, Additional for the rest</text>
+<text x="44.0" y="436.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Applies MFF or geographical weighting</text>
+</svg>
+</div>
 
 Providers submit monthly activity data based on GUMCAD and SRHAD, supplemented by local codes where required. The Grouper combines the relevant records into patient visits and applies the agreed tariff rules. It removes combinations that would count the same care twice. It applies the Primary price to the highest-value currency in each visit and Additional prices to the other applicable currencies. It then applies the relevant market forces factor or geographical weighting, and allocates charges to commissioners according to the agreed tariff configuration.
 
@@ -126,8 +471,84 @@ The patient-level activity data it receives are anonymised: Pathway Analytics ho
 
 ## Impact and legacy
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-timeline.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-timeline-mobile.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
+<div class="cs-fig" data-fig="timeline">
+<svg class="cs-fig-wide" viewBox="0 0 720 356" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
+<path d="M14,222 C260,222 430,134 690,134 L704,134" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M697 128 L705 134 L697 140" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="74.0" cy="220.3" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="74.0" cy="220.3" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="74.0" y1="228.3" x2="74.0" y2="238.3" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="74.0" y="260.3" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2009 to 2010</text>
+<text x="74.0" y="278.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Design</text>
+<text x="74.0" y="298.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">London pathways,</text>
+<text x="74.0" y="314.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">currencies and prices</text>
+<text x="74.0" y="330.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">DH: national tariff to</text>
+<text x="74.0" y="346.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">build on London work</text>
+<circle cx="214.0" cy="203.9" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="214.0" cy="203.9" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="214.0" y1="195.9" x2="214.0" y2="187.9" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="214.0" y="181.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">110+ providers by 2013</text>
+<text x="214.0" y="165.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">West road tests</text>
+<text x="214.0" y="149.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">North West and South</text>
+<text x="214.0" y="133.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">shadow running</text>
+<text x="214.0" y="117.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Grouper validated (2011),</text>
+<text x="214.0" y="97.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Implementation</text>
+<text x="214.0" y="77.9" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2011 to 2013</text>
+<circle cx="354.0" cy="176.5" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="354.0" cy="176.5" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="354.0" y1="184.5" x2="354.0" y2="194.5" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="354.0" y="216.5" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2013 to 2016</text>
+<text x="354.0" y="234.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Local government</text>
+<text x="354.0" y="254.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">East Midlands, Greater</text>
+<text x="354.0" y="270.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Manchester, Gateshead</text>
+<text x="354.0" y="286.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">London borough-level</text>
+<text x="354.0" y="302.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">refresh (2014 to 2015)</text>
+<circle cx="494.0" cy="150.1" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="494.0" cy="150.1" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="494.0" y1="142.1" x2="494.0" y2="134.1" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="494.0" y="128.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">policy (2020)</text>
+<text x="494.0" y="112.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">South East regional</text>
+<text x="494.0" y="96.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">DHSC guidance (2018)</text>
+<text x="494.0" y="80.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">agreed (2017)</text>
+<text x="494.0" y="64.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">London standard tariff</text>
+<text x="494.0" y="44.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Adoption</text>
+<text x="494.0" y="24.1" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2017 to 2020</text>
+<circle cx="620.0" cy="136.1" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2.2"/><circle cx="620.0" cy="136.1" r="3.6" style="fill:var(--g-navy,#14335a)"/>
+<line x1="620.0" y1="148.1" x2="620.0" y2="158.1" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1;stroke-dasharray:2 3"/>
+<text x="620.0" y="180.1" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2025/26</text>
+<text x="620.0" y="198.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">In use</text>
+<text x="620.0" y="218.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" font-weight="600" style="fill:var(--g-navy,#14335a)">130 services reported</text>
+<text x="620.0" y="234.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">as commissioned solely</text>
+<text x="620.0" y="250.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">on the tariff</text>
+</svg>
+<svg class="cs-fig-narrow" viewBox="0 0 360 579" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
+<line x1="14.0" y1="12.0" x2="14.0" y2="565.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<path d="M8 559 L14 567 L20 559" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="14.0" cy="18.0" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="14.0" cy="18.0" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<circle cx="14.0" cy="125.0" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="14.0" cy="125.0" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<circle cx="14.0" cy="251.0" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="14.0" cy="251.0" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<circle cx="14.0" cy="358.0" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="14.0" cy="358.0" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<circle cx="14.0" cy="484.0" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2.2"/><circle cx="14.0" cy="484.0" r="3.6" style="fill:var(--g-navy,#14335a)"/>
+<text x="36.0" y="24.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">2009 to 2010</text>
+<text x="36.0" y="43.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Design</text>
+<text x="36.0" y="64.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">London pathways, currencies and prices</text>
+<text x="36.0" y="83.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">DH: national tariff to build on London work</text>
+<text x="36.0" y="131.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">2011 to 2013</text>
+<text x="36.0" y="150.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Implementation</text>
+<text x="36.0" y="171.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Grouper validated (2011), shadow running</text>
+<text x="36.0" y="190.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">North West and South West road tests</text>
+<text x="36.0" y="209.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">110+ providers by 2013</text>
+<text x="36.0" y="257.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">2013 to 2016</text>
+<text x="36.0" y="276.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Local government</text>
+<text x="36.0" y="297.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">East Midlands, Greater Manchester, Gateshead</text>
+<text x="36.0" y="316.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">London borough-level refresh (2014 to 2015)</text>
+<text x="36.0" y="364.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">2017 to 2020</text>
+<text x="36.0" y="383.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Adoption</text>
+<text x="36.0" y="404.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">London standard tariff agreed (2017)</text>
+<text x="36.0" y="423.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">DHSC guidance (2018)</text>
+<text x="36.0" y="442.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">South East regional policy (2020)</text>
+<text x="36.0" y="490.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">2025/26</text>
+<text x="36.0" y="509.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">In use</text>
+<text x="36.0" y="530.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">130 services reported</text>
+<text x="36.0" y="549.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">as commissioned solely on the tariff</text>
+</svg>
+</div>
 
 <p class="figure-caption">From London to England, 2009 to 2025/26. The 2025/26 figure counts services reported as commissioned solely on the tariff, not Grouper subscribers.</p>
 

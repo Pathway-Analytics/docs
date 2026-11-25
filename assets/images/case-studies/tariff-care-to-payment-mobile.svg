@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 360 460" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
-  <rect x="0" y="212" width="360" height="248" rx="6" fill="#faf6ec"/>
-  <text x="0" y="14" font-size="12" fill="#14335a" font-weight="600" letter-spacing="1">PROVIDER</text>
-  <rect x="0" y="24" width="360" height="56" rx="6" fill="#14335a"/>
-  <text x="14" y="47" font-size="15" fill="#fff" font-weight="600">1  Care activity</text>
-  <text x="14" y="67" font-size="13" fill="#dfe6ef">Care delivered and recorded as usual</text>
-  <path d="M172 80 L180 89 L188 80 Z" fill="#14335a"/>
-  <rect x="0" y="92" width="360" height="56" rx="6" fill="#14335a"/>
-  <text x="14" y="115" font-size="15" fill="#fff" font-weight="600">2  Coding</text>
-  <text x="14" y="135" font-size="13" fill="#dfe6ef">GUMCAD and SRHAD, plus a few local codes</text>
-  <text x="0" y="172" font-size="13" fill="#1f2933">No change to how clinicians deliver care;</text>
-  <text x="0" y="191" font-size="13" fill="#1f2933">no direct patient identifiers leave the provider</text>
-  <line x1="0" y1="212" x2="360" y2="212" stroke="#8a929c" stroke-width="1.5" stroke-dasharray="6 4"/>
-  <text x="10" y="236" font-size="12" fill="#8a6a22" font-weight="600" letter-spacing="1">TARIFF GROUPER</text>
-  <rect x="10" y="246" width="340" height="56" rx="6" fill="#c9a24a"/>
-  <text x="24" y="269" font-size="15" fill="#14335a" font-weight="600">3  Grouping</text>
-  <text x="24" y="289" font-size="13" fill="#14335a">Visits matched to currencies and prices</text>
-  <path d="M172 302 L180 311 L188 302 Z" fill="#c9a24a"/>
-  <rect x="10" y="314" width="340" height="56" rx="6" fill="#c9a24a"/>
-  <text x="24" y="337" font-size="15" fill="#14335a" font-weight="600">4  Charging</text>
-  <text x="24" y="357" font-size="13" fill="#14335a">Charges allocated to the council that pays</text>
-  <text x="10" y="394" font-size="13" fill="#1f2933">Joins the two datasets into visits</text>
-  <text x="10" y="413" font-size="13" fill="#1f2933">Removes double counting</text>
-  <text x="10" y="432" font-size="13" fill="#1f2933">Primary price first, Additional for the rest</text>
-  <text x="10" y="451" font-size="13" fill="#1f2933">Applies MFF or geographical weighting</text>
+<svg class="cs-fig-narrow" viewBox="0 0 360 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four steps from care to charging. The provider delivers and records care as usual and codes it in two returns, GUMCAD and SRHAD, plus a few local codes. The Tariff Grouper joins the two datasets into visits, matches them to currencies and prices, and allocates each charge to the council that pays.">
+<text x="12.0" y="16.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-navy,#14335a)">Provider</text>
+<line x1="22.0" y1="36.0" x2="22.0" y2="92.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<path d="M22 92 L16 100 L16 124 L22 132" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M22 92 L28 100 L28 124 L22 132" style="fill:none;stroke:var(--g-teal,#518386);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<line x1="22.0" y1="132.0" x2="22.0" y2="196.0" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<circle cx="22.0" cy="44.0" r="7" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:2"/><circle cx="22.0" cy="44.0" r="2.7" style="fill:var(--g-navy,#14335a)"/>
+<text x="44.0" y="50.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Care activity</text>
+<text x="44.0" y="70.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Care delivered and recorded as usual</text>
+<circle cx="16.0" cy="112.0" r="3.6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-navy,#14335a);stroke-width:1.6"/>
+<circle cx="28.0" cy="112.0" r="3.6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:1.6"/>
+<text x="44.0" y="118.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Coding</text>
+<text x="44" y="138" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" style="fill:var(--g-muted,#5f6b7a)"><tspan font-weight="600" style="fill:var(--g-navy,#14335a)">GUMCAD</tspan> and <tspan font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">SRHAD</tspan>, plus a few local codes</text>
+<text x="44.0" y="170.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">No change to how clinicians deliver care;</text>
+<text x="44.0" y="187.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">no direct patient identifiers leave the provider</text>
+<line x1="12.0" y1="222.0" x2="348.0" y2="222.0" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1;stroke-dasharray:3 4"/>
+<text x="12.0" y="246.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" text-anchor="start" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">Tariff Grouper</text>
+<line x1="22.0" y1="258.0" x2="22.0" y2="352.0" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.6"/>
+<path d="M16 346 L22 356 L28 346" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="22.0" cy="270.0" r="7" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="22.0" cy="270.0" r="2.7" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="44.0" y="276.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Grouping</text>
+<text x="44.0" y="296.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Visits matched to currencies and prices</text>
+<circle cx="22.0" cy="326.0" r="7" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2"/><circle cx="22.0" cy="326.0" r="2.7" style="fill:var(--g-gold,#c9a24a)"/>
+<text x="44.0" y="332.0" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="start" style="fill:var(--g-navy,#14335a)">Charging</text>
+<text x="44.0" y="352.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-muted,#5f6b7a)">Charges allocated to the council that pays</text>
+<text x="44.0" y="382.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Joins the two datasets into visits</text>
+<text x="44.0" y="400.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Removes double counting</text>
+<text x="44.0" y="418.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Primary price first, Additional for the rest</text>
+<text x="44.0" y="436.0" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="start" style="fill:var(--g-ink,#1f2933)">Applies MFF or geographical weighting</text>
 </svg>

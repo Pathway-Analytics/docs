@@ -1792,11 +1792,51 @@ html[data-theme="dark"] .markdown-section .rs-num { color: #e8eef8; }
 .markdown-section .cs-overview dt { font-weight: 600; color: #14335a; }
 .markdown-section .cs-overview dd { margin: 0; }
 .markdown-section .cs-related { border-top: 1px solid var(--pa-border); margin-top: 40px; padding-top: 8px; font-size: 0.92em; }
-.markdown-section img.cs-fig { display: block; width: 100%; height: auto; margin: 24px 0 16px; }
-.markdown-section img.cs-fig-narrow { display: none; max-width: 480px; margin-left: auto; margin-right: auto; }
+/* Case study graphics: inline SVG drawn by infra/graphics/tariff_graphics.py.
+   Desktop and phone versions sit side by side; the phone one shows at 700px and below.
+   Colours come from the --g-* values below, so the graphics follow light and dark mode. */
+.markdown-section .cs-fig { margin: 24px 0 16px; }
+.markdown-section .cs-fig svg { display: block; width: 100%; height: auto; overflow: visible; }
+.markdown-section .cs-fig .cs-fig-narrow { display: none; max-width: 480px; margin: 0 auto; }
 @media (max-width: 700px) {
-  .markdown-section img.cs-fig-wide { display: none; }
-  .markdown-section img.cs-fig-narrow { display: block; }
+  .markdown-section .cs-fig .cs-fig-wide { display: none; }
+  .markdown-section .cs-fig .cs-fig-narrow { display: block; }
+}
+:root {
+  --g-navy: #14335a;
+  --g-navy-fill: #14335a;
+  --g-teal: #518386;
+  --g-teal-text: #3f6b6e;
+  --g-teal-fill: #46777a;
+  --g-gold: #c9a24a;
+  --g-gold-text: #8a6a22;
+  --g-gold-tint: #fbf6ea;
+  --g-ink: #1f2933;
+  --g-muted: #5f6b7a;
+  --g-fade: #a3abb6;
+  --g-hair: #c4cad1;
+  --g-hair-soft: #e3e6ea;
+  --g-tint: #eef2f7;
+  --g-tint-2: #f7f9fb;
+  --g-tint-line: #c9d3e0;
+}
+html[data-theme="dark"] {
+  --g-navy: #9db8dd;
+  --g-navy-fill: #2f5487;
+  --g-teal: #7fb3b5;
+  --g-teal-text: #8cc2c4;
+  --g-teal-fill: #3d6e71;
+  --g-gold: #d9b45f;
+  --g-gold-text: #e0c07a;
+  --g-gold-tint: #2e2a1e;
+  --g-ink: #e5e7eb;
+  --g-muted: #a3adb9;
+  --g-fade: #6b7280;
+  --g-hair: #4b5563;
+  --g-hair-soft: #374151;
+  --g-tint: #1f2937;
+  --g-tint-2: #182130;
+  --g-tint-line: #4b5563;
 }
 .markdown-section .cs-held { background: #f9eeda; border: 1px dashed #d8b56a; border-radius: 4px; padding: 1px 6px; font-size: 0.9em; color: #6b5520; }
 html[data-theme="dark"] .markdown-section .cs-stats b,

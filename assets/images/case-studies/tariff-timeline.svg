@@ -1,41 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 720 196" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
-  <line x1="6" y1="40" x2="710" y2="40" stroke="#9aa3ad" stroke-width="1.5"/>
-  <path d="M710 35 L720 40 L710 45 Z" fill="#9aa3ad"/>
-  <text x="6" y="22" font-size="12" font-weight="600" fill="#7a5c1a">2009 to 2010</text>
-  <circle cx="12" cy="40" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
-  <text x="6" y="72" font-size="13" font-weight="600" fill="#14335a">Design</text>
-  <text x="6" y="94" font-size="11" fill="#5f6b7a">London pathways,</text>
-  <text x="6" y="110" font-size="11" fill="#5f6b7a">currencies and prices</text>
-  <text x="6" y="126" font-size="11" fill="#5f6b7a">DH: national tariff to</text>
-  <text x="6" y="142" font-size="11" fill="#5f6b7a">build on London work</text>
-  <text x="150" y="22" font-size="12" font-weight="600" fill="#7a5c1a">2011 to 2013</text>
-  <circle cx="156" cy="40" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
-  <text x="150" y="72" font-size="13" font-weight="600" fill="#14335a">Implementation</text>
-  <text x="150" y="94" font-size="11" fill="#5f6b7a">Grouper validated</text>
-  <text x="150" y="110" font-size="11" fill="#5f6b7a">(2011), shadow running</text>
-  <text x="150" y="126" font-size="11" fill="#5f6b7a">North West and South</text>
-  <text x="150" y="142" font-size="11" fill="#5f6b7a">West road tests</text>
-  <text x="150" y="158" font-size="11" fill="#5f6b7a">110+ providers by 2013</text>
-  <text x="294" y="22" font-size="12" font-weight="600" fill="#7a5c1a">2013 to 2016</text>
-  <circle cx="300" cy="40" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
-  <text x="294" y="72" font-size="13" font-weight="600" fill="#14335a">Local government</text>
-  <text x="294" y="94" font-size="11" fill="#5f6b7a">East Midlands, Greater</text>
-  <text x="294" y="110" font-size="11" fill="#5f6b7a">Manchester, Gateshead</text>
-  <text x="294" y="126" font-size="11" fill="#5f6b7a">London borough-level</text>
-  <text x="294" y="142" font-size="11" fill="#5f6b7a">refresh (2014 to 2015)</text>
-  <text x="438" y="22" font-size="12" font-weight="600" fill="#7a5c1a">2017 to 2020</text>
-  <circle cx="444" cy="40" r="6" fill="#fff" stroke="#518386" stroke-width="2.5"/>
-  <text x="438" y="72" font-size="13" font-weight="600" fill="#14335a">Adoption</text>
-  <text x="438" y="94" font-size="11" fill="#5f6b7a">London standard tariff</text>
-  <text x="438" y="110" font-size="11" fill="#5f6b7a">agreed (2017)</text>
-  <text x="438" y="126" font-size="11" fill="#5f6b7a">DHSC guidance (2018)</text>
-  <text x="438" y="142" font-size="11" fill="#5f6b7a">South East regional</text>
-  <text x="438" y="158" font-size="11" fill="#5f6b7a">policy (2020)</text>
-  <text x="582" y="22" font-size="12" font-weight="600" fill="#7a5c1a">2025/26</text>
-  <circle cx="588" cy="40" r="7" fill="#14335a"/>
-  <text x="582" y="72" font-size="13" font-weight="600" fill="#14335a">In use</text>
-  <text x="582" y="94" font-size="11" fill="#5f6b7a">130 services reported</text>
-  <text x="582" y="110" font-size="11" fill="#5f6b7a">as commissioned solely</text>
-  <text x="582" y="126" font-size="11" fill="#5f6b7a">on the tariff</text>
+<svg class="cs-fig-wide" viewBox="0 0 720 356" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
+<path d="M14,222 C260,222 430,134 690,134 L704,134" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M697 128 L705 134 L697 140" style="fill:none;stroke:var(--g-navy,#14335a);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="74.0" cy="220.3" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="74.0" cy="220.3" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="74.0" y1="228.3" x2="74.0" y2="238.3" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="74.0" y="260.3" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2009 to 2010</text>
+<text x="74.0" y="278.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Design</text>
+<text x="74.0" y="298.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">London pathways,</text>
+<text x="74.0" y="314.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">currencies and prices</text>
+<text x="74.0" y="330.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">DH: national tariff to</text>
+<text x="74.0" y="346.3" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">build on London work</text>
+<circle cx="214.0" cy="203.9" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="214.0" cy="203.9" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="214.0" y1="195.9" x2="214.0" y2="187.9" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="214.0" y="181.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">110+ providers by 2013</text>
+<text x="214.0" y="165.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">West road tests</text>
+<text x="214.0" y="149.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">North West and South</text>
+<text x="214.0" y="133.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">shadow running</text>
+<text x="214.0" y="117.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Grouper validated (2011),</text>
+<text x="214.0" y="97.9" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Implementation</text>
+<text x="214.0" y="77.9" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2011 to 2013</text>
+<circle cx="354.0" cy="176.5" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="354.0" cy="176.5" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="354.0" y1="184.5" x2="354.0" y2="194.5" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="354.0" y="216.5" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2013 to 2016</text>
+<text x="354.0" y="234.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Local government</text>
+<text x="354.0" y="254.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">East Midlands, Greater</text>
+<text x="354.0" y="270.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">Manchester, Gateshead</text>
+<text x="354.0" y="286.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">London borough-level</text>
+<text x="354.0" y="302.5" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">refresh (2014 to 2015)</text>
+<circle cx="494.0" cy="150.1" r="6" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-teal,#518386);stroke-width:2"/><circle cx="494.0" cy="150.1" r="2.3" style="fill:var(--g-teal,#518386)"/>
+<line x1="494.0" y1="142.1" x2="494.0" y2="134.1" style="fill:none;stroke:var(--g-hair,#c4cad1);stroke-width:1"/>
+<text x="494.0" y="128.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">policy (2020)</text>
+<text x="494.0" y="112.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">South East regional</text>
+<text x="494.0" y="96.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">DHSC guidance (2018)</text>
+<text x="494.0" y="80.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">agreed (2017)</text>
+<text x="494.0" y="64.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">London standard tariff</text>
+<text x="494.0" y="44.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-teal-text,#3f6b6e)">Adoption</text>
+<text x="494.0" y="24.1" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2017 to 2020</text>
+<circle cx="620.0" cy="136.1" r="8" style="fill:var(--pa-surface,#ffffff);stroke:var(--g-gold,#c9a24a);stroke-width:2.2"/><circle cx="620.0" cy="136.1" r="3.6" style="fill:var(--g-navy,#14335a)"/>
+<line x1="620.0" y1="148.1" x2="620.0" y2="158.1" style="fill:none;stroke:var(--g-gold,#c9a24a);stroke-width:1;stroke-dasharray:2 3"/>
+<text x="620.0" y="180.1" font-family="'Playfair Display', Georgia, serif" font-size="18" text-anchor="middle" style="fill:var(--g-navy,#14335a)">2025/26</text>
+<text x="620.0" y="198.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" font-weight="600" style="fill:var(--g-gold-text,#8a6a22)">In use</text>
+<text x="620.0" y="218.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" font-weight="600" style="fill:var(--g-navy,#14335a)">130 services reported</text>
+<text x="620.0" y="234.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">as commissioned solely</text>
+<text x="620.0" y="250.1" font-family="Inter, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" text-anchor="middle" style="fill:var(--g-muted,#5f6b7a)">on the tariff</text>
 </svg>
