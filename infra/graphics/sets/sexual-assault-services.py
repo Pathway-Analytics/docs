@@ -179,32 +179,33 @@ BODIES = [('NHS England', None), ('Clinical', 'commissioning groups'), ('Local',
 
 
 def who_pays():
-    Y = 68
-    xs = [50 + i * 88 for i in range(8)]
-    d = [label(10, 16, 'Victims who reach the services'),
-         L(10, Y, 700, Y, NAVY, 1.75)]
-    TY = Y + 104                       # the total: one gold dot
-    for i, (x, (a, b)) in enumerate(zip(xs, WP_STEPS)):
-        # each cost line ends on the top edge of the gold dot, spread round it
-        ang = math.radians(-90 + (i - 3.5) * 13)
-        ex, ey = 360 + 6.5 * math.cos(ang), TY + 6.5 * math.sin(ang)
+    # Desktop: two brackets. One adds up the steps into the total (the gold dot);
+    # one splits the total between the six bodies.
+    Y = 80
+    xs = [52 + i * 88 for i in range(8)]          # centred on 360
+    d = [label(10, 16, 'Victims who reach the services'), L(10, 26, 710, 26),
+         L(10, Y, 710, Y, NAVY, 1.75)]
+    for x, (a, b) in zip(xs, WP_STEPS):
         d.append(dot(x, Y))
         if b:
-            d += [T(x, Y - 26, a, 11.5, NAVY, 'middle'), T(x, Y - 12, b, 11.5, NAVY, 'middle')]
+            d += [T(x, Y - 27, a, 11.5, NAVY, 'middle'), T(x, Y - 13, b, 11.5, NAVY, 'middle')]
         else:
-            d.append(T(x, Y - 12, a, 11.5, NAVY, 'middle'))
-        d += [T(x, Y + 24, '£ × victims', 11.5, MUTED, 'middle'),
-              P(f'M{x} {Y + 34} C{x} {Y + 72}, {ex:.1f} {Y + 64}, {ex:.1f} {ey:.1f}', TEAL, 1.25)]
-    d += [focus(360, TY), T(360, TY + 30, 'Total cost of the pathways', 16, NAVY, 'middle', 'bold'),
-          L(360, TY + 40, 360, TY + 58, NAVY, 1.25),
-          label(372, TY + 56, 'Split step by step between six public bodies')]
-    BY = TY + 104
-    bx = [70, 184, 298, 412, 526, 640]
+            d.append(T(x, Y - 13, a, 11.5, NAVY, 'middle'))
+        d += [T(x, Y + 24, '£ × victims', 11.5, MUTED, 'middle'), L(x, Y + 34, x, Y + 44, MUTED, 1)]
+    BY = Y + 44
+    TY = BY + 34
+    d += [L(xs[0], BY, xs[-1], BY, MUTED, 1), L(360, BY, 360, TY - 7, MUTED, 1),
+          focus(360, TY), T(360, TY + 29, 'Total cost of the pathways', 16, NAVY, 'middle', 'bold')]
+    SY = TY + 76
+    bx = [70 + i * 116 for i in range(6)]         # centred on 360
+    d += [L(360, TY + 40, 360, SY, NAVY, 1.5),
+          label(372, TY + 62, 'Split step by step between six public bodies'),
+          L(bx[0], SY, bx[-1], SY, NAVY, 1.5)]
     for x, (a, b) in zip(bx, BODIES):
-        d += [P(f'M360 {TY + 58} C360 {TY + 84}, {x} {TY + 74}, {x} {BY - 8}', NAVY, 1.25), dot(x, BY - 4, NAVY, 4.5),
-              T(x, BY + 18, a, 12.5, NAVY, 'middle')]
+        d += [L(x, SY, x, SY + 18, NAVY, 1.5), dot(x, SY + 22, NAVY, 4.5), T(x, SY + 44, a, 12.5, NAVY, 'middle')]
         if b:
-            d.append(T(x, BY + 34, b, 12.5, NAVY, 'middle'))
+            d.append(T(x, SY + 60, b, 12.5, NAVY, 'middle'))
+    H = SY + 74
 
     X = 22
     m = [label(12, 16, 'Victims who reach the services')]
@@ -224,7 +225,7 @@ def who_pays():
         if i < len(BODIES) - 1:
             m.append(L(X, y + 6, X, y + 22, NAVY, 1.25))
         y += 28
-    return svg(720, BY + 46, WP_TITLE, d), svg(360, y - 6, WP_TITLE, m)
+    return svg(720, H, WP_TITLE, d), svg(360, y - 6, WP_TITLE, m)
 
 
 # =========================================================== cost by need (matrix)
