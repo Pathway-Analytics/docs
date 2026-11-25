@@ -1,4 +1,4 @@
 - [← All sections](/)
 
 - **Reference**
-  - [Style Guide](/style-guide/)
+  - [Website design system](/style-guide/)

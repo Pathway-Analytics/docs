@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" width="720" height="250" role="img" aria-label="Three disciplines, strategy, health economics and digital solutions, converge on the patient and continue together towards better pathways and outcomes: access, equity, quality and value." font-family="Arial, Helvetica, sans-serif">
+<title>Three disciplines, strategy, health economics and digital solutions, converge on the patient and continue together towards better pathways and outcomes: access, equity, quality and value.</title>
+<rect width="720" height="250" fill="#ffffff"/>
+<circle cx="16" cy="47" r="5" fill="#14335a"/>
+<text x="30" y="52" font-size="17" fill="#14335a">Strategy</text>
+<text x="30" y="72" font-size="12" fill="#5f6b7a">Advocacy, leadership and change</text>
+<path d="M268 47 C350 47 372 132 452 132 C540 132 610 124 704 124" fill="none" stroke="#14335a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="16" cy="127" r="5" fill="#518386"/>
+<text x="30" y="132" font-size="17" fill="#14335a">Health Economics</text>
+<text x="30" y="152" font-size="12" fill="#5f6b7a">Funding, incentives and evaluation</text>
+<path d="M268 127 C350 127 372 132 452 132 C540 132 610 132 704 132" fill="none" stroke="#518386" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="16" cy="207" r="5" fill="#c9a24a"/>
+<text x="30" y="212" font-size="17" fill="#14335a">Digital Solutions</text>
+<text x="30" y="232" font-size="12" fill="#5f6b7a">Platforms, analytics and implementation</text>
+<path d="M268 207 C350 207 372 132 452 132 C540 132 610 140 704 140" fill="none" stroke="#c9a24a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="452" cy="132" r="30" fill="#ffffff" stroke="#e3e6ea" stroke-width="1.25"/>
+<circle cx="452" cy="127" r="5.5" fill="none" stroke="#14335a" stroke-width="1.75"/><path d="M441.0 147.0 C442.5 137.0 461.5 137.0 463.0 147.0" fill="none" stroke="#14335a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="452" y="52" font-size="14" text-anchor="middle" font-weight="bold" fill="#3f6b6e">Patient-centred solutions</text>
+<text x="704" y="182" font-size="17" text-anchor="end" fill="#14335a">Better pathways and outcomes</text>
+<text x="704" y="204" font-size="12" text-anchor="end" fill="#3f6b6e">Access · Equity · Quality · Value</text>
+</svg>

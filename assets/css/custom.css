@@ -1,43 +1,84 @@
 /* ==========================================================================
-   Pathway Analytics — Documentation Site Theme
-   Conforms to the pwa-refactor application house style
-   (packages/web/src/app.css): primary #1f4788, blue-600 accent, semantic
-   surface/text/border tokens, light + dark via CSS-variable flip.
+   Pathway Analytics website stylesheet
+   Design System v1.0: the rules are in style-guide/README.md. The values
+   below are the only place colours, fonts and spacing are set; the rest of
+   this file should use these variables rather than hex values.
    ========================================================================== */
 
 /* ==========================================================================
-   1. CUSTOM PROPERTIES — house-style tokens (ported from pwa-refactor)
+   1. DESIGN TOKENS
    ========================================================================== */
 
 :root {
   color-scheme: light;
-  /* Brand */
-  --pa-primary: #1f4788;
-  --pa-primary-hover: #163561;
 
-  /* Semantic surfaces / text / borders (light) — pwa-refactor values */
-  --pa-surface: #ffffff;          /* page background            */
-  --pa-surface-raised: #ffffff;   /* cards / panels             */
-  --pa-surface-sunken: #f3f4f6;   /* wells / inset areas / rows */
-  --pa-surface-hover: #f9fafb;    /* row / control hover        */
-  --pa-text: #111827;             /* gray-900 — primary body    */
-  --pa-text-muted: #4b5563;       /* gray-600 — AA on white     */
-  --pa-text-subtle: #6b7280;      /* gray-500 — hints/meta      */
-  --pa-border: #e5e7eb;           /* gray-200                   */
-  --pa-border-strong: #d1d5db;    /* gray-300                   */
-  --pa-accent: #2563eb;           /* blue-600 — links / accent  */
-  --pa-accent-hover: #1d4ed8;     /* blue-700                   */
+  /* Brand colours: one per discipline. Use for lines, markers and fills. */
+  --pa-navy: #14335a;             /* Strategy */
+  --pa-teal: #518386;             /* Health Economics */
+  --pa-gold: #c9a24a;             /* Digital Solutions */
 
-  /* Status (brief §4) — ≥4.5:1 as text on surface-raised in light */
-  --pa-success: #15803d;          /* green-700 */
-  --pa-warning: #b45309;          /* amber-700 */
-  --pa-danger:  #b91c1c;          /* red-700   */
-  --pa-info:    #1d4ed8;          /* blue-700  */
+  /* Brand colours as text (AA on white and on --pa-surface-sunken) */
+  --pa-navy-text: #14335a;        /* 12.7:1 */
+  --pa-teal-text: #3f6b6e;        /* 5.9:1; also the teal fill behind white text */
+  --pa-gold-text: #7a5c1a;        /* 6.2:1 */
+
+  /* Interface roles */
+  --pa-primary: var(--pa-navy);   /* headings, buttons, active navigation */
+  --pa-primary-hover: #0d2540;
+  --pa-on-primary: #ffffff;       /* text on primary buttons */
+  --pa-accent: var(--pa-navy);    /* links: always underlined in running text */
+  --pa-accent-hover: var(--pa-teal-text);
+  --pa-focus: var(--pa-teal-text);/* keyboard focus ring, 5.9:1 */
+
+  /* Neutrals: the case study greys */
+  --pa-surface: #ffffff;          /* page */
+  --pa-surface-raised: #ffffff;   /* panels on the page */
+  --pa-surface-sunken: #f4f6f8;   /* pale panels, table stripes, code */
+  --pa-surface-hover: #f4f6f8;
+  --pa-text: #1f2933;             /* body text, 14.8:1 */
+  --pa-text-muted: #5f6b7a;       /* secondary text and captions, 5.4:1 */
+  --pa-text-subtle: #5f6b7a;
+  --pa-border: #e3e6ea;           /* dividers */
+  --pa-border-strong: #c4cad1;
+  --pa-border-control: #5f6b7a;   /* form field edges: 3:1 or more */
+
+  /* Figures: analytical graphics sit on a white panel in both modes */
+  --pa-figure-panel: #ffffff;
+  --pa-figure-pad: 0;
+
+  /* Analytical colours. Not the brand colours: they say "which group" or
+     "how much", never "which discipline". Checked for colour-blind
+     separation on white; see style-guide/README.md, "Charts". */
+  --pa-cat-1: #2f6ea8;            /* blue   */
+  --pa-cat-2: #b08a2e;            /* ochre  */
+  --pa-cat-3: #008c82;            /* teal   */
+  --pa-cat-4: #b85a3f;            /* rust   */
+  --pa-cat-5: #7b5ea7;            /* plum   */
+  --pa-cat-6: #5e8f3e;            /* green  */
+  --pa-seq-1: #8fabcf;            /* sequential, light to dark */
+  --pa-seq-2: #6189bb;
+  --pa-seq-3: #3e6aa0;
+  --pa-seq-4: #25497c;
+  --pa-seq-5: #14335a;
+
+  /* Status: reserved meanings, always with a word or icon */
+  --pa-success: #15803d;
+  --pa-warning: #b45309;
+  --pa-danger:  #b91c1c;
+  --pa-info:    #1d4ed8;
 
   /* Docsify theme hook */
   --theme-color: var(--pa-primary);
 
-  /* Spacing — 8px base scale */
+  /* Type */
+  --font-display: 'Playfair Display', Georgia, serif;          /* page titles and editorial headlines */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-graphic: Arial, Helvetica, sans-serif;                 /* inside graphics */
+  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  --font-size-base: 16px;
+  --line-height: 1.7;
+
+  /* Spacing: 8px base scale */
   --space-xs: 8px;
   --space-sm: 16px;
   --space-md: 24px;
@@ -45,38 +86,44 @@
   --space-xl: 48px;
   --space-2xl: 80px;
 
-  /* Type */
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-  --font-size-base: 16px;
-  --line-height: 1.7;
+  /* Corners: kept small; no rounded cards */
+  --pa-radius-control: 4px;
+  --pa-radius-card: 4px;
 
-  /* Radius (pwa-refactor design1: controls 6px, cards 8px) */
-  --pa-radius-control: 6px;
-  --pa-radius-card: 8px;
-
+  /* Widths */
   --content-max-width: 1100px;
-  --article-max-width: 720px;   /* ~75 characters a line for long-form reading */
+  --article-max-width: 720px;     /* about 75 characters a line */
   --sidebar-width: 280px;
   --navbar-height: 64px;
 }
 
-/* Dark theme — pwa-refactor values, tuned for the near-black page bg */
+/* Dark mode: a dark interface; figures keep their white panel */
 html[data-theme="dark"] {
-  color-scheme: dark;             /* native form controls, scrollbars, default colours */
-  --pa-surface: #111827;          /* gray-900 */
-  --pa-surface-raised: #1f2937;   /* gray-800 */
+  color-scheme: dark;
+  --pa-navy-text: #9db8dd;        /* 8.7:1 on the page */
+  --pa-teal-text: #8cc2c4;        /* 9.0:1 */
+  --pa-gold-text: #e0c07a;        /* 10.1:1 */
+
+  --pa-primary: #e8eef8;          /* headings, buttons */
+  --pa-primary-hover: #9db8dd;
+  --pa-on-primary: #111827;       /* dark text on light buttons */
+  --pa-accent: #9db8dd;           /* links */
+  --pa-accent-hover: #e8eef8;
+  --pa-focus: #8cc2c4;
+
+  --pa-surface: #111827;          /* page */
+  --pa-surface-raised: #172033;   /* dark panel */
   --pa-surface-sunken: #0b1220;
-  --pa-surface-hover: #374151;    /* gray-700 */
-  --pa-text: #f3f4f6;             /* gray-100 */
-  --pa-text-muted: #cbd5e1;       /* slate-300 */
-  --pa-text-subtle: #94a3b8;      /* slate-400 */
-  --pa-border: #374151;           /* gray-700 */
-  --pa-border-strong: #4b5563;    /* gray-600 */
-  --pa-primary: #6aa7f8;
-  --pa-primary-hover: #9dc4fb;
-  --pa-accent: #60a5fa;           /* blue-400 */
-  --pa-accent-hover: #93c5fd;     /* blue-300 */
+  --pa-surface-hover: #172033;
+  --pa-text: #e8eef8;             /* light text, 15.2:1 */
+  --pa-text-muted: #cbd5e1;       /* 12.0:1 */
+  --pa-text-subtle: #94a3b8;      /* 6.9:1 */
+  --pa-border: #374151;
+  --pa-border-strong: #4b5563;
+  --pa-border-control: #94a3b8;
+
+  --pa-figure-panel: #ffffff;
+  --pa-figure-pad: 16px;
 
   --pa-success: #4ade80;
   --pa-warning: #fbbf24;
@@ -118,6 +165,16 @@ img { max-width: 100%; height: auto; display: block; }
 
 a { color: var(--pa-accent); text-decoration: none; transition: color 0.15s; }
 a:hover { color: var(--pa-accent-hover); }
+
+/* Links in running text: underlined, so they never rely on colour alone */
+.markdown-section p a:not([class]),
+.markdown-section li a:not([class]),
+.markdown-section td a:not([class]),
+.markdown-section blockquote a:not([class]) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
 
 /* ==========================================================================
    3. NAVBAR
@@ -663,7 +720,7 @@ body.page-article .markdown-section { max-width: min(100%, var(--article-max-wid
   padding: 12px 24px;
   font-size: 0.9em;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--pa-on-primary);
   background: var(--pa-primary);
   border: none;
   border-radius: var(--pa-radius-control);
@@ -818,7 +875,7 @@ body.page-article .markdown-section { max-width: min(100%, var(--article-max-wid
 /* Contact CTA section */
 .section-contact {
   background: var(--pa-primary);
-  color: #ffffff;
+  color: var(--pa-on-primary);
   margin-left: calc(-1 * var(--space-xl));
   margin-right: calc(-1 * var(--space-xl));
   padding: var(--space-2xl) var(--space-xl);
@@ -948,7 +1005,7 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid var(--pa-accent);
+  outline: 2px solid var(--pa-focus);
   outline-offset: 2px;
   border-radius: var(--pa-radius-control);
 }
@@ -963,7 +1020,7 @@ input:focus-visible,
   z-index: -1;
   font-size: 0.85em;
   font-weight: 500;
-  color: #ffffff;
+  color: var(--pa-on-primary);
   background: var(--pa-primary);
   padding: 8px 16px;
   border-radius: 0 0 var(--pa-radius-control) var(--pa-radius-control);
@@ -992,7 +1049,7 @@ input:focus-visible,
 
 .docsify-copy-code-button {
   background: var(--pa-primary) !important;
-  color: #ffffff !important;
+  color: var(--pa-on-primary) !important;
   border-radius: var(--pa-radius-control);
   font-size: 0.75em;
 }
@@ -1160,6 +1217,14 @@ input:focus-visible,
 .markdown-section .mermaid svg { max-width: 100%; height: auto; }
 
 /* Figure caption that follows a diagram or widget */
+/* Analytical figures (images of graphics): a white panel in dark mode */
+.markdown-section img.cs-fig,
+.markdown-section img.pa-figure {
+  background: var(--pa-figure-panel);
+  padding: var(--pa-figure-pad);
+  box-sizing: border-box;
+}
+
 .markdown-section .figure-caption {
   font-size: 0.82em;
   color: var(--pa-text-subtle);
