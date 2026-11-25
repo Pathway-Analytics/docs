@@ -11,7 +11,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-EXCLUDE=("pers-content" "LICENSE")
+EXCLUDE=("pers-content" "LICENSE" "AGENTS" "CLAUDE")
 OUT="assets/js/search-paths.js"
 mkdir -p "$(dirname "$OUT")"
 

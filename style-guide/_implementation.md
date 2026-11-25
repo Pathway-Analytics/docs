@@ -12,7 +12,8 @@ The rules are in [README.md](README.md). This file covers where they live, how t
 | Design tokens | `assets/css/custom.css`, section 1: the `:root` block and the `html[data-theme="dark"]` block | No: the stylesheet |
 | Vector gallery | `style-guide/vector-gallery.html` | Reachable at `/style-guide/vector-gallery.html`; not in the menu, search or sitemap; `noindex` |
 | These notes | `style-guide/_implementation.md` | No |
-| Graphics script | `infra/graphics/pwa_graphics.py` | No |
+| Graphics | `infra/graphics/`: `pwa_graphics.py` draws them, `pwa_style.py` holds the shared rules, `sets/` has one file per case study | No |
+| Instructions for people and AI assistants working on the site | `AGENTS.md` (and `CLAUDE.md`, which points to it) at the repository root | No: excluded from pages and search |
 | Case study figures | `assets/images/case-studies/` | Shown on case study pages |
 | Reusable graphics that are not case study figures | `assets/images/dictionary/` | No |
 | Logo | `assets/images/brand/` | Used across the site |
@@ -33,10 +34,10 @@ Values that changed: primary from the old blue `#1F4788` to navy; links from bri
 
 ## Graphics
 
-All website graphics come from one script, so they share the same rules.
+All website graphics are drawn from the same rules, in `infra/graphics/pwa_style.py`: colours, font and shapes. Each case study has its own set in `infra/graphics/sets/` (`tariff.py`, `signature.py`), so case studies can be drawn and published independently.
 
-1. Add or edit a function in `infra/graphics/pwa_graphics.py`, using its helpers and colour constants only. Draw a desktop version (720 wide) and a phone version (360 wide).
-2. Run `python3 infra/graphics/pwa_graphics.py` from the repository root. It writes the SVG files.
+1. For a new case study, copy `sets/tariff.py` to `sets/<slug>.py`. Use the helpers and colour constants only, and draw a desktop version (720 wide) and a phone version (360 wide) of each graphic.
+2. Run `python3 infra/graphics/pwa_graphics.py <slug>` from the repository root. It writes that set's SVG files. With no name, it draws every set.
 3. Check both versions at full size for overlapping or clipped labels, and the phone version at 390px.
 4. Put the graphic on the page as a pair of images:
    ```html
@@ -71,21 +72,26 @@ The categorical order was found by testing every order of six candidate colour f
 
 On the pale panel `#F4F6F8`, ochre falls to 2.97:1, so charts sit on white. In scatter plots and maps any two colours can touch; there, only slots 1 and 2 stay distinct enough, which is why the guide limits those charts to two colours. The sequential ramp is one hue, gets steadily darker, and its lightest step is 2.4:1 on white.
 
-## Still to do
+## Status: v1.0 implemented and frozen
 
-The work is in five steps:
+Implemented in November 2026 (pull request #5):
 
-1. This pull request: the guide, the tokens, the gallery, and the tariff case study figures redrawn to v1.0.
-2. Apply the tokens across the site. The stylesheet still has about 110 colour values written out in full rather than as tokens. The main ones:
-   - Home page signature graphic (`.pg-*`): its own colours, a gold ring around the patient, and Playfair inside the graphic. It is drawn in the page, so it follows dark mode; decide whether it keeps that or moves to the figure panel.
-   - Venn graphic (`.venn-*`): still uses the old blue `#1F4788` and other golds (`#D9A441`, `#9A6F1F`, `#E8BE6E`, `#ECCA8A`).
-   - Dark mode link colours on the home page (`.ex-link`, `.rc-cta`): `#9DC4FB` instead of `#9DB8DD`.
-   - Case study classes (`.cs-*`): navy and gold written out in full.
-   - Page titles (H1) still use Inter; v1.0 says Playfair Display for major titles.
-   - The square mark `pa-mark.svg` and the SVG wordmarks still use `#1F4788`.
-   - Form fields in the calculators: check their edges use `--pa-border-control`.
-3. Redraw the next case study's graphics with the same script, and add them to the gallery.
-4. Check the home page, navigation, case studies, articles, Tariff Grouper pages, Health Economics Toolkit and calculators on desktop and phone, light and dark.
-5. List anything left as an exception, and why.
+- The tokens are applied across the stylesheet. Brand colours that were written out in full now use the tokens, so text follows dark mode.
+- The old blue `#1F4788`, the bright link blues and the extra golds and teals are gone from the stylesheet.
+- Spaced capitals have been removed from every label style, and page titles use Playfair Display.
+- Every page checked passed WCAG AA text contrast at 1280px and 390px, in light and dark mode, with nothing scrolling sideways on a phone: the home page, the tariff case study, this guide, an insight article, the Health Economics Toolkit and the Tariff Grouper pages.
+
+Exceptions kept on purpose:
+
+- **Home page signature graphic (`.pg-*`):** drawn in the page, not as an image file, so it follows dark mode instead of sitting on a white panel. Its gold ring is switched off. The image-file version is `assets/images/dictionary/convergence.svg`.
+- **Logo files:** the square mark `pa-mark.svg` and the SVG wordmarks still use `#1F4788`. They are left alone until a faithful vector of the master logo exists.
+- **Colours still written out in full:** for example, light text `#E8EEF8` on the navy "work with us" panel, which stays navy in both modes.
+- **The `cs-held` style:** draft-only, for marking text waiting for clearance; it never appears on a published page.
+- **The interactive calculator:** a separate prototype, not yet on the site. When it is added, its form fields use `--pa-border-control`.
+
+Still to come:
+
+- Graphics for further case studies, drawn as their own sets and added to the gallery.
+- Further refinements, made one at a time as new content needs them.
 
 The previous style guide (Roboto, the old blue palette, examples of callouts, navigation cards and code blocks) is in the git history: `git show 84e9618:style-guide/README.md`.

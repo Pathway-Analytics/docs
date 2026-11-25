@@ -4,7 +4,9 @@ description: The Pathway Analytics website design system: colours, type, dark mo
 
 # Website design system
 
-Version 1.0, November 2026. One set of rules for every page and graphic on pathwayanalytics.com, for anyone who edits the site: people, AI assistants and developers. The values are set once, in the design tokens at the top of [`assets/css/custom.css`](https://github.com/Pathway-Analytics/docs/blob/main/assets/css/custom.css). Every reusable graphic is in the [vector gallery](/style-guide/vector-gallery.html ':ignore').
+Version 1.0, November 2026, frozen. One set of rules for every page and graphic on pathwayanalytics.com, for anyone who edits the site: people, AI assistants and developers. The values are set once, in the design tokens at the top of [`assets/css/custom.css`](https://github.com/Pathway-Analytics/docs/blob/main/assets/css/custom.css). Every reusable graphic is in the [vector gallery](/style-guide/vector-gallery.html ':ignore').
+
+Version 1.0 is the default for every new page and case study. New content uses it as it stands. A change to the design system itself is made in its own pull request, updating the tokens, this guide and the gallery together.
 
 ## Principles
 
