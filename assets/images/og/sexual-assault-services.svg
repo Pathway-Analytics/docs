@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627" font-family="Inter, 'DejaVu Sans', sans-serif">
+<rect width="1200" height="627" fill="#ffffff"/>
+<rect x="0" y="0" width="400" height="10" fill="#14335a"/><rect x="400" y="0" width="400" height="10" fill="#518386"/><rect x="800" y="0" width="400" height="10" fill="#c9a24a"/>
+<text x="80" y="78" font-size="20" font-weight="600" letter-spacing="2" fill="#5f6b7a">CASE STUDY</text>
+<text x="80" y="148" font-size="54" font-weight="700" fill="#14335a">Designing a national funding framework</text>
+<text x="80" y="214" font-size="54" font-weight="700" fill="#14335a">for sexual assault services</text>
+<text x="80" y="266" font-size="27" fill="#4b5563">Funding that follows each victim's need, not historical budgets</text>
+<line x1="80" y1="372" x2="1100" y2="372" stroke="#9aa3ad" stroke-width="3"/>
+<path d="M1100 362 L1120 372 L1100 382 Z" fill="#9aa3ad"/>
+<text x="80" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2012</text>
+<circle cx="90" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="80" y="420" font-size="24" font-weight="600" fill="#14335a">Four-site pilot</text>
+<text x="300" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2014</text>
+<circle cx="310" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="300" y="420" font-size="24" font-weight="600" fill="#14335a">National survey</text>
+<text x="520" y="340" font-size="24" font-weight="600" fill="#7a5c1a">Oct 2014</text>
+<circle cx="530" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="520" y="420" font-size="24" font-weight="600" fill="#14335a">72 pathways</text>
+<text x="740" y="340" font-size="24" font-weight="600" fill="#7a5c1a">Nov 2014</text>
+<circle cx="750" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="740" y="420" font-size="24" font-weight="600" fill="#14335a">29 agreed</text>
+<text x="940" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2015</text>
+<circle cx="952" cy="372" r="13" fill="#14335a"/>
+<text x="940" y="420" font-size="24" font-weight="600" fill="#14335a">Funding model</text>
+<line x1="80" y1="520" x2="1120" y2="520" stroke="#e3e6ea" stroke-width="2"/>
+<text x="80" y="574" font-size="30" font-weight="600" fill="#14335a">Pathway Analytics</text>
+<text x="1120" y="574" font-size="22" fill="#5f6b7a" text-anchor="end">Strategy · Health Economics</text>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 720 406" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
+  </defs>
+  <text x="0" y="16" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">COSTING A CLIENT PATHWAY: COMPONENTS × LEVEL OF NEED</text>
+  <rect x="338" y="46" width="124" height="270" fill="#ffffff" rx="10" stroke="#c9a24a" stroke-width="2.5"/>
+  <rect x="222" y="54" width="108" height="32" fill="#e3ecee" rx="3" stroke="#b8bec6" stroke-width="0.8"/>
+  <text x="276" y="75" font-size="13" fill="#14335a" font-weight="600" text-anchor="middle">Ongoing</text>
+  <rect x="346" y="54" width="108" height="32" fill="#a8c5c6" rx="3"/>
+  <text x="400" y="75" font-size="13" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
+  <rect x="470" y="54" width="108" height="32" fill="#46777a" rx="3"/>
+  <text x="524" y="75" font-size="13" fill="#ffffff" font-weight="600" text-anchor="middle">Complex</text>
+  <rect x="594" y="54" width="108" height="32" fill="#14335a" rx="3"/>
+  <text x="648" y="75" font-size="13" fill="#ffffff" font-weight="600" text-anchor="middle">Acute</text>
+  <polygon points="0,98 176,98 190,115 176,132 0,132" fill="#14335a"/>
+  <text x="14" y="120" font-size="12.5" fill="#ffffff" font-weight="600">Initial contact</text>
+  <rect x="222" y="98" width="108" height="34" fill="#e3ecee" rx="3" stroke="#b8bec6" stroke-width="0.8"/>
+  <text x="276" y="120.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">£</text>
+  <rect x="346" y="98" width="108" height="34" fill="#a8c5c6" rx="3"/>
+  <text x="400" y="120.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">££</text>
+  <rect x="470" y="98" width="108" height="34" fill="#46777a" rx="3"/>
+  <text x="524" y="120.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">£££</text>
+  <rect x="594" y="98" width="108" height="34" fill="#14335a" rx="3"/>
+  <text x="648" y="120.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">££££</text>
+  <polygon points="0,142 176,142 190,159 176,176 0,176" fill="#14335a"/>
+  <text x="14" y="164" font-size="12.5" fill="#ffffff" font-weight="600">Risk assessment</text>
+  <rect x="222" y="142" width="108" height="34" fill="#e3ecee" rx="3" stroke="#b8bec6" stroke-width="0.8"/>
+  <text x="276" y="164.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">£</text>
+  <rect x="346" y="142" width="108" height="34" fill="#a8c5c6" rx="3"/>
+  <text x="400" y="164.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">££</text>
+  <rect x="470" y="142" width="108" height="34" fill="#46777a" rx="3"/>
+  <text x="524" y="164.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">£££</text>
+  <rect x="594" y="142" width="108" height="34" fill="#14335a" rx="3"/>
+  <text x="648" y="164.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">££££</text>
+  <polygon points="0,186 176,186 190,203 176,220 0,220" fill="#14335a"/>
+  <text x="14" y="208" font-size="12.5" fill="#ffffff" font-weight="600">Verbal evidence</text>
+  <rect x="222" y="186" width="108" height="34" fill="#eef0f2" rx="3" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="276" y="207.5" font-size="10.5" fill="#5f6b7a" text-anchor="middle">Not needed</text>
+  <rect x="346" y="186" width="108" height="34" fill="#a8c5c6" rx="3"/>
+  <text x="400" y="208.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">££</text>
+  <rect x="470" y="186" width="108" height="34" fill="#46777a" rx="3"/>
+  <text x="524" y="208.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">£££</text>
+  <rect x="594" y="186" width="108" height="34" fill="#14335a" rx="3"/>
+  <text x="648" y="208.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">££££</text>
+  <polygon points="0,230 176,230 190,247 176,264 0,264" fill="#14335a"/>
+  <text x="14" y="252" font-size="12.5" fill="#ffffff" font-weight="600">Forensic examination</text>
+  <rect x="222" y="230" width="108" height="34" fill="#eef0f2" rx="3" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="276" y="251.5" font-size="10.5" fill="#5f6b7a" text-anchor="middle">Not needed</text>
+  <rect x="346" y="230" width="108" height="34" fill="#a8c5c6" rx="3"/>
+  <text x="400" y="252.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">££</text>
+  <rect x="470" y="230" width="108" height="34" fill="#46777a" rx="3"/>
+  <text x="524" y="252.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">£££</text>
+  <rect x="594" y="230" width="108" height="34" fill="#14335a" rx="3"/>
+  <text x="648" y="252.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">££££</text>
+  <polygon points="0,274 176,274 190,291 176,308 0,308" fill="#14335a"/>
+  <text x="14" y="296" font-size="12.5" fill="#ffffff" font-weight="600">Needs assessment</text>
+  <rect x="222" y="274" width="108" height="34" fill="#e3ecee" rx="3" stroke="#b8bec6" stroke-width="0.8"/>
+  <text x="276" y="296.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">£</text>
+  <rect x="346" y="274" width="108" height="34" fill="#a8c5c6" rx="3"/>
+  <text x="400" y="296.5" font-size="14" fill="#14335a" font-weight="600" text-anchor="middle">££</text>
+  <rect x="470" y="274" width="108" height="34" fill="#46777a" rx="3"/>
+  <text x="524" y="296.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">£££</text>
+  <rect x="594" y="274" width="108" height="34" fill="#14335a" rx="3"/>
+  <text x="648" y="296.5" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">££££</text>
+  <line x1="400" y1="316" x2="400" y2="336" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="230" y="338" width="340" height="34" fill="#c9a24a" rx="6"/>
+  <text x="400" y="360" font-size="12.5" fill="#14335a" font-weight="600" text-anchor="middle">Cost of one client's pathway at this level</text>
+  <text x="400" y="39" font-size="11" fill="#7a5c1a" font-weight="600" text-anchor="middle">Level chosen</text>
+  <text x="0" y="398" font-size="11.5" fill="#1f2933">Higher need adds staff time, specialist input such as interpreters, and sometimes extra steps</text>
+</svg>
