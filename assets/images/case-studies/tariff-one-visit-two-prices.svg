@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 720 230" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
   <text x="0" y="16" font-size="12" font-weight="600" fill="#5f6b7a" letter-spacing="1">ONE VISIT: A CHANGE FROM THE PILL TO A LONG-ACTING METHOD</text>
-  <text x="0" y="52" font-size="12.5" fill="#14335a" font-weight="600">Integrated tariff</text>
+  <text x="0" y="52" font-size="12.5" fill="#14335a" font-weight="600">Integrated tariff, 2013 prices</text>
   <rect x="0" y="62" width="344.6" height="30" fill="#14335a"/>
   <text x="10" y="82" font-size="11.5" fill="#fff">LARC procedure · Primary £114.88</text>
   <rect x="344.6" y="62" width="95.7" height="30" fill="#518386"/>
@@ -17,5 +17,4 @@
   <line x1="496.2" y1="140" x2="496.2" y2="182" stroke="#c9a24a" stroke-width="1.5"/>
   <text x="440.3" y="200" font-size="11.5" fill="#9a7428">£18.62 shared care,</text>
   <text x="440.3" y="215" font-size="11.5" fill="#9a7428">not paid twice</text>
-  <text x="0" y="215" font-size="11.5" fill="#5f6b7a">Prices from the 2013 tariff</text>
 </svg>

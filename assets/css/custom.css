@@ -1780,6 +1780,10 @@ html[data-theme="dark"] .markdown-section .rs-num { color: #e8eef8; }
 .markdown-section .cs-tags .cs-gold { color: #8a6a22; }
 .markdown-section .cs-project { font-style: italic; color: var(--pa-text-muted); margin: -4px 0 16px; }
 .markdown-section .cs-standfirst { font-size: 1.15em; line-height: 1.55; margin: 0 0 28px; }
+.markdown-section .cs-standfirst:has(+ .cs-standfirst) { margin-bottom: 12px; }
+.markdown-section .cs-contents { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: -12px 0 36px; padding: 0 0 12px; border-bottom: 1px solid var(--pa-border); font-size: 0.9em; }
+.markdown-section .cs-contents a { color: #14335a; font-weight: 500; text-decoration: none; }
+.markdown-section .cs-contents a:hover { color: #518386; text-decoration: underline; }
 .markdown-section .cs-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--pa-border); border-bottom: 1px solid var(--pa-border); margin: 0 0 24px; }
 .markdown-section .cs-stats > div { padding: 18px 18px 16px 0; }
 .markdown-section .cs-stats > div + div { padding-left: 18px; border-left: 1px solid var(--pa-border); }
@@ -1793,7 +1797,8 @@ html[data-theme="dark"] .markdown-section .rs-num { color: #e8eef8; }
 .markdown-section .cs-held { background: #f9eeda; border: 1px dashed #d8b56a; border-radius: 4px; padding: 1px 6px; font-size: 0.9em; color: #6b5520; }
 html[data-theme="dark"] .markdown-section .cs-stats b,
 html[data-theme="dark"] .markdown-section .cs-overview dt,
-html[data-theme="dark"] .markdown-section .cs-tags .cs-navy { color: #9db8dd; }
+html[data-theme="dark"] .markdown-section .cs-tags .cs-navy,
+html[data-theme="dark"] .markdown-section .cs-contents a { color: #9db8dd; }
 @media (max-width: 640px) {
   .markdown-section .cs-stats { grid-template-columns: 1fr; }
   .markdown-section .cs-stats > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--pa-border); }

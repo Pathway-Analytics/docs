@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 720 406" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect x="40" y="1" width="640" height="60" rx="8" fill="#f4f6f8"/>
+  <text x="360" y="27" font-size="15" font-weight="600" fill="#14335a" text-anchor="middle">Diagnosing a systemic funding problem</text>
+  <text x="360" y="47" font-size="12.5" fill="#5f6b7a" text-anchor="middle">Unequal funding and misaligned incentives</text>
+  <line x1="360" y1="66" x2="360" y2="80" stroke="#9aa3ad" stroke-width="1.5"/>
+  <path d="M355 78 L360 84 L365 78" fill="none" stroke="#9aa3ad" stroke-width="1.5"/>
+  <rect x="40" y="87" width="640" height="60" rx="8" fill="#f4f6f8"/>
+  <text x="360" y="113" font-size="15" font-weight="600" fill="#14335a" text-anchor="middle">Designing an economically robust alternative</text>
+  <text x="360" y="133" font-size="12.5" fill="#5f6b7a" text-anchor="middle">Clinical pathways, resource costing and payment methodology</text>
+  <line x1="360" y1="152" x2="360" y2="166" stroke="#9aa3ad" stroke-width="1.5"/>
+  <path d="M355 164 L360 170 L365 164" fill="none" stroke="#9aa3ad" stroke-width="1.5"/>
+  <rect x="40" y="173" width="640" height="60" rx="8" fill="#f4f6f8"/>
+  <text x="360" y="199" font-size="15" font-weight="600" fill="#14335a" text-anchor="middle">Securing consensus across competing interests</text>
+  <text x="360" y="219" font-size="12.5" fill="#5f6b7a" text-anchor="middle">Clinical engagement, financial scrutiny and impact modelling</text>
+  <line x1="360" y1="238" x2="360" y2="252" stroke="#9aa3ad" stroke-width="1.5"/>
+  <path d="M355 250 L360 256 L365 250" fill="none" stroke="#9aa3ad" stroke-width="1.5"/>
+  <rect x="40" y="259" width="640" height="60" rx="8" fill="#f4f6f8"/>
+  <text x="360" y="285" font-size="15" font-weight="600" fill="#14335a" text-anchor="middle">Making reform operationally possible</text>
+  <text x="360" y="305" font-size="12.5" fill="#5f6b7a" text-anchor="middle">Bespoke software and practical implementation</text>
+  <line x1="360" y1="324" x2="360" y2="338" stroke="#9aa3ad" stroke-width="1.5"/>
+  <path d="M355 336 L360 342 L365 336" fill="none" stroke="#9aa3ad" stroke-width="1.5"/>
+  <rect x="40" y="345" width="640" height="60" rx="8" fill="#14335a"/>
+  <text x="360" y="371" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Achieving enduring adoption without a national mandate</text>
+  <text x="360" y="391" font-size="12.5" fill="#d6e0ec" text-anchor="middle">A funding methodology still in use more than a decade later</text>
+</svg>
