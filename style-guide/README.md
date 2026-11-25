@@ -110,9 +110,14 @@ Charts use analytical colours, kept separate from the brand colours. Analytical 
 
 **Categorical** (services, interventions, groups), always assigned in this order:
 
-| Slot | 1 | 2 | 3 | 4 | 5 | 6 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Colour | Blue `#2F6EA8` | Ochre `#B08A2E` | Teal `#008C82` | Rust `#B85A3F` | Plum `#7B5EA7` | Green `#5E8F3E` |
+| Order | Colour | Value |
+| --- | --- | --- |
+| 1 | Blue | `#2F6EA8` |
+| 2 | Ochre | `#B08A2E` |
+| 3 | Teal | `#008C82` |
+| 4 | Rust | `#B85A3F` |
+| 5 | Plum | `#7B5EA7` |
+| 6 | Green | `#5E8F3E` |
 
 - In this order, neighbouring colours stay distinct for people with red-green colour blindness, and every colour reaches 3:1 on white.
 - More than six groups: combine the smallest into "Other", or use small multiples. Never invent a seventh colour.

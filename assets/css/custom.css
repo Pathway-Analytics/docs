@@ -643,6 +643,11 @@ body.page-article .markdown-section { max-width: min(100%, var(--article-max-wid
   font-size: 0.9em;
 }
 
+/* A table wider than a phone scrolls inside itself, never the page */
+@media (max-width: 700px) {
+  .markdown-section table { display: block; overflow-x: auto; }
+}
+
 .markdown-section th {
   background: var(--pa-surface-sunken);
   color: var(--pa-text);
