@@ -1762,3 +1762,40 @@ body.no-sidebar .markdown-section { max-width: 1240px; }
 .markdown-section .rs-num { font-family: 'Playfair Display', Georgia, serif; font-size: 2.6rem; line-height: 1.1; color: #14335a; font-variant-numeric: lining-nums; }
 html[data-theme="dark"] .markdown-section .rs-num { color: #e8eef8; }
 .markdown-section .rs-label { margin-top: 6px; font-size: 0.95rem; color: var(--pa-text-muted); }
+
+/* ==========================================================================
+   CASE STUDY PAGES (flagship template)
+   Strand colours match the pathway graphic: Strategy navy, Health
+   Economics teal, Digital Solutions muted gold.
+   ========================================================================== */
+
+.markdown-section .cs-rule { display: flex; height: 6px; margin: 8px 0 18px; }
+.markdown-section .cs-rule span { flex: 1; }
+.markdown-section .cs-rule .cs-navy { background: #14335a; }
+.markdown-section .cs-rule .cs-teal { background: #518386; }
+.markdown-section .cs-rule .cs-gold { background: #c9a24a; }
+.markdown-section .cs-tags { font-size: 0.75em; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pa-text-subtle); margin: 0 0 4px; }
+.markdown-section .cs-tags .cs-navy { color: #14335a; }
+.markdown-section .cs-tags .cs-teal { color: #3f6b6e; }
+.markdown-section .cs-tags .cs-gold { color: #8a6a22; }
+.markdown-section .cs-project { font-style: italic; color: var(--pa-text-muted); margin: -4px 0 16px; }
+.markdown-section .cs-standfirst { font-size: 1.15em; line-height: 1.55; margin: 0 0 28px; }
+.markdown-section .cs-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--pa-border); border-bottom: 1px solid var(--pa-border); margin: 0 0 24px; }
+.markdown-section .cs-stats > div { padding: 18px 18px 16px 0; }
+.markdown-section .cs-stats > div + div { padding-left: 18px; border-left: 1px solid var(--pa-border); }
+.markdown-section .cs-stats b { display: block; font-size: 2.4em; font-weight: 400; line-height: 1; color: #14335a; }
+.markdown-section .cs-stats span { display: block; margin-top: 8px; font-size: 0.85em; color: var(--pa-text-muted); }
+.markdown-section .cs-overview { border: 1px solid var(--pa-border); border-radius: var(--pa-radius-card); padding: 16px 20px; margin: 0 0 36px; font-size: 0.9em; }
+.markdown-section .cs-overview dl { display: grid; grid-template-columns: 120px 1fr; gap: 6px 16px; margin: 0; }
+.markdown-section .cs-overview dt { font-weight: 600; color: #14335a; }
+.markdown-section .cs-overview dd { margin: 0; }
+.markdown-section .cs-related { border-top: 1px solid var(--pa-border); margin-top: 40px; padding-top: 8px; font-size: 0.92em; }
+.markdown-section .cs-held { background: #f9eeda; border: 1px dashed #d8b56a; border-radius: 4px; padding: 1px 6px; font-size: 0.9em; color: #6b5520; }
+html[data-theme="dark"] .markdown-section .cs-stats b,
+html[data-theme="dark"] .markdown-section .cs-overview dt,
+html[data-theme="dark"] .markdown-section .cs-tags .cs-navy { color: #9db8dd; }
+@media (max-width: 640px) {
+  .markdown-section .cs-stats { grid-template-columns: 1fr; }
+  .markdown-section .cs-stats > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--pa-border); }
+  .markdown-section .cs-overview dl { grid-template-columns: 1fr; }
+}

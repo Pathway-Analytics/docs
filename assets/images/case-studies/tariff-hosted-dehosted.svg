@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
+  </defs>
+  <!-- Panel titles -->
+  <text x="10" y="20" font-size="13" font-weight="600" fill="#14335a">HOSTED</text>
+  <text x="10" y="38" font-size="12.5" fill="#5f6b7a">Pays for everyone its local clinics see</text>
+  <text x="370" y="20" font-size="13" font-weight="600" fill="#518386">DE-HOSTED</text>
+  <text x="370" y="38" font-size="12.5" fill="#5f6b7a">Pays for its own residents, wherever they are seen</text>
+  <!-- Panel 1 -->
+  <g transform="translate(0,52)">
+    <rect x="10" y="0" width="340" height="230" rx="10" fill="#f4f6f8"/>
+    <text x="22" y="20" font-size="11" fill="#5f6b7a">Elsewhere</text>
+    <rect x="70" y="34" width="200" height="150" rx="10" fill="#fff" stroke="#14335a" stroke-width="1.5"/>
+    <text x="82" y="54" font-size="11" fill="#14335a" font-weight="600">Commissioner's area</text>
+    <rect x="150" y="70" width="104" height="42" rx="6" fill="#14335a"/>
+    <text x="202" y="96" font-size="11.5" fill="#fff" text-anchor="middle">Local clinics</text>
+    <!-- A -->
+    <circle cx="110" cy="92" r="16" fill="#14335a"/><text x="110" y="97" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">A</text>
+    <line x1="127" y1="92" x2="146" y2="92" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+    <!-- B: local resident seen elsewhere -->
+    <circle cx="110" cy="150" r="16" fill="#fff" stroke="#9aa3ad" stroke-width="1.5"/><text x="110" y="155" font-size="13" fill="#9aa3ad" text-anchor="middle" font-weight="600">B</text>
+    <rect x="286" y="160" width="56" height="34" rx="6" fill="#d9dde2"/><text x="314" y="181" font-size="10.5" fill="#5f6b7a" text-anchor="middle">Clinic</text>
+    <path d="M126,152 C200,175 240,180 282,178" fill="none" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+    <!-- C: visitor seen locally -->
+    <circle cx="310" cy="70" r="16" fill="#14335a"/><text x="310" y="75" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">C</text>
+    <line x1="294" y1="76" x2="258" y2="88" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+    <text x="22" y="214" font-size="12" fill="#14335a" font-weight="600">Pays for A + C</text>
+  </g>
+  <!-- Panel 2 -->
+  <g transform="translate(360,52)">
+    <rect x="10" y="0" width="340" height="230" rx="10" fill="#f4f6f8"/>
+    <text x="22" y="20" font-size="11" fill="#5f6b7a">Elsewhere</text>
+    <rect x="70" y="34" width="200" height="150" rx="10" fill="#fff" stroke="#518386" stroke-width="1.5"/>
+    <text x="82" y="54" font-size="11" fill="#518386" font-weight="600">Commissioner's area</text>
+    <rect x="150" y="70" width="104" height="42" rx="6" fill="#518386"/>
+    <text x="202" y="96" font-size="11.5" fill="#fff" text-anchor="middle">Local clinics</text>
+    <circle cx="110" cy="92" r="16" fill="#518386"/><text x="110" y="97" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">A</text>
+    <line x1="127" y1="92" x2="146" y2="92" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+    <circle cx="110" cy="150" r="16" fill="#518386"/><text x="110" y="155" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">B</text>
+    <rect x="286" y="160" width="56" height="34" rx="6" fill="#d9dde2"/><text x="314" y="181" font-size="10.5" fill="#5f6b7a" text-anchor="middle">Clinic</text>
+    <path d="M126,152 C200,175 240,180 282,178" fill="none" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+    <circle cx="310" cy="70" r="16" fill="#fff" stroke="#9aa3ad" stroke-width="1.5"/><text x="310" y="75" font-size="13" fill="#9aa3ad" text-anchor="middle" font-weight="600">C</text>
+    <line x1="294" y1="76" x2="258" y2="88" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+    <text x="22" y="214" font-size="12" fill="#518386" font-weight="600">Pays for A + B</text>
+  </g>
+</svg>
