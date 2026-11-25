@@ -1,67 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 720 318" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
-  <defs>
-    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
-  </defs>
-  <text x="0" y="16" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">EACH STEP COSTED, ADDED UP, THEN SPLIT BY WHO PAYS</text>
-  <rect x="0" y="30" width="236" height="28" fill="#f4f6f8" rx="14"/>
-  <text x="118" y="48.5" font-size="12" fill="#14335a" font-weight="600" text-anchor="middle">Victims who reach the services</text>
-  <line x1="44" y1="58" x2="44" y2="74" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
-  <polygon points="0,78 86,78 96,100 86,122 0,122" fill="#14335a"/>
-  <text x="45" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Initial</text>
-  <text x="45" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">contact</text>
-  <text x="45" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="88,78 174,78 184,100 174,122 88,122 98,100" fill="#14335a"/>
-  <text x="138" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Risk</text>
-  <text x="138" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">assessment</text>
-  <text x="138" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="176,78 262,78 272,100 262,122 176,122 186,100" fill="#14335a"/>
-  <text x="226" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Forensic</text>
-  <text x="226" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">examination</text>
-  <text x="226" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="264,78 350,78 360,100 350,122 264,122 274,100" fill="#14335a"/>
-  <text x="314" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Verbal</text>
-  <text x="314" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">evidence</text>
-  <text x="314" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="352,78 438,78 448,100 438,122 352,122 362,100" fill="#14335a"/>
-  <text x="402" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Needs</text>
-  <text x="402" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">assessment</text>
-  <text x="402" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="440,78 526,78 536,100 526,122 440,122 450,100" fill="#14335a"/>
-  <text x="490" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Follow-up</text>
-  <text x="490" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">support</text>
-  <text x="490" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="528,78 614,78 624,100 614,122 528,122 538,100" fill="#14335a"/>
-  <text x="578" y="104" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Counselling</text>
-  <text x="578" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <polygon points="616,78 702,78 712,100 702,122 616,122 626,100" fill="#14335a"/>
-  <text x="666" y="97" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Court</text>
-  <text x="666" y="111" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">support</text>
-  <text x="666" y="140" font-size="11" fill="#5f6b7a" text-anchor="middle">£ × victims</text>
-  <line x1="45" y1="150" x2="45" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="138" y1="150" x2="138" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="226" y1="150" x2="226" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="314" y1="150" x2="314" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="402" y1="150" x2="402" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="490" y1="150" x2="490" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="578" y1="150" x2="578" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="666" y1="150" x2="666" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="45" y1="158" x2="666" y2="158" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="360" y1="158" x2="360" y2="174" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="220" y="176" width="280" height="34" fill="#c9a24a" rx="6"/>
-  <text x="360" y="198" font-size="13" fill="#14335a" font-weight="600" text-anchor="middle">Total cost of the pathways</text>
-  <line x1="360" y1="210" x2="360" y2="234" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="372" y="227" font-size="12.5" fill="#14335a" font-weight="600">Split between six public bodies, step by step</text>
-  <rect x="10.93" y="242" width="87.78" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
-  <text x="54.82" y="260" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">NHS England</text>
-  <rect x="106.71" y="242" width="195.42" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
-  <text x="204.42" y="260" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Clinical commissioning groups</text>
-  <rect x="310.13" y="242" width="123.66" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
-  <text x="371.96" y="260" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Local authorities</text>
-  <rect x="441.79" y="242" width="57.88" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
-  <text x="470.73" y="260" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Police</text>
-  <rect x="507.67" y="242" width="201.4" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
-  <text x="608.37" y="260" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Police and Crime Commissioners</text>
-  <rect x="292.19" y="278" width="135.62" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
-  <text x="360" y="296" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Ministry of Justice</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 322" width="720" height="322" role="img" aria-label="Each step of the pathway, from initial contact to court support, is costed and multiplied by the number of victims who use it. The steps add up to the total cost of the pathways, which is split step by step between NHS England, clinical commissioning groups, local authorities, the police, Police and Crime Commissioners and the Ministry of Justice. A proposed allocation, not an agreed settlement." font-family="Arial, Helvetica, sans-serif">
+<title>Each step of the pathway, from initial contact to court support, is costed and multiplied by the number of victims who use it. The steps add up to the total cost of the pathways, which is split step by step between NHS England, clinical commissioning groups, local authorities, the police, Police and Crime Commissioners and the Ministry of Justice. A proposed allocation, not an agreed settlement.</title>
+<rect width="720" height="322" fill="#ffffff"/>
+<text x="10" y="16" font-size="12" font-weight="bold" fill="#5f6b7a">Victims who reach the services</text>
+<line x1="10" y1="68" x2="700" y2="68" stroke="#14335a" stroke-width="1.75"/>
+<circle cx="50" cy="68" r="4.5" fill="#14335a"/>
+<text x="50" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Initial</text>
+<text x="50" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">contact</text>
+<text x="50" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M50 102 C50 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="138" cy="68" r="4.5" fill="#14335a"/>
+<text x="138" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Risk</text>
+<text x="138" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">assessment</text>
+<text x="138" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M138 102 C138 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="226" cy="68" r="4.5" fill="#14335a"/>
+<text x="226" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Forensic</text>
+<text x="226" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">examination</text>
+<text x="226" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M226 102 C226 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="314" cy="68" r="4.5" fill="#14335a"/>
+<text x="314" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Verbal</text>
+<text x="314" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">evidence</text>
+<text x="314" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M314 102 C314 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="402" cy="68" r="4.5" fill="#14335a"/>
+<text x="402" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Needs</text>
+<text x="402" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">assessment</text>
+<text x="402" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M402 102 C402 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="490" cy="68" r="4.5" fill="#14335a"/>
+<text x="490" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Follow-up</text>
+<text x="490" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">support</text>
+<text x="490" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M490 102 C490 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="578" cy="68" r="4.5" fill="#14335a"/>
+<text x="578" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">Counselling</text>
+<text x="578" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M578 102 C578 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="666" cy="68" r="4.5" fill="#14335a"/>
+<text x="666" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Court</text>
+<text x="666" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">support</text>
+<text x="666" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
+<path d="M666 102 C666 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="360" cy="172" r="6.5" fill="#c9a24a"/>
+<text x="360" y="202" font-size="16" text-anchor="middle" font-weight="bold" fill="#14335a">Total cost of the pathways</text>
+<line x1="360" y1="212" x2="360" y2="230" stroke="#14335a" stroke-width="1.25"/>
+<text x="372" y="228" font-size="12" font-weight="bold" fill="#5f6b7a">Split step by step between six public bodies</text>
+<path d="M360 230 C360 256, 70 246, 70 268" fill="none" stroke="#14335a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="272" r="4.5" fill="#14335a"/>
+<text x="70" y="294" font-size="12.5" text-anchor="middle" fill="#14335a">NHS England</text>
+<path d="M360 230 C360 256, 184 246, 184 268" fill="none" stroke="#14335a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="184" cy="272" r="4.5" fill="#14335a"/>
+<text x="184" y="294" font-size="12.5" text-anchor="middle" fill="#14335a">Clinical</text>
+<text x="184" y="310" font-size="12.5" text-anchor="middle" fill="#14335a">commissioning groups</text>
+<path d="M360 230 C360 256, 298 246, 298 268" fill="none" stroke="#14335a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="298" cy="272" r="4.5" fill="#14335a"/>
+<text x="298" y="294" font-size="12.5" text-anchor="middle" fill="#14335a">Local</text>
+<text x="298" y="310" font-size="12.5" text-anchor="middle" fill="#14335a">authorities</text>
+<path d="M360 230 C360 256, 412 246, 412 268" fill="none" stroke="#14335a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="412" cy="272" r="4.5" fill="#14335a"/>
+<text x="412" y="294" font-size="12.5" text-anchor="middle" fill="#14335a">Police</text>
+<path d="M360 230 C360 256, 526 246, 526 268" fill="none" stroke="#14335a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="526" cy="272" r="4.5" fill="#14335a"/>
+<text x="526" y="294" font-size="12.5" text-anchor="middle" fill="#14335a">Police and Crime</text>
+<text x="526" y="310" font-size="12.5" text-anchor="middle" fill="#14335a">Commissioners</text>
+<path d="M360 230 C360 256, 640 246, 640 268" fill="none" stroke="#14335a" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="640" cy="272" r="4.5" fill="#14335a"/>
+<text x="640" y="294" font-size="12.5" text-anchor="middle" fill="#14335a">Ministry</text>
+<text x="640" y="310" font-size="12.5" text-anchor="middle" fill="#14335a">of Justice</text>
 </svg>
