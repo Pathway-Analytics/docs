@@ -421,8 +421,8 @@ def care_to_charging():
              (xs[2], 'Grouping', ['Visits matched to', 'currencies and prices']),
              (xs[3], 'Charging', ['Charges allocated to', 'the council that pays'])]
     for x, n, ls in steps:
-        d.append(T(x, 144, n, 19, 'navy', PF, 'middle'))
-        for j, l in enumerate(ls): d.append(T(x, 164 + j * 16, l, 11.5, 'muted', IN, 'middle'))
+        d.append(T(x, 148, n, 19, 'navy', PF, 'middle'))
+        for j, l in enumerate(ls): d.append(T(x, 167 + j * 16, l, 11.5, 'muted', IN, 'middle'))
     d.append(L(20, 198, 340, 198, 'hair-soft', 1)); d.append(L(380, 198, 700, 198, 'hair-soft', 1))
     for j, l in enumerate(PROV_NOTES): d.append(T(20, 222 + j * 18, l, 12, 'ink'))
     for j, l in enumerate(GROUPER_NOTES): d.append(T(380, 222 + j * 18, l, 12, 'ink'))
