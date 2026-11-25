@@ -97,5 +97,4 @@ image: /assets/images/og/default.png
   <h2 class="section-title">Work with us</h2>
   <p class="wwu-text">Consultancy, digital products and collaboration. Tell us what you are working on.</p>
   <p class="wwu-actions"><a class="btn-primary" href="mailto:enquiries@pathwayanalytics.com">enquiries@pathwayanalytics.com</a></p>
-  <p class="wwu-gcloud">G-Cloud 14 supplier · <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/739498" target="_blank" rel="noopener">View Pathway Analytics on the Digital Marketplace</a></p>
 </section>
