@@ -111,7 +111,7 @@ Redesigning the funding mechanism was as much a strategic challenge as an econom
 
 The work resulted in two interdependent solutions: an integrated payment methodology grounded in clinical practice and health economics, and a bespoke digital platform that enabled it to operate at scale.
 
-**The Integrated Sexual Health Tariff.** 17 currencies, each with a Primary and an Additional price, built from more than 140 clinical pathways. Prices are setting-independent, and any commissioner can use them to pay for its residents wherever they are seen. The pathways, prices and tariff configurations are published, and the Grouper is updated to reflect agreed changes in pricing and coding rules. By paying for the care delivered in each visit, the tariff was designed to rebalance funding and incentives between GUM and reproductive health services.
+**The Integrated Sexual Health Tariff.** 17 currencies, each with a Primary and an Additional price, built from more than 140 clinical pathways. Prices are setting-independent, and any commissioner can use them to pay for its residents wherever they are seen. The pathways, prices and tariff configurations are published. The clinical pathways, resource assumptions and prices are reviewed, with the aim of doing so each year, and the Grouper is updated to reflect agreed changes. By paying for the care delivered in each visit, the tariff was designed to rebalance funding and incentives between GUM and reproductive health services.
 
 **The Tariff Grouper.** The Grouper takes a provider's routine activity data and turns it into charges for each responsible commissioner.
 
@@ -122,7 +122,7 @@ The work resulted in two interdependent solutions: an integrated payment methodo
 
 Providers submit monthly activity data based on GUMCAD and SRHAD, supplemented by local codes where required. The Grouper combines the relevant records into patient visits and applies the agreed tariff rules. It removes combinations that would count the same care twice. It applies the Primary price to the highest-value currency in each visit and Additional prices to the other applicable currencies. It then applies the relevant market forces factor or geographical weighting, and allocates charges to commissioners according to the agreed tariff configuration.
 
-It processes patient-level activity data without direct patient identifiers. Providers and commissioners work from the same data and the same rules, which makes charges transparent and easier to reconcile. Subscriptions fund the service. It has been available through the government's G-Cloud framework, with services for providers, for commissioners and for councils setting their own local tariff rules.
+The patient-level activity data it receives are anonymised: Pathway Analytics holds no means of decoding patient identifiers. Providers and commissioners work from the same data and the same rules, which makes charges transparent and easier to reconcile. Subscriptions fund the service, with options for providers, for commissioners and for councils setting their own local tariff rules.
 
 ## Impact and legacy
 
