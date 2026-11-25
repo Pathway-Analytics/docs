@@ -131,7 +131,7 @@ It processes patient-level activity data without direct patient identifiers. Pro
 
 **Delivered.** More than 140 costed pathways, and 17 currencies with Primary and Additional prices. Financial impact assessments for London and for each region that road-tested the tariff. The Grouper, running since 2011.
 
-**Implemented.** The Grouper has been running in London since 2011. By February 2013, more than 110 providers from every region had submitted activity data, generating over 2.8 million tariff calculations with a total calculated value of more than £200m. These are calculated values, not amounts invoiced, paid or saved.
+**Implemented.** The Tariff Grouper enabled providers and commissioners to assess the financial consequences of the proposed tariff through shadow running. By February 2013, more than 110 providers had submitted data, generating over 2.8 million individual tariff calculations with a combined value exceeding £200m in shadow charges.
 
 **Adopted.** In 2017 London's commissioners and providers agreed a single standard tariff. DHSC's 2018 cross-charging guidance records it as the agreed basis for cross-charging within London. The South East's 2020 regional cross-charging policy encourages integrated services to use the Pathway Analytics Grouper. In 2025/26, 130 services in England were reported as commissioned solely on a Pathway Analytics tariff rather than on block contracts.
 
