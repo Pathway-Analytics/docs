@@ -105,17 +105,17 @@ Redesigning the funding mechanism was as much a strategic challenge as an econom
 
 The work resulted in two interdependent solutions: an integrated payment methodology grounded in clinical practice and health economics, and a bespoke digital platform that enabled it to operate at scale.
 
-**The Integrated Sexual Health Tariff.** 17 currencies, each with a Primary and an Additional price, built from more than 140 clinical pathways. Prices are setting-independent, and any commissioner can use them to pay for its residents wherever they are seen. The pathways and prices are published, and a clinical working group reviews them each year, so the tariff can follow changes in clinical practice.
+**The Integrated Sexual Health Tariff.** 17 currencies, each with a Primary and an Additional price, built from more than 140 clinical pathways. Prices are setting-independent, and any commissioner can use them to pay for its residents wherever they are seen. The pathways, prices and tariff configurations are published, and the Grouper is updated to reflect agreed changes in pricing and coding rules.
 
 **The Tariff Grouper.** The Grouper takes a provider's routine activity data and turns it into charges for each responsible commissioner.
 
-<img src="/assets/images/case-studies/tariff-care-to-payment.svg" alt="Four steps from care to payment: care activity and coding by the provider, then grouping and payment by the Tariff Grouper" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
+<img src="/assets/images/case-studies/tariff-care-to-payment.svg" alt="Four steps from care to charging: care activity and coding by the provider, then grouping and charging by the Tariff Grouper" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
 
 <p class="figure-caption">Redrawn from Pathway Analytics' tariff background slides, 2014 to 2016.</p>
 
-Each month, providers upload an extract of their GUMCAD and SRHAD returns. The Grouper joins the two datasets into single visits and applies the payment rules. It removes combinations that would count the same care twice. It pays the most expensive currency in each visit at its Primary price and the rest at their Additional prices, applies the provider's market forces factor, and allocates each charge to the responsible commissioner.
+Providers submit monthly activity data based on GUMCAD and SRHAD, supplemented by local codes where required. The Grouper combines the relevant records into patient visits and applies the agreed tariff rules. It removes combinations that would count the same care twice. It applies the Primary price to the highest-value currency in each visit and Additional prices to the other applicable currencies. It then applies the relevant market forces factor or geographical weighting, and allocates charges to commissioners according to the agreed tariff configuration.
 
-It holds no patient-identifiable data. Providers and commissioners work from the same data and the same rules, which makes charges transparent and easier to reconcile. Subscriptions fund the service. It is available on the government's G-Cloud framework, for providers, for commissioners, and for councils setting their own local tariff rules.
+It processes patient-level activity data without direct patient identifiers. Providers and commissioners work from the same data and the same rules, which makes charges transparent and easier to reconcile. Subscriptions fund the service. It has been available through the government's G-Cloud framework, with services for providers, for commissioners and for councils setting their own local tariff rules.
 
 ## Impact and legacy
 
@@ -125,7 +125,7 @@ It holds no patient-identifiable data. Providers and commissioners work from the
 
 **Delivered.** More than 140 costed pathways, and 17 currencies with Primary and Additional prices. Financial impact assessments for London and for each region that road-tested the tariff. The Grouper, running since 2011.
 
-**Implemented.** London providers have calculated tariff charges automatically and sent them to commissioners since 2011. By February 2013, more than 110 providers from every region had submitted data and calculated their charges: over 2.8 million individual tariffs, worth more than £200m. These include shadow calculations from regional road tests, and measure activity processed, not payments or savings.
+**Implemented.** London providers have calculated tariff charges automatically and sent them to commissioners since 2011. By February 2013, more than 110 providers from every region had submitted activity data, generating over 2.8 million tariff calculations with a total calculated value of more than £200m. These are calculated values, not amounts invoiced, paid or saved.
 
 **Adopted.** In 2017 London's commissioners and providers agreed a single standard tariff. DHSC's 2018 cross-charging guidance records it as the agreed basis for cross-charging within London. The South East's 2020 regional cross-charging policy encourages integrated services to use the Pathway Analytics Grouper. In 2025/26, 130 services in England were reported as commissioned solely on a Pathway Analytics tariff rather than on block contracts.
 
@@ -133,7 +133,7 @@ It holds no patient-identifiable data. Providers and commissioners work from the
 
 The integrated tariff also helped rebalance funding and incentives between GUM and reproductive health services, providing a common payment methodology that more closely reflected the care delivered and its associated resource requirements.
 
-**Legacy.** Each year the tariff is reviewed and the Grouper updated. Public Health England's 2017 economic evaluation of PrEP in England cites the tariff among its references. Pathway Analytics sits on the BASHH and FSRH integrated sexual health information group.
+**Legacy.** The tariff remains in use, with configurations and the Grouper updated as prices and coding rules change. Public Health England's 2017 economic evaluation of PrEP in England cites the tariff among its references. Pathway Analytics sits on the BASHH and FSRH integrated sexual health information group.
 
 <img src="/assets/images/case-studies/tariff-approach.svg" alt="Five stages of system reform: diagnosing a systemic funding problem; designing an economically robust alternative; securing consensus across competing interests; making reform operationally possible; achieving enduring adoption without a national mandate" style="display: block; width: 100%; max-width: 720px; height: auto; margin: 32px auto 16px;">
 
