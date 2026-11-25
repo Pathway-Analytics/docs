@@ -1,159 +1,263 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 720 424" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
-  <defs>
-    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
-  </defs>
-  <text x="0" y="16" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THREE ILLUSTRATIVE VICTIMS: NEED CHANGES ALONG THE PATHWAY</text>
-  <text x="132" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Initial</text>
-  <text x="132" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">contact</text>
-  <text x="201" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Risk</text>
-  <text x="201" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">assessment</text>
-  <text x="270" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Forensic</text>
-  <text x="270" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">examination</text>
-  <text x="339" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Verbal</text>
-  <text x="339" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">evidence</text>
-  <text x="408" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Needs</text>
-  <text x="408" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">assessment</text>
-  <text x="477" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Follow-up</text>
-  <text x="477" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">support</text>
-  <text x="546" y="50" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Counselling</text>
-  <text x="615" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Court</text>
-  <text x="615" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">support</text>
-  <text x="684" y="42" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">Later</text>
-  <text x="684" y="54" font-size="10" fill="#14335a" font-weight="600" text-anchor="middle">counselling</text>
-  <text x="0" y="86" font-size="13" fill="#14335a" font-weight="600">Adult</text>
-  <text x="0" y="102" font-size="11" fill="#5f6b7a">18 and over</text>
-  <polygon points="96,72 159,72 168,87 159,102 96,102" fill="#14335a"/>
-  <polygon points="165,72 228,72 237,87 228,102 165,102 174,87" fill="#14335a"/>
-  <polygon points="234,72 297,72 306,87 297,102 234,102 243,87" fill="#14335a"/>
-  <polygon points="303,72 366,72 375,87 366,102 303,102 312,87" fill="#14335a"/>
-  <polygon points="372,72 435,72 444,87 435,102 372,102 381,87" fill="#46777a"/>
-  <polygon points="441,72 504,72 513,87 504,102 441,102 450,87" fill="#46777a"/>
-  <polygon points="510,72 573,72 582,87 573,102 510,102 519,87" fill="#a8c5c6"/>
-  <polygon points="579,72 642,72 651,87 642,102 579,102 588,87" fill="#a8c5c6"/>
-  <polygon points="648,72 711,72 720,87 711,102 648,102 657,87" fill="#e3ecee" stroke="#b8bec6" stroke-width="1.2"/>
-  <line x1="102" y1="112" x2="369" y2="112" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="102" y1="108" x2="102" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="369" y1="108" x2="369" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="378" y1="112" x2="507" y2="112" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="378" y1="108" x2="378" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="507" y1="108" x2="507" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="516" y1="112" x2="645" y2="112" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="516" y1="108" x2="516" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="645" y1="108" x2="645" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="654" y1="112" x2="714" y2="112" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="654" y1="108" x2="654" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="714" y1="108" x2="714" y2="116" stroke="#5f6b7a" stroke-width="1"/>
-  <path d="M215.50,144.00 A20,20 0 0 1 221.36,129.86 L229.14,137.64 A9,9 0 0 0 226.50,144.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M221.36,129.86 A20,20 0 0 1 235.50,124.00 L235.50,135.00 A9,9 0 0 0 229.14,137.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M235.50,124.00 A20,20 0 0 1 249.64,129.86 L241.86,137.64 A9,9 0 0 0 235.50,135.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M249.64,129.86 A20,20 0 0 1 255.50,144.00 L244.50,144.00 A9,9 0 0 0 241.86,137.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M215.50,144.00 A20,20 0 0 1 255.50,144.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="235.5" y1="144" x2="258.60" y2="134.43" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="235.5" y1="144" x2="258.60" y2="134.43" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="235.5" cy="144" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="235.5" y="161" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Acute</text>
-  <path d="M422.50,144.00 A20,20 0 0 1 428.36,129.86 L436.14,137.64 A9,9 0 0 0 433.50,144.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M428.36,129.86 A20,20 0 0 1 442.50,124.00 L442.50,135.00 A9,9 0 0 0 436.14,137.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M442.50,124.00 A20,20 0 0 1 456.64,129.86 L448.86,137.64 A9,9 0 0 0 442.50,135.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M456.64,129.86 A20,20 0 0 1 462.50,144.00 L451.50,144.00 A9,9 0 0 0 448.86,137.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M422.50,144.00 A20,20 0 0 1 462.50,144.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="442.5" y1="144" x2="452.07" y2="120.90" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="442.5" y1="144" x2="452.07" y2="120.90" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="442.5" cy="144" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="442.5" y="161" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Complex</text>
-  <path d="M560.50,144.00 A20,20 0 0 1 566.36,129.86 L574.14,137.64 A9,9 0 0 0 571.50,144.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M566.36,129.86 A20,20 0 0 1 580.50,124.00 L580.50,135.00 A9,9 0 0 0 574.14,137.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M580.50,124.00 A20,20 0 0 1 594.64,129.86 L586.86,137.64 A9,9 0 0 0 580.50,135.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M594.64,129.86 A20,20 0 0 1 600.50,144.00 L589.50,144.00 A9,9 0 0 0 586.86,137.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M560.50,144.00 A20,20 0 0 1 600.50,144.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="580.5" y1="144" x2="570.93" y2="120.90" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="580.5" y1="144" x2="570.93" y2="120.90" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="580.5" cy="144" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="580.5" y="161" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
-  <path d="M664.00,144.00 A20,20 0 0 1 669.86,129.86 L677.64,137.64 A9,9 0 0 0 675.00,144.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M669.86,129.86 A20,20 0 0 1 684.00,124.00 L684.00,135.00 A9,9 0 0 0 677.64,137.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M684.00,124.00 A20,20 0 0 1 698.14,129.86 L690.36,137.64 A9,9 0 0 0 684.00,135.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M698.14,129.86 A20,20 0 0 1 704.00,144.00 L693.00,144.00 A9,9 0 0 0 690.36,137.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M664.00,144.00 A20,20 0 0 1 704.00,144.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="684" y1="144" x2="660.90" y2="134.43" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="684" y1="144" x2="660.90" y2="134.43" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="684" cy="144" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="684" y="161" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Ongoing</text>
-  <line x1="0" y1="166" x2="720" y2="166" stroke="#e3e6ea" stroke-width="1"/>
-  <text x="0" y="192" font-size="13" fill="#14335a" font-weight="600">Adolescent</text>
-  <text x="0" y="208" font-size="11" fill="#5f6b7a">13 to 17</text>
-  <polygon points="96,178 159,178 168,193 159,208 96,208" fill="#a8c5c6"/>
-  <polygon points="165,178 228,178 237,193 228,208 165,208 174,193" fill="#a8c5c6"/>
-  <polygon points="234,178 297,178 306,193 297,208 234,208 243,193" fill="#eef0f2" stroke="#b8bec6" stroke-width="1.2" stroke-dasharray="3 2"/>
-  <polygon points="303,178 366,178 375,193 366,208 303,208 312,193" fill="#eef0f2" stroke="#b8bec6" stroke-width="1.2" stroke-dasharray="3 2"/>
-  <polygon points="372,178 435,178 444,193 435,208 372,208 381,193" fill="#a8c5c6"/>
-  <polygon points="441,178 504,178 513,193 504,208 441,208 450,193" fill="#eef0f2" stroke="#b8bec6" stroke-width="1.2" stroke-dasharray="3 2"/>
-  <polygon points="510,178 573,178 582,193 573,208 510,208 519,193" fill="#a8c5c6"/>
-  <polygon points="579,178 642,178 651,193 642,208 579,208 588,193" fill="#eef0f2" stroke="#b8bec6" stroke-width="1.2" stroke-dasharray="3 2"/>
-  <polygon points="648,178 711,178 720,193 711,208 648,208 657,193" fill="#e3ecee" stroke="#b8bec6" stroke-width="1.2"/>
-  <line x1="102" y1="218" x2="231" y2="218" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="102" y1="214" x2="102" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="231" y1="214" x2="231" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="378" y1="218" x2="438" y2="218" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="378" y1="214" x2="378" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="438" y1="214" x2="438" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="516" y1="218" x2="576" y2="218" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="516" y1="214" x2="516" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="576" y1="214" x2="576" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="654" y1="218" x2="714" y2="218" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="654" y1="214" x2="654" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="714" y1="214" x2="714" y2="222" stroke="#5f6b7a" stroke-width="1"/>
-  <path d="M388.00,250.00 A20,20 0 0 1 393.86,235.86 L401.64,243.64 A9,9 0 0 0 399.00,250.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M393.86,235.86 A20,20 0 0 1 408.00,230.00 L408.00,241.00 A9,9 0 0 0 401.64,243.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M408.00,230.00 A20,20 0 0 1 422.14,235.86 L414.36,243.64 A9,9 0 0 0 408.00,241.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M422.14,235.86 A20,20 0 0 1 428.00,250.00 L417.00,250.00 A9,9 0 0 0 414.36,243.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M388.00,250.00 A20,20 0 0 1 428.00,250.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="408" y1="250" x2="398.43" y2="226.90" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="408" y1="250" x2="398.43" y2="226.90" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="408" cy="250" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="408" y="267" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
-  <path d="M664.00,250.00 A20,20 0 0 1 669.86,235.86 L677.64,243.64 A9,9 0 0 0 675.00,250.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M669.86,235.86 A20,20 0 0 1 684.00,230.00 L684.00,241.00 A9,9 0 0 0 677.64,243.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M684.00,230.00 A20,20 0 0 1 698.14,235.86 L690.36,243.64 A9,9 0 0 0 684.00,241.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M698.14,235.86 A20,20 0 0 1 704.00,250.00 L693.00,250.00 A9,9 0 0 0 690.36,243.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M664.00,250.00 A20,20 0 0 1 704.00,250.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="684" y1="250" x2="660.90" y2="240.43" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="684" y1="250" x2="660.90" y2="240.43" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="684" cy="250" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="684" y="267" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Ongoing</text>
-  <line x1="0" y1="272" x2="720" y2="272" stroke="#e3e6ea" stroke-width="1"/>
-  <text x="0" y="298" font-size="13" fill="#14335a" font-weight="600">Child</text>
-  <text x="0" y="314" font-size="11" fill="#5f6b7a">12 and under</text>
-  <polygon points="96,284 159,284 168,299 159,314 96,314" fill="#14335a"/>
-  <polygon points="165,284 228,284 237,299 228,314 165,314 174,299" fill="#14335a"/>
-  <polygon points="234,284 297,284 306,299 297,314 234,314 243,299" fill="#14335a"/>
-  <polygon points="303,284 366,284 375,299 366,314 303,314 312,299" fill="#14335a"/>
-  <polygon points="372,284 435,284 444,299 435,314 372,314 381,299" fill="#14335a"/>
-  <polygon points="441,284 504,284 513,299 504,314 441,314 450,299" fill="#14335a"/>
-  <polygon points="510,284 573,284 582,299 573,314 510,314 519,299" fill="#14335a"/>
-  <polygon points="579,284 642,284 651,299 642,314 579,314 588,299" fill="#14335a"/>
-  <polygon points="648,284 711,284 720,299 711,314 648,314 657,299" fill="#14335a"/>
-  <line x1="102" y1="324" x2="714" y2="324" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="102" y1="320" x2="102" y2="328" stroke="#5f6b7a" stroke-width="1"/>
-  <line x1="714" y1="320" x2="714" y2="328" stroke="#5f6b7a" stroke-width="1"/>
-  <path d="M388.00,356.00 A20,20 0 0 1 393.86,341.86 L401.64,349.64 A9,9 0 0 0 399.00,356.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
-  <path d="M393.86,341.86 A20,20 0 0 1 408.00,336.00 L408.00,347.00 A9,9 0 0 0 401.64,349.64 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
-  <path d="M408.00,336.00 A20,20 0 0 1 422.14,341.86 L414.36,349.64 A9,9 0 0 0 408.00,347.00 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M422.14,341.86 A20,20 0 0 1 428.00,356.00 L417.00,356.00 A9,9 0 0 0 414.36,349.64 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
-  <path d="M388.00,356.00 A20,20 0 0 1 428.00,356.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
-  <line x1="408" y1="356" x2="431.10" y2="346.43" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
-  <line x1="408" y1="356" x2="431.10" y2="346.43" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="408" cy="356" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
-  <text x="408" y="373" font-size="11" fill="#14335a" font-weight="600" text-anchor="middle">Acute</text>
-  <rect x="0" y="400" width="14" height="12" fill="#e3ecee" rx="2" stroke="#b8bec6" stroke-width="0.8"/>
-  <text x="20" y="410" font-size="11.5" fill="#1f2933">Ongoing</text>
-  <rect x="84.2" y="400" width="14" height="12" fill="#a8c5c6" rx="2"/>
-  <text x="104.2" y="410" font-size="11.5" fill="#1f2933">Vulnerable</text>
-  <rect x="188.2" y="400" width="14" height="12" fill="#46777a" rx="2"/>
-  <text x="208.2" y="410" font-size="11.5" fill="#1f2933">Complex</text>
-  <rect x="272.4" y="400" width="14" height="12" fill="#14335a" rx="2"/>
-  <text x="292.4" y="410" font-size="11.5" fill="#1f2933">Acute</text>
-  <rect x="343.4" y="400" width="14" height="12" fill="#eef0f2" rx="2" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
-  <text x="363.4" y="410" font-size="11.5" fill="#1f2933">Step not needed</text>
+<svg id="svg-08-victims-pathway" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Matrix comparing illustrative support pathways and changing levels of need across nine stages for Adult (18 and over), Adolescent (13 to 17), and Child (12 and under) victims.">
+  <rect width="960" height="540" fill="#FFFFFF" />
+
+  
+  <text x="48" y="38" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#14335A">Three illustrative victims: need changes along the pathway</text>
+  <line x1="48" y1="54" x2="912" y2="54" stroke="#E3E6EA" stroke-width="1" />
+
+  
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">
+    <text x="221" y="76">Initial</text>
+    <text x="221" y="90">contact</text>
+
+    <text x="304" y="76">Risk</text>
+    <text x="304" y="90">assessment</text>
+
+    <text x="387" y="76">Forensic</text>
+    <text x="387" y="90">examination</text>
+
+    <text x="470" y="76">Verbal</text>
+    <text x="470" y="90">evidence</text>
+
+    <text x="553" y="76">Needs</text>
+    <text x="553" y="90">assessment</text>
+
+    <text x="636" y="76">Follow-up</text>
+    <text x="636" y="90">support</text>
+
+    <text x="719" y="83">Counselling</text>
+
+    <text x="802" y="76">Court</text>
+    <text x="802" y="90">support</text>
+
+    <text x="885" y="76">Later</text>
+    <text x="885" y="90">counselling</text>
+  </g>
+
+  <line x1="48" y1="104" x2="912" y2="104" stroke="#E3E6EA" stroke-width="1" />
+
+  
+  <text x="48" y="131" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14335A">Adult</text>
+  <text x="48" y="148" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5F6B7A">18 and over</text>
+
+  
+  <polygon points="178,118 255,118 264,132 255,146 178,146" fill="#14335A" />
+  <polygon points="261,118 338,118 347,132 338,146 261,146 270,132" fill="#14335A" />
+  <polygon points="344,118 421,118 430,132 421,146 344,146 353,132" fill="#14335A" />
+  <polygon points="427,118 504,118 513,132 504,146 427,146 436,132" fill="#14335A" />
+
+  
+  <polygon points="510,118 587,118 596,132 587,146 510,146 519,132" fill="#467376" />
+  <polygon points="593,118 670,118 679,132 670,146 593,146 602,132" fill="#467376" />
+
+  
+  <polygon points="676,118 753,118 762,132 753,146 676,146 685,132" fill="#A8C2C4" />
+  <polygon points="759,118 836,118 845,132 836,146 759,146 768,132" fill="#A8C2C4" />
+
+  
+  <polygon points="842,118 919,118 928,132 919,146 842,146 851,132" fill="#E6ECEF" stroke="#5F6B7A" stroke-width="0.9" />
+
+  
+  <g stroke="#5F6B7A" stroke-width="1">
+    
+    <line x1="184" y1="158" x2="504" y2="158" />
+    <line x1="184" y1="154" x2="184" y2="162" />
+    <line x1="504" y1="154" x2="504" y2="162" />
+    
+    <line x1="516" y1="158" x2="670" y2="158" />
+    <line x1="516" y1="154" x2="516" y2="162" />
+    <line x1="670" y1="154" x2="670" y2="162" />
+    
+    <line x1="682" y1="158" x2="836" y2="158" />
+    <line x1="682" y1="154" x2="682" y2="162" />
+    <line x1="836" y1="154" x2="836" y2="162" />
+    
+    <line x1="848" y1="158" x2="919" y2="158" />
+    <line x1="848" y1="154" x2="848" y2="162" />
+    <line x1="919" y1="154" x2="919" y2="162" />
+  </g>
+
+  
+  
+  <g transform="translate(344,192)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="23" y2="-9.5" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Acute</text>
+  </g>
+
+  
+  <g transform="translate(593,192)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="9.5" y2="-23" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Complex</text>
+  </g>
+
+  
+  <g transform="translate(759,192)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="-9.5" y2="-23" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Vulnerable</text>
+  </g>
+
+  
+  <g transform="translate(884,192)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="-23" y2="-9.5" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Ongoing</text>
+  </g>
+
+  
+  <line x1="48" y1="224" x2="912" y2="224" stroke="#E3E6EA" stroke-width="1" />
+
+  
+  <text x="48" y="251" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14335A">Adolescent</text>
+  <text x="48" y="268" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5F6B7A">13 to 17</text>
+
+  
+  <polygon points="178,238 255,238 264,252 255,266 178,266" fill="#A8C2C4" />
+  <polygon points="261,238 338,238 347,252 338,266 261,266 270,252" fill="#A8C2C4" />
+
+  
+  <polygon points="344,238 421,238 430,252 421,266 344,266 353,252" fill="#F4F6F8" stroke="#5F6B7A" stroke-width="1" stroke-dasharray="3 2.5" />
+  <polygon points="427,238 504,238 513,252 504,266 427,266 436,252" fill="#F4F6F8" stroke="#5F6B7A" stroke-width="1" stroke-dasharray="3 2.5" />
+
+  
+  <polygon points="510,238 587,238 596,252 587,266 510,266 519,252" fill="#A8C2C4" />
+
+  
+  <polygon points="593,238 670,238 679,252 670,266 593,266 602,252" fill="#F4F6F8" stroke="#5F6B7A" stroke-width="1" stroke-dasharray="3 2.5" />
+
+  
+  <polygon points="676,238 753,238 762,252 753,266 676,266 685,252" fill="#A8C2C4" />
+
+  
+  <polygon points="759,238 836,238 845,252 836,266 759,266 768,252" fill="#F4F6F8" stroke="#5F6B7A" stroke-width="1" stroke-dasharray="3 2.5" />
+
+  
+  <polygon points="842,238 919,238 928,252 919,266 842,266 851,252" fill="#E6ECEF" stroke="#5F6B7A" stroke-width="0.9" />
+
+  
+  <g stroke="#5F6B7A" stroke-width="1">
+    
+    <line x1="184" y1="278" x2="338" y2="278" />
+    <line x1="184" y1="274" x2="184" y2="282" />
+    <line x1="338" y1="274" x2="338" y2="282" />
+    
+    <line x1="516" y1="278" x2="587" y2="278" />
+    <line x1="516" y1="274" x2="516" y2="282" />
+    <line x1="587" y1="274" x2="587" y2="282" />
+    
+    <line x1="682" y1="278" x2="753" y2="278" />
+    <line x1="682" y1="274" x2="682" y2="282" />
+    <line x1="753" y1="274" x2="753" y2="282" />
+    
+    <line x1="848" y1="278" x2="919" y2="278" />
+    <line x1="848" y1="274" x2="848" y2="282" />
+    <line x1="919" y1="274" x2="919" y2="282" />
+  </g>
+
+  
+  
+  <g transform="translate(553,312)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="-9.5" y2="-23" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Vulnerable</text>
+  </g>
+
+  
+  <g transform="translate(884,312)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="-23" y2="-9.5" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Ongoing</text>
+  </g>
+
+  
+  <line x1="48" y1="344" x2="912" y2="344" stroke="#E3E6EA" stroke-width="1" />
+
+  
+  <text x="48" y="371" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14335A">Child</text>
+  <text x="48" y="388" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5F6B7A">12 and under</text>
+
+  
+  <polygon points="178,358 255,358 264,372 255,386 178,386" fill="#14335A" />
+  <polygon points="261,358 338,358 347,372 338,386 261,386 270,372" fill="#14335A" />
+  <polygon points="344,358 421,358 430,372 421,386 344,386 353,372" fill="#14335A" />
+  <polygon points="427,358 504,358 513,372 504,386 427,386 436,372" fill="#14335A" />
+  <polygon points="510,358 587,358 596,372 587,386 510,386 519,372" fill="#14335A" />
+  <polygon points="593,358 670,358 679,372 670,386 593,386 602,372" fill="#14335A" />
+  <polygon points="676,358 753,358 762,372 753,386 676,386 685,372" fill="#14335A" />
+  <polygon points="759,358 836,358 845,372 836,386 759,386 768,372" fill="#14335A" />
+  <polygon points="842,358 919,358 928,372 919,386 842,386 851,372" fill="#14335A" />
+
+  
+  <g stroke="#5F6B7A" stroke-width="1">
+    <line x1="184" y1="398" x2="919" y2="398" />
+    <line x1="184" y1="394" x2="184" y2="402" />
+    <line x1="919" y1="394" x2="919" y2="402" />
+  </g>
+
+  
+  <g transform="translate(553,432)">
+    <path d="M -22 0 A 22 22 0 0 1 -15.56 -15.56 L 0 0 Z" fill="#E6ECEF" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M -15.56 -15.56 A 22 22 0 0 1 0 -22 L 0 0 Z" fill="#A8C2C4" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 0 -22 A 22 22 0 0 1 15.56 -15.56 L 0 0 Z" fill="#467376" stroke="#FFFFFF" stroke-width="1" />
+    <path d="M 15.56 -15.56 A 22 22 0 0 1 22 0 L 0 0 Z" fill="#14335A" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="0" x2="23" y2="-9.5" stroke="#14335A" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="3" fill="#14335A" />
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#14335A" text-anchor="middle">Acute</text>
+  </g>
+
+  
+  <line x1="48" y1="472" x2="912" y2="472" stroke="#E3E6EA" stroke-width="1" />
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#14335A">
+    
+    <rect x="48" y="488" width="14" height="14" rx="2" fill="#E6ECEF" stroke="#5F6B7A" stroke-width="0.9" />
+    <text x="68" y="499">Ongoing</text>
+
+    
+    <rect x="138" y="488" width="14" height="14" rx="2" fill="#A8C2C4" />
+    <text x="158" y="499">Vulnerable</text>
+
+    
+    <rect x="238" y="488" width="14" height="14" rx="2" fill="#467376" />
+    <text x="258" y="499">Complex</text>
+
+    
+    <rect x="328" y="488" width="14" height="14" rx="2" fill="#14335A" />
+    <text x="348" y="499">Acute</text>
+
+    
+    <rect x="404" y="488" width="14" height="14" rx="2" fill="#F4F6F8" stroke="#5F6B7A" stroke-width="1" stroke-dasharray="3 2" />
+    <text x="424" y="499" fill="#5F6B7A">Step not needed</text>
+  </g>
+
+  
+  <text x="912" y="499" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5F6B7A" text-anchor="end">
+    Illustrative pathways, sexual assault services case study.
+  </text>
 </svg>
