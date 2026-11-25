@@ -183,15 +183,18 @@ def who_pays():
     xs = [50 + i * 88 for i in range(8)]
     d = [label(10, 16, 'Victims who reach the services'),
          L(10, Y, 700, Y, NAVY, 1.75)]
-    for x, (a, b) in zip(xs, WP_STEPS):
+    TY = Y + 104                       # the total: one gold dot
+    for i, (x, (a, b)) in enumerate(zip(xs, WP_STEPS)):
+        # each cost line ends on the top edge of the gold dot, spread round it
+        ang = math.radians(-90 + (i - 3.5) * 13)
+        ex, ey = 360 + 6.5 * math.cos(ang), TY + 6.5 * math.sin(ang)
         d.append(dot(x, Y))
         if b:
             d += [T(x, Y - 26, a, 11.5, NAVY, 'middle'), T(x, Y - 12, b, 11.5, NAVY, 'middle')]
         else:
             d.append(T(x, Y - 12, a, 11.5, NAVY, 'middle'))
         d += [T(x, Y + 24, '£ × victims', 11.5, MUTED, 'middle'),
-              P(f'M{x} {Y + 34} C{x} {Y + 70}, 360 {Y + 60}, 360 {Y + 96}', TEAL, 1.25)]
-    TY = Y + 104
+              P(f'M{x} {Y + 34} C{x} {Y + 72}, {ex:.1f} {Y + 64}, {ex:.1f} {ey:.1f}', TEAL, 1.25)]
     d += [focus(360, TY), T(360, TY + 30, 'Total cost of the pathways', 16, NAVY, 'middle', 'bold'),
           L(360, TY + 40, 360, TY + 58, NAVY, 1.25),
           label(372, TY + 56, 'Split step by step between six public bodies')]

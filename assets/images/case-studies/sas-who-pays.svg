@@ -7,41 +7,41 @@
 <text x="50" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Initial</text>
 <text x="50" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">contact</text>
 <text x="50" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M50 102 C50 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 102 C50 140, 355.4 132, 355.4 167.4" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="138" cy="68" r="4.5" fill="#14335a"/>
 <text x="138" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Risk</text>
 <text x="138" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">assessment</text>
 <text x="138" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M138 102 C138 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M138 102 C138 140, 356.5 132, 356.5 166.5" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="226" cy="68" r="4.5" fill="#14335a"/>
 <text x="226" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Forensic</text>
 <text x="226" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">examination</text>
 <text x="226" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M226 102 C226 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226 102 C226 140, 357.8 132, 357.8 165.9" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="314" cy="68" r="4.5" fill="#14335a"/>
 <text x="314" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Verbal</text>
 <text x="314" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">evidence</text>
 <text x="314" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M314 102 C314 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M314 102 C314 140, 359.3 132, 359.3 165.5" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="402" cy="68" r="4.5" fill="#14335a"/>
 <text x="402" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Needs</text>
 <text x="402" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">assessment</text>
 <text x="402" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M402 102 C402 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402 102 C402 140, 360.7 132, 360.7 165.5" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="490" cy="68" r="4.5" fill="#14335a"/>
 <text x="490" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Follow-up</text>
 <text x="490" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">support</text>
 <text x="490" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M490 102 C490 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M490 102 C490 140, 362.2 132, 362.2 165.9" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="578" cy="68" r="4.5" fill="#14335a"/>
 <text x="578" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">Counselling</text>
 <text x="578" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M578 102 C578 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M578 102 C578 140, 363.5 132, 363.5 166.5" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="666" cy="68" r="4.5" fill="#14335a"/>
 <text x="666" y="42" font-size="11.5" text-anchor="middle" fill="#14335a">Court</text>
 <text x="666" y="56" font-size="11.5" text-anchor="middle" fill="#14335a">support</text>
 <text x="666" y="92" font-size="11.5" text-anchor="middle" fill="#5f6b7a">£ × victims</text>
-<path d="M666 102 C666 138, 360 128, 360 164" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M666 102 C666 140, 364.6 132, 364.6 167.4" fill="none" stroke="#518386" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="360" cy="172" r="6.5" fill="#c9a24a"/>
 <text x="360" y="202" font-size="16" text-anchor="middle" font-weight="bold" fill="#14335a">Total cost of the pathways</text>
 <line x1="360" y1="212" x2="360" y2="230" stroke="#14335a" stroke-width="1.25"/>
