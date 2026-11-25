@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 540" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
+  </defs>
+  <text x="0" y="14" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">EACH STEP COSTED, ADDED UP,</text>
+  <text x="0" y="31" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THEN SPLIT BY WHO PAYS</text>
+  <rect x="0" y="44" width="360" height="28" fill="#f4f6f8" rx="14"/>
+  <text x="180" y="62.5" font-size="12" fill="#14335a" font-weight="600" text-anchor="middle">Victims who reach the services</text>
+  <line x1="180" y1="72" x2="180" y2="86" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="0" y="90" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="108.5" font-size="12" fill="#ffffff" font-weight="600">Initial contact</text>
+  <text x="348" y="108.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="122" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="140.5" font-size="12" fill="#ffffff" font-weight="600">Risk assessment</text>
+  <text x="348" y="140.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="154" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="172.5" font-size="12" fill="#ffffff" font-weight="600">Forensic examination</text>
+  <text x="348" y="172.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="186" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="204.5" font-size="12" fill="#ffffff" font-weight="600">Verbal evidence</text>
+  <text x="348" y="204.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="218" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="236.5" font-size="12" fill="#ffffff" font-weight="600">Needs assessment</text>
+  <text x="348" y="236.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="250" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="268.5" font-size="12" fill="#ffffff" font-weight="600">Follow-up support</text>
+  <text x="348" y="268.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="282" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="300.5" font-size="12" fill="#ffffff" font-weight="600">Counselling</text>
+  <text x="348" y="300.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <rect x="0" y="314" width="360" height="28" fill="#14335a" rx="4"/>
+  <text x="12" y="332.5" font-size="12" fill="#ffffff" font-weight="600">Court support</text>
+  <text x="348" y="332.5" font-size="11.5" fill="#dfe6ef" text-anchor="end">£ × victims</text>
+  <line x1="180" y1="346" x2="180" y2="362" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="40" y="364" width="280" height="34" fill="#c9a24a" rx="6"/>
+  <text x="180" y="386" font-size="13" fill="#14335a" font-weight="600" text-anchor="middle">Total cost of the pathways</text>
+  <line x1="180" y1="398" x2="180" y2="420" stroke="#5f6b7a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="192" y="413" font-size="12" fill="#14335a" font-weight="600">Split between six bodies</text>
+  <rect x="34.4" y="428" width="87.78" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
+  <text x="78.29" y="446" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">NHS England</text>
+  <rect x="130.18" y="428" width="195.42" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
+  <text x="227.89" y="446" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Clinical commissioning groups</text>
+  <rect x="85.23" y="464" width="123.66" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
+  <text x="147.06" y="482" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Local authorities</text>
+  <rect x="216.89" y="464" width="57.88" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
+  <text x="245.83" y="482" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Police</text>
+  <rect x="7.49" y="500" width="201.4" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
+  <text x="108.19" y="518" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Police and Crime Commissioners</text>
+  <rect x="216.89" y="500" width="135.62" height="28" fill="#e3ecee" rx="14" stroke="#46777a" stroke-width="1.2"/>
+  <text x="284.7" y="518" font-size="11.5" fill="#14335a" font-weight="500" text-anchor="middle">Ministry of Justice</text>
+</svg>

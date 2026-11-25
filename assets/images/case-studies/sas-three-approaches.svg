@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 720 294" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
+  </defs>
+  <text x="0" y="16" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THREE WAYS OF SHARING THE SAME COST</text>
+  <rect x="0" y="30" width="230" height="206" fill="#ffffff" rx="8" stroke="#d9dde3" stroke-width="1.2"/>
+  <path d="M8,30 H222 Q230,30 230,38 V82 H0 V38 Q0,30 8,30 Z" fill="#5f6b7a"/>
+  <text x="14" y="52" font-size="13.5" fill="#ffffff" font-weight="600">1  Current funding</text>
+  <text x="14" y="71" font-size="12" fill="#e8eef4" font-style="italic">Who pays now?</text>
+  <text x="14" y="104" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">BASED ON</text>
+  <text x="14" y="122" font-size="11.5" fill="#1f2933">Survey returns from commissioners,</text>
+  <text x="14" y="137" font-size="11.5" fill="#1f2933">SARCs and voluntary organisations,</text>
+  <text x="14" y="152" font-size="11.5" fill="#1f2933">2014/15</text>
+  <line x1="14" y1="172" x2="216" y2="172" stroke="#e3e6ea" stroke-width="1"/>
+  <text x="14" y="190" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">SHOWS</text>
+  <text x="14" y="207" font-size="11.5" fill="#14335a" font-weight="600">Historical contracts, grants</text>
+  <text x="14" y="222" font-size="11.5" fill="#14335a" font-weight="600">and budgets</text>
+  <rect x="245" y="30" width="230" height="206" fill="#ffffff" rx="8" stroke="#d9dde3" stroke-width="1.2"/>
+  <path d="M253,30 H467 Q475,30 475,38 V82 H245 V38 Q245,30 253,30 Z" fill="#46777a"/>
+  <text x="259" y="52" font-size="13.5" fill="#ffffff" font-weight="600">2  Policy-based allocation</text>
+  <text x="259" y="71" font-size="12" fill="#e8eef4" font-style="italic">Who should pay, by policy?</text>
+  <text x="259" y="104" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">BASED ON</text>
+  <text x="259" y="122" font-size="11.5" fill="#1f2933">Statutory responsibilities and</text>
+  <text x="259" y="137" font-size="11.5" fill="#1f2933">national policy, applied to the</text>
+  <text x="259" y="152" font-size="11.5" fill="#1f2933">total cost</text>
+  <line x1="259" y1="172" x2="461" y2="172" stroke="#e3e6ea" stroke-width="1"/>
+  <text x="259" y="190" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">SHOWS</text>
+  <text x="259" y="207" font-size="11.5" fill="#14335a" font-weight="600">Responsibilities as written</text>
+  <rect x="490" y="30" width="230" height="206" fill="#ffffff" rx="8" stroke="#d9dde3" stroke-width="1.2"/>
+  <path d="M498,30 H712 Q720,30 720,38 V82 H490 V38 Q490,30 498,30 Z" fill="#14335a"/>
+  <text x="504" y="52" font-size="13.5" fill="#ffffff" font-weight="600">3  Pathway-based allocation</text>
+  <text x="504" y="71" font-size="12" fill="#e8eef4" font-style="italic">Who should pay, by need?</text>
+  <text x="504" y="104" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">BASED ON</text>
+  <text x="504" y="122" font-size="11.5" fill="#1f2933">Each step of the 29 core pathways,</text>
+  <text x="504" y="137" font-size="11.5" fill="#1f2933">allocated to the body responsible</text>
+  <text x="504" y="152" font-size="11.5" fill="#1f2933">for the need it meets</text>
+  <line x1="504" y1="172" x2="706" y2="172" stroke="#e3e6ea" stroke-width="1"/>
+  <text x="504" y="190" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">SHOWS</text>
+  <text x="504" y="207" font-size="11.5" fill="#14335a" font-weight="600">Funding that follows the</text>
+  <text x="504" y="222" font-size="11.5" fill="#14335a" font-weight="600">victim's need</text>
+  <rect x="0" y="252" width="720" height="40" fill="#c9a24a" rx="6"/>
+  <text x="360" y="277" font-size="13" fill="#14335a" font-weight="600" text-anchor="middle">Side by side, the three gave very different splits between the funding bodies</text>
+</svg>

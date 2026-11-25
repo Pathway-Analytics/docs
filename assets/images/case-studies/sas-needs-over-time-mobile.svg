@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 440" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
+  </defs>
+  <text x="0" y="14" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THREE ILLUSTRATIVE VICTIMS:</text>
+  <text x="0" y="31" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">NEED CHANGES ALONG THE PATHWAY</text>
+  <text x="172" y="52" font-size="12" fill="#14335a" font-weight="600" text-anchor="middle">Adult</text>
+  <text x="172" y="66" font-size="10.5" fill="#5f6b7a" text-anchor="middle">18 and over</text>
+  <text x="248" y="52" font-size="12" fill="#14335a" font-weight="600" text-anchor="middle">Adolescent</text>
+  <text x="248" y="66" font-size="10.5" fill="#5f6b7a" text-anchor="middle">13 to 17</text>
+  <text x="324" y="52" font-size="12" fill="#14335a" font-weight="600" text-anchor="middle">Child</text>
+  <text x="324" y="66" font-size="10.5" fill="#5f6b7a" text-anchor="middle">12 and under</text>
+  <text x="0" y="92" font-size="11" fill="#1f2933">Initial contact</text>
+  <text x="0" y="122" font-size="11" fill="#1f2933">Risk assessment</text>
+  <text x="0" y="152" font-size="11" fill="#1f2933">Forensic examination</text>
+  <text x="0" y="182" font-size="11" fill="#1f2933">Verbal evidence</text>
+  <text x="0" y="212" font-size="11" fill="#1f2933">Needs assessment</text>
+  <text x="0" y="242" font-size="11" fill="#1f2933">Follow-up support</text>
+  <text x="0" y="272" font-size="11" fill="#1f2933">Counselling</text>
+  <text x="0" y="302" font-size="11" fill="#1f2933">Court support</text>
+  <text x="0" y="332" font-size="11" fill="#1f2933">Later counselling</text>
+  <rect x="136" y="74" width="72" height="118" fill="#14335a" rx="3"/>
+  <text x="172" y="137" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Acute</text>
+  <rect x="136" y="194" width="72" height="58" fill="#46777a" rx="3"/>
+  <text x="172" y="227" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Complex</text>
+  <rect x="136" y="254" width="72" height="58" fill="#a8c5c6" rx="3"/>
+  <text x="172" y="287" font-size="10.5" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
+  <rect x="136" y="314" width="72" height="28" fill="#e3ecee" rx="3" stroke="#b8bec6" stroke-width="0.8"/>
+  <text x="172" y="332" font-size="10.5" fill="#14335a" font-weight="600" text-anchor="middle">Ongoing</text>
+  <rect x="212" y="74" width="72" height="58" fill="#a8c5c6" rx="3"/>
+  <text x="248" y="107" font-size="10.5" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
+  <rect x="212" y="134" width="72" height="58" fill="#eef0f2" rx="3" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
+  <rect x="212" y="194" width="72" height="28" fill="#a8c5c6" rx="3"/>
+  <text x="248" y="212" font-size="10.5" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
+  <rect x="212" y="224" width="72" height="28" fill="#eef0f2" rx="3" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
+  <rect x="212" y="254" width="72" height="28" fill="#a8c5c6" rx="3"/>
+  <text x="248" y="272" font-size="10.5" fill="#14335a" font-weight="600" text-anchor="middle">Vulnerable</text>
+  <rect x="212" y="284" width="72" height="28" fill="#eef0f2" rx="3" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
+  <rect x="212" y="314" width="72" height="28" fill="#e3ecee" rx="3" stroke="#b8bec6" stroke-width="0.8"/>
+  <text x="248" y="332" font-size="10.5" fill="#14335a" font-weight="600" text-anchor="middle">Ongoing</text>
+  <rect x="288" y="74" width="72" height="268" fill="#14335a" rx="3"/>
+  <text x="324" y="212" font-size="10.5" fill="#ffffff" font-weight="600" text-anchor="middle">Acute</text>
+  <path d="M6.00,398.00 A24,24 0 0 1 13.03,381.03 L22.36,390.36 A10.8,10.8 0 0 0 19.20,398.00 Z" fill="#e3ecee" stroke="#ffffff" stroke-width="1"/>
+  <path d="M13.03,381.03 A24,24 0 0 1 30.00,374.00 L30.00,387.20 A10.8,10.8 0 0 0 22.36,390.36 Z" fill="#a8c5c6" stroke="#ffffff" stroke-width="1"/>
+  <path d="M30.00,374.00 A24,24 0 0 1 46.97,381.03 L37.64,390.36 A10.8,10.8 0 0 0 30.00,387.20 Z" fill="#46777a" stroke="#ffffff" stroke-width="1"/>
+  <path d="M46.97,381.03 A24,24 0 0 1 54.00,398.00 L40.80,398.00 A10.8,10.8 0 0 0 37.64,390.36 Z" fill="#14335a" stroke="#ffffff" stroke-width="1"/>
+  <path d="M6.00,398.00 A24,24 0 0 1 54.00,398.00" fill="none" stroke="#b8bec6" stroke-width="0.8"/>
+  <line x1="30" y1="398" x2="18.90" y2="371.21" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="30" y1="398" x2="18.90" y2="371.21" stroke="#1f2933" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="30" cy="398" r="3" fill="#1f2933" stroke="#ffffff" stroke-width="1"/>
+  <text x="70" y="380" font-size="11.5" fill="#1f2933">Level of need runs from</text>
+  <text x="70" y="396" font-size="11.5" fill="#1f2933">ongoing (left) to acute (right)</text>
+  <rect x="70" y="412" width="14" height="12" fill="#eef0f2" rx="2" stroke="#b8bec6" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="90" y="422" font-size="11.5" fill="#1f2933">Step not needed</text>
+</svg>

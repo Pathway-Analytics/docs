@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 750" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
+  </defs>
+  <text x="0" y="14" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THREE WAYS OF SHARING</text>
+  <text x="0" y="31" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THE SAME COST</text>
+  <rect x="0" y="44" width="360" height="206" fill="#ffffff" rx="8" stroke="#d9dde3" stroke-width="1.2"/>
+  <path d="M8,44 H352 Q360,44 360,52 V96 H0 V52 Q0,44 8,44 Z" fill="#5f6b7a"/>
+  <text x="14" y="66" font-size="13.5" fill="#ffffff" font-weight="600">1  Current funding</text>
+  <text x="14" y="85" font-size="12" fill="#e8eef4" font-style="italic">Who pays now?</text>
+  <text x="14" y="118" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">BASED ON</text>
+  <text x="14" y="136" font-size="11.5" fill="#1f2933">Survey returns from commissioners,</text>
+  <text x="14" y="151" font-size="11.5" fill="#1f2933">SARCs and voluntary organisations,</text>
+  <text x="14" y="166" font-size="11.5" fill="#1f2933">2014/15</text>
+  <line x1="14" y1="186" x2="346" y2="186" stroke="#e3e6ea" stroke-width="1"/>
+  <text x="14" y="204" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">SHOWS</text>
+  <text x="14" y="221" font-size="11.5" fill="#14335a" font-weight="600">Historical contracts, grants</text>
+  <text x="14" y="236" font-size="11.5" fill="#14335a" font-weight="600">and budgets</text>
+  <rect x="0" y="262" width="360" height="206" fill="#ffffff" rx="8" stroke="#d9dde3" stroke-width="1.2"/>
+  <path d="M8,262 H352 Q360,262 360,270 V314 H0 V270 Q0,262 8,262 Z" fill="#46777a"/>
+  <text x="14" y="284" font-size="13.5" fill="#ffffff" font-weight="600">2  Policy-based allocation</text>
+  <text x="14" y="303" font-size="12" fill="#e8eef4" font-style="italic">Who should pay, by policy?</text>
+  <text x="14" y="336" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">BASED ON</text>
+  <text x="14" y="354" font-size="11.5" fill="#1f2933">Statutory responsibilities and</text>
+  <text x="14" y="369" font-size="11.5" fill="#1f2933">national policy, applied to the</text>
+  <text x="14" y="384" font-size="11.5" fill="#1f2933">total cost</text>
+  <line x1="14" y1="404" x2="346" y2="404" stroke="#e3e6ea" stroke-width="1"/>
+  <text x="14" y="422" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">SHOWS</text>
+  <text x="14" y="439" font-size="11.5" fill="#14335a" font-weight="600">Responsibilities as written</text>
+  <rect x="0" y="480" width="360" height="206" fill="#ffffff" rx="8" stroke="#d9dde3" stroke-width="1.2"/>
+  <path d="M8,480 H352 Q360,480 360,488 V532 H0 V488 Q0,480 8,480 Z" fill="#14335a"/>
+  <text x="14" y="502" font-size="13.5" fill="#ffffff" font-weight="600">3  Pathway-based allocation</text>
+  <text x="14" y="521" font-size="12" fill="#e8eef4" font-style="italic">Who should pay, by need?</text>
+  <text x="14" y="554" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">BASED ON</text>
+  <text x="14" y="572" font-size="11.5" fill="#1f2933">Each step of the 29 core pathways,</text>
+  <text x="14" y="587" font-size="11.5" fill="#1f2933">allocated to the body responsible</text>
+  <text x="14" y="602" font-size="11.5" fill="#1f2933">for the need it meets</text>
+  <line x1="14" y1="622" x2="346" y2="622" stroke="#e3e6ea" stroke-width="1"/>
+  <text x="14" y="640" font-size="10" fill="#5f6b7a" font-weight="600" letter-spacing="1">SHOWS</text>
+  <text x="14" y="657" font-size="11.5" fill="#14335a" font-weight="600">Funding that follows the</text>
+  <text x="14" y="672" font-size="11.5" fill="#14335a" font-weight="600">victim's need</text>
+  <rect x="0" y="698" width="360" height="50" fill="#c9a24a" rx="6"/>
+  <text x="180" y="719" font-size="12.5" fill="#14335a" font-weight="600" text-anchor="middle">Side by side, the three gave very</text>
+  <text x="180" y="736" font-size="12.5" fill="#14335a" font-weight="600" text-anchor="middle">different splits between the funding bodies</text>
+</svg>
