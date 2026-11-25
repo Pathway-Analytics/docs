@@ -14,22 +14,8 @@ Pathway Analytics delivers healthcare economics consultancy across the NHS, supp
 
 ## Case Study Page Template
 
-<!-- Template structure for individual case study pages.
-Start each page with a meta block giving a one-sentence description for link previews
-(see insights/README.md for the format).
-
-# [Case Study Title]
-
-## Client Context
-[Background on the client and their situation — organisation type, scale, and relevant context]
-
-## Challenge
-[The problem or challenge they faced — what was not working, what needed to change]
-
-## Approach
-[How Pathway Analytics addressed the challenge — methodology, tools, collaboration model]
-
-## Outcomes
-[Results, metrics, and impact achieved — quantified improvements, ongoing benefits]
-
--->
+<!-- How to write a case study page: see AGENTS.md at the root of the repository
+("Publishing a case study") and the Website Design System v1.0 in style-guide/README.md.
+Model each page on case-studies/sexual-health-tariff.md. Content runs in this order:
+the problem; Pathway Analytics' role; the approach; the work delivered; the impact or
+wider relevance; sources. -->

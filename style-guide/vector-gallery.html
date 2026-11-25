@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Vector gallery | Pathway Analytics</title>
+<link rel="icon" type="image/x-icon" href="https://mta-sts.pathwayanalytics.com/icons/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400&display=swap">
+<!--
+  The PWA vector gallery: every reusable website graphic, grouped by family.
+  Not in the site menu, search or sitemap. Values match the tokens in
+  assets/css/custom.css; rules are in style-guide/README.md.
+  To add a graphic: draw it with infra/graphics/pwa_graphics.py, then add an
+  <article> below in its family. See style-guide/_implementation.md.
+-->
+<style>
+:root {
+  color-scheme: light;
+  --navy: #14335a; --navy-text: #14335a; --teal-text: #3f6b6e; --gold-text: #7a5c1a;
+  --page: #ffffff; --panel: #f4f6f8; --text: #1f2933; --muted: #5f6b7a; --line: #e3e6ea;
+  --link: #14335a; --focus: #3f6b6e; --figure: #ffffff; --figure-pad: 0px;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --navy-text: #e8eef8; --teal-text: #8cc2c4; --gold-text: #e0c07a;
+  --page: #111827; --panel: #172033; --text: #e8eef8; --muted: #cbd5e1; --line: #374151;
+  --link: #9db8dd; --focus: #8cc2c4; --figure: #ffffff; --figure-pad: 16px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--text); font: 16px/1.6 Inter, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+main { max-width: 1100px; margin: 0 auto; padding: 40px 24px 64px; }
+h1, h2 { font-family: 'Playfair Display', Georgia, serif; font-weight: 400; color: var(--navy-text); line-height: 1.2; }
+h1 { font-size: 2.3rem; margin: 0 0 8px; }
+h2 { font-size: 1.7rem; margin: 0 0 4px; }
+h3 { font-size: 1.1rem; font-weight: 600; color: var(--navy-text); margin: 0 0 4px; }
+p { max-width: 75ch; margin: 0 0 12px; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+.lead { font-size: 1.1rem; color: var(--muted); }
+.top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px 24px; flex-wrap: wrap; margin-bottom: 16px; }
+.mode { font: inherit; font-size: 0.9rem; color: var(--navy-text); background: transparent; border: 1px solid var(--muted); border-radius: 4px; padding: 6px 14px; cursor: pointer; }
+nav.families { border-top: 1px solid var(--line); margin: 24px 0 0; padding: 12px 0 0; font-size: 0.95rem; line-height: 1.9; }
+nav.families a { margin-right: 20px; white-space: nowrap; }
+section.family { border-top: 1px solid var(--line); padding: 32px 0 8px; margin-top: 32px; }
+section.family > p { color: var(--muted); }
+article { margin: 28px 0 40px; }
+.meta { display: grid; grid-template-columns: 110px 1fr; gap: 2px 16px; font-size: 0.9rem; margin: 8px 0 16px; max-width: 75ch; }
+.meta dt { color: var(--muted); }
+.meta dd { margin: 0; }
+.views { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+figure { margin: 0; }
+figure img { display: block; width: 100%; height: auto; background: var(--figure); padding: var(--figure-pad); }
+figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
+.empty { background: var(--panel); padding: 16px 20px; color: var(--muted); max-width: 75ch; }
+footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; font-size: 0.9rem; color: var(--muted); }
+@media (max-width: 700px) {
+  main { padding: 24px 16px 48px; }
+  h1 { font-size: 1.9rem; }
+  .views { grid-template-columns: 1fr; }
+  .views .desktop { display: none; }
+  .meta { grid-template-columns: 1fr; }
+  .meta dt { margin-top: 6px; }
+}
+</style>
+<script>
+  try {
+    var saved = localStorage.getItem('pa-gallery-theme');
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+</script>
+</head>
+<body>
+<main>
+<header class="top">
+  <div>
+    <h1>Vector gallery</h1>
+    <p class="lead">Pathway Analytics website graphics, Design System v1.0</p>
+  </div>
+  <button type="button" class="mode" id="mode" aria-pressed="false">Dark mode</button>
+</header>
+
+<p>Every reusable graphic on the website, grouped by what it does. Each has a desktop version and a phone version, uses Arial and the house colours, and sits on a white panel in dark mode. Start a new graphic from the closest one here. The rules are in the <a href="/style-guide/">design system guide</a>.</p>
+
+<nav class="families" aria-label="Families">
+  <a href="#convergence">Convergence</a>
+  <a href="#pathways">Pathways and processes</a>
+  <a href="#cost">Cost and funding</a>
+  <a href="#matrices">Matrices</a>
+  <a href="#timelines">Timelines</a>
+</nav>
+
+<section class="family" id="convergence">
+  <h2>Convergence</h2>
+  <p>Shared objectives and multidisciplinary working: separate strands meeting at one point.</p>
+
+  <article id="signature">
+    <h3>Three disciplines, one patient</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>Strategy, health economics and digital solutions converging on the patient and continuing towards better pathways and outcomes.</dd>
+      <dt>Used on</dt><dd><a href="/">Home page</a> (drawn in the page so it follows dark mode); this file is for sharing images and other formats. Use it sparingly.</dd>
+      <dt>Files</dt><dd><a href="/assets/images/dictionary/convergence.svg" download>Desktop SVG</a> · <a href="/assets/images/dictionary/convergence-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/dictionary/convergence.svg" alt="Strategy, health economics and digital solutions converge on the patient and continue together towards better pathways and outcomes: access, equity, quality and value." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/dictionary/convergence-mobile.svg" alt="Phone version: strategy, health economics and digital solutions converge on the patient and continue towards better pathways and outcomes." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+
+  <article id="governance">
+    <h3>Programme governance</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>The London Sexual Health Programme, its steering group and four expert working groups, with Pathway Analytics supporting all four.</dd>
+      <dt>Used on</dt><dd><a href="/case-studies/sexual-health-tariff">Sexual health tariff case study</a></dd>
+      <dt>Files</dt><dd><a href="/assets/images/case-studies/tariff-governance.svg" download>Desktop SVG</a> · <a href="/assets/images/case-studies/tariff-governance-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/case-studies/tariff-governance.svg" alt="The London Sexual Health Programme and its steering group oversaw four expert working groups: clinical, commissioning, data management and finance. Pathway Analytics provided methodology, modelling, analysis, coding and IT support for all four." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/case-studies/tariff-governance-mobile.svg" alt="Phone version of the programme governance graphic." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+</section>
+
+<section class="family" id="pathways">
+  <h2>Pathways and processes</h2>
+  <p>Patient journeys and operational steps: one line the patient or the data follows, with steps marked as dots.</p>
+
+  <article id="care-to-charging">
+    <h3>From care to charging</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>Four steps from care to charging: the provider records and codes care as usual; the Tariff Grouper groups visits and allocates charges. The line splits where the data travels as two returns.</dd>
+      <dt>Used on</dt><dd><a href="/case-studies/sexual-health-tariff">Sexual health tariff case study</a></dd>
+      <dt>Files</dt><dd><a href="/assets/images/case-studies/tariff-care-to-payment.svg" download>Desktop SVG</a> · <a href="/assets/images/case-studies/tariff-care-to-payment-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/case-studies/tariff-care-to-payment.svg" alt="Four steps from care to charging. The provider delivers and records care as usual and codes it in two returns, GUMCAD and SRHAD. The Tariff Grouper joins the two datasets into visits, matches them to currencies and prices, and allocates each charge to the council that pays." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/case-studies/tariff-care-to-payment-mobile.svg" alt="Phone version of the care to charging graphic." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+
+  <article id="pathway-to-price">
+    <h3>From pathway to price</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>How one pathway is costed: one step, highlighted in gold, opens out into its direct cost; adding indirect costs gives the cost per pathway.</dd>
+      <dt>Used on</dt><dd><a href="/case-studies/sexual-health-tariff">Sexual health tariff case study</a></dd>
+      <dt>Files</dt><dd><a href="/assets/images/case-studies/tariff-pathway-to-price.svg" download>Desktop SVG</a> · <a href="/assets/images/case-studies/tariff-pathway-to-price-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/case-studies/tariff-pathway-to-price.svg" alt="One pathway is a first contact and follow-up contacts, each made of steps. The direct cost of each step is staff time times cost per clinical minute, plus drugs, tests, consumables and pathology. Adding an allowance for indirect costs gives the cost per pathway." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/case-studies/tariff-pathway-to-price-mobile.svg" alt="Phone version of the pathway to price graphic." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+</section>
+
+<section class="family" id="cost">
+  <h2>Cost and funding</h2>
+  <p>Resource allocation and economic comparisons: who pays for what, and how prices add up.</p>
+
+  <article id="hosted">
+    <h3>Hosted and de-hosted funding</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>Who a commissioner pays for under each model. Solid lines are paid for; dashed grey lines are not.</dd>
+      <dt>Used on</dt><dd><a href="/case-studies/sexual-health-tariff">Sexual health tariff case study</a></dd>
+      <dt>Files</dt><dd><a href="/assets/images/case-studies/tariff-hosted-dehosted.svg" download>Desktop SVG</a> · <a href="/assets/images/case-studies/tariff-hosted-dehosted-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/case-studies/tariff-hosted-dehosted.svg" alt="Under hosted funding a commissioner pays for everyone its local clinics see: local residents and visitors. Under de-hosted funding it pays for its own residents, wherever they are seen." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/case-studies/tariff-hosted-dehosted-mobile.svg" alt="Phone version of the hosted and de-hosted funding graphic." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+
+  <article id="one-visit">
+    <h3>One visit, two prices</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>A worked example at historical tariff prices: how the Primary and Additional prices pay for one visit without paying twice for shared care. Bars are to scale.</dd>
+      <dt>Used on</dt><dd><a href="/case-studies/sexual-health-tariff">Sexual health tariff case study</a></dd>
+      <dt>Files</dt><dd><a href="/assets/images/case-studies/tariff-one-visit-two-prices.svg" download>Desktop SVG</a> · <a href="/assets/images/case-studies/tariff-one-visit-two-prices-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/case-studies/tariff-one-visit-two-prices.svg" alt="One visit, historical tariff prices: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79, rather than £165.41 if both were paid at their Primary price. The £18.62 difference is shared care, not paid twice." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/case-studies/tariff-one-visit-two-prices-mobile.svg" alt="Phone version of the one visit, two prices graphic." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+</section>
+
+<section class="family" id="matrices">
+  <h2>Matrices</h2>
+  <p>Options, needs and service models compared on the same dimensions.</p>
+  <p class="empty">No published example yet. The first will be added with the next case study that uses one.</p>
+</section>
+
+<section class="family" id="timelines">
+  <h2>Timelines</h2>
+  <p>Policy development, adoption and implementation in order. The line is straight: a timeline shows sequence, not a measured trend.</p>
+
+  <article id="tariff-timeline">
+    <h3>From London to England</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>The sexual health tariff from design in London (2009 to 2010) to 130 services reported as commissioned solely on the tariff (2025/26). The gold dot marks the present.</dd>
+      <dt>Used on</dt><dd><a href="/case-studies/sexual-health-tariff">Sexual health tariff case study</a></dd>
+      <dt>Files</dt><dd><a href="/assets/images/case-studies/tariff-timeline.svg" download>Desktop SVG</a> · <a href="/assets/images/case-studies/tariff-timeline-mobile.svg" download>Phone SVG</a></dd>
+    </dl>
+    <div class="views">
+      <figure class="desktop"><img src="/assets/images/case-studies/tariff-timeline.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26." loading="lazy"><figcaption>Desktop, 720 wide</figcaption></figure>
+      <figure><img src="/assets/images/case-studies/tariff-timeline-mobile.svg" alt="Phone version of the tariff timeline." loading="lazy"><figcaption>Phone, 360 wide</figcaption></figure>
+    </div>
+  </article>
+</section>
+
+<footer>
+  <p>Graphics by Pathway Analytics. Each graphic carries the same facts and wording as the page it is published on; check both together before changing either.</p>
+</footer>
+</main>
+<script>
+  (function () {
+    var btn = document.getElementById('mode');
+    function sync() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    btn.addEventListener('click', function () {
+      var dark = document.documentElement.getAttribute('data-theme') !== 'dark';
+      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+      try { localStorage.setItem('pa-gallery-theme', dark ? 'dark' : 'light'); } catch (e) {}
+      sync();
+    });
+    sync();
+  })();
+</script>
+</body>
+</html>

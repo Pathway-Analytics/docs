@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 400" width="360" height="400" role="img" aria-label="Three disciplines, strategy, health economics and digital solutions, converge on the patient and continue together towards better pathways and outcomes: access, equity, quality and value." font-family="Arial, Helvetica, sans-serif">
+<title>Three disciplines, strategy, health economics and digital solutions, converge on the patient and continue together towards better pathways and outcomes: access, equity, quality and value.</title>
+<rect width="360" height="400" fill="#ffffff"/>
+<text x="180" y="26" font-size="14" text-anchor="middle" font-weight="bold" fill="#3f6b6e">Patient-centred solutions</text>
+<path d="M12 50 C80 50 110 112 180 112 C250 112 290 106 348 106" fill="none" stroke="#14335a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 112 C80 112 110 112 180 112 C250 112 290 112 348 112" fill="none" stroke="#518386" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 174 C80 174 110 112 180 112 C250 112 290 118 348 118" fill="none" stroke="#c9a24a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="112" r="24" fill="#ffffff" stroke="#e3e6ea" stroke-width="1.25"/>
+<circle cx="180" cy="108.4" r="4.4" fill="none" stroke="#14335a" stroke-width="1.75"/><path d="M171.2 124.4 C172.4 116.4 187.6 116.4 188.8 124.4" fill="none" stroke="#14335a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="348" y="206" font-size="15" text-anchor="end" fill="#14335a">Better pathways and outcomes</text>
+<text x="348" y="226" font-size="12" text-anchor="end" fill="#3f6b6e">Access · Equity · Quality · Value</text>
+<line x1="12" y1="244" x2="348" y2="244" stroke="#e3e6ea" stroke-width="1"/>
+<circle cx="18" cy="267" r="5" fill="#14335a"/>
+<text x="32" y="272" font-size="15" fill="#14335a">Strategy</text>
+<text x="32" y="290" font-size="12" fill="#5f6b7a">Advocacy, leadership and change</text>
+<circle cx="18" cy="313" r="5" fill="#518386"/>
+<text x="32" y="318" font-size="15" fill="#14335a">Health Economics</text>
+<text x="32" y="336" font-size="12" fill="#5f6b7a">Funding, incentives and evaluation</text>
+<circle cx="18" cy="359" r="5" fill="#c9a24a"/>
+<text x="32" y="364" font-size="15" fill="#14335a">Digital Solutions</text>
+<text x="32" y="382" font-size="12" fill="#5f6b7a">Platforms, analytics and implementation</text>
+</svg>

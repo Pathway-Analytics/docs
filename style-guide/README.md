@@ -1,284 +1,156 @@
-# Style Guide
+<!-- meta
+description: The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.
+-->
 
-This guide documents the design system, available components, and markdown conventions used across the Pathway Analytics documentation site.
+# Website design system
+
+Version 1.0, November 2026, frozen. One set of rules for every page and graphic on pathwayanalytics.com, for anyone who edits the site: people, AI assistants and developers. The values are set once, in the design tokens at the top of [`assets/css/custom.css`](https://github.com/Pathway-Analytics/docs/blob/main/assets/css/custom.css). Every reusable graphic is in the [vector gallery](/style-guide/vector-gallery.html ':ignore').
 
----
+Version 1.0 is the default for every new page and case study. New content uses it as it stands. A change to the design system itself is made in its own pull request, updating the tokens, this guide and the gallery together.
 
-## Colour Palette
+## Principles
 
-All colours are defined as CSS custom properties and adapt automatically between light and dark modes.
+The site should read as editorial, analytical, established, understated and patient-centred: a specialist research institute with a strategy consultancy's experience, not a technology start-up.
 
-| Token | Light | Dark | Usage |
-|-------|-------|------|-------|
-| `--pa-primary` | `#1f4788` | `#6aa7f8` | Links, headings, active states |
-| `--pa-primary-hover` | `#163561` | `#9dc4fb` | Hover states |
-| `--pa-accent` | `#2e86de` | `#64b5f6` | Highlights, blockquote borders |
-| `--pa-text` | `#2d3748` | `#e8eaed` | Body text |
-| `--pa-text-muted` | `#636b75` | `#9aa5b4` | Secondary text, captions |
-| `--pa-background` | `#ffffff` | `#0f1117` | Page background |
-| `--pa-surface` | `#f7f8fa` | `#1a1d27` | Cards, code blocks, sidebar |
-| `--pa-border` | `#e2e8f0` | `#2d3344` | Borders, dividers |
+- The work provides the visual interest: original content, graphics that explain it, generous white space, fine dividing lines.
+- Avoid stacks of cards, rounded containers, decorative icons, gradients, glows, gold rings and stock photography.
+- Change as little as possible. Use the tokens; do not add near-duplicate colours or one-off styles for a single page.
 
----
+## Logo
 
-## Typography
+The master logo is the two-colour Pathway Analytics logo: "Pathway" in navy over "ANALYTICS" in spaced teal capitals.
 
-| Element | Size | Weight | Notes |
-|---------|------|--------|-------|
-| Body text | 16px | 400 | Line-height 1.7, max-width 72ch |
-| h1 | 2em | 700 | Primary blue colour |
-| h2 | 1.5em | 700 | Bottom border separator |
-| h3 | 1.2em | 500 | — |
-| h4 | 1.05em | 500 | — |
-| Code | 0.85em | mono | SF Mono / Fira Code |
+- Use the supplied files in `assets/images/brand/`: `logo-on-light.png` on white, `logo-on-dark.png` in dark mode.
+- Keep using the PNG files until a faithful vector version exists; that will replace `wordmark-on-light.svg`.
+- Do not redraw, retype, recolour or stretch the logo, or swap in the single-colour wordmark.
+- The spaced capitals belong to the logo only.
 
-Font stack: `Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`
+## Colours
 
----
+Navy and teal come from the logo; gold is the accent. Each brand colour stands for one discipline.
 
-## Spacing
+| Role | Colour | Use |
+| --- | --- | --- |
+| Strategy | Navy `#14335A` | Headings, main lines, primary buttons |
+| Health Economics | Teal `#518386` | Lines and markers |
+| Digital Solutions | Gold `#C9A24A` | Lines, markers, the one highlight in a graphic |
+| Navy text | `#14335A` | Text on light backgrounds |
+| Teal text | `#3F6B6E` | Teal text, and teal fills behind white text |
+| Gold text | `#7A5C1A` | Gold text. Never set text in `#C9A24A`: it is too light to read |
+| Body text | `#1F2933` | Running text |
+| Secondary text | `#5F6B7A` | Captions, notes, labels |
+| Dividers | `#E3E6EA` | Rules and borders |
+| Pale panels | `#F4F6F8` | Panels, table stripes, code |
+| Background | `#FFFFFF` | Page and figure panels |
 
-All spacing uses an 8px base scale:
+Patient advocacy has no colour of its own: it is shown by the patient at the centre of the signature graphic.
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `--space-xs` | 8px | Tight gaps, inline padding |
-| `--space-sm` | 16px | Paragraph spacing, small gaps |
-| `--space-md` | 24px | Section padding, card padding |
-| `--space-lg` | 32px | Major separators |
-| `--space-xl` | 48px | Page-level breaks |
+Brand colours identify disciplines. They do not decide the colours of analytical categories: see [Charts](#charts).
 
----
+## Dark mode
 
-## Headings
+Dark mode is a dark interface around light figures.
 
-```markdown
-# Heading 1 — page title (one per page)
-## Heading 2 — major sections (gets bottom border)
-### Heading 3 — subsections
-#### Heading 4 — minor subsections
-```
+| Role | Dark value |
+| --- | --- |
+| Page | `#111827` |
+| Dark panel | `#172033` |
+| Light text | `#E8EEF8` |
+| Secondary text | `#CBD5E1` |
+| Links and navy text | `#9DB8DD` |
+| Teal text | `#8CC2C4` |
+| Gold text | `#E0C07A` |
+| Primary buttons | `#E8EEF8` with `#111827` text |
+| Focus ring | `#8CC2C4` |
 
-# Heading 1
+- Analytical graphics keep their white background and sit on a white panel with 16px padding. One file then works in both modes, and in Word and PowerPoint.
+- Captions sit outside the panel, in the dark mode text colours.
+- Every text colour above meets WCAG AA (4.5:1) on both the page and the dark panel.
 
-## Heading 2
+## Type
 
-### Heading 3
+| Font | Where |
+| --- | --- |
+| Playfair Display | Major page titles and editorial headlines, used selectively |
+| Inter | Body text, subheadings, navigation and interface |
+| Arial, Helvetica, sans-serif | Text inside graphics, so they render the same in browsers and Office |
 
-#### Heading 4
+- Sentence case for headings, labels and buttons. No full stops in headings.
+- No letter-spaced capitals, apart from the logo.
+- One title (H1) per page; H2 for sections, H3 and H4 below them.
+- Running text stays within 720px (about 75 characters a line).
 
----
+## Layout and components
 
-## Navigation Cards
+- Spacing comes from the 8px scale in the tokens: 8, 16, 24, 32, 48, 80.
+- Corners are small (4px) or square. Dividers are 1px `#E3E6EA`.
+- Links in running text are underlined, so they never depend on colour alone.
+- Buttons: navy with white text; in dark mode, light with dark text.
+- Tags and labels: sentence case, in the discipline's text colour or the secondary text colour. No filled pills.
+- Every page works at 390px wide with nothing scrolling sideways.
 
-Used on landing pages to link to major sections:
+## Graphics
 
-```html
-<div class="nav-cards">
-  <a href="/sexual-health-tariff/" class="nav-card">
-    <h3>Card Title</h3>
-    <p>Short description of the section.</p>
-  </a>
-  <a href="/health-pathways/" class="nav-card">
-    <h3>Another Card</h3>
-    <p>Brief explanation of what this links to.</p>
-  </a>
-</div>
-```
+Graphics explain the substance of the work; they never decorate. Every graphic belongs to a family in the [vector gallery](/style-guide/vector-gallery.html ':ignore'): convergence, pathways and processes, cost and funding, matrices, or timelines. New families are added only when a real case study needs one.
 
-<div class="nav-cards">
-  <a href="/sexual-health-tariff/" class="nav-card">
-    <h3>Example Card</h3>
-    <p>This is how a navigation card renders on the page.</p>
-  </a>
-  <a href="/style-guide/" class="nav-card">
-    <h3>Style Guide</h3>
-    <p>You are here — the design system reference.</p>
-  </a>
-</div>
+- Text in Arial; colours from the brand and neutral lists above, nothing else.
+- A desktop version 720 wide and a phone version 360 wide. The page switches between them at 700px.
+- A white background, so the same file works on the page, in dark mode and in documents.
+- Steps and points are solid dots. One gold dot marks the point to look at. No rings, halos, glows, shadows, gradients or icons.
+- Solid lines are what happens or is paid for; dashed lines are what is not paid for, not counted, or continues.
+- Timelines are straight lines. A rising curve suggests a measured trend, so use one only when it plots real data.
+- Labels in sentence case, with no letter-spacing.
+- Meaning never relies on colour alone: label it, or use line style or position as well.
+- Facts and wording match the page the graphic appears on. Put any data source in the page caption, not in the graphic.
+- Alt text says what the graphic shows, not what it looks like.
 
----
+The signature graphic, three disciplines converging on the patient, is for the home page and sharing images. Do not repeat it elsewhere on the site.
 
-## Blockquotes
+## Charts
 
-Standard blockquotes use a blue left border:
+Charts use analytical colours, kept separate from the brand colours. Analytical colours say which group or how much; brand colours say which discipline.
 
-```markdown
-> This is a standard blockquote for general information.
-```
+**Categorical** (services, interventions, groups), always assigned in this order:
 
-> This is a standard blockquote for general information.
+| Order | Colour | Value |
+| --- | --- | --- |
+| 1 | Blue | `#2F6EA8` |
+| 2 | Ochre | `#B08A2E` |
+| 3 | Teal | `#008C82` |
+| 4 | Rust | `#B85A3F` |
+| 5 | Plum | `#7B5EA7` |
+| 6 | Green | `#5E8F3E` |
 
----
+- In this order, neighbouring colours stay distinct for people with red-green colour blindness, and every colour reaches 3:1 on white.
+- More than six groups: combine the smallest into "Other", or use small multiples. Never invent a seventh colour.
+- Scatter plots and maps, where any two colours can sit side by side: use slots 1 and 2 only, with shapes or labels for anything more.
 
-## Callouts
+**Sequential** (ordered measures, from low to high): `#8FABCF`, `#6189BB`, `#3E6AA0`, `#25497C`, `#14335A`.
 
-Special callout styles are applied based on the opening word:
+- Keep a group's colour the same in every figure of a case study.
+- Label series directly where there is room; add a legend when there are two or more series.
+- Horizontal gridlines only, thin and pale. No chart borders. One vertical axis per chart.
+- Status colours (green, amber, red) are kept for good, warning and problem, always with a word.
 
-### Note (amber border)
+## Accessibility
 
-```markdown
-> **Note:** This is a note callout with an amber left border.
-```
+- Text meets WCAG AA: 4.5:1, or 3:1 for large text. Lines and shapes that carry meaning meet 3:1.
+- Links are underlined in running text; the keyboard focus ring is always visible.
+- Everything can be reached and used by keyboard.
+- Check each new page on a phone and a desktop, in light and dark mode.
 
-> **Note:** This is a note callout with an amber left border.
+## Writing
 
-### Important (red border)
+- British English: plain, restrained and evidence-led.
+- Case studies follow the same order: the problem, Pathway Analytics' role, the approach, the work delivered, and the impact or wider relevance.
+- Separate what Pathway Analytics did from what the wider programme achieved. Claim only what the evidence shows.
+- No unsupported impact claims, consultancy clichés or repetitive AI-style phrasing.
+- Name clients and individuals only with permission.
 
-```markdown
-> **Important:** This is an important callout with a red left border.
-```
+## What belongs in this repository
 
-> **Important:** This is an important callout with a red left border.
+Everything in this repository can be read by anyone on GitHub, including files kept off the website.
 
----
-
-## Code
-
-### Inline code
-
-Use backticks for inline code: `variable`, `function()`, `file.md`
-
-### Code blocks
-
-Use triple backticks with an optional language identifier:
-
-```sql
-SELECT * FROM tariff_configurations
-WHERE active = true;
-```
-
-```css
-.nav-card {
-  border: 1px solid var(--pa-border);
-  border-radius: 6px;
-  padding: var(--space-md);
-}
-```
-
----
-
-## Tables
-
-```markdown
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Cell A   | Cell B   | Cell C   |
-| Cell D   | Cell E   | Cell F   |
-```
-
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Cell A   | Cell B   | Cell C   |
-| Cell D   | Cell E   | Cell F   |
-
----
-
-## Lists
-
-### Unordered
-
-```markdown
-- First item
-- Second item
-  - Nested item
-- Third item
-```
-
-- First item
-- Second item
-  - Nested item
-- Third item
-
-### Ordered
-
-```markdown
-1. Step one
-2. Step two
-3. Step three
-```
-
-1. Step one
-2. Step two
-3. Step three
-
----
-
-## Links
-
-### Internal links
-
-```markdown
-[Link text](/sexual-health-tariff/tariff-configurations)
-```
-
-[Example internal link](/sexual-health-tariff/tariff-configurations)
-
-### External links
-
-Use an arrow indicator for external application links:
-
-```markdown
-[Tariff Grouper Login ↗](https://production.pathwayanalytics.com/auth/sign-in)
-```
-
-[Tariff Grouper Login ↗](https://production.pathwayanalytics.com/auth/sign-in)
-
----
-
-## Images
-
-### Standard image
-
-```markdown
-![Alt text description](assets/images/example.png)
-```
-
-### Image with caption
-
-```html
-<figure>
-  <img src="assets/images/logo.png" alt="Pathway Analytics logo" loading="lazy">
-  <figcaption>Caption text goes here (max 200 characters).</figcaption>
-</figure>
-```
-
-Use `loading="lazy"` on all images below the fold.
-
----
-
-## Horizontal Rules
-
-Use `---` to create a horizontal divider between major sections:
-
-```markdown
----
-```
-
----
-
-## Bold and Italic
-
-```markdown
-**Bold text** for emphasis
-*Italic text* for secondary emphasis
-***Bold italic*** for strong emphasis
-```
-
-**Bold text** for emphasis  
-*Italic text* for secondary emphasis  
-***Bold italic*** for strong emphasis
-
----
-
-## Dark Mode
-
-The site supports automatic dark/light mode switching. All colours adapt via CSS custom properties. Use the toggle button in the top-right corner.
-
-Content authors don't need to do anything special — the theme handles colour adaptation automatically. Avoid using hardcoded colour values in inline styles.
-
----
-
-## Edit Links
-
-Every page automatically includes a "Suggest an edit" link in the bottom-right corner linking to the source file on GitHub. This is generated by a plugin — no markup needed.
+- In: this guide, the design tokens, editorial conventions and graphics that are approved for publication.
+- Never in: client material, unpublished project files or findings, internal evaluation palettes, private analysis, or the Word and PowerPoint house styles.
+- This guide is a public page. The vector gallery can be reached by its address but is not in the menu, search or sitemap. Technical notes are in `_implementation.md`, which the site does not publish as a page.

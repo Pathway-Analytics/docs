@@ -10,23 +10,25 @@
   <!-- Generated per page by infra/gen-pages.mjs from each page's Markdown.
        To change a page's description or image, edit the meta comment at the
        top of its .md file, not these tags. -->
-  <title>Style Guide — Pathway Analytics</title>
-  <meta name="description" content="This guide documents the design system, available components, and markdown conventions used across the Pathway Analytics documentation site.">
+  <title>Website design system — Pathway Analytics</title>
+  <meta name="description" content="The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://pathwayanalytics.com/style-guide/">
   <meta property="og:site_name" content="Pathway Analytics">
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Style Guide">
-  <meta property="og:description" content="This guide documents the design system, available components, and markdown conventions used across the Pathway Analytics documentation site.">
+  <meta property="og:title" content="Website design system">
+  <meta property="og:description" content="The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.">
   <meta property="og:url" content="https://pathwayanalytics.com/style-guide/">
-  <meta property="og:image" content="https://pathwayanalytics.com/assets/images/example.png">
-  <meta property="og:image:alt" content="Style Guide">
+  <meta property="og:image" content="https://pathwayanalytics.com/assets/images/og/default.png">
+  <meta property="og:image:alt" content="Pathway Analytics: health economics and strategic advisory">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Style Guide">
-  <meta name="twitter:description" content="This guide documents the design system, available components, and markdown conventions used across the Pathway Analytics documentation site.">
-  <meta name="twitter:image" content="https://pathwayanalytics.com/assets/images/example.png">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Style Guide","description":"This guide documents the design system, available components, and markdown conventions used across the Pathway Analytics documentation site.","url":"https://pathwayanalytics.com/style-guide/","mainEntityOfPage":"https://pathwayanalytics.com/style-guide/","image":"https://pathwayanalytics.com/assets/images/example.png","publisher":{"@type":"Organization","name":"Pathway Analytics","url":"https://pathwayanalytics.com","logo":{"@type":"ImageObject","url":"https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png"}}}</script>
+  <meta name="twitter:title" content="Website design system">
+  <meta name="twitter:description" content="The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.">
+  <meta name="twitter:image" content="https://pathwayanalytics.com/assets/images/og/default.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Website design system","description":"The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.","url":"https://pathwayanalytics.com/style-guide/","mainEntityOfPage":"https://pathwayanalytics.com/style-guide/","image":"https://pathwayanalytics.com/assets/images/og/default.png","publisher":{"@type":"Organization","name":"Pathway Analytics","url":"https://pathwayanalytics.com","logo":{"@type":"ImageObject","url":"https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png"}}}</script>
   <!-- page-meta:end -->
 
   <!-- Legacy links. Pages used to live at /#/section/page. Rewrite those to
@@ -93,321 +95,270 @@
   <!-- Skip Navigation Link -->
   <a href="#app" class="skip-link">Skip to main content</a>
 
-  <div id="app" role="main" aria-label="Documentation content"><!-- prerender:start --><div class="prerender"><nav class="prerender-nav"><a href="/">Pathway Analytics</a></nav><article class="markdown-section"><h1>Style Guide</h1>
-<p>This guide documents the design system, available components, and markdown conventions used across the Pathway Analytics documentation site.</p>
-<hr>
-<h2>Colour Palette</h2>
-<p>All colours are defined as CSS custom properties and adapt automatically between light and dark modes.</p>
-<table>
-<thead>
-<tr>
-<th>Token</th>
-<th>Light</th>
-<th>Dark</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>--pa-primary</code></td>
-<td><code>#1f4788</code></td>
-<td><code>#6aa7f8</code></td>
-<td>Links, headings, active states</td>
-</tr>
-<tr>
-<td><code>--pa-primary-hover</code></td>
-<td><code>#163561</code></td>
-<td><code>#9dc4fb</code></td>
-<td>Hover states</td>
-</tr>
-<tr>
-<td><code>--pa-accent</code></td>
-<td><code>#2e86de</code></td>
-<td><code>#64b5f6</code></td>
-<td>Highlights, blockquote borders</td>
-</tr>
-<tr>
-<td><code>--pa-text</code></td>
-<td><code>#2d3748</code></td>
-<td><code>#e8eaed</code></td>
-<td>Body text</td>
-</tr>
-<tr>
-<td><code>--pa-text-muted</code></td>
-<td><code>#636b75</code></td>
-<td><code>#9aa5b4</code></td>
-<td>Secondary text, captions</td>
-</tr>
-<tr>
-<td><code>--pa-background</code></td>
-<td><code>#ffffff</code></td>
-<td><code>#0f1117</code></td>
-<td>Page background</td>
-</tr>
-<tr>
-<td><code>--pa-surface</code></td>
-<td><code>#f7f8fa</code></td>
-<td><code>#1a1d27</code></td>
-<td>Cards, code blocks, sidebar</td>
-</tr>
-<tr>
-<td><code>--pa-border</code></td>
-<td><code>#e2e8f0</code></td>
-<td><code>#2d3344</code></td>
-<td>Borders, dividers</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Typography</h2>
-<table>
-<thead>
-<tr>
-<th>Element</th>
-<th>Size</th>
-<th>Weight</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Body text</td>
-<td>16px</td>
-<td>400</td>
-<td>Line-height 1.7, max-width 72ch</td>
-</tr>
-<tr>
-<td>h1</td>
-<td>2em</td>
-<td>700</td>
-<td>Primary blue colour</td>
-</tr>
-<tr>
-<td>h2</td>
-<td>1.5em</td>
-<td>700</td>
-<td>Bottom border separator</td>
-</tr>
-<tr>
-<td>h3</td>
-<td>1.2em</td>
-<td>500</td>
-<td>—</td>
-</tr>
-<tr>
-<td>h4</td>
-<td>1.05em</td>
-<td>500</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Code</td>
-<td>0.85em</td>
-<td>mono</td>
-<td>SF Mono / Fira Code</td>
-</tr>
-</tbody></table>
-<p>Font stack: <code>Roboto, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif</code></p>
-<hr>
-<h2>Spacing</h2>
-<p>All spacing uses an 8px base scale:</p>
-<table>
-<thead>
-<tr>
-<th>Token</th>
-<th>Value</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>--space-xs</code></td>
-<td>8px</td>
-<td>Tight gaps, inline padding</td>
-</tr>
-<tr>
-<td><code>--space-sm</code></td>
-<td>16px</td>
-<td>Paragraph spacing, small gaps</td>
-</tr>
-<tr>
-<td><code>--space-md</code></td>
-<td>24px</td>
-<td>Section padding, card padding</td>
-</tr>
-<tr>
-<td><code>--space-lg</code></td>
-<td>32px</td>
-<td>Major separators</td>
-</tr>
-<tr>
-<td><code>--space-xl</code></td>
-<td>48px</td>
-<td>Page-level breaks</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Headings</h2>
-<pre><code class="language-markdown"># Heading 1 — page title (one per page)
-## Heading 2 — major sections (gets bottom border)
-### Heading 3 — subsections
-#### Heading 4 — minor subsections
-</code></pre>
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<hr>
-<h2>Navigation Cards</h2>
-<p>Used on landing pages to link to major sections:</p>
-<pre><code class="language-html">&lt;div class=&quot;nav-cards&quot;&gt;
-  &lt;a href=&quot;/sexual-health-tariff/&quot; class=&quot;nav-card&quot;&gt;
-    &lt;h3&gt;Card Title&lt;/h3&gt;
-    &lt;p&gt;Short description of the section.&lt;/p&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;/health-pathways/&quot; class=&quot;nav-card&quot;&gt;
-    &lt;h3&gt;Another Card&lt;/h3&gt;
-    &lt;p&gt;Brief explanation of what this links to.&lt;/p&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
-<div class="nav-cards">
-  <a href="/sexual-health-tariff/" class="nav-card">
-    <h3>Example Card</h3>
-    <p>This is how a navigation card renders on the page.</p>
-  </a>
-  <a href="/style-guide/" class="nav-card">
-    <h3>Style Guide</h3>
-    <p>You are here — the design system reference.</p>
-  </a>
-</div><hr>
-<h2>Blockquotes</h2>
-<p>Standard blockquotes use a blue left border:</p>
-<pre><code class="language-markdown">&gt; This is a standard blockquote for general information.
-</code></pre>
-<blockquote>
-<p>This is a standard blockquote for general information.</p>
-</blockquote>
-<hr>
-<h2>Callouts</h2>
-<p>Special callout styles are applied based on the opening word:</p>
-<h3>Note (amber border)</h3>
-<pre><code class="language-markdown">&gt; **Note:** This is a note callout with an amber left border.
-</code></pre>
-<blockquote>
-<p><strong>Note:</strong> This is a note callout with an amber left border.</p>
-</blockquote>
-<h3>Important (red border)</h3>
-<pre><code class="language-markdown">&gt; **Important:** This is an important callout with a red left border.
-</code></pre>
-<blockquote>
-<p><strong>Important:</strong> This is an important callout with a red left border.</p>
-</blockquote>
-<hr>
-<h2>Code</h2>
-<h3>Inline code</h3>
-<p>Use backticks for inline code: <code>variable</code>, <code>function()</code>, <code>file.md</code></p>
-<h3>Code blocks</h3>
-<p>Use triple backticks with an optional language identifier:</p>
-<pre><code class="language-sql">SELECT * FROM tariff_configurations
-WHERE active = true;
-</code></pre>
-<pre><code class="language-css">.nav-card {
-  border: 1px solid var(--pa-border);
-  border-radius: 6px;
-  padding: var(--space-md);
-}
-</code></pre>
-<hr>
-<h2>Tables</h2>
-<pre><code class="language-markdown">| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Cell A   | Cell B   | Cell C   |
-| Cell D   | Cell E   | Cell F   |
-</code></pre>
-<table>
-<thead>
-<tr>
-<th>Column 1</th>
-<th>Column 2</th>
-<th>Column 3</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Cell A</td>
-<td>Cell B</td>
-<td>Cell C</td>
-</tr>
-<tr>
-<td>Cell D</td>
-<td>Cell E</td>
-<td>Cell F</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Lists</h2>
-<h3>Unordered</h3>
-<pre><code class="language-markdown">- First item
-- Second item
-  - Nested item
-- Third item
-</code></pre>
+  <div id="app" role="main" aria-label="Documentation content"><!-- prerender:start --><div class="prerender"><nav class="prerender-nav"><a href="/">Pathway Analytics</a></nav><article class="markdown-section"><h1>Website design system</h1>
+<p>Version 1.0, November 2026, frozen. One set of rules for every page and graphic on pathwayanalytics.com, for anyone who edits the site: people, AI assistants and developers. The values are set once, in the design tokens at the top of <a href="https://github.com/Pathway-Analytics/docs/blob/main/assets/css/custom.css"><code>assets/css/custom.css</code></a>. Every reusable graphic is in the <a href="/style-guide/vector-gallery.html" title=":ignore">vector gallery</a>.</p>
+<p>Version 1.0 is the default for every new page and case study. New content uses it as it stands. A change to the design system itself is made in its own pull request, updating the tokens, this guide and the gallery together.</p>
+<h2>Principles</h2>
+<p>The site should read as editorial, analytical, established, understated and patient-centred: a specialist research institute with a strategy consultancy&#39;s experience, not a technology start-up.</p>
 <ul>
-<li>First item</li>
-<li>Second item<ul>
-<li>Nested item</li>
+<li>The work provides the visual interest: original content, graphics that explain it, generous white space, fine dividing lines.</li>
+<li>Avoid stacks of cards, rounded containers, decorative icons, gradients, glows, gold rings and stock photography.</li>
+<li>Change as little as possible. Use the tokens; do not add near-duplicate colours or one-off styles for a single page.</li>
 </ul>
-</li>
-<li>Third item</li>
+<h2>Logo</h2>
+<p>The master logo is the two-colour Pathway Analytics logo: &quot;Pathway&quot; in navy over &quot;ANALYTICS&quot; in spaced teal capitals.</p>
+<ul>
+<li>Use the supplied files in <code>assets/images/brand/</code>: <code>logo-on-light.png</code> on white, <code>logo-on-dark.png</code> in dark mode.</li>
+<li>Keep using the PNG files until a faithful vector version exists; that will replace <code>wordmark-on-light.svg</code>.</li>
+<li>Do not redraw, retype, recolour or stretch the logo, or swap in the single-colour wordmark.</li>
+<li>The spaced capitals belong to the logo only.</li>
 </ul>
-<h3>Ordered</h3>
-<pre><code class="language-markdown">1. Step one
-2. Step two
-3. Step three
-</code></pre>
-<ol>
-<li>Step one</li>
-<li>Step two</li>
-<li>Step three</li>
-</ol>
-<hr>
-<h2>Links</h2>
-<h3>Internal links</h3>
-<pre><code class="language-markdown">[Link text](/sexual-health-tariff/tariff-configurations)
-</code></pre>
-<p><a href="/sexual-health-tariff/tariff-configurations">Example internal link</a></p>
-<h3>External links</h3>
-<p>Use an arrow indicator for external application links:</p>
-<pre><code class="language-markdown">[Tariff Grouper Login ↗](https://production.pathwayanalytics.com/auth/sign-in)
-</code></pre>
-<p><a href="https://production.pathwayanalytics.com/auth/sign-in">Tariff Grouper Login ↗</a></p>
-<hr>
-<h2>Images</h2>
-<h3>Standard image</h3>
-<pre><code class="language-markdown">![Alt text description](assets/images/example.png)
-</code></pre>
-<h3>Image with caption</h3>
-<pre><code class="language-html">&lt;figure&gt;
-  &lt;img src=&quot;assets/images/logo.png&quot; alt=&quot;Pathway Analytics logo&quot; loading=&quot;lazy&quot;&gt;
-  &lt;figcaption&gt;Caption text goes here (max 200 characters).&lt;/figcaption&gt;
-&lt;/figure&gt;
-</code></pre>
-<p>Use <code>loading=&quot;lazy&quot;</code> on all images below the fold.</p>
-<hr>
-<h2>Horizontal Rules</h2>
-<p>Use <code>---</code> to create a horizontal divider between major sections:</p>
-<pre><code class="language-markdown">---
-</code></pre>
-<hr>
-<h2>Bold and Italic</h2>
-<pre><code class="language-markdown">**Bold text** for emphasis
-*Italic text* for secondary emphasis
-***Bold italic*** for strong emphasis
-</code></pre>
-<p><strong>Bold text</strong> for emphasis<br><em>Italic text</em> for secondary emphasis<br><em><strong>Bold italic</strong></em> for strong emphasis</p>
-<hr>
-<h2>Dark Mode</h2>
-<p>The site supports automatic dark/light mode switching. All colours adapt via CSS custom properties. Use the toggle button in the top-right corner.</p>
-<p>Content authors don&#39;t need to do anything special — the theme handles colour adaptation automatically. Avoid using hardcoded colour values in inline styles.</p>
-<hr>
-<h2>Edit Links</h2>
-<p>Every page automatically includes a &quot;Suggest an edit&quot; link in the bottom-right corner linking to the source file on GitHub. This is generated by a plugin — no markup needed.</p>
+<h2>Colours</h2>
+<p>Navy and teal come from the logo; gold is the accent. Each brand colour stands for one discipline.</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Colour</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Strategy</td>
+<td>Navy <code>#14335A</code></td>
+<td>Headings, main lines, primary buttons</td>
+</tr>
+<tr>
+<td>Health Economics</td>
+<td>Teal <code>#518386</code></td>
+<td>Lines and markers</td>
+</tr>
+<tr>
+<td>Digital Solutions</td>
+<td>Gold <code>#C9A24A</code></td>
+<td>Lines, markers, the one highlight in a graphic</td>
+</tr>
+<tr>
+<td>Navy text</td>
+<td><code>#14335A</code></td>
+<td>Text on light backgrounds</td>
+</tr>
+<tr>
+<td>Teal text</td>
+<td><code>#3F6B6E</code></td>
+<td>Teal text, and teal fills behind white text</td>
+</tr>
+<tr>
+<td>Gold text</td>
+<td><code>#7A5C1A</code></td>
+<td>Gold text. Never set text in <code>#C9A24A</code>: it is too light to read</td>
+</tr>
+<tr>
+<td>Body text</td>
+<td><code>#1F2933</code></td>
+<td>Running text</td>
+</tr>
+<tr>
+<td>Secondary text</td>
+<td><code>#5F6B7A</code></td>
+<td>Captions, notes, labels</td>
+</tr>
+<tr>
+<td>Dividers</td>
+<td><code>#E3E6EA</code></td>
+<td>Rules and borders</td>
+</tr>
+<tr>
+<td>Pale panels</td>
+<td><code>#F4F6F8</code></td>
+<td>Panels, table stripes, code</td>
+</tr>
+<tr>
+<td>Background</td>
+<td><code>#FFFFFF</code></td>
+<td>Page and figure panels</td>
+</tr>
+</tbody></table>
+<p>Patient advocacy has no colour of its own: it is shown by the patient at the centre of the signature graphic.</p>
+<p>Brand colours identify disciplines. They do not decide the colours of analytical categories: see <a href="#charts">Charts</a>.</p>
+<h2>Dark mode</h2>
+<p>Dark mode is a dark interface around light figures.</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Dark value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Page</td>
+<td><code>#111827</code></td>
+</tr>
+<tr>
+<td>Dark panel</td>
+<td><code>#172033</code></td>
+</tr>
+<tr>
+<td>Light text</td>
+<td><code>#E8EEF8</code></td>
+</tr>
+<tr>
+<td>Secondary text</td>
+<td><code>#CBD5E1</code></td>
+</tr>
+<tr>
+<td>Links and navy text</td>
+<td><code>#9DB8DD</code></td>
+</tr>
+<tr>
+<td>Teal text</td>
+<td><code>#8CC2C4</code></td>
+</tr>
+<tr>
+<td>Gold text</td>
+<td><code>#E0C07A</code></td>
+</tr>
+<tr>
+<td>Primary buttons</td>
+<td><code>#E8EEF8</code> with <code>#111827</code> text</td>
+</tr>
+<tr>
+<td>Focus ring</td>
+<td><code>#8CC2C4</code></td>
+</tr>
+</tbody></table>
+<ul>
+<li>Analytical graphics keep their white background and sit on a white panel with 16px padding. One file then works in both modes, and in Word and PowerPoint.</li>
+<li>Captions sit outside the panel, in the dark mode text colours.</li>
+<li>Every text colour above meets WCAG AA (4.5:1) on both the page and the dark panel.</li>
+</ul>
+<h2>Type</h2>
+<table>
+<thead>
+<tr>
+<th>Font</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Playfair Display</td>
+<td>Major page titles and editorial headlines, used selectively</td>
+</tr>
+<tr>
+<td>Inter</td>
+<td>Body text, subheadings, navigation and interface</td>
+</tr>
+<tr>
+<td>Arial, Helvetica, sans-serif</td>
+<td>Text inside graphics, so they render the same in browsers and Office</td>
+</tr>
+</tbody></table>
+<ul>
+<li>Sentence case for headings, labels and buttons. No full stops in headings.</li>
+<li>No letter-spaced capitals, apart from the logo.</li>
+<li>One title (H1) per page; H2 for sections, H3 and H4 below them.</li>
+<li>Running text stays within 720px (about 75 characters a line).</li>
+</ul>
+<h2>Layout and components</h2>
+<ul>
+<li>Spacing comes from the 8px scale in the tokens: 8, 16, 24, 32, 48, 80.</li>
+<li>Corners are small (4px) or square. Dividers are 1px <code>#E3E6EA</code>.</li>
+<li>Links in running text are underlined, so they never depend on colour alone.</li>
+<li>Buttons: navy with white text; in dark mode, light with dark text.</li>
+<li>Tags and labels: sentence case, in the discipline&#39;s text colour or the secondary text colour. No filled pills.</li>
+<li>Every page works at 390px wide with nothing scrolling sideways.</li>
+</ul>
+<h2>Graphics</h2>
+<p>Graphics explain the substance of the work; they never decorate. Every graphic belongs to a family in the <a href="/style-guide/vector-gallery.html" title=":ignore">vector gallery</a>: convergence, pathways and processes, cost and funding, matrices, or timelines. New families are added only when a real case study needs one.</p>
+<ul>
+<li>Text in Arial; colours from the brand and neutral lists above, nothing else.</li>
+<li>A desktop version 720 wide and a phone version 360 wide. The page switches between them at 700px.</li>
+<li>A white background, so the same file works on the page, in dark mode and in documents.</li>
+<li>Steps and points are solid dots. One gold dot marks the point to look at. No rings, halos, glows, shadows, gradients or icons.</li>
+<li>Solid lines are what happens or is paid for; dashed lines are what is not paid for, not counted, or continues.</li>
+<li>Timelines are straight lines. A rising curve suggests a measured trend, so use one only when it plots real data.</li>
+<li>Labels in sentence case, with no letter-spacing.</li>
+<li>Meaning never relies on colour alone: label it, or use line style or position as well.</li>
+<li>Facts and wording match the page the graphic appears on. Put any data source in the page caption, not in the graphic.</li>
+<li>Alt text says what the graphic shows, not what it looks like.</li>
+</ul>
+<p>The signature graphic, three disciplines converging on the patient, is for the home page and sharing images. Do not repeat it elsewhere on the site.</p>
+<h2>Charts</h2>
+<p>Charts use analytical colours, kept separate from the brand colours. Analytical colours say which group or how much; brand colours say which discipline.</p>
+<p><strong>Categorical</strong> (services, interventions, groups), always assigned in this order:</p>
+<table>
+<thead>
+<tr>
+<th>Order</th>
+<th>Colour</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Blue</td>
+<td><code>#2F6EA8</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ochre</td>
+<td><code>#B08A2E</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Teal</td>
+<td><code>#008C82</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Rust</td>
+<td><code>#B85A3F</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Plum</td>
+<td><code>#7B5EA7</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Green</td>
+<td><code>#5E8F3E</code></td>
+</tr>
+</tbody></table>
+<ul>
+<li>In this order, neighbouring colours stay distinct for people with red-green colour blindness, and every colour reaches 3:1 on white.</li>
+<li>More than six groups: combine the smallest into &quot;Other&quot;, or use small multiples. Never invent a seventh colour.</li>
+<li>Scatter plots and maps, where any two colours can sit side by side: use slots 1 and 2 only, with shapes or labels for anything more.</li>
+</ul>
+<p><strong>Sequential</strong> (ordered measures, from low to high): <code>#8FABCF</code>, <code>#6189BB</code>, <code>#3E6AA0</code>, <code>#25497C</code>, <code>#14335A</code>.</p>
+<ul>
+<li>Keep a group&#39;s colour the same in every figure of a case study.</li>
+<li>Label series directly where there is room; add a legend when there are two or more series.</li>
+<li>Horizontal gridlines only, thin and pale. No chart borders. One vertical axis per chart.</li>
+<li>Status colours (green, amber, red) are kept for good, warning and problem, always with a word.</li>
+</ul>
+<h2>Accessibility</h2>
+<ul>
+<li>Text meets WCAG AA: 4.5:1, or 3:1 for large text. Lines and shapes that carry meaning meet 3:1.</li>
+<li>Links are underlined in running text; the keyboard focus ring is always visible.</li>
+<li>Everything can be reached and used by keyboard.</li>
+<li>Check each new page on a phone and a desktop, in light and dark mode.</li>
+</ul>
+<h2>Writing</h2>
+<ul>
+<li>British English: plain, restrained and evidence-led.</li>
+<li>Case studies follow the same order: the problem, Pathway Analytics&#39; role, the approach, the work delivered, and the impact or wider relevance.</li>
+<li>Separate what Pathway Analytics did from what the wider programme achieved. Claim only what the evidence shows.</li>
+<li>No unsupported impact claims, consultancy clichés or repetitive AI-style phrasing.</li>
+<li>Name clients and individuals only with permission.</li>
+</ul>
+<h2>What belongs in this repository</h2>
+<p>Everything in this repository can be read by anyone on GitHub, including files kept off the website.</p>
+<ul>
+<li>In: this guide, the design tokens, editorial conventions and graphics that are approved for publication.</li>
+<li>Never in: client material, unpublished project files or findings, internal evaluation palettes, private analysis, or the Word and PowerPoint house styles.</li>
+<li>This guide is a public page. The vector gallery can be reached by its address but is not in the menu, search or sitemap. Technical notes are in <code>_implementation.md</code>, which the site does not publish as a page.</li>
+</ul>
 </article></div><!-- prerender:end --></div>
 
   <noscript>
