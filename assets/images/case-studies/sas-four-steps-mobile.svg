@@ -1,48 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 360 574" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
-  <defs>
-    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7a"/></marker>
-  </defs>
-  <text x="0" y="14" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">THE NATIONAL BUDGETARY</text>
-  <text x="0" y="31" font-size="12" fill="#5f6b7a" font-weight="600" letter-spacing="1">ASSESSMENT IN FOUR STEPS</text>
-  <rect x="0" y="44" width="360" height="70" fill="#14335a" rx="6"/>
-  <text x="16" y="86" font-size="26" fill="#c9a24a" font-weight="700">1</text>
-  <text x="48" y="68" font-size="15" fill="#ffffff" font-weight="600">National survey</text>
-  <text x="348" y="68" font-size="10" fill="#c9d3e0" text-anchor="end">Aug to Sep 2014</text>
-  <text x="48" y="87" font-size="11.5" fill="#dfe6ef">Commissioners, SARC managers</text>
-  <text x="48" y="101" font-size="11.5" fill="#dfe6ef">and voluntary organisations</text>
-  <rect x="0" y="118" width="360" height="46" fill="#f4f6f8" rx="6"/>
-  <text x="14" y="149" font-size="22" fill="#14335a" font-weight="700">3</text>
-  <text x="42" y="138" font-size="11" fill="#5f6b7a">national surveys: funding, activity,</text>
-  <text x="42" y="151.5" font-size="11" fill="#5f6b7a">case mix, staffing and costs</text>
-  <rect x="0" y="180" width="360" height="70" fill="#14335a" rx="6"/>
-  <text x="16" y="222" font-size="26" fill="#c9a24a" font-weight="700">2</text>
-  <text x="48" y="204" font-size="15" fill="#ffffff" font-weight="600">Pathway workshops</text>
-  <text x="348" y="204" font-size="10" fill="#c9d3e0" text-anchor="end">Oct 2014</text>
-  <text x="48" y="223" font-size="11.5" fill="#dfe6ef">100+ stakeholders, six areas,</text>
-  <text x="48" y="237" font-size="11.5" fill="#dfe6ef">30+ hours of mapping</text>
-  <rect x="0" y="254" width="360" height="46" fill="#f4f6f8" rx="6"/>
-  <text x="14" y="285" font-size="22" fill="#14335a" font-weight="700">72</text>
-  <text x="56" y="274" font-size="11" fill="#5f6b7a">good-practice pathways</text>
-  <text x="56" y="287.5" font-size="11" fill="#5f6b7a">mapped</text>
-  <rect x="0" y="316" width="360" height="70" fill="#14335a" rx="6"/>
-  <text x="16" y="358" font-size="26" fill="#c9a24a" font-weight="700">3</text>
-  <text x="48" y="340" font-size="15" fill="#ffffff" font-weight="600">Agree good practice</text>
-  <text x="348" y="340" font-size="10" fill="#c9d3e0" text-anchor="end">Nov 2014</text>
-  <text x="48" y="359" font-size="11.5" fill="#dfe6ef">Victim experience, justice and</text>
-  <text x="48" y="373" font-size="11.5" fill="#dfe6ef">health outcomes, value for money</text>
-  <rect x="0" y="390" width="360" height="46" fill="#f4f6f8" rx="6"/>
-  <text x="14" y="421" font-size="22" fill="#14335a" font-weight="700">29</text>
-  <text x="56" y="410" font-size="11" fill="#5f6b7a">core pathways agreed by</text>
-  <text x="56" y="423.5" font-size="11" fill="#5f6b7a">a national governance group</text>
-  <rect x="0" y="452" width="360" height="70" fill="#14335a" rx="6"/>
-  <text x="16" y="494" font-size="26" fill="#c9a24a" font-weight="700">4</text>
-  <text x="48" y="476" font-size="15" fill="#ffffff" font-weight="600">Funding model</text>
-  <text x="348" y="476" font-size="10" fill="#c9d3e0" text-anchor="end">Dec 2014 to Jan 2015</text>
-  <text x="48" y="495" font-size="11.5" fill="#dfe6ef">Each step allocated to the body</text>
-  <text x="48" y="509" font-size="11.5" fill="#dfe6ef">responsible for the need it meets</text>
-  <rect x="0" y="526" width="360" height="46" fill="#f4f6f8" rx="6"/>
-  <text x="14" y="557" font-size="22" fill="#14335a" font-weight="700">6</text>
-  <text x="42" y="546" font-size="11" fill="#5f6b7a">public bodies share the</text>
-  <text x="42" y="559.5" font-size="11" fill="#5f6b7a">modelled cost</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 634" width="360" height="634" role="img" aria-label="The national budgetary assessment in four steps: national surveys of commissioners, SARC managers and voluntary organisations in August and September 2014; pathway workshops in October 2014 that mapped 72 good-practice pathways; agreement in November 2014 on 29 core pathways; and a funding model in December 2014 and January 2015 sharing the modelled cost between six public bodies." font-family="Arial, Helvetica, sans-serif">
+<title>The national budgetary assessment in four steps: national surveys of commissioners, SARC managers and voluntary organisations in August and September 2014; pathway workshops in October 2014 that mapped 72 good-practice pathways; agreement in November 2014 on 29 core pathways; and a funding model in December 2014 and January 2015 sharing the modelled cost between six public bodies.</title>
+<rect width="360" height="634" fill="#ffffff"/>
+<line x1="14" y1="12" x2="14" y2="612" stroke="#14335a" stroke-width="1.75"/>
+<path d="M10.5 610.8 L14 618 L17.5 610.8" fill="none" stroke="#14335a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="14" cy="18" r="5" fill="#518386"/>
+<circle cx="14" cy="166" r="5" fill="#518386"/>
+<circle cx="14" cy="314" r="5" fill="#518386"/>
+<circle cx="14" cy="479" r="6.5" fill="#c9a24a"/>
+<text x="36" y="23" font-size="12" font-weight="bold" fill="#3f6b6e">Aug to Sep 2014</text>
+<text x="36" y="44" font-size="16" font-weight="bold" fill="#14335a">National survey</text>
+<text x="36" y="64" font-size="12" fill="#5f6b7a">Commissioners, SARC managers</text>
+<text x="36" y="81" font-size="12" fill="#5f6b7a">and voluntary organisations</text>
+<text x="36" y="122" font-size="24" font-weight="bold" fill="#14335a">3</text>
+<text x="66" y="106" font-size="12" fill="#14335a">national surveys: funding,</text>
+<text x="66" y="122" font-size="12" fill="#14335a">activity, case mix, staffing</text>
+<text x="66" y="138" font-size="12" fill="#14335a">and costs</text>
+<text x="36" y="171" font-size="12" font-weight="bold" fill="#3f6b6e">Oct 2014</text>
+<text x="36" y="192" font-size="16" font-weight="bold" fill="#14335a">Pathway workshops</text>
+<text x="36" y="212" font-size="12" fill="#5f6b7a">100+ stakeholders, six areas</text>
+<text x="36" y="229" font-size="12" fill="#5f6b7a">of England, 30+ hours</text>
+<text x="36" y="270" font-size="24" font-weight="bold" fill="#14335a">72</text>
+<text x="80" y="262" font-size="12" fill="#14335a">good-practice pathways</text>
+<text x="80" y="278" font-size="12" fill="#14335a">mapped</text>
+<text x="36" y="319" font-size="12" font-weight="bold" fill="#3f6b6e">Nov 2014</text>
+<text x="36" y="340" font-size="16" font-weight="bold" fill="#14335a">Agree good practice</text>
+<text x="36" y="360" font-size="12" fill="#5f6b7a">Four criteria: victim experience,</text>
+<text x="36" y="377" font-size="12" fill="#5f6b7a">justice and health outcomes,</text>
+<text x="36" y="394" font-size="12" fill="#5f6b7a">value for money</text>
+<text x="36" y="435" font-size="24" font-weight="bold" fill="#14335a">29</text>
+<text x="80" y="427" font-size="12" fill="#14335a">core pathways agreed by a</text>
+<text x="80" y="443" font-size="12" fill="#14335a">national governance group</text>
+<text x="36" y="484" font-size="12" font-weight="bold" fill="#7a5c1a">Dec 2014 to Jan 2015</text>
+<text x="36" y="505" font-size="16" font-weight="bold" fill="#14335a">Funding model</text>
+<text x="36" y="525" font-size="12" fill="#5f6b7a">Each step costed and allocated</text>
+<text x="36" y="542" font-size="12" fill="#5f6b7a">to the body responsible for</text>
+<text x="36" y="559" font-size="12" fill="#5f6b7a">the need it meets</text>
+<text x="36" y="600" font-size="24" font-weight="bold" fill="#14335a">6</text>
+<text x="66" y="592" font-size="12" fill="#14335a">public bodies share the</text>
+<text x="66" y="608" font-size="12" fill="#14335a">modelled cost</text>
 </svg>
