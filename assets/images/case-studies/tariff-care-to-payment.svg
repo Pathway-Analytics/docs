@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 720 190" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
-  <text x="168" y="16" font-size="11" fill="#14335a" text-anchor="middle" font-weight="600" letter-spacing="1">PROVIDER</text>
-  <text x="540" y="16" font-size="11" fill="#9a7428" text-anchor="middle" font-weight="600" letter-spacing="1">TARIFF GROUPER</text>
-  <line x1="352" y1="6" x2="352" y2="186" stroke="#c4cad1" stroke-dasharray="5 4"/>
-  <g font-family="Inter, sans-serif">
-    <path d="M0,30 L150,30 L170,62 L150,94 L0,94 Z" fill="#14335a"/>
-    <text x="16" y="56" font-size="13" fill="#fff" font-weight="600">1  Care activity</text>
-    <text x="16" y="76" font-size="11" fill="#dfe6ef">Care delivered and</text><text x="16" y="89" font-size="11" fill="#dfe6ef">recorded as usual</text>
-    <path d="M178,30 L326,30 L346,62 L326,94 L178,94 L196,62 Z" fill="#14335a"/>
-    <text x="206" y="56" font-size="13" fill="#fff" font-weight="600">2  Coding</text>
-    <text x="206" y="76" font-size="11" fill="#dfe6ef">GUMCAD and SRHAD,</text><text x="206" y="89" font-size="11" fill="#dfe6ef">plus a few local codes</text>
-    <path d="M360,30 L514,30 L534,62 L514,94 L360,94 L378,62 Z" fill="#c9a24a"/>
-    <text x="388" y="56" font-size="13" fill="#fff" font-weight="600">3  Grouping</text>
-    <text x="388" y="76" font-size="11" fill="#fff">Visits matched to</text><text x="388" y="89" font-size="11" fill="#fff">currencies and prices</text>
-    <path d="M542,30 L700,30 L720,62 L700,94 L542,94 L560,62 Z" fill="#c9a24a"/>
-    <text x="570" y="56" font-size="13" fill="#fff" font-weight="600">4  Charging</text>
-    <text x="570" y="76" font-size="11" fill="#fff">Charges allocated to</text><text x="570" y="89" font-size="11" fill="#fff">the council that pays</text>
-  </g>
-  <text x="362" y="124" font-size="11.5" fill="#1f2933">Joins the two datasets into visits</text>
-  <text x="362" y="142" font-size="11.5" fill="#1f2933">Removes double counting</text>
-  <text x="362" y="160" font-size="11.5" fill="#1f2933">Primary price first, Additional for the rest</text>
-  <text x="362" y="178" font-size="11.5" fill="#1f2933">Applies MFF or geographical weighting</text>
+<svg viewBox="0 0 720 196" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <!-- Grouper half tint -->
+  <rect x="352" y="0" width="368" height="196" rx="6" fill="#faf6ec"/>
+  <line x1="352" y1="0" x2="352" y2="196" stroke="#8a929c" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <text x="168" y="18" font-size="11" fill="#14335a" text-anchor="middle" font-weight="600" letter-spacing="1">PROVIDER</text>
+  <text x="540" y="18" font-size="11" fill="#8a6a22" text-anchor="middle" font-weight="600" letter-spacing="1">TARIFF GROUPER</text>
+
+  <path d="M0,30 L150,30 L170,62 L150,94 L0,94 Z" fill="#14335a"/>
+  <text x="16" y="56" font-size="13" fill="#fff" font-weight="600">1  Care activity</text>
+  <text x="16" y="76" font-size="11" fill="#dfe6ef">Care delivered and</text><text x="16" y="89" font-size="11" fill="#dfe6ef">recorded as usual</text>
+
+  <path d="M178,30 L326,30 L346,62 L326,94 L178,94 L196,62 Z" fill="#14335a"/>
+  <text x="206" y="56" font-size="13" fill="#fff" font-weight="600">2  Coding</text>
+  <text x="206" y="76" font-size="11" fill="#dfe6ef">GUMCAD and SRHAD,</text><text x="206" y="89" font-size="11" fill="#dfe6ef">plus a few local codes</text>
+
+  <path d="M360,30 L514,30 L534,62 L514,94 L360,94 L378,62 Z" fill="#c9a24a"/>
+  <text x="388" y="56" font-size="13" fill="#14335a" font-weight="600">3  Grouping</text>
+  <text x="388" y="76" font-size="11" fill="#14335a">Visits matched to</text><text x="388" y="89" font-size="11" fill="#14335a">currencies and prices</text>
+
+  <path d="M542,30 L700,30 L720,62 L700,94 L542,94 L560,62 Z" fill="#c9a24a"/>
+  <text x="570" y="56" font-size="13" fill="#14335a" font-weight="600">4  Charging</text>
+  <text x="570" y="76" font-size="11" fill="#14335a">Charges allocated to</text><text x="570" y="89" font-size="11" fill="#14335a">the council that pays</text>
+
   <text x="0" y="124" font-size="11.5" fill="#1f2933">No change to how clinicians deliver care;</text>
   <text x="0" y="142" font-size="11.5" fill="#1f2933">no direct patient identifiers leave the provider</text>
+
+  <text x="366" y="124" font-size="11.5" fill="#1f2933">Joins the two datasets into visits</text>
+  <text x="366" y="142" font-size="11.5" fill="#1f2933">Removes double counting</text>
+  <text x="366" y="160" font-size="11.5" fill="#1f2933">Primary price first, Additional for the rest</text>
+  <text x="366" y="178" font-size="11.5" fill="#1f2933">Applies MFF or geographical weighting</text>
 </svg>

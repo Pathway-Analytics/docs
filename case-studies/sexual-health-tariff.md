@@ -44,7 +44,7 @@ Open access created a second problem. Anyone can attend any sexual health clinic
 
 <img src="/assets/images/case-studies/tariff-hosted-dehosted.svg" alt="Under hosted funding a commissioner pays for everyone its local clinics see; under de-hosted funding it pays for its own residents wherever they are seen" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
 
-<p class="figure-caption">A: local residents seen by local clinics. B: local residents seen by clinics elsewhere. C: visitors from elsewhere seen by local clinics. Redrawn from Pathway Analytics' regional road-test packs, 2013 to 2014.</p>
+<p class="figure-caption">Redrawn from Pathway Analytics' regional road-test packs, 2013 to 2014.</p>
 
 There was no national mandate for a new tariff, so reform had to be adopted locally, on its merits. From April 2013 most sexual health commissioning moved from the NHS to local authorities, so the solution also had to survive a change in who paid.
 
