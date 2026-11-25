@@ -2,6 +2,4 @@
 
 - **Case Studies**
   - [Overview](/case-studies/)
-  - [NHS Trust Tariff Implementation](/case-studies/nhs-trust-tariff)
-  - [ICS Pathway Costing](/case-studies/ics-pathway-costing)
-  - [LA Commissioning Transformation](/case-studies/la-commissioning)
+  - [Sexual health funding reform](/case-studies/sexual-health-tariff)

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627" font-family="Inter, 'DejaVu Sans', sans-serif">
+<rect width="1200" height="627" fill="#ffffff"/>
+<rect x="0" y="0" width="400" height="10" fill="#14335a"/><rect x="400" y="0" width="400" height="10" fill="#518386"/><rect x="800" y="0" width="400" height="10" fill="#c9a24a"/>
+<text x="80" y="78" font-size="20" font-weight="600" letter-spacing="2" fill="#5f6b7a">CASE STUDY</text>
+<text x="80" y="148" font-size="54" font-weight="700" fill="#14335a">Redesigning the funding of sexual</text>
+<text x="80" y="214" font-size="54" font-weight="700" fill="#14335a">health services in England</text>
+<text x="80" y="266" font-size="27" fill="#4b5563">A tariff and digital service still in use across England</text>
+<line x1="80" y1="372" x2="1100" y2="372" stroke="#9aa3ad" stroke-width="3"/>
+<path d="M1100 362 L1120 372 L1100 382 Z" fill="#9aa3ad"/>
+<text x="80" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2009</text>
+<circle cx="90" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="80" y="420" font-size="24" font-weight="600" fill="#14335a">Design</text>
+<text x="320" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2011</text>
+<circle cx="330" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="320" y="420" font-size="24" font-weight="600" fill="#14335a">Implementation</text>
+<text x="560" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2013</text>
+<circle cx="570" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="560" y="420" font-size="24" font-weight="600" fill="#14335a">Local government</text>
+<text x="800" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2017</text>
+<circle cx="810" cy="372" r="11" fill="#fff" stroke="#518386" stroke-width="5"/>
+<text x="800" y="420" font-size="24" font-weight="600" fill="#14335a">Adoption</text>
+<text x="1040" y="340" font-size="24" font-weight="600" fill="#7a5c1a">2025/26</text>
+<circle cx="1050" cy="372" r="13" fill="#14335a"/>
+<text x="1040" y="420" font-size="24" font-weight="600" fill="#14335a">In use</text>
+<line x1="80" y1="520" x2="1120" y2="520" stroke="#e3e6ea" stroke-width="2"/>
+<text x="80" y="574" font-size="30" font-weight="600" fill="#14335a">Pathway Analytics</text>
+<text x="1120" y="574" font-size="22" fill="#5f6b7a" text-anchor="end">Strategy · Health Economics · Digital Solutions</text>
+</svg>
