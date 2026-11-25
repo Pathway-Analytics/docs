@@ -9,14 +9,12 @@ description: How Pathway Analytics redesigned the funding of sexual health servi
 
 <p class="cs-project">London Sexual Health Programme, then councils and providers across England · 2009 to present</p>
 
-<p class="cs-standfirst">Sexual health services were funded through two very different payment mechanisms: an attendance-based tariff for hospital GUM clinics and block contracts for reproductive health services. These created unequal funding arrangements and financial incentives that worked against integrated care.</p>
-
-<p class="cs-standfirst">Pathway Analytics led the development of a new funding methodology, combining clinical pathway design, health economics and bespoke software development. The resulting tariff spread across England and remains in use today.</p>
+<p class="cs-standfirst">Pathway Analytics led the redesign of sexual health funding to address longstanding inequalities in payment and remove financial barriers to integrated, open-access care. Combining clinical pathway design, health economics and bespoke software development, the work established a new funding methodology that spread across England and remains in use today.</p>
 
 <div class="cs-stats">
   <div><b>140+</b><span>clinical pathways costed with clinicians</span></div>
   <div><b>17</b><span>currencies, each with a Primary and an Additional price</span></div>
-  <div><b>130</b><span>services in England commissioned solely on the tariff in 2025/26</span></div>
+  <div><b>130</b><span>services in England reported as commissioned solely on the tariff in 2025/26</span></div>
 </div>
 
 <div class="cs-overview">
@@ -38,7 +36,7 @@ description: How Pathway Analytics redesigned the funding of sexual health servi
 
 ## The challenge
 
-By 2009 the way sexual health services were paid worked against the integrated care that clinicians and commissioners wanted to provide. Hospital genitourinary medicine (GUM) clinics were paid through the national Payment by Results tariff, at a first and a follow-up price per attendance. Contraception and reproductive health services were mostly funded through block contracts, set from projected activity rather than the care delivered.
+By 2009 the way sexual health services were paid worked against the integrated care that clinicians and commissioners wanted to provide. Hospital genitourinary medicine (GUM) clinics were paid through the national Payment by Results tariff, at a first and a follow-up price per attendance. Contraception and reproductive health services were mostly funded through block contracts, set from projected activity rather than the care delivered. The attendance-based tariff rewarded additional visits, while block contracts provided little financial incentive to expand reproductive health provision in response to patient need.
 
 The London Sexual Health Programme had three concerns. Reproductive health clinics were not adequately funded, and nor was much of the complex care in GUM clinics. The payment rules discouraged services from integrating. Commissioners received little information, and too late to inform their decisions.
 
@@ -71,9 +69,9 @@ The approach combined clinical pathway design with health economics. The price w
 
 **Tested from the top down.** The bottom-up pathway costs were checked against top-down reference prices and benchmarks. The method ran in six steps, from reference pricing through validation with pilot-site data to proposed currencies.
 
-**From 140 pathways to 17 currencies.** A tariff with 140 prices would be unworkable. Patient-level data from 12 representative pilot sites across London was used to weight the pathways and group them into 17 currencies. Each currency is clinically meaningful and contains pathways of similar resource use.
+**From 140 pathways to 17 currencies.** Pricing every individual pathway would have created an excessive information and administrative burden. Patient-level data from 12 representative pilot sites across London was used to weight the pathways and group them into 17 currencies. Each currency is clinically meaningful and contains pathways of similar resource use.
 
-**Fair payment for one-stop care.** Each currency has two prices. The Primary price is the cost of that care on its own. The Additional price is the marginal cost of delivering it alongside a more expensive currency in the same visit. A visit that meets several needs is paid for each of them, without paying twice for what they share.
+**Fair payment for one-stop care.** Each currency has two prices. The Primary price reflects the estimated resource cost of delivering that element of care independently. The Additional price reflects the marginal resource cost of delivering it alongside a more expensive currency in the same visit. A visit that meets several needs is paid for each of them, without paying twice for what they share.
 
 <img src="/assets/images/case-studies/tariff-one-visit-two-prices.svg" alt="One visit: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79 rather than £165.41 at full prices" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
 
@@ -85,17 +83,15 @@ The approach combined clinical pathway design with health economics. The price w
 
 ## Leadership and influence
 
-Redesigning the funding mechanism was as much a strategic challenge as an economic one. Existing payment arrangements benefited some providers more than others, and there was no national mandate for change. A technically robust alternative would not, on its own, secure adoption.
+Redesigning the funding mechanism was as much a strategic challenge as an economic one. Existing payment arrangements benefited some providers more than others, and there was no national mandate for change. A technically robust alternative would not, on its own, secure adoption. The development process therefore combined clinical consensus-building with economic validation and financial impact modelling, enabling providers and commissioners to understand the implications of change before implementation.
 
-The development process therefore placed considerable emphasis on building clinical consensus, establishing confidence in the economic methodology and enabling providers and commissioners to understand the financial consequences of change before implementation.
-
-**Governance that brought the system together.** Four expert working groups were drawn from across London: clinical, commissioning, data management and finance. They reported to a steering group that included the Health Protection Agency, BASHH, the Faculty of Sexual and Reproductive Healthcare, and the Department of Health's Payment by Results team.
+**Governance that brought the system together.** During the London development, four expert working groups were formed: clinical, commissioning, data management and finance. They reported to a steering group that included the Health Protection Agency, BASHH, the Faculty of Sexual and Reproductive Healthcare, and the Department of Health's Payment by Results team.
 
 <img src="/assets/images/case-studies/tariff-governance.svg" alt="The London Sexual Health Programme above a steering group of London and national stakeholders, with four expert working groups: clinical, commissioning, data management and finance" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
 
 <p class="figure-caption">Roles only. Redrawn from the 2011 North West briefing pack and the 2013 summary description of the tariff.</p>
 
-**Clinical consensus.** Clinicians from GUM and contraception services built the pathways together, over <span class="cs-held">hours of clinician time: wording to confirm</span>. BASHH and the Faculty supported the resulting pathways. The prices therefore rested on care that clinicians recognised as their own.
+**Clinical consensus.** Clinicians from GUM and contraception services built the pathways together. BASHH and the Faculty supported the resulting pathways. The prices therefore rested on care that clinicians recognised as their own.
 
 **Financial scrutiny.** London's directors of finance reviewed the development process and accepted it as robust. London's financial impact assessment was overseen by a finance working group chaired by a director of finance.
 
@@ -103,9 +99,11 @@ The development process therefore placed considerable emphasis on building clini
 
 **Tested across England.** Road tests and shadow years with commissioners and providers ran in the North West (2011 to 2012), the South West (2012 to 2013), the East Midlands with Public Health England (2013 to 2014), Greater Manchester (2014) and Gateshead (2015 to 2016). By February 2013, eight regions had carried out financial and technical impact assessments.
 
-**Through the move to local government.** After 2013 there was no central mandate, and each council decided for itself. The tariff and the Grouper met a new need: fair, transparent cross-charging between councils whose residents use each other's clinics. In 2014 to 2015, London's Directors of Public Health commissioned a borough-level refresh. It included scenarios testing how providers might respond, and options for phased introduction. <span class="cs-held">London saving figure: awaiting clearance</span>
+**Through the move to local government.** After 2013 there was no central mandate, and each council decided for itself. The tariff and the Grouper met a new need: fair, transparent cross-charging between councils whose residents use each other's clinics. In 2014 to 2015, London's Directors of Public Health commissioned a borough-level refresh. It included scenarios testing how providers might respond, and options for phased introduction.
 
 ## The solution
+
+The work resulted in two interdependent solutions: an integrated payment methodology grounded in clinical practice and health economics, and a bespoke digital platform that enabled it to operate at scale.
 
 **The Integrated Sexual Health Tariff.** 17 currencies, each with a Primary and an Additional price, built from more than 140 clinical pathways. Prices are setting-independent, and any commissioner can use them to pay for its residents wherever they are seen. The pathways and prices are published, and a clinical working group reviews them each year, so the tariff can follow changes in clinical practice.
 
@@ -121,17 +119,19 @@ It holds no patient-identifiable data. Providers and commissioners work from the
 
 ## Impact and legacy
 
-<img src="/assets/images/case-studies/tariff-timeline.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services commissioned solely on the tariff in 2025/26" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
+<img src="/assets/images/case-studies/tariff-timeline.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26" style="display: block; width: 100%; height: auto; margin: 24px 0 16px;">
 
-<p class="figure-caption">From London to England, 2009 to 2025/26. The 2025/26 figure counts services commissioned solely on the tariff, not Grouper subscribers.</p>
+<p class="figure-caption">From London to England, 2009 to 2025/26. The 2025/26 figure counts services reported as commissioned solely on the tariff, not Grouper subscribers.</p>
 
 **Delivered.** More than 140 costed pathways, and 17 currencies with Primary and Additional prices. Financial impact assessments for London and for each region that road-tested the tariff. The Grouper, running since 2011.
 
-**Implemented.** London providers have calculated tariff charges automatically and sent them to commissioners since 2011. By February 2013, more than 110 providers from every region had submitted data and calculated their charges: over 2.8 million individual tariffs, worth more than £200m. These figures measure activity processed, not savings.
+**Implemented.** London providers have calculated tariff charges automatically and sent them to commissioners since 2011. By February 2013, more than 110 providers from every region had submitted data and calculated their charges: over 2.8 million individual tariffs, worth more than £200m. These include shadow calculations from regional road tests, and measure activity processed, not payments or savings.
 
-**Adopted.** In 2017 London's commissioners and providers agreed a single standard tariff. DHSC's 2018 cross-charging guidance records it as the agreed basis for cross-charging within London. <span class="cs-held">Councils outside London that pay on the tariff: names awaiting clearance</span> The South East's 2020 regional cross-charging policy encourages integrated services to use the Pathway Analytics Grouper. In 2025/26, 130 services in England were commissioned solely on a Pathway Analytics tariff rather than on block contracts.
+**Adopted.** In 2017 London's commissioners and providers agreed a single standard tariff. DHSC's 2018 cross-charging guidance records it as the agreed basis for cross-charging within London. The South East's 2020 regional cross-charging policy encourages integrated services to use the Pathway Analytics Grouper. In 2025/26, 130 services in England were reported as commissioned solely on a Pathway Analytics tariff rather than on block contracts.
 
-**Demonstrated impact.** Councils' own reports describe a fairer and more accurate way to pay for integrated care. <span class="cs-held">Named council evidence: awaiting clearance</span> In this way the tariff helped rebalance funding and incentives between GUM and reproductive health services. <span class="cs-held">Council spending example: awaiting clearance</span>
+**Demonstrated impact.** In written evidence to Parliament's Health and Social Care Committee in 2018, the public health departments of Lambeth, Southwark and Lewisham reported that adoption of the integrated tariff during 2017/18 changed the basis of payment from a flat fee per attendance to the clinical activity undertaken in each appointment, and that this had contributed to price reductions and savings.
+
+The integrated tariff also helped rebalance funding and incentives between GUM and reproductive health services, providing a common payment methodology that more closely reflected the care delivered and its associated resource requirements.
 
 **Legacy.** Each year the tariff is reviewed and the Grouper updated. Public Health England's 2017 economic evaluation of PrEP in England cites the tariff among its references. Pathway Analytics sits on the BASHH and FSRH integrated sexual health information group.
 
@@ -154,6 +154,9 @@ It holds no patient-identifiable data. Providers and commissioners work from the
 - [Department of Health, Development of a national tariff for integrated sexual health services, September 2010 (Gateway 14766)](https://www.gov.uk/government/publications/development-of-a-national-tariff-for-integrated-sexual-health-services)
 - [Department of Health, Sense-check of the draft London integrated sexual health tariffs, October 2010 (Gateway 15491)](https://www.gov.uk/government/publications/sense-check-of-the-draft-london-integrated-sexual-health-tariffs)
 - [DHSC, Sexual health services: key principles for cross-charging, August 2018](https://assets.publishing.service.gov.uk/media/5b6192b040f0b635a6598568/sexual-health-services-cross-charging-guidance.pdf)
+- [Faculty of Sexual and Reproductive Healthcare, written evidence to the House of Lords Committee on the Long-term Sustainability of the NHS (NHS0098), 2016](https://committees.parliament.uk/writtenevidence/71782/html/)
+- [Faculty of Sexual and Reproductive Healthcare, written evidence to the Health and Social Care Committee sexual health inquiry (SLH0027), 2018](https://committees.parliament.uk/writtenevidence/95355/html/)
+- [Lambeth, Southwark and Lewisham public health departments, written evidence to the Health and Social Care Committee sexual health inquiry (SLH0045), 2018, paragraphs 4.12 and 4.13](https://committees.parliament.uk/writtenevidence/95424/html/)
 - [Tameside Council, Public Health Commissioning Intentions 2025/26, section 7.5](https://tameside.moderngov.co.uk/documents/s190657/ITEM%2018%20-%20PUBLICHEALTHCOMMISSIONINGINTENTIONS20252026FINALforfinancecomments.pdf)
 - Pearce, Grant and Adams (2009), Phase 1 methodology, cited in *Sexually Transmitted Infections* 2011;87:464–468
 - [Ong et al., Economic evaluation of HIV pre-exposure prophylaxis among men-who-have-sex-with-men in England in 2016, *Eurosurveillance* 2017;22(42)](https://doi.org/10.2807/1560-7917.ES.2017.22.42.17-00192)
