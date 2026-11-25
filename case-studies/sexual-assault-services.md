@@ -1,13 +1,13 @@
 <!-- meta
 description: How Pathway Analytics built a national framework for costing sexual assault services and sharing the cost across health, policing, justice and local government.
 image: /assets/images/og/sexual-assault-services.png
-image_alt: Case study: Designing a national funding framework for sexual assault services, from a four-site pilot in 2012 to a proposed funding allocation in 2015.
+image_alt: Case study: Who should pay for sexual assault services? From a four-site pilot in 2012 to a proposed funding allocation in 2015.
 -->
 
 <div class="cs-rule"><span class="cs-navy"></span><span class="cs-teal"></span><span class="cs-gold"></span></div>
 <p class="cs-tags"><span class="cs-navy">Strategy</span> · <span class="cs-teal">Health Economics</span></p>
 
-# Designing a national funding framework for sexual assault services
+# Who should pay for sexual assault services?
 
 <p class="cs-project">National SARC Subgroup on Pathway Costing, then NHS England with the Home Office and the Ministry of Justice · 2012 to 2015</p>
 

@@ -6,7 +6,7 @@ Pathway Analytics delivers healthcare economics consultancy across the NHS, supp
 
 [Redesigning the funding of sexual health services in England](/case-studies/sexual-health-tariff): how Pathway Analytics redesigned the funding of sexual health services, from clinical pathways and financial impact modelling to a tariff and digital service still in use across England.
 
-[Designing a national funding framework for sexual assault services](/case-studies/sexual-assault-services): how Pathway Analytics agreed good-practice pathways for victims of sexual assault, built an economic model of their cost, and proposed how health, policing, justice and local government should share it.
+[Who should pay for sexual assault services?](/case-studies/sexual-assault-services) How Pathway Analytics agreed good-practice pathways for victims of sexual assault, built an economic model of their cost, and proposed how health, policing, justice and local government should share it.
 
 > More case studies are being developed and will be published here as they are completed. [Contact us](mailto:enquiries@pathwayanalytics.com) to discuss how we can support your organisation.
 
