@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 236" width="720" height="236" role="img" aria-label="The HIV care cascade extended. The UNAIDS clinical cascade, London in 2016: 90% of people living with HIV diagnosed, 97% of those diagnosed on treatment, and 97% of those on treatment virally suppressed. Pathway Analytics added prevention before diagnosis and living well after viral suppression, with stigma and discrimination addressed across the whole pathway." font-family="Arial, Helvetica, sans-serif">
+<title>The HIV care cascade extended. The UNAIDS clinical cascade, London in 2016: 90% of people living with HIV diagnosed, 97% of those diagnosed on treatment, and 97% of those on treatment virally suppressed. Pathway Analytics added prevention before diagnosis and living well after viral suppression, with stigma and discrimination addressed across the whole pathway.</title>
+<rect width="720" height="236" fill="#ffffff"/>
+<text x="10" y="16" font-size="12" font-weight="bold" fill="#3f6b6e">Added</text>
+<line x1="10" y1="28" x2="130" y2="28" stroke="#518386" stroke-width="1.25"/>
+<text x="150" y="16" font-size="12" font-weight="bold" fill="#5f6b7a">UNAIDS clinical cascade, London 2016</text>
+<line x1="150" y1="28" x2="560" y2="28" stroke="#14335a" stroke-width="1.25"/>
+<text x="580" y="16" font-size="12" font-weight="bold" fill="#3f6b6e">Added</text>
+<line x1="580" y1="28" x2="710" y2="28" stroke="#518386" stroke-width="1.25"/>
+<line x1="16" y1="64" x2="700" y2="64" stroke="#14335a" stroke-width="1.75"/>
+<path d="M698.8 67.5 L706 64 L698.8 60.5" fill="none" stroke="#14335a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="16" cy="64" r="5" fill="#518386"/>
+<text x="10" y="96" font-size="14" font-weight="bold" fill="#3f6b6e">Prevention</text>
+<text x="10" y="118" font-size="11.5" fill="#5f6b7a">Reducing new</text>
+<text x="10" y="134" font-size="11.5" fill="#5f6b7a">infections</text>
+<circle cx="156" cy="64" r="5" fill="#14335a"/>
+<text x="150" y="96" font-size="14" font-weight="bold" fill="#14335a">Diagnosed</text>
+<text x="150" y="132" font-size="28" font-weight="bold" fill="#14335a">90%</text>
+<text x="150" y="152" font-size="11.5" fill="#14335a">of people living</text>
+<text x="150" y="168" font-size="11.5" fill="#14335a">with HIV</text>
+<circle cx="296" cy="64" r="5" fill="#14335a"/>
+<text x="290" y="96" font-size="14" font-weight="bold" fill="#14335a">On treatment</text>
+<text x="290" y="132" font-size="28" font-weight="bold" fill="#14335a">97%</text>
+<text x="290" y="152" font-size="11.5" fill="#14335a">of those</text>
+<text x="290" y="168" font-size="11.5" fill="#14335a">diagnosed</text>
+<circle cx="436" cy="64" r="5" fill="#14335a"/>
+<text x="430" y="96" font-size="14" font-weight="bold" fill="#14335a">Virally suppressed</text>
+<text x="430" y="132" font-size="28" font-weight="bold" fill="#14335a">97%</text>
+<text x="430" y="152" font-size="11.5" fill="#14335a">of those on</text>
+<text x="430" y="168" font-size="11.5" fill="#14335a">treatment</text>
+<circle cx="586" cy="64" r="5" fill="#518386"/>
+<text x="580" y="96" font-size="14" font-weight="bold" fill="#3f6b6e">Living well</text>
+<text x="580" y="118" font-size="11.5" fill="#5f6b7a">Health, wellbeing and</text>
+<text x="580" y="134" font-size="11.5" fill="#5f6b7a">quality of life</text>
+<line x1="10" y1="196" x2="710" y2="196" stroke="#518386" stroke-width="3"/>
+<text x="10" y="222" font-size="13.5" fill="#3f6b6e"><tspan font-weight="bold">Stigma and discrimination:</tspan> added, and addressed across the whole pathway</text>
+</svg>
