@@ -48,7 +48,7 @@ The v1.2 styles are in `assets/css/custom.css`, section 17. Nothing in v1.0 was 
 | `.pa-figure-title` | The figure heading, Inter 600. Add `pa-serif` for the understated Playfair title of an editorial sequence |
 | `figcaption`, `.pa-fig-num`, `.pa-source` | The caption, its "Figure n." and the source note, all inside `figcaption` (a `figcaption` must be the first or last child of its figure) |
 | `ol.pa-steps` | The editorial sequence: counter numerals in the margin. `pa-dated` with `.pa-step-date` puts a date there instead |
-| `ol.pa-index` | The case study index: `.pa-index-meta` (years and disciplines), `h2.pa-index-title`, `.pa-index-text`, `.pa-index-finding` |
+| `ol.pa-index` | The case study index: `.pa-index-meta` holding `.pa-index-years` and `.pa-index-tags` (one span per discipline, no separators: the CSS adds them on phones), `h2.pa-index-title`, `.pa-index-text`, `.pa-index-finding` |
 | `.home-latest` | A dated case study lead under the home page product buttons |
 
 Existing styles changed in v1.2:

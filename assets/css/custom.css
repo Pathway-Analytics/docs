@@ -1903,9 +1903,10 @@ body.page-editorial .markdown-section {
   font-size: var(--pa-prose-size);
   line-height: var(--pa-prose-line);
 }
-body.page-editorial .markdown-section > :is(p, ul, ol:not(.pa-index), blockquote, h2, h3, h4, nav) {
+body.page-editorial .markdown-section > :is(p, ul, ol:not(.pa-index), blockquote, h2, h3, h4) {
   max-width: var(--pa-measure);
 }
+body.page-editorial .markdown-section h1 { text-wrap: balance; }
 
 /* Figure: heading, drawing, then "Figure n." caption and source. Fine rules
    above and below; no card, shadow or rounded panel. */
@@ -1932,6 +1933,8 @@ body.page-editorial .markdown-section > :is(p, ul, ol:not(.pa-index), blockquote
   line-height: 1.25;
   margin-bottom: var(--space-xs);
 }
+/* Straight after a section heading, the heading's rule serves as the top rule */
+.markdown-section h2 + figure.pa-figure { border-top: 0; padding-top: 0; margin-top: 0; }
 .markdown-section figure.pa-figure img.cs-fig { margin: 0 0 var(--space-xs); }
 .markdown-section figure.pa-figure figcaption {
   max-width: var(--pa-measure);
@@ -2072,9 +2075,10 @@ html[data-theme="dark"] .markdown-section figure.pa-figure img.cs-fig-narrow {
   font-variant-numeric: oldstyle-nums;
   color: var(--pa-numeral);
 }
-.markdown-section .pa-index-meta .cs-navy { color: var(--pa-navy-text); font-weight: 600; }
-.markdown-section .pa-index-meta .cs-teal { color: var(--pa-teal-text); font-weight: 600; }
-.markdown-section .pa-index-meta .cs-gold { color: var(--pa-gold-text); font-weight: 600; }
+.markdown-section .pa-index-tags > span { display: block; font-weight: 600; }
+.markdown-section .pa-index-tags .cs-navy { color: var(--pa-navy-text); }
+.markdown-section .pa-index-tags .cs-teal { color: var(--pa-teal-text); }
+.markdown-section .pa-index-tags .cs-gold { color: var(--pa-gold-text); }
 .markdown-section h2.pa-index-title {
   grid-column: 2;
   max-width: none;
@@ -2087,6 +2091,7 @@ html[data-theme="dark"] .markdown-section figure.pa-figure img.cs-fig-narrow {
   line-height: 1.25;
   color: var(--pa-navy-text);
 }
+.markdown-section h2.pa-index-title a { text-decoration: none; }
 .markdown-section h2.pa-index-title a:hover,
 .markdown-section h2.pa-index-title a:focus-visible {
   text-decoration: underline;
@@ -2115,6 +2120,8 @@ html[data-theme="dark"] .markdown-section figure.pa-figure img.cs-fig-narrow {
   .markdown-section ol.pa-index > li > * { grid-column: 1; grid-row: auto; }
   .markdown-section .pa-index-meta { margin: 0 0 8px; }
   .markdown-section .pa-index-years { display: inline; margin: 0 10px 0 0; font-size: 1.15em; }
+  .markdown-section .pa-index-tags > span { display: inline; }
+  .markdown-section .pa-index-tags > span + span::before { content: ' \00B7  '; color: var(--pa-text-muted); font-weight: 400; }
 }
 
 /* Home page: an optional dated case-study lead beside product access */
