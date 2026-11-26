@@ -2,6 +2,7 @@
 window.PA_SEARCH_PATHS = [
   "/",
   "/case-studies/",
+  "/case-studies/fast-track-cities-london",
   "/case-studies/sexual-assault-services",
   "/case-studies/sexual-health-tariff",
   "/health-pathways/",
