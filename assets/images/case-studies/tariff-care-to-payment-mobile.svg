@@ -8,25 +8,25 @@
 <line x1="22" y1="132" x2="22" y2="196" stroke="#14335a" stroke-width="1.75"/>
 <circle cx="22" cy="44" r="5" fill="#14335a"/>
 <text x="44" y="50" font-size="16" font-weight="bold" fill="#14335a">Care activity</text>
-<text x="44" y="70" font-size="12" fill="#5f6b7a">Care delivered and recorded as usual</text>
+<text x="44" y="70" font-size="13" fill="#5f6b7a">Care delivered and recorded as usual</text>
 <circle cx="16" cy="112" r="3.5" fill="#14335a"/>
 <circle cx="28" cy="112" r="3.5" fill="#518386"/>
 <text x="44" y="118" font-size="16" font-weight="bold" fill="#14335a">Coding</text>
-<text x="44" y="138" font-size="12" fill="#5f6b7a"><tspan font-weight="bold" fill="#14335a">GUMCAD</tspan> and <tspan font-weight="bold" fill="#3f6b6e">SRHAD</tspan>, plus a few local codes</text>
-<text x="44" y="170" font-size="12" fill="#14335a">No change to how clinicians deliver care;</text>
-<text x="44" y="187" font-size="12" fill="#14335a">no direct patient identifiers leave the provider</text>
+<text x="44" y="138" font-size="13" fill="#5f6b7a"><tspan font-weight="bold" fill="#14335a">GUMCAD</tspan> and <tspan font-weight="bold" fill="#3f6b6e">SRHAD</tspan>, plus a few local codes</text>
+<text x="44" y="170" font-size="13" fill="#14335a">No change to how clinicians deliver care;</text>
+<text x="44" y="187" font-size="13" fill="#14335a">no direct patient identifiers leave the provider</text>
 <line x1="12" y1="222" x2="348" y2="222" stroke="#5f6b7a" stroke-width="1" stroke-dasharray="3 4"/>
 <text x="12" y="246" font-size="13" font-weight="bold" fill="#7a5c1a">Tariff Grouper</text>
 <line x1="22" y1="258" x2="22" y2="352" stroke="#c9a24a" stroke-width="1.75"/>
 <path d="M18.5 348.8 L22 356 L25.5 348.8" fill="none" stroke="#c9a24a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="22" cy="270" r="5" fill="#c9a24a"/>
 <text x="44" y="276" font-size="16" font-weight="bold" fill="#14335a">Grouping</text>
-<text x="44" y="296" font-size="12" fill="#5f6b7a">Visits matched to currencies and prices</text>
+<text x="44" y="296" font-size="13" fill="#5f6b7a">Visits matched to currencies and prices</text>
 <circle cx="22" cy="326" r="5" fill="#c9a24a"/>
 <text x="44" y="332" font-size="16" font-weight="bold" fill="#14335a">Charging</text>
-<text x="44" y="352" font-size="12" fill="#5f6b7a">Charges allocated to the council that pays</text>
-<text x="44" y="382" font-size="12" fill="#14335a">Joins the two datasets into visits</text>
-<text x="44" y="400" font-size="12" fill="#14335a">Removes double counting</text>
-<text x="44" y="418" font-size="12" fill="#14335a">Primary price first, Additional for the rest</text>
-<text x="44" y="436" font-size="12" fill="#14335a">Applies MFF or geographical weighting</text>
+<text x="44" y="352" font-size="13" fill="#5f6b7a">Charges allocated to the council that pays</text>
+<text x="44" y="382" font-size="13" fill="#14335a">Joins the two datasets into visits</text>
+<text x="44" y="400" font-size="13" fill="#14335a">Removes double counting</text>
+<text x="44" y="418" font-size="13" fill="#14335a">Primary price first, Additional for the rest</text>
+<text x="44" y="436" font-size="13" fill="#14335a">Applies MFF or geographical weighting</text>
 </svg>

@@ -44,8 +44,12 @@ The London Sexual Health Programme had three concerns. Reproductive health clini
 
 Open access created a second problem. Anyone can attend any sexual health clinic, so the commissioner hosting a clinic paid for everyone it saw, wherever they lived. A fair system needed each commissioner to pay for its own residents, wherever they were treated.
 
+<figure class="pa-figure">
+<p class="pa-figure-title">Hosted and de-hosted funding</p>
 <img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-hosted-dehosted.svg" alt="Under hosted funding a commissioner pays for everyone its local clinics see; under de-hosted funding it pays for its own residents wherever they are seen">
 <img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-hosted-dehosted-mobile.svg" alt="Under hosted funding a commissioner pays for everyone its local clinics see; under de-hosted funding it pays for its own residents wherever they are seen">
+<figcaption><span class="pa-fig-num">Figure 1.</span> Who a commissioner pays for under each model. Solid lines are paid for; dashed lines are not. <span class="pa-source">Source: Pathway Analytics schematic.</span></figcaption>
+</figure>
 
 There was no national mandate for a new tariff, so reform had to be adopted locally, on its merits. From April 2013 most sexual health commissioning moved from the NHS to local authorities, so the solution also had to survive a change in who paid.
 
@@ -64,10 +68,12 @@ The approach combined clinical pathway design with health economics. The price w
 
 **From pathway to price.** Clinicians mapped more than 140 good-practice pathways covering almost all GUM and contraception care. Each pathway was broken into its steps: who delivers each one, for how long, and with which drugs, tests and consumables. Staff time was costed per minute of clinical time, and other resources were costed from published sources such as the British National Formulary and national pay scales. An allowance for overheads was then added. Local cost adjustments were stripped out, so the same care carries the same base price wherever it is delivered.
 
+<figure class="pa-figure">
+<p class="pa-figure-title">From pathway to price</p>
 <img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-pathway-to-price.svg" alt="A pathway is a first contact and follow-up contacts made of steps; each step costs staff time plus drugs, consumables and pathology; adding indirect costs gives the cost per pathway">
 <img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-pathway-to-price-mobile.svg" alt="A pathway is a first contact and follow-up contacts made of steps; each step costs staff time plus drugs, consumables and pathology; adding indirect costs gives the cost per pathway">
-
-<p class="figure-caption">Every step of every pathway is costed the same way, from published sources, with local cost adjustments removed.</p>
+<figcaption><span class="pa-fig-num">Figure 2.</span> Every step of every pathway is costed the same way, from published sources, with local cost adjustments removed. <span class="pa-source">Source: Pathway Analytics schematic of the costing method.</span></figcaption>
+</figure>
 
 **Tested from the top down.** The bottom-up pathway costs were checked against top-down reference prices and benchmarks. The method ran in six steps, from reference pricing through validation with pilot-site data to proposed currencies.
 
@@ -75,10 +81,12 @@ The approach combined clinical pathway design with health economics. The price w
 
 **Fair payment for one-stop care.** Each currency has two prices. The Primary price reflects the estimated resource cost of delivering that element of care independently. The Additional price reflects the marginal resource cost of delivering it alongside a more expensive currency in the same visit. A visit that meets several needs is paid for each of them, without paying twice for what they share.
 
+<figure class="pa-figure">
+<p class="pa-figure-title">One visit, two prices</p>
 <img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-one-visit-two-prices.svg" alt="One visit: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79 rather than £165.41 at full prices">
 <img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-one-visit-two-prices-mobile.svg" alt="One visit: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79 rather than £165.41 at full prices">
-
-<p class="figure-caption">The Additional price leaves out the care the two currencies share, such as registering the patient, so the visit is paid for both needs without paying twice. The patient is illustrative.</p>
+<figcaption><span class="pa-fig-num">Figure 3.</span> The Additional price leaves out the care the two currencies share, such as registering the patient, so the visit is paid for both needs without paying twice. The patient is illustrative. <span class="pa-source">Source: Pathway Analytics worked example at historical tariff prices.</span></figcaption>
+</figure>
 
 **Built on data clinics already report.** The tariff is triggered by the national GUMCAD and SRHAD returns, plus a small number of local codes (nine in 2013). In 2013, about 85% of charges were triggered by data already in the statutory returns.
 
@@ -90,8 +98,12 @@ Redesigning the funding mechanism was as much a strategic challenge as an econom
 
 **Governance that brought the system together.** During the London development, four expert working groups were formed: clinical, commissioning, data management and finance. They reported to a steering group that included the Health Protection Agency, BASHH, the Faculty of Sexual and Reproductive Healthcare, and the Department of Health's Payment by Results team.
 
+<figure class="pa-figure">
+<p class="pa-figure-title">Programme governance</p>
 <img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-governance.svg" alt="The London Sexual Health Programme above a steering group of London and national stakeholders, with four expert working groups: clinical, commissioning, data management and finance">
 <img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-governance-mobile.svg" alt="The London Sexual Health Programme above a steering group of London and national stakeholders, with four expert working groups: clinical, commissioning, data management and finance">
+<figcaption><span class="pa-fig-num">Figure 4.</span> The London Sexual Health Programme, its steering group and four expert working groups, with Pathway Analytics supporting all four. <span class="pa-source">Source: Pathway Analytics schematic of the London development.</span></figcaption>
+</figure>
 
 **Clinical consensus.** Clinicians from GUM and contraception services built the pathways together. BASHH and the Faculty supported the resulting pathways. The prices therefore rested on care that clinicians recognised as their own.
 
@@ -111,8 +123,12 @@ The work resulted in two interdependent solutions: an integrated payment methodo
 
 **The Tariff Grouper.** The Grouper takes a provider's routine activity data and turns it into charges for each responsible commissioner.
 
+<figure class="pa-figure">
+<p class="pa-figure-title">From care to charging</p>
 <img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-care-to-payment.svg" alt="Four steps from care to charging: care activity and coding by the provider, then grouping and charging by the Tariff Grouper">
 <img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-care-to-payment-mobile.svg" alt="Four steps from care to charging: care activity and coding by the provider, then grouping and charging by the Tariff Grouper">
+<figcaption><span class="pa-fig-num">Figure 5.</span> Four steps from care to charging: the provider records and codes care as usual; the Tariff Grouper groups visits and allocates charges. <span class="pa-source">Source: Pathway Analytics schematic of the Tariff Grouper.</span></figcaption>
+</figure>
 
 Providers submit monthly activity data based on GUMCAD and SRHAD, supplemented by local codes where required. The Grouper combines the relevant records into patient visits and applies the agreed tariff rules. It removes combinations that would count the same care twice. It applies the Primary price to the highest-value currency in each visit and Additional prices to the other applicable currencies. It then applies the relevant market forces factor or geographical weighting, and allocates charges to commissioners according to the agreed tariff configuration.
 
@@ -120,10 +136,17 @@ The patient-level activity data it receives are anonymised: Pathway Analytics ho
 
 ## Impact and legacy
 
-<img class="cs-fig cs-fig-wide" src="/assets/images/case-studies/tariff-timeline.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
-<img class="cs-fig cs-fig-narrow" src="/assets/images/case-studies/tariff-timeline-mobile.svg" alt="Timeline: design in London 2009 to 2010; implementation and regional road tests 2011 to 2013; the move to local government 2013 to 2016; adoption 2017 to 2020; 130 services reported as commissioned solely on the tariff in 2025/26">
-
-<p class="figure-caption">From London to England, 2009 to 2025/26. The 2025/26 figure counts services reported as commissioned solely on the tariff, not Grouper subscribers.</p>
+<figure class="pa-figure">
+<p class="pa-figure-title">From London to England</p>
+<ol class="pa-steps pa-dated">
+<li><span class="pa-step-date">2009 to 2010</span><p class="pa-step-title">Design</p><p class="pa-step-text">London pathways, currencies and prices. DH: national tariff to build on London work.</p></li>
+<li><span class="pa-step-date">2011 to 2013</span><p class="pa-step-title">Implementation</p><p class="pa-step-text">Grouper validated (2011), shadow running. North West and South West road tests. 110+ providers by 2013.</p></li>
+<li><span class="pa-step-date">2013 to 2016</span><p class="pa-step-title">Local government</p><p class="pa-step-text">East Midlands, Greater Manchester, Gateshead. London borough-level refresh (2014 to 2015).</p></li>
+<li><span class="pa-step-date">2017 to 2020</span><p class="pa-step-title">Adoption</p><p class="pa-step-text">London standard tariff agreed (2017). DHSC guidance (2018). South East regional policy (2020).</p></li>
+<li><span class="pa-step-date">2025/26</span><p class="pa-step-title">In use</p><p class="pa-step-text"><strong>130 services reported as commissioned solely on the tariff.</strong></p></li>
+</ol>
+<figcaption><span class="pa-fig-num">Figure 6.</span> From London to England, 2009 to 2025/26. The 2025/26 figure counts services reported as commissioned solely on the tariff, not Grouper subscribers. <span class="pa-source">Sources: Pathway Analytics; the published evidence listed at the end of this page.</span></figcaption>
+</figure>
 
 **Delivered.** More than 140 costed pathways, and 17 currencies with Primary and Additional prices. Financial impact assessments for London and for each region that road-tested the tariff. The Grouper, running since 2011.
 
