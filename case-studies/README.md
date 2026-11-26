@@ -8,6 +8,8 @@ Pathway Analytics delivers healthcare economics consultancy across the NHS, supp
 
 [Who should pay for sexual assault services?](/case-studies/sexual-assault-services) How Pathway Analytics agreed good-practice pathways for victims of sexual assault, built an economic model of their cost, and proposed how health, policing, justice and local government should share it.
 
+[Fast-Track Cities London: Shaping the strategy to get to zero](/case-studies/fast-track-cities-london): how Pathway Analytics led the London-wide Asset and Gap Analysis, bringing together evidence from clinicians, commissioners, community organisations and people living with HIV to inform the city's strategic direction.
+
 > More case studies are being developed and will be published here as they are completed. [Contact us](mailto:enquiries@pathwayanalytics.com) to discuss how we can support your organisation.
 
 ---
