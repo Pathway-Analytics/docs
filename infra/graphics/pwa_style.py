@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared drawing rules for PWA website graphics (Design System v1.0).
+"""Shared drawing rules for PWA website graphics (Design System v1.2).
 
 Every graphic set in infra/graphics/sets/ imports from here, so all graphics
 share one set of colours, one font and one set of shapes. Do not change the
@@ -15,11 +15,17 @@ The rules it applies (see style-guide/README.md, "Graphics"):
   halos, glows, gradients or shadows.
 - Dashed lines mean not paid, not counted, or continues.
 - Sentence case, no letter-spacing.
+- v1.2: no label smaller than 13px as rendered. For sets marked
+  DESIGN_SYSTEM = '1.2', svg() raises any smaller font size to
+  MIN_LABEL_DESKTOP or MIN_LABEL_PHONE (see below), so a label that has
+  grown may need moving: check every graphic after drawing it.
+- v1.2: keep text in a graphic to labels. Titles, explanations and sources
+  go in the page, in the figure heading, caption and source note.
 
 Each graphic has a desktop version (720 wide) and a phone version (360 wide,
 file name ending -mobile). Draw them with infra/graphics/pwa_graphics.py.
 """
-import math, os
+import math, os, re
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 CASE = os.path.join(ROOT, 'assets', 'images', 'case-studies')
@@ -37,6 +43,15 @@ PANEL = '#f4f6f8'     # pale fills
 WHITE = '#ffffff'
 
 FONT = 'Arial, Helvetica, sans-serif'
+
+# ---- v1.2 label floors, in drawing units --------------------------------------
+# Desktop graphics are 720 wide and are shown in the 800px editorial column
+# (x1.11); phone graphics are 360 wide and are shown about 358px wide on a
+# 390px phone (x0.99). These floors keep every label at 13px or more as
+# rendered, the v1.2 minimum. Do not lower them for a single graphic.
+MIN_LABEL_DESKTOP = 12
+MIN_LABEL_PHONE = 13
+LABEL_FLOORS = True   # pwa_graphics.py turns this off for sets still drawn to v1.0
 
 
 def esc(s):
@@ -95,7 +110,14 @@ def label(x, y, s, fill=MUTED, anchor='start', size=12):
     return T(x, y, s, size, fill, anchor, 'bold')
 
 
+def _floor_labels(markup, floor):
+    return re.sub(r'font-size="([0-9.]+)"',
+                  lambda m: f'font-size="{max(float(m.group(1)), floor):g}"', markup)
+
+
 def svg(w, h, title, body):
+    if LABEL_FLOORS:
+        body = [_floor_labels(b, MIN_LABEL_PHONE if w <= 400 else MIN_LABEL_DESKTOP) for b in body]
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" '
             f'role="img" aria-label="{esc(title)}" font-family="{FONT}">\n'
             f'<title>{esc(title)}</title>\n'

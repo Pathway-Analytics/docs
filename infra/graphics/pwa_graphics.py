@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw PWA website graphics to the Design System v1.0 rules.
+"""Draw PWA website graphics to the Design System v1.2 rules.
 
 Each case study (or other page) has its own set in infra/graphics/sets/, so
 case studies can be drawn and published independently. Shared colours, font
@@ -12,11 +12,17 @@ Run from the repository root:
 A set is a .py file in sets/ with a GRAPHICS list of
 (folder, file name, function) entries; each function returns
 (desktop_svg, phone_svg). Start a new set by copying an existing one.
+
+A set that declares DESIGN_SYSTEM = '1.2' is drawn with the v1.2 label
+floors (pwa_style.MIN_LABEL_DESKTOP and MIN_LABEL_PHONE). Sets without it
+are still drawn to v1.0 sizes, unchanged, until they are brought up to v1.2
+and checked.
 """
 import importlib.util, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+import pwa_style  # noqa: E402
 from pwa_style import write_pair  # noqa: E402
 
 
@@ -32,11 +38,14 @@ def main(names):
     for n in names or available:
         if n not in available:
             raise SystemExit(f'No graphics set called {n!r}. Sets: {", ".join(available)}')
+        mod = load(n)
+        version = getattr(mod, 'DESIGN_SYSTEM', '1.0')
+        pwa_style.LABEL_FLOORS = tuple(map(int, version.split('.'))) >= (1, 2)
         count = 0
-        for folder, file_name, fn in load(n).GRAPHICS:
+        for folder, file_name, fn in mod.GRAPHICS:
             write_pair(folder, file_name, *fn())
             count += 1
-        print(f'{n}: wrote {count * 2} SVG files')
+        print(f'{n}: wrote {count * 2} SVG files (design system v{version})')
 
 
 if __name__ == '__main__':

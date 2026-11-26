@@ -22,12 +22,14 @@
   --navy: #14335a; --navy-text: #14335a; --teal-text: #3f6b6e; --gold-text: #7a5c1a;
   --page: #ffffff; --panel: #f4f6f8; --text: #1f2933; --muted: #5f6b7a; --line: #e3e6ea;
   --link: #14335a; --focus: #3f6b6e; --figure: #ffffff; --figure-pad: 0px;
+  --numeral: #7a5c1a;
 }
 html[data-theme="dark"] {
   color-scheme: dark;
   --navy-text: #e8eef8; --teal-text: #8cc2c4; --gold-text: #e0c07a;
   --page: #111827; --panel: #172033; --text: #e8eef8; --muted: #cbd5e1; --line: #374151;
   --link: #9db8dd; --focus: #8cc2c4; --figure: #ffffff; --figure-pad: 16px;
+  --numeral: #e0c07a;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--page); color: var(--text); font: 16px/1.6 Inter, -apple-system, 'Segoe UI', Roboto, sans-serif; }
@@ -55,6 +57,19 @@ figure { margin: 0; }
 figure img { display: block; width: 100%; height: auto; background: var(--figure); padding: var(--figure-pad); }
 figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
 .empty { background: var(--panel); padding: 16px 20px; color: var(--muted); max-width: 75ch; }
+/* v1.2 editorial sequence: mirrors ol.pa-steps in assets/css/custom.css, section 17 */
+.seq { max-width: 800px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 16px 0; font-size: 17px; }
+.seq .seq-title { font-family: 'Playfair Display', Georgia, serif; font-size: 1.45em; line-height: 1.25; color: var(--text); margin: 0 0 8px; }
+.seq ol { --col: 4em; list-style: none; counter-reset: s; margin: 0; padding: 0; }
+.seq li { counter-increment: s; position: relative; display: grid; grid-template-columns: var(--col) minmax(0, 1fr); padding: 14px 0 15px; }
+.seq li + li::after { content: ''; position: absolute; top: 0; left: var(--col); right: 0; border-top: 1px solid var(--line); }
+.seq li::before { content: counter(s, decimal-leading-zero); grid-row: 1 / span 2; font-family: 'Playfair Display', Georgia, serif; font-size: 1.75em; line-height: 1; font-variant-numeric: oldstyle-nums; color: var(--numeral); }
+.seq .t { grid-column: 2; margin: 0 0 2px; font-weight: 600; line-height: 1.4; }
+.seq .x { grid-column: 2; margin: 0; font-size: 0.94em; line-height: 1.5; color: var(--muted); }
+.seq figcaption { font-size: 14px; margin-top: 8px; }
+.seq figcaption b { color: var(--text); font-weight: 600; }
+.seq figcaption span { display: block; margin-top: 6px; font-size: 13px; }
+@media (max-width: 600px) { .seq ol { --col: 3em; } .seq li::before { font-size: 1.5em; } }
 footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; font-size: 0.9rem; color: var(--muted); }
 @media (max-width: 700px) {
   main { padding: 24px 16px 48px; }
@@ -78,20 +93,46 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px;
 <header class="top">
   <div>
     <h1>Vector gallery</h1>
-    <p class="lead">Pathway Analytics website graphics, Design System v1.0</p>
+    <p class="lead">Pathway Analytics website graphics, Design System v1.2</p>
   </div>
   <button type="button" class="mode" id="mode" aria-pressed="false">Dark mode</button>
 </header>
 
-<p>Every reusable graphic on the website, grouped by what it does. Each has a desktop version and a phone version, uses Arial and the house colours, and sits on a white panel in dark mode. Start a new graphic from the closest one here. The rules are in the <a href="/style-guide/">design system guide</a>.</p>
+<p>Every reusable graphic on the website, grouped by what it does. Each SVG graphic has a desktop version and a phone version, uses Arial and the house colours, and sits on a white panel in dark mode. Start a new graphic from the closest one here. The rules are in the <a href="/style-guide/">design system guide</a>.</p>
 
 <nav class="families" aria-label="Families">
+  <a href="#sequences">Editorial sequences</a>
   <a href="#convergence">Convergence</a>
   <a href="#pathways">Pathways and processes</a>
   <a href="#cost">Cost and funding</a>
   <a href="#matrices">Matrices</a>
   <a href="#timelines">Timelines</a>
 </nav>
+
+<section class="family" id="sequences">
+  <h2>Editorial sequences</h2>
+  <p>Processes, methods and chronologies, built in HTML rather than drawn: they use the site's fonts, reflow on a phone and follow dark mode. This is the preferred visual reference for future editorial figures (Design System v1.2). The SVG graphics below are the approved v1.0 artwork and remain in use.</p>
+
+  <article id="approach">
+    <h3>The Pathway Analytics approach</h3>
+    <dl class="meta">
+      <dt>Shows</dt><dd>The five steps of the Pathway Analytics method. Margin numerals in Playfair Display, dark gold, one treatment for every step; semibold step titles; fine rules from the text column. No boxes, badges, arrows or alternating colours.</dd>
+      <dt>Code</dt><dd><code>&lt;ol class="pa-steps"&gt;</code> inside a <code>&lt;figure class="pa-figure"&gt;</code>; for dates, <code>pa-dated</code>. See the design system guide.</dd>
+      <dt>Superseded</dt><dd>The boxed versions (filled numeral squares, alternating colours, arrows, a rounded panel), including the v1.1 redraw and <code>tariff-approach.svg</code>. Do not use them as templates.</dd>
+    </dl>
+    <figure class="seq">
+      <p class="seq-title">The Pathway Analytics approach</p>
+      <ol>
+        <li><p class="t">Challenge the assumptions</p><p class="x">Establish whether the problem is correctly understood.</p></li>
+        <li><p class="t">Build the evidence</p><p class="x">Understand patient needs, clinical pathways, activity and resources.</p></li>
+        <li><p class="t">Understand the economics</p><p class="x">Distinguish funding, expenditure, costs and incentives.</p></li>
+        <li><p class="t">Develop practical solutions</p><p class="x">Assess strategic options and the operational implications.</p></li>
+        <li><p class="t">Build analytical tools</p><p class="x">Translate the methodology into usable decision-support models.</p></li>
+      </ol>
+      <figcaption><b>Figure 1.</b> The Pathway Analytics approach to healthcare system design. <span>Source: Pathway Analytics methodology.</span></figcaption>
+    </figure>
+  </article>
+</section>
 
 <section class="family" id="convergence">
   <h2>Convergence</h2>
