@@ -1,6 +1,8 @@
 """Sexual health tariff case study graphics (case-studies/sexual-health-tariff.md)."""
 from pwa_style import *  # noqa: F401,F403  colours, font and drawing helpers
 
+DESIGN_SYSTEM = '1.2'   # drawn with the v1.2 label floors (13px on screen)
+
 # =========================================================== hosted / de-hosted
 HD_TITLE = ('Under hosted funding a commissioner pays for everyone its local clinics see: local residents '
             'and visitors. Under de-hosted funding it pays for its own residents, wherever they are seen.')

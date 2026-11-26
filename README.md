@@ -14,6 +14,7 @@ image: /assets/images/og/default.png
     <p class="home-lead">Pathway Analytics builds the case for change and then delivers it: designing funding systems, redesigning care pathways, evaluating what works and building the digital platforms that keep new arrangements running.</p>
     <p class="home-lead">Since 2009 that has included the integrated sexual health tariff used across England, national reviews of sexual assault services, and evaluations for the NHS, government and international funders.</p>
     <p class="home-actions"><a class="btn-primary" href="/sexual-health-tariff/">Tariff Grouper</a><a class="btn-primary" href="/healthcare-economics-toolkit/">Health Economics Toolkit</a></p>
+    <p class="home-latest">Latest case study: <a href="/case-studies/fast-track-cities-london">Fast-Track Cities London: Shaping the strategy to get to zero</a> (2018)</p>
   </div>
 </div>
 

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 382" width="360" height="382" role="img" aria-label="One visit, historical tariff prices: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79, rather than £165.41 if both were paid at their Primary price. The £18.62 difference is shared care, not paid twice." font-family="Arial, Helvetica, sans-serif">
 <title>One visit, historical tariff prices: the LARC procedure is paid at its Primary price of £114.88 and SRH standard at its Additional price of £31.91, a total of £146.79, rather than £165.41 if both were paid at their Primary price. The £18.62 difference is shared care, not paid twice.</title>
 <rect width="360" height="382" fill="#ffffff"/>
-<text x="12" y="14" font-size="12" font-weight="bold" fill="#5f6b7a">One visit: a change from the pill</text>
-<text x="12" y="31" font-size="12" font-weight="bold" fill="#5f6b7a">to a long-acting method</text>
+<text x="12" y="14" font-size="13" font-weight="bold" fill="#5f6b7a">One visit: a change from the pill</text>
+<text x="12" y="31" font-size="13" font-weight="bold" fill="#5f6b7a">to a long-acting method</text>
 <line x1="12" y1="42" x2="348" y2="42" stroke="#e3e6ea" stroke-width="1"/>
 <text x="12" y="70" font-size="14" font-weight="bold" fill="#14335a">Worked example, historical tariff prices</text>
 <text x="290.901" y="92" font-size="18" text-anchor="end" font-weight="bold" fill="#14335a">£146.79</text>
@@ -10,11 +10,11 @@
 <rect x="230.272" y="100" width="60.629" height="26" fill="#3f6b6e"/>
 <rect x="291.651" y="100.75" width="33.878" height="24.5" fill="#ffffff" stroke="#c9a24a" stroke-width="1.5" stroke-dasharray="3 3"/>
 <rect x="12" y="140" width="11" height="11" fill="#14335a"/>
-<text x="30" y="150" font-size="12.5" fill="#14335a">LARC procedure · Primary £114.88</text>
+<text x="30" y="150" font-size="13" fill="#14335a">LARC procedure · Primary £114.88</text>
 <rect x="12" y="160" width="11" height="11" fill="#3f6b6e"/>
-<text x="30" y="170" font-size="12.5" fill="#3f6b6e">SRH standard · Additional £31.91</text>
+<text x="30" y="170" font-size="13" fill="#3f6b6e">SRH standard · Additional £31.91</text>
 <rect x="12.75" y="180.75" width="9.5" height="9.5" fill="#ffffff" stroke="#c9a24a" stroke-width="1.5" stroke-dasharray="2 2"/>
-<text x="30" y="190" font-size="12.5" font-weight="bold" fill="#7a5c1a">£18.62 of shared care, not paid twice</text>
+<text x="30" y="190" font-size="13" font-weight="bold" fill="#7a5c1a">£18.62 of shared care, not paid twice</text>
 <text x="12" y="232" font-size="13" fill="#5f6b7a">If both currencies were paid</text>
 <text x="12" y="249" font-size="13" fill="#5f6b7a">at their Primary price</text>
 <rect x="12.5" y="262.5" width="217.272" height="25" fill="#f4f6f8" stroke="#5f6b7a" stroke-width="1"/>
@@ -23,9 +23,9 @@
 <line x1="290.901" y1="291" x2="290.901" y2="301" stroke="#c9a24a" stroke-width="1.5"/>
 <line x1="326.279" y1="291" x2="326.279" y2="301" stroke="#c9a24a" stroke-width="1.5"/>
 <rect x="12.5" y="312.5" width="10" height="10" fill="#f4f6f8" stroke="#5f6b7a" stroke-width="1"/>
-<text x="30" y="322" font-size="12.5" fill="#5f6b7a">LARC procedure £114.88</text>
+<text x="30" y="322" font-size="13" fill="#5f6b7a">LARC procedure £114.88</text>
 <rect x="12.5" y="332.5" width="10" height="10" fill="#ffffff" stroke="#5f6b7a" stroke-width="1" stroke-dasharray="2 2"/>
-<text x="30" y="342" font-size="12.5" fill="#5f6b7a">SRH standard £50.53</text>
-<text x="12" y="368" font-size="12.5" fill="#5f6b7a">Total at Primary prices</text>
+<text x="30" y="342" font-size="13" fill="#5f6b7a">SRH standard £50.53</text>
+<text x="12" y="368" font-size="13" fill="#5f6b7a">Total at Primary prices</text>
 <text x="348" y="369" font-size="18" text-anchor="end" font-weight="bold" fill="#5f6b7a">£165.41</text>
 </svg>
