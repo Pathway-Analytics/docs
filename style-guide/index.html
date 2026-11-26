@@ -11,14 +11,14 @@
        To change a page's description or image, edit the meta comment at the
        top of its .md file, not these tags. -->
   <title>Website design system — Pathway Analytics</title>
-  <meta name="description" content="The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.">
+  <meta name="description" content="The Pathway Analytics website design system: colours, type, editorial pages, figures, captions, charts and writing rules for every page.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://pathwayanalytics.com/style-guide/">
   <meta property="og:site_name" content="Pathway Analytics">
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Website design system">
-  <meta property="og:description" content="The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.">
+  <meta property="og:description" content="The Pathway Analytics website design system: colours, type, editorial pages, figures, captions, charts and writing rules for every page.">
   <meta property="og:url" content="https://pathwayanalytics.com/style-guide/">
   <meta property="og:image" content="https://pathwayanalytics.com/assets/images/og/default.png">
   <meta property="og:image:alt" content="Pathway Analytics: health economics and strategic advisory">
@@ -26,9 +26,9 @@
   <meta property="og:image:height" content="627">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Website design system">
-  <meta name="twitter:description" content="The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.">
+  <meta name="twitter:description" content="The Pathway Analytics website design system: colours, type, editorial pages, figures, captions, charts and writing rules for every page.">
   <meta name="twitter:image" content="https://pathwayanalytics.com/assets/images/og/default.png">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Website design system","description":"The Pathway Analytics website design system: colours, type, dark mode, graphics, charts and writing rules for every page.","url":"https://pathwayanalytics.com/style-guide/","mainEntityOfPage":"https://pathwayanalytics.com/style-guide/","image":"https://pathwayanalytics.com/assets/images/og/default.png","publisher":{"@type":"Organization","name":"Pathway Analytics","url":"https://pathwayanalytics.com","logo":{"@type":"ImageObject","url":"https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png"}}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Website design system","description":"The Pathway Analytics website design system: colours, type, editorial pages, figures, captions, charts and writing rules for every page.","url":"https://pathwayanalytics.com/style-guide/","mainEntityOfPage":"https://pathwayanalytics.com/style-guide/","image":"https://pathwayanalytics.com/assets/images/og/default.png","publisher":{"@type":"Organization","name":"Pathway Analytics","url":"https://pathwayanalytics.com","logo":{"@type":"ImageObject","url":"https://mta-sts.pathwayanalytics.com/logo/Pathway%20Analytics%20Logo%20small.png"}}}</script>
   <!-- page-meta:end -->
 
   <!-- Legacy links. Pages used to live at /#/section/page. Rewrite those to
@@ -96,13 +96,15 @@
   <a href="#app" class="skip-link">Skip to main content</a>
 
   <div id="app" role="main" aria-label="Documentation content"><!-- prerender:start --><div class="prerender"><nav class="prerender-nav"><a href="/">Pathway Analytics</a></nav><article class="markdown-section"><h1>Website design system</h1>
-<p>Version 1.0, November 2026, frozen. One set of rules for every page and graphic on pathwayanalytics.com, for anyone who edits the site: people, AI assistants and developers. The values are set once, in the design tokens at the top of <a href="https://github.com/Pathway-Analytics/docs/blob/main/assets/css/custom.css"><code>assets/css/custom.css</code></a>. Every reusable graphic is in the <a href="/style-guide/vector-gallery.html" title=":ignore">vector gallery</a>.</p>
-<p>Version 1.0 is the default for every new page and case study. New content uses it as it stands. A change to the design system itself is made in its own pull request, updating the tokens, this guide and the gallery together.</p>
+<p>Version 1.2, November 2026, frozen. One set of rules for every page and graphic on pathwayanalytics.com, for anyone who edits the site: people, AI assistants and developers. The values are set once, in the design tokens at the top of <a href="https://github.com/Pathway-Analytics/docs/blob/main/assets/css/custom.css"><code>assets/css/custom.css</code></a>. Every reusable graphic is in the <a href="/style-guide/vector-gallery.html" title=":ignore">vector gallery</a>.</p>
+<p>Version 1.2 refines version 1.0. It is not a rebrand: the logo, colours, typefaces, navigation, site structure and approved case study content are unchanged. It adds editorial rules for case studies and their figures: reading size and line length, figure type, journal-style captions and source notes, one numbering treatment, and a list of what to avoid. The illustrated reference is the <a href="https://github.com/Pathway-Analytics/docs/blob/main/style-guide/PWA_Website_Design_Guide_v1.2.pdf">Website Design Guide v1.2</a> (PDF). Version 1.0 is kept for the record in <a href="https://github.com/Pathway-Analytics/docs/blob/main/style-guide/_v1.0.md"><code>style-guide/_v1.0.md</code></a>.</p>
+<p>The PDF was made with a substitute serif because Playfair Display was not available to the tool that produced it. The website typeface is Playfair Display.</p>
+<p>Version 1.2 is the default for every new page and case study. A change to the design system itself is made in its own pull request, updating the tokens, this guide and the gallery together.</p>
 <h2>Principles</h2>
-<p>The site should read as editorial, analytical, established, understated and patient-centred: a specialist research institute with a strategy consultancy&#39;s experience, not a technology start-up.</p>
+<p>Evidence-led. Commercially grounded. Patient-centred. The site should read as an established specialist consultancy with the substance of its strategy, health economics and digital work: not a technology landing page, and not a purely academic publication.</p>
 <ul>
-<li>The work provides the visual interest: original content, graphics that explain it, generous white space, fine dividing lines.</li>
-<li>Avoid stacks of cards, rounded containers, decorative icons, gradients, glows, gold rings and stock photography.</li>
+<li>The work provides the visual interest: original content, figures that explain it, white space and fine dividing lines.</li>
+<li>Editorial pages read like a well-edited report. Functional pages look and work like software. One identity, two treatments: see <a href="#editorial-pages-and-functional-tools">Editorial pages and functional tools</a>.</li>
 <li>Change as little as possible. Use the tokens; do not add near-duplicate colours or one-off styles for a single page.</li>
 </ul>
 <h2>Logo</h2>
@@ -110,7 +112,7 @@
 <ul>
 <li>Use the supplied files in <code>assets/images/brand/</code>: <code>logo-on-light.png</code> on white, <code>logo-on-dark.png</code> in dark mode.</li>
 <li>Keep using the PNG files until a faithful vector version exists; that will replace <code>wordmark-on-light.svg</code>.</li>
-<li>Do not redraw, retype, recolour or stretch the logo, or swap in the single-colour wordmark.</li>
+<li>Do not redraw, retype, recolour or stretch the logo, or swap in the single-colour wordmark. Keep its clear space and proportions.</li>
 <li>The spaced capitals belong to the logo only.</li>
 </ul>
 <h2>Colours</h2>
@@ -151,7 +153,7 @@
 <tr>
 <td>Gold text</td>
 <td><code>#7A5C1A</code></td>
-<td>Gold text. Never set text in <code>#C9A24A</code>: it is too light to read</td>
+<td>Gold text, and editorial numbering and dates. Never set text in <code>#C9A24A</code>: it is too light to read</td>
 </tr>
 <tr>
 <td>Body text</td>
@@ -176,11 +178,15 @@
 <tr>
 <td>Background</td>
 <td><code>#FFFFFF</code></td>
-<td>Page and figure panels</td>
+<td>Page and figure canvas</td>
 </tr>
 </tbody></table>
-<p>Patient advocacy has no colour of its own: it is shown by the patient at the centre of the signature graphic.</p>
-<p>Brand colours identify disciplines. They do not decide the colours of analytical categories: see <a href="#charts">Charts</a>.</p>
+<ul>
+<li>Brand colours identify disciplines when they are used to mean a discipline. Analytical colours carry data: see <a href="#charts">Charts</a>.</li>
+<li>Use colour sparingly. Never alternate colours for variety: a change of colour implies a difference in meaning.</li>
+<li>Dark gold is the one colour for editorial numbering and dates. Used that way it identifies no discipline.</li>
+<li>Patient advocacy has no colour of its own: it is shown by the patient at the centre of the signature graphic.</li>
+</ul>
 <h2>Dark mode</h2>
 <p>Dark mode is a dark interface around light figures.</p>
 <table>
@@ -215,7 +221,7 @@
 <td><code>#8CC2C4</code></td>
 </tr>
 <tr>
-<td>Gold text</td>
+<td>Gold text, numerals and dates</td>
 <td><code>#E0C07A</code></td>
 </tr>
 <tr>
@@ -228,36 +234,74 @@
 </tr>
 </tbody></table>
 <ul>
-<li>Analytical graphics keep their white background and sit on a white panel with 16px padding. One file then works in both modes, and in Word and PowerPoint.</li>
-<li>Captions sit outside the panel, in the dark mode text colours.</li>
+<li>HTML editorial figures, such as numbered sequences and the case study index, sit on the page background in both modes, in the dark mode text colours.</li>
+<li>Analytical graphics (SVG files) keep their white canvas, with 16px padding, so one file works on the page, in dark mode and in Word and PowerPoint. The canvas grows outwards by its padding, so the drawing and its labels keep their size.</li>
+<li>Text inside the canvas stays dark. Never set light text on the light canvas.</li>
+<li>Headings, captions and source notes sit outside the canvas, in the dark mode text colours.</li>
 <li>Every text colour above meets WCAG AA (4.5:1) on both the page and the dark panel.</li>
 </ul>
 <h2>Type</h2>
+<p>Typography sets the hierarchy. A figure supports the argument, so its text is smaller than the prose around it, without going below the minimums.</p>
 <table>
 <thead>
 <tr>
-<th>Font</th>
-<th>Where</th>
+<th>Role</th>
+<th>Size as shown</th>
+<th>Typeface</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Playfair Display</td>
-<td>Major page titles and editorial headlines, used selectively</td>
+<td>Running text, case studies</td>
+<td>17px, line height 1.6</td>
+<td>Inter 400</td>
 </tr>
 <tr>
-<td>Inter</td>
-<td>Body text, subheadings, navigation and interface</td>
+<td>Running text, other pages</td>
+<td>16px, line height 1.7</td>
+<td>Inter 400</td>
 </tr>
 <tr>
+<td>Page titles and editorial headlines</td>
+<td>Existing title sizes</td>
+<td>Playfair Display 400, used selectively</td>
+</tr>
+<tr>
+<td>Section headings</td>
+<td>Existing sizes</td>
+<td>Inter 600 to 700</td>
+</tr>
+<tr>
+<td>Figure heading</td>
+<td>15px</td>
+<td>Inter 600</td>
+</tr>
+<tr>
+<td>Figure caption and explanation</td>
+<td>14px</td>
+<td>Inter 400</td>
+</tr>
+<tr>
+<td>Labels inside graphics</td>
+<td>13px minimum, as rendered</td>
 <td>Arial, Helvetica, sans-serif</td>
-<td>Text inside graphics, so they render the same in browsers and Office</td>
+</tr>
+<tr>
+<td>Source and provenance notes</td>
+<td>13px (never below 12px)</td>
+<td>Inter 400</td>
+</tr>
+<tr>
+<td>Step numerals, dates and headline figures</td>
+<td>Set by context</td>
+<td>Playfair Display 400; old-style figures for numerals and dates</td>
 </tr>
 </tbody></table>
 <ul>
-<li>Sentence case for headings, labels and buttons. No full stops in headings.</li>
-<li>No letter-spaced capitals, apart from the logo.</li>
+<li>On case study pages, running text is about 68 characters a line (578px). Figures may run wider, to 800px.</li>
+<li>Inter in HTML and in graphics drawn in the page. Arial, Helvetica, sans-serif in SVG files, so they render the same in browsers and Office.</li>
+<li>Measure type at the size it is shown. An SVG drawn 720 wide and shown 800 wide makes its 12px labels 13.3px; shown 1,200 wide it would make them 20px, larger than the prose. That is why figures have a maximum width.</li>
+<li>Sentence case for headings, labels and buttons. No full stops in headings. No letter-spaced capitals, apart from the logo.</li>
 <li>One title (H1) per page; H2 for sections, H3 and H4 below them.</li>
-<li>Running text stays within 720px (about 75 characters a line).</li>
 </ul>
 <h2>Layout and components</h2>
 <ul>
@@ -266,23 +310,102 @@
 <li>Links in running text are underlined, so they never depend on colour alone.</li>
 <li>Buttons: navy with white text; in dark mode, light with dark text.</li>
 <li>Tags and labels: sentence case, in the discipline&#39;s text colour or the secondary text colour. No filled pills.</li>
-<li>Every page works at 390px wide with nothing scrolling sideways.</li>
+<li>Every page works at 390px wide with nothing scrolling sideways, and at 200% browser zoom.</li>
 </ul>
-<h2>Graphics</h2>
-<p>Graphics explain the substance of the work; they never decorate. Every graphic belongs to a family in the <a href="/style-guide/vector-gallery.html" title=":ignore">vector gallery</a>: convergence, pathways and processes, cost and funding, matrices, or timelines. New families are added only when a real case study needs one.</p>
+<h2>Editorial pages and functional tools</h2>
+<p>The site has one visual identity and two treatments.</p>
+<p><strong>Editorial pages</strong> are the case studies and the case study index. Insight articles follow when they are next revised. They use the editorial layout (<code>page-editorial</code>): 17px prose at about 68 characters a line, figures to 800px, numbered figures with captions and sources, and the editorial sequence for processes and chronologies. The index is a contents list: years and disciplines in the margin, the title, one line and a verified finding where there is one.</p>
+<p><strong>Functional pages</strong> are the Tariff Grouper guidance, the Health Economics Toolkit and any calculator. They keep their interface styles. Purposeful panels, inputs, controls, tables and primary product actions are allowed: the editorial exclusions below are not a ban on usable software. In a calculator, keep inputs and results clearly separate and label illustrative figures as illustrative.</p>
+<p><strong>The home page</strong> keeps its architecture. The Tariff Grouper and the Health Economics Toolkit stay as the primary actions in the hero. A dated, cleared case study lead may sit beside them, never in place of them.</p>
+<h2>Figures</h2>
+<p>Figures explain the substance of the work; they never decorate. A figure has four parts: a short heading, the drawing, a numbered caption and a source note.</p>
+<pre><code class="language-html">&lt;figure class=&quot;pa-figure&quot;&gt;
+&lt;p class=&quot;pa-figure-title&quot;&gt;From pathway to price&lt;/p&gt;
+&lt;img class=&quot;cs-fig cs-fig-wide&quot; src=&quot;/assets/images/case-studies/NAME.svg&quot; alt=&quot;What it shows&quot;&gt;
+&lt;img class=&quot;cs-fig cs-fig-narrow&quot; src=&quot;/assets/images/case-studies/NAME-mobile.svg&quot; alt=&quot;What it shows&quot;&gt;
+&lt;figcaption&gt;&lt;span class=&quot;pa-fig-num&quot;&gt;Figure 2.&lt;/span&gt; What the reader should take from it. &lt;span class=&quot;pa-source&quot;&gt;Source: Pathway Analytics schematic.&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre>
 <ul>
+<li>Number figures in the order they appear on the page.</li>
+<li>The caption says what the figure shows and anything needed to read it: units, period, denominator, comparator, and whether figures are illustrative, modelled or observed.</li>
+<li>Every figure has a source note: a published source that has been cleared, or &quot;Pathway Analytics schematic&quot; for a diagram of a method or idea.</li>
+<li>Keep the figure block together, with no blank lines inside it, so the page renders it as one piece.</li>
+</ul>
+<h3>Reference figure: the editorial sequence</h3>
+<p>This is the preferred model for processes, methods and chronologies, and the visual reference for future editorial figures. It is built in HTML, so it uses the site&#39;s own fonts, reflows on a phone and follows dark mode.</p>
+<figure class="pa-figure">
+<p class="pa-figure-title pa-serif">The Pathway Analytics approach</p>
+<ol class="pa-steps">
+<li><p class="pa-step-title">Challenge the assumptions</p><p class="pa-step-text">Establish whether the problem is correctly understood.</p></li>
+<li><p class="pa-step-title">Build the evidence</p><p class="pa-step-text">Understand patient needs, clinical pathways, activity and resources.</p></li>
+<li><p class="pa-step-title">Understand the economics</p><p class="pa-step-text">Distinguish funding, expenditure, costs and incentives.</p></li>
+<li><p class="pa-step-title">Develop practical solutions</p><p class="pa-step-text">Assess strategic options and the operational implications.</p></li>
+<li><p class="pa-step-title">Build analytical tools</p><p class="pa-step-text">Translate the methodology into usable decision-support models.</p></li>
+</ol>
+<figcaption><span class="pa-fig-num">Figure 1.</span> The Pathway Analytics approach to healthcare system design. <span class="pa-source">Source: Pathway Analytics methodology.</span></figcaption>
+</figure><ul>
+<li>An understated serif title, not a promotional headline.</li>
+<li>Margin numerals in Playfair Display, dark gold, one treatment for every step. No filled squares, badges or arrows, and no alternating colours.</li>
+<li>Semibold step titles, regular explanatory text, fine rules that start at the text column, modest white space. No enclosing card.</li>
+<li>For a chronology, put the date in the margin instead of the number (<code>&lt;ol class=&quot;pa-steps pa-dated&quot;&gt;</code> with <code>&lt;span class=&quot;pa-step-date&quot;&gt;</code>).</li>
+</ul>
+<h3>Graphics (SVG files)</h3>
+<ul>
+<li>Every graphic belongs to a family in the <a href="/style-guide/vector-gallery.html" title=":ignore">vector gallery</a>: convergence, pathways and processes, cost and funding, matrices, or timelines. New families are added only when a real case study needs one.</li>
 <li>Text in Arial; colours from the brand and neutral lists above, nothing else.</li>
-<li>A desktop version 720 wide and a phone version 360 wide. The page switches between them at 700px.</li>
-<li>A white background, so the same file works on the page, in dark mode and in documents.</li>
+<li>A desktop version 720 wide and a phone version 360 wide. The page switches between them at 700px. Reflow a phone version; never shrink the desktop drawing to fit a phone.</li>
+<li>Labels at least 13px as rendered: 12 units in a desktop drawing and 13 units in a phone drawing.</li>
+<li>Keep text inside a graphic to labels. Titles, explanations and sources go in the figure heading, caption and source note on the page.</li>
 <li>Steps and points are solid dots. One gold dot marks the point to look at. No rings, halos, glows, shadows, gradients or icons.</li>
 <li>Solid lines are what happens or is paid for; dashed lines are what is not paid for, not counted, or continues.</li>
-<li>Timelines are straight lines. A rising curve suggests a measured trend, so use one only when it plots real data.</li>
-<li>Labels in sentence case, with no letter-spacing.</li>
 <li>Meaning never relies on colour alone: label it, or use line style or position as well.</li>
-<li>Facts and wording match the page the graphic appears on. Put any data source in the page caption, not in the graphic.</li>
+<li>Facts and wording match the page the graphic appears on.</li>
 <li>Alt text says what the graphic shows, not what it looks like.</li>
 </ul>
+<h3>What each family shows</h3>
+<table>
+<thead>
+<tr>
+<th>Family</th>
+<th>Use it for</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Convergence</td>
+<td>Several streams working towards one aim</td>
+<td>Do not imply causes the evidence does not support</td>
+</tr>
+<tr>
+<td>Pathways and processes</td>
+<td>Real sequences, dependencies and boundaries</td>
+<td>Label arrows only where it helps</td>
+</tr>
+<tr>
+<td>Cost and funding</td>
+<td>Amounts, prices and who pays</td>
+<td>A common scale and a zero baseline; keep payment flows separate from patient flows</td>
+</tr>
+<tr>
+<td>Matrices</td>
+<td>Options or components against criteria</td>
+<td>Explicit headings and labels; no invented scores or rankings</td>
+</tr>
+<tr>
+<td>Timelines</td>
+<td>Events in order</td>
+<td>Mark schematic spacing as schematic, or use proportional intervals when timing matters</td>
+</tr>
+</tbody></table>
 <p>The signature graphic, three disciplines converging on the patient, is for the home page and sharing images. Do not repeat it elsewhere on the site.</p>
+<h3>Evidence conventions</h3>
+<ul>
+<li>State units, time period, denominator, comparator and source wherever they apply.</li>
+<li>Say whether a result is hypothetical, modelled or observed.</li>
+<li>No unnecessary gridlines, 3D effects or decorative colour. Label directly where there is room.</li>
+<li>Keep the editable source of every graphic in <code>infra/graphics/</code>, and its provenance cleared for publication.</li>
+</ul>
 <h2>Charts</h2>
 <p>Charts use analytical colours, kept separate from the brand colours. Analytical colours say which group or how much; brand colours say which discipline.</p>
 <p><strong>Categorical</strong> (services, interventions, groups), always assigned in this order:</p>
@@ -337,28 +460,76 @@
 <li>Horizontal gridlines only, thin and pale. No chart borders. One vertical axis per chart.</li>
 <li>Status colours (green, amber, red) are kept for good, warning and problem, always with a word.</li>
 </ul>
+<h2>What we avoid</h2>
+<p>On editorial pages and in figures:</p>
+<ul>
+<li>Gradients, shadows, pill badges and icons in circles.</li>
+<li>Filled numeral squares, alternating colours and decorative arrows.</li>
+<li>Repeated grids of three cards, generic centred hero and button pairs, and stock photography.</li>
+<li>Heavy frames and rounded corners: use fine rules, space and near-square corners.</li>
+<li>Emoji, slogans in place of evidence, and unsupported impact claims.</li>
+</ul>
+<p>These are editorial rules. Functional panels, inputs, controls and the primary product actions are allowed.</p>
 <h2>Accessibility</h2>
 <ul>
-<li>Text meets WCAG AA: 4.5:1, or 3:1 for large text. Lines and shapes that carry meaning meet 3:1.</li>
+<li>Text meets WCAG AA: 4.5:1, or 3:1 for large text. Lines, shapes and controls that carry meaning meet 3:1.</li>
 <li>Links are underlined in running text; the keyboard focus ring is always visible.</li>
 <li>Everything can be reached and used by keyboard.</li>
-<li>Check each new page on a phone and a desktop, in light and dark mode.</li>
+<li>Every figure has alt text or an HTML equivalent. Captions and sources are legible and traceable.</li>
+<li>Check each new page on a phone (390px) and a desktop (1280px), in light and dark mode, and at 200% zoom. Check print and greyscale where a figure relies on colour.</li>
 </ul>
 <h2>Writing</h2>
 <ul>
-<li>British English: plain, restrained and evidence-led.</li>
+<li>British English: plain, restrained and evidence-led. No em dashes.</li>
 <li>Case studies follow the same order: the problem, Pathway Analytics&#39; role, the approach, the work delivered, and the impact or wider relevance.</li>
 <li>Separate what Pathway Analytics did from what the wider programme achieved. Claim only what the evidence shows.</li>
 <li>No unsupported impact claims, consultancy clichés or repetitive AI-style phrasing.</li>
 <li>Name clients and individuals only with permission.</li>
 </ul>
+<h2>Changing the design</h2>
+<ol>
+<li>Read this guide, the tokens and the gallery first. Check actual rendered sizes in a browser.</li>
+<li>Build working previews before changing anything live: desktop and phone, light and dark. Compare designs at the same rendered sizes, widths and zoom.</li>
+<li>Get approval on the previews. Then change the shared tokens and the reusable figure code, never a one-off style.</li>
+<li>A design change does not change approved copy, data, links, attribution or method.</li>
+<li>Before merging, check hierarchy, contrast, zoom, wrapping, captions, links, source clearance and that no private material or metadata is included.</li>
+</ol>
 <h2>What belongs in this repository</h2>
 <p>Everything in this repository can be read by anyone on GitHub, including files kept off the website.</p>
 <ul>
-<li>In: this guide, the design tokens, editorial conventions and graphics that are approved for publication.</li>
+<li>In: this guide and its PDF, the design tokens, editorial conventions and graphics that are approved for publication.</li>
 <li>Never in: client material, unpublished project files or findings, internal evaluation palettes, private analysis, or the Word and PowerPoint house styles.</li>
 <li>This guide is a public page. The vector gallery can be reached by its address but is not in the menu, search or sitemap. Technical notes are in <code>_implementation.md</code>, which the site does not publish as a page.</li>
 </ul>
+<h2>Versions</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>What changed</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.2</td>
+<td>November 2026</td>
+<td>Editorial pages, figure type, captions and sources, the editorial sequence, exclusions, the editorial and functional distinction</td>
+<td>Current, frozen</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>November 2026</td>
+<td>A boxed visual treatment, proposed and not merged</td>
+<td>Superseded</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>November 2026</td>
+<td>Tokens, colours, dark mode, graphics rules, chart colours, vector gallery</td>
+<td>Kept in <code>_v1.0.md</code></td>
+</tr>
+</tbody></table>
 </article></div><!-- prerender:end --></div>
 
   <noscript>
@@ -803,11 +974,15 @@
     // Article Layout Plugin
     // Marks Insights article pages (not the Insights index) with a body class so
     // CSS can give them a readable line length without narrowing other pages.
+    // Design System v1.2: case study pages and the case study index are
+    // editorial pages (page-editorial): prose at reading size and measure, with
+    // figures allowed to run wider. See assets/css/custom.css, section 17.
     function articleLayoutPlugin(hook, vm) {
       hook.doneEach(function () {
         var path = (vm.route && vm.route.path) || '';
         var isArticle = /^\/insights\/[^/]+/.test(path) && !/\/README\.md$/.test(path);
         document.body.classList.toggle('page-article', isArticle);
+        document.body.classList.toggle('page-editorial', /^\/case-studies\//.test(path));
       });
     }
 

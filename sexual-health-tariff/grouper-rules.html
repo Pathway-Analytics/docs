@@ -584,11 +584,15 @@ Not acceptable:
     // Article Layout Plugin
     // Marks Insights article pages (not the Insights index) with a body class so
     // CSS can give them a readable line length without narrowing other pages.
+    // Design System v1.2: case study pages and the case study index are
+    // editorial pages (page-editorial): prose at reading size and measure, with
+    // figures allowed to run wider. See assets/css/custom.css, section 17.
     function articleLayoutPlugin(hook, vm) {
       hook.doneEach(function () {
         var path = (vm.route && vm.route.path) || '';
         var isArticle = /^\/insights\/[^/]+/.test(path) && !/\/README\.md$/.test(path);
         document.body.classList.toggle('page-article', isArticle);
+        document.body.classList.toggle('page-editorial', /^\/case-studies\//.test(path));
       });
     }
 
